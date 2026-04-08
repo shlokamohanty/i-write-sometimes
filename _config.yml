@@ -1,19 +1,14 @@
 title: "i write sometimes"
 author: "shloka"
-description: "some reflections, writings, and rough notes" 
+description: "some reflections, writings, and rough notes"
 
-
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
 theme: "minima"
-
 rss: rss
 
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -22,9 +17,22 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+# ── Post tag conventions ───────────────────────────────────────────────
+# Add one of these tags to the front matter of each post to sort it:
+#   tags: notes
+#   tags: reflections
+#   tags: writings
+#
+# For "finished writings" you can also add a form:
+#   form: essay        (shows as a small badge on the index)
+#   form: prose
+#   form: poem
+# ──────────────────────────────────────────────────────────────────────
+
 defaults:
   - scope:
       path: ""
-      type: post
+      type: posts
     values:
-      tags: Other
+      layout: post
+      tags: notes
