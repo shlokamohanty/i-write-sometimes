@@ -1,0 +1,244 @@
+<div class="markov-wrap">
+  <div class="mc-label">corpus</div>
+  <textarea id="mc-corpus">Words are funny. Some words go in from one ear and out the other. Some words stay. Some sting and stay. Some heal and stay. Some fill your heart and stay. Some words remain with me longer than I thought. I write words better than I say them. I'll use a pen to weave the words about how I feel for you, but my voice will choke up when I try to tell you. I have a lot to say, but I'm at a loss for words, so I write.</textarea>
+
+  <div class="mc-row">
+    <label>n =</label>
+    <input type="range" id="mc-nval" min="1" max="3" value="2" step="1">
+    <span id="mc-nout">2</span>
+    <label>length</label>
+    <input type="range" id="mc-lenval" min="8" max="60" value="20" step="1">
+    <span id="mc-lenout">20</span>
+    <button id="mc-genbtn">generate</button>
+  </div>
+
+  <div class="mc-generated" id="mc-genout">press generate</div>
+
+  <div class="mc-label">markov chain</div>
+  <div id="mc-p5mount"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<script>
+(function(){
+  var corpusEl  = document.getElementById('mc-corpus');
+  var nSlider   = document.getElementById('mc-nval');
+  var nOut      = document.getElementById('mc-nout');
+  var lenSlider = document.getElementById('mc-lenval');
+  var lenOut    = document.getElementById('mc-lenout');
+  var genBtn    = document.getElementById('mc-genbtn');
+  var genOut    = document.getElementById('mc-genout');
+
+  nSlider.addEventListener('input',   function(){ nOut.textContent   = nSlider.value;   rebuild(); });
+  lenSlider.addEventListener('input', function(){ lenOut.textContent = lenSlider.value; });
+  corpusEl.addEventListener('input',  function(){ rebuild(); });
+
+  var chain = {}, lastPath = [];
+
+  function tokenize(txt){ return txt.toLowerCase().match(/[\w']+/g) || []; }
+
+  function buildChain(n){
+    chain = {};
+    var t = tokenize(corpusEl.value);
+    for(var i = 0; i < t.length - n; i++){
+      var key = t.slice(i, i+n).join(' ');
+      if(!chain[key]) chain[key] = [];
+      chain[key].push(t[i+n]);
+    }
+  }
+
+  function generate(){
+    var n = +nSlider.value, len = +lenSlider.value;
+    buildChain(n);
+    var keys = Object.keys(chain);
+    if(!keys.length){ genOut.innerHTML = 'not enough text'; return; }
+    var seed   = keys[Math.floor(Math.random()*keys.length)].split(' ');
+    var result = seed.slice(), path = [seed.join(' ')];
+    for(var i = 0; i < len; i++){
+      var key   = result.slice(-n).join(' ');
+      var nexts = chain[key];
+      if(!nexts) break;
+      var w = nexts[Math.floor(Math.random()*nexts.length)];
+      result.push(w);
+      path.push(key);
+    }
+    lastPath = path;
+    var hiSet = new Set(result.slice(-6));
+    genOut.innerHTML = result.map(function(w,i){
+      return i >= result.length-6 && hiSet.has(w)
+        ? '<span class="mc-hi">'+w+'</span>' : w;
+    }).join(' ');
+    if(window._mcP5) window._mcP5.onNewData(path, chain);
+  }
+
+  genBtn.addEventListener('click', generate);
+  function rebuild(){ buildChain(+nSlider.value); if(window._mcP5) window._mcP5.onNewData(lastPath, chain); }
+  buildChain(2);
+
+  new p5(function(p){
+    window._mcP5 = p;
+    var W, H;
+    var nodeList = [], edgeList = [], pathSet = new Set();
+
+    var BEIGE_COLS = [
+      [160,148,128],[148,138,120],[172,155,132],[140,130,115],[165,150,130]
+    ];
+    var PINK_RGB = [232,160,176];
+
+    function buildLayout(path, ch){
+      nodeList = []; edgeList = [];
+      pathSet   = new Set(path);
+      var allKeys = Object.keys(ch);
+      if(!allKeys.length) return;
+
+      var colMap = {};
+      path.forEach(function(k,i){
+        if(colMap[k] === undefined)
+          colMap[k] = Math.min(Math.round(i / Math.max(path.length-1,1) * 4), 4);
+      });
+      allKeys.forEach(function(k){ if(colMap[k] === undefined) colMap[k] = 2; });
+
+      var cols = {};
+      Object.keys(colMap).forEach(function(k){
+        var c = colMap[k];
+        if(!cols[c]) cols[c] = [];
+        cols[c].push(k);
+      });
+
+      var numCols  = Math.max.apply(null, Object.keys(cols).map(Number)) + 1;
+      var colW     = (W - 60) / Math.max(numCols - 1, 1);
+      var nodeW    = Math.min(Math.floor(colW * 0.6), 100);
+      var nodeH    = 32;
+      var maxRows  = 0;
+      Object.values(cols).forEach(function(arr){ maxRows = Math.max(maxRows, arr.length); });
+      H = Math.max(maxRows * (nodeH + 32) + 80, 220);
+      p.resizeCanvas(W, H);
+      document.getElementById('mc-p5mount').style.height = H + 'px';
+
+      Object.keys(cols).forEach(function(ci){
+        var nodes   = cols[ci];
+        var cx      = numCols === 1 ? W/2 : 30 + Number(ci) * colW;
+        var totalH  = nodes.length * (nodeH + 32) - 32;
+        var sy      = (H - totalH) / 2;
+        nodes.forEach(function(k, ri){
+          var onPath  = pathSet.has(k);
+          var colIdx  = Number(ci) % BEIGE_COLS.length;
+          nodeList.push({
+            id: k, label: k,
+            x: cx, y: sy + ri*(nodeH+32) + nodeH/2,
+            w: nodeW, h: nodeH,
+            col: BEIGE_COLS[colIdx],
+            onPath: onPath,
+            rx: ri===0 && Number(ci)===0 ? nodeH/2 : 5
+          });
+        });
+      });
+
+      var seen = new Set();
+      allKeys.forEach(function(k){
+        var a = nodeList.find(function(n){ return n.id===k; });
+        if(!a) return;
+        Array.from(new Set(ch[k])).forEach(function(w){
+          var bk = Object.keys(ch).find(function(nk){
+            return nk===w || nk.split(' ')[0]===w || nk.split(' ').slice(1).join(' ')===w;
+          });
+          if(!bk) return;
+          var b = nodeList.find(function(n){ return n.id===bk; });
+          if(!b || b.id===a.id) return;
+          var eid = [a.id,b.id].sort().join('||');
+          if(seen.has(eid)) return; seen.add(eid);
+          var onP = false;
+          for(var i=0; i<path.length-1; i++){
+            if((path[i]===a.id&&path[i+1]===b.id)||(path[i]===b.id&&path[i+1]===a.id)){onP=true;break;}
+          }
+          edgeList.push({from:a.id, to:b.id, onPath:onP});
+        });
+      });
+    }
+
+    p.setup = function(){
+      var mount = document.getElementById('mc-p5mount');
+      W = mount.offsetWidth || 340;
+      H = 220;
+      mount.style.height = H + 'px';
+      var cnv = p.createCanvas(W, H);
+      cnv.parent('mc-p5mount');
+      p.noLoop();
+      buildChain(2);
+      generate();
+    };
+
+    p.onNewData = function(path, ch){
+      W = document.getElementById('mc-p5mount').offsetWidth || W;
+      buildLayout(path, ch);
+      p.redraw();
+    };
+
+    p.draw = function(){
+      p.background(33, 28, 22);
+      if(!nodeList.length){
+        p.fill(144,137,124); p.noStroke();
+        p.textSize(11); p.textAlign(p.CENTER, p.CENTER);
+        p.text('press generate', W/2, H/2);
+        return;
+      }
+
+      edgeList.forEach(function(e){
+        var a = nodeList.find(function(n){ return n.id===e.from; });
+        var b = nodeList.find(function(n){ return n.id===e.to; });
+        if(!a||!b) return;
+        var dx=b.x-a.x, dy=b.y-a.y;
+        var ex1=a.x+dx*0.4+dy*0.22, ey1=a.y+dy*0.4-dx*0.22;
+        var ex2=a.x+dx*0.6-dy*0.22, ey2=a.y+dy*0.6+dx*0.22;
+        var sx=a.x+(dx>0?a.w/2:-a.w/2)*(Math.abs(dx)>Math.abs(dy)?1:0.15);
+        var sy=a.y+(dy>0?a.h/2:-a.h/2)*(Math.abs(dy)>=Math.abs(dx)?1:0.15);
+        var ex=b.x-(dx>0?b.w/2:-b.w/2)*(Math.abs(dx)>Math.abs(dy)?1:0.15);
+        var ey=b.y-(dy>0?b.h/2:-b.h/2)*(Math.abs(dy)>=Math.abs(dx)?1:0.15);
+
+        if(e.onPath){ p.stroke(232,160,176,190); p.strokeWeight(1.6); }
+        else { p.stroke(255,255,255,18); p.strokeWeight(0.8); }
+        p.noFill();
+        p.bezier(sx,sy,ex1,ey1,ex2,ey2,ex,ey);
+
+        var t=0.92;
+        var arx=p.bezierPoint(sx,ex1,ex2,ex,t);
+        var ary=p.bezierPoint(sy,ey1,ey2,ey,t);
+        var ang=Math.atan2(ey-ary, ex-arx);
+        p.push(); p.translate(ex,ey); p.rotate(ang);
+        if(e.onPath) p.fill(232,160,176,190); else p.fill(255,255,255,18);
+        p.noStroke(); p.triangle(7,0,-4,-3.5,-4,3.5);
+        p.pop();
+      });
+
+      nodeList.forEach(function(n){
+        var r=n.col[0], g=n.col[1], b=n.col[2];
+        var alpha = n.onPath ? 230 : 80;
+        p.fill(r,g,b,alpha);
+        if(n.onPath){ p.stroke(232,160,176,180); p.strokeWeight(1.4); }
+        else { p.stroke(r,g,b,50); p.strokeWeight(0.6); }
+        p.rectMode(p.CENTER);
+        p.rect(n.x, n.y, n.w, n.h, n.rx||5);
+
+        p.noStroke();
+        p.fill(240,235,225, n.onPath?240:130);
+        p.textAlign(p.CENTER, p.CENTER);
+        var words = n.label.split(' ');
+        if(words.length===2){
+          p.textSize(8.5);
+          p.text(words[0], n.x, n.y-5.5);
+          p.text(words[1], n.x, n.y+5.5);
+        } else {
+          p.textSize(9);
+          p.text(n.label.length>13 ? n.label.slice(0,11)+'…' : n.label, n.x, n.y);
+        }
+      });
+
+      p.textAlign(p.LEFT, p.BOTTOM);
+      p.textSize(9);
+      p.fill(144,137,124,120); p.noStroke();
+      p.text('n = '+nSlider.value, 10, H-8);
+    };
+
+  }, document.getElementById('mc-p5mount'));
+})();
+</script>
