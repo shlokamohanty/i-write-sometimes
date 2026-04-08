@@ -1,11 +1,7 @@
 ---
-layout: default
+layout: home
 title: home
 ---
-
-<div class="home-intro">
-  <p>{{ site.description }}</p>
-</div>
 
 <section class="post-section">
   <div class="section-head">
@@ -20,23 +16,12 @@ title: home
         <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
-          {% if post.excerpt %}
-            <div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 80 }}</div>
-          {% endif %}
+          {% if post.excerpt %}<div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 72 }}</div>{% endif %}
         </div>
       </a>
     </li>
     {% endfor %}
-    {% if notes.size == 0 %}
-    <li>
-      <span class="post-row" style="cursor:default">
-        <span class="post-row-date">—</span>
-        <div class="post-row-body">
-          <div class="post-row-title" style="color:var(--muted);font-weight:400">nothing here yet</div>
-        </div>
-      </span>
-    </li>
-    {% endif %}
+    {% if notes.size == 0 %}<li><span class="post-row-empty">nothing here yet</span></li>{% endif %}
   </ul>
 </section>
 
@@ -53,23 +38,12 @@ title: home
         <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
-          {% if post.excerpt %}
-            <div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 80 }}</div>
-          {% endif %}
+          {% if post.excerpt %}<div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 72 }}</div>{% endif %}
         </div>
       </a>
     </li>
     {% endfor %}
-    {% if reflections.size == 0 %}
-    <li>
-      <span class="post-row" style="cursor:default">
-        <span class="post-row-date">—</span>
-        <div class="post-row-body">
-          <div class="post-row-title" style="color:var(--muted);font-weight:400">nothing here yet</div>
-        </div>
-      </span>
-    </li>
-    {% endif %}
+    {% if reflections.size == 0 %}<li><span class="post-row-empty">nothing here yet</span></li>{% endif %}
   </ul>
 </section>
 
@@ -86,23 +60,12 @@ title: home
         <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
-          {% if post.excerpt %}
-            <div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 80 }}</div>
-          {% endif %}
+          {% if post.excerpt %}<div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 72 }}</div>{% endif %}
         </div>
         {% if post.form %}<span class="post-tag">{{ post.form }}</span>{% endif %}
       </a>
     </li>
     {% endfor %}
-    {% if writings.size == 0 %}
-    <li>
-      <span class="post-row" style="cursor:default">
-        <span class="post-row-date">—</span>
-        <div class="post-row-body">
-          <div class="post-row-title" style="color:var(--muted);font-weight:400">nothing here yet</div>
-        </div>
-      </span>
-    </li>
-    {% endif %}
+    {% if writings.size == 0 %}<li><span class="post-row-empty">nothing here yet</span></li>{% endif %}
   </ul>
 </section>
