@@ -29,11 +29,11 @@
   var genBtn    = document.getElementById('mc-genbtn');
   var genOut    = document.getElementById('mc-genout');
 
-  nSlider.addEventListener('input',   function(){ nOut.textContent   = nSlider.value;   rebuild(); });
+  nSlider.addEventListener('input',   function(){ nOut.textContent   = nSlider.value; rebuild(); });
   lenSlider.addEventListener('input', function(){ lenOut.textContent = lenSlider.value; });
   corpusEl.addEventListener('input',  function(){ rebuild(); });
 
-  var chain = {}, lastPath = [];
+  var chain = {}, lastPath = [], lastResult = [];
 
   function tokenize(txt){ return txt.toLowerCase().match(/[\w']+/g) || []; }
 
@@ -62,193 +62,189 @@
       result.push(w);
       path.push(key);
     }
-    lastPath = path;
-    var hiSet = new Set(result.slice(-6));
-    genOut.innerHTML = result.map(function(w,i){
-      return i >= result.length-6 && hiSet.has(w)
-        ? '<span class="mc-hi">'+w+'</span>' : w;
-    }).join(' ');
-    if(window._mcP5) window._mcP5.onNewData(path, chain);
+    lastPath   = path;
+    lastResult = result;
+    genOut.innerHTML = result.join(' ');
+    if(window._mcP5) window._mcP5.onNewData(path, chain, result);
   }
 
   genBtn.addEventListener('click', generate);
-  function rebuild(){ buildChain(+nSlider.value); if(window._mcP5) window._mcP5.onNewData(lastPath, chain); }
+  function rebuild(){ buildChain(+nSlider.value); if(window._mcP5) window._mcP5.onNewData(lastPath, chain, lastResult); }
   buildChain(2);
 
   new p5(function(p){
     window._mcP5 = p;
     var W, H;
-    var nodeList = [], edgeList = [], pathSet = new Set();
+    var steps = [];
+    var PINK  = [232,160,176];
+    var BEIGE = [160,148,128];
 
-    var BEIGE_COLS = [
-      [160,148,128],[148,138,120],[172,155,132],[140,130,115],[165,150,130]
-    ];
-    var PINK_RGB = [232,160,176];
+    // node dims
+    var NW = 90, NH = 32, VGAP = 68;
 
-    function buildLayout(path, ch){
-      nodeList = []; edgeList = [];
-      pathSet   = new Set(path);
-      var allKeys = Object.keys(ch);
-      if(!allKeys.length) return;
+    function buildSteps(path, ch, result){
+      steps = [];
+      if(!path.length) return;
+      var maxShow = Math.min(path.length, 14);
+      for(var i = 0; i < maxShow; i++){
+        var key     = path[i];
+        var allNext = ch[key] ? Array.from(new Set(ch[key])) : [];
+        var chosen  = null;
+        if(i < path.length - 1){
+          chosen = path[i+1].split(' ').slice(-1)[0];
+        }
+        steps.push({ key: key, options: allNext, chosen: chosen });
+      }
+    }
 
-      var colMap = {};
-      path.forEach(function(k,i){
-        if(colMap[k] === undefined)
-          colMap[k] = Math.min(Math.round(i / Math.max(path.length-1,1) * 4), 4);
-      });
-      allKeys.forEach(function(k){ if(colMap[k] === undefined) colMap[k] = 2; });
-
-      var cols = {};
-      Object.keys(colMap).forEach(function(k){
-        var c = colMap[k];
-        if(!cols[c]) cols[c] = [];
-        cols[c].push(k);
-      });
-
-      var numCols  = Math.max.apply(null, Object.keys(cols).map(Number)) + 1;
-      var colW     = (W - 60) / Math.max(numCols - 1, 1);
-      var nodeW    = Math.min(Math.floor(colW * 0.6), 100);
-      var nodeH    = 32;
-      var maxRows  = 0;
-      Object.values(cols).forEach(function(arr){ maxRows = Math.max(maxRows, arr.length); });
-      H = Math.max(maxRows * (nodeH + 32) + 80, 220);
+    function computeLayout(){
+      if(!steps.length) return;
+      // max pills per row based on width
+      var maxOpts = 0;
+      steps.forEach(function(s){ maxOpts = Math.max(maxOpts, s.options.length); });
+      var pillW = 46, pillGap = 6;
+      var pillRowW = maxOpts * (pillW + pillGap) - pillGap;
+      NW = Math.max(80, Math.min(100, W * 0.3));
+      // center column x
+      var cx = W / 2;
+      H = steps.length * VGAP + 80;
       p.resizeCanvas(W, H);
       document.getElementById('mc-p5mount').style.height = H + 'px';
-
-      Object.keys(cols).forEach(function(ci){
-        var nodes   = cols[ci];
-        var cx      = numCols === 1 ? W/2 : 30 + Number(ci) * colW;
-        var totalH  = nodes.length * (nodeH + 32) - 32;
-        var sy      = (H - totalH) / 2;
-        nodes.forEach(function(k, ri){
-          var onPath  = pathSet.has(k);
-          var colIdx  = Number(ci) % BEIGE_COLS.length;
-          nodeList.push({
-            id: k, label: k,
-            x: cx, y: sy + ri*(nodeH+32) + nodeH/2,
-            w: nodeW, h: nodeH,
-            col: BEIGE_COLS[colIdx],
-            onPath: onPath,
-            rx: ri===0 && Number(ci)===0 ? nodeH/2 : 5
-          });
-        });
-      });
-
-      var seen = new Set();
-      allKeys.forEach(function(k){
-        var a = nodeList.find(function(n){ return n.id===k; });
-        if(!a) return;
-        Array.from(new Set(ch[k])).forEach(function(w){
-          var bk = Object.keys(ch).find(function(nk){
-            return nk===w || nk.split(' ')[0]===w || nk.split(' ').slice(1).join(' ')===w;
-          });
-          if(!bk) return;
-          var b = nodeList.find(function(n){ return n.id===bk; });
-          if(!b || b.id===a.id) return;
-          var eid = [a.id,b.id].sort().join('||');
-          if(seen.has(eid)) return; seen.add(eid);
-          var onP = false;
-          for(var i=0; i<path.length-1; i++){
-            if((path[i]===a.id&&path[i+1]===b.id)||(path[i]===b.id&&path[i+1]===a.id)){onP=true;break;}
-          }
-          edgeList.push({from:a.id, to:b.id, onPath:onP});
-        });
+      steps.forEach(function(s, i){
+        s.x = cx;
+        s.y = 40 + i * VGAP;
+        s.w = NW;
+        s.h = NH;
+        s.pillW = Math.min(pillW, (W - 20) / Math.max(s.options.length, 1) - pillGap);
       });
     }
 
     p.setup = function(){
       var mount = document.getElementById('mc-p5mount');
-      W = 300;
-      H = 220;
+      W = 300; H = 400;
       mount.style.height = H + 'px';
       var cnv = p.createCanvas(W, H);
       cnv.parent('mc-p5mount');
+      p.textFont('monospace');
       p.noLoop();
       buildChain(2);
       setTimeout(function(){
         W = document.getElementById('mc-p5mount').offsetWidth || 300;
-        p.resizeCanvas(W, H);
         generate();
       }, 150);
     };
 
-    p.onNewData = function(path, ch){
+    p.onNewData = function(path, ch, result){
       W = document.getElementById('mc-p5mount').offsetWidth || W;
-      buildLayout(path, ch);
+      buildSteps(path, ch, result);
+      computeLayout();
       p.redraw();
     };
 
     p.draw = function(){
-      p.background(33, 28, 22);
-      if(!nodeList.length){
+      p.background(33,28,22);
+      if(!steps.length){
         p.fill(144,137,124); p.noStroke();
-        p.textSize(11); p.textAlign(p.CENTER, p.CENTER);
+        p.textSize(11); p.textAlign(p.CENTER,p.CENTER);
         p.text('press generate', W/2, H/2);
         return;
       }
 
-      edgeList.forEach(function(e){
-        var a = nodeList.find(function(n){ return n.id===e.from; });
-        var b = nodeList.find(function(n){ return n.id===e.to; });
-        if(!a||!b) return;
-        var dx=b.x-a.x, dy=b.y-a.y;
-        var ex1=a.x+dx*0.4+dy*0.22, ey1=a.y+dy*0.4-dx*0.22;
-        var ex2=a.x+dx*0.6-dy*0.22, ey2=a.y+dy*0.6+dx*0.22;
-        var sx=a.x+(dx>0?a.w/2:-a.w/2)*(Math.abs(dx)>Math.abs(dy)?1:0.15);
-        var sy=a.y+(dy>0?a.h/2:-a.h/2)*(Math.abs(dy)>=Math.abs(dx)?1:0.15);
-        var ex=b.x-(dx>0?b.w/2:-b.w/2)*(Math.abs(dx)>Math.abs(dy)?1:0.15);
-        var ey=b.y-(dy>0?b.h/2:-b.h/2)*(Math.abs(dy)>=Math.abs(dx)?1:0.15);
+      // vertical connectors between nodes
+      for(var i = 0; i < steps.length - 1; i++){
+        var a = steps[i], b = steps[i+1];
+        p.stroke(...PINK, 110); p.strokeWeight(1.5);
+        p.line(a.x, a.y + a.h/2, b.x, b.y - b.h/2 - 7);
+        // arrowhead pointing down
+        p.fill(...PINK, 150); p.noStroke();
+        p.triangle(b.x, b.y - b.h/2,
+                   b.x - 4, b.y - b.h/2 - 8,
+                   b.x + 4, b.y - b.h/2 - 8);
+      }
 
-        if(e.onPath){ p.stroke(232,160,176,190); p.strokeWeight(1.6); }
-        else { p.stroke(255,255,255,18); p.strokeWeight(0.8); }
-        p.noFill();
-        p.bezier(sx,sy,ex1,ey1,ex2,ey2,ex,ey);
+      // option pills branching to the right of each node
+      steps.forEach(function(s){
+        if(!s.options.length) return;
+        var count  = s.options.length;
+        var pw     = s.pillW;
+        var ph     = 18;
+        var startX = s.x + s.w/2 + 18;
+        var totalH = count * (ph + 5) - 5;
+        var startY = s.y - totalH/2 + ph/2;
 
-        var t=0.92;
-        var arx=p.bezierPoint(sx,ex1,ex2,ex,t);
-        var ary=p.bezierPoint(sy,ey1,ey2,ey,t);
-        var ang=Math.atan2(ey-ary, ex-arx);
-        p.push(); p.translate(ex,ey); p.rotate(ang);
-        if(e.onPath) p.fill(232,160,176,190); else p.fill(255,255,255,18);
-        p.noStroke(); p.triangle(7,0,-4,-3.5,-4,3.5);
-        p.pop();
+        // horizontal stem from node right edge
+        p.stroke(...BEIGE, 50); p.strokeWeight(0.6);
+        p.line(s.x + s.w/2, s.y, startX, s.y);
+
+        s.options.forEach(function(opt, oi){
+          var ox       = startX + pw/2;
+          var oy       = startY + oi * (ph + 5);
+          var isChosen = opt === s.chosen;
+
+          // small line from stem to pill
+          p.strokeWeight(isChosen ? 1.4 : 0.5);
+          p.stroke(isChosen ? p.color(...PINK,180) : p.color(255,255,255,18));
+          p.line(startX, s.y, ox - pw/2, oy);
+
+          // pill
+          p.rectMode(p.CENTER); p.noStroke();
+          p.fill(isChosen ? p.color(...PINK,210) : p.color(...BEIGE,45));
+          p.rect(ox, oy, pw, ph, 3);
+
+          // label
+          p.textAlign(p.CENTER,p.CENTER);
+          p.textSize(7.5);
+          p.fill(isChosen ? 33 : 190, isChosen ? 22 : 175, isChosen ? 22 : 155,
+                 isChosen ? 255 : 95);
+          var label = opt.length > 7 ? opt.slice(0,6)+'…' : opt;
+          p.text(label, ox, oy);
+        });
       });
 
-      nodeList.forEach(function(n){
-        var r=n.col[0], g=n.col[1], b=n.col[2];
-        var alpha = n.onPath ? 230 : 80;
-        p.fill(r,g,b,alpha);
-        if(n.onPath){ p.stroke(232,160,176,180); p.strokeWeight(1.4); }
-        else { p.stroke(r,g,b,50); p.strokeWeight(0.6); }
+      // nodes
+      steps.forEach(function(s, i){
         p.rectMode(p.CENTER);
-        p.rect(n.x, n.y, n.w, n.h, n.rx||5);
+        p.fill(...BEIGE, i===0 ? 215 : 175);
+        p.stroke(...PINK, i===0 ? 230 : 130);
+        p.strokeWeight(i===0 ? 2 : 1.2);
+        p.rect(s.x, s.y, s.w, s.h, 5);
 
         p.noStroke();
-        p.fill(240,235,225, n.onPath?240:130);
-        p.textAlign(p.CENTER, p.CENTER);
-        var words = n.label.split(' ');
-        if(words.length===2){
+        p.textAlign(p.CENTER,p.CENTER);
+        p.fill(240,235,225,235);
+        var words = s.key.split(' ');
+        if(words.length === 2){
           p.textSize(8.5);
-          p.text(words[0], n.x, n.y-5.5);
-          p.text(words[1], n.x, n.y+5.5);
+          p.text(words[0], s.x, s.y - 5.5);
+          p.text(words[1], s.x, s.y + 5.5);
         } else {
           p.textSize(9);
-          p.text(n.label.length>13 ? n.label.slice(0,11)+'…' : n.label, n.x, n.y);
+          p.text(s.key.length>11 ? s.key.slice(0,10)+'…' : s.key, s.x, s.y);
+        }
+
+        if(i===0){
+          p.textSize(7); p.fill(...PINK,170);
+          p.textAlign(p.CENTER,p.CENTER);
+          p.text('start', s.x, s.y - s.h/2 - 8);
+        }
+        if(i===steps.length-1){
+          p.textSize(7); p.fill(...BEIGE,130);
+          p.textAlign(p.CENTER,p.CENTER);
+          p.text('end', s.x, s.y + s.h/2 + 10);
         }
       });
 
-      p.textAlign(p.LEFT, p.BOTTOM);
-      p.textSize(9);
-      p.fill(144,137,124,120); p.noStroke();
-      p.text('n = '+nSlider.value, 10, H-8);
+      // legend
+      p.textAlign(p.LEFT,p.BOTTOM);
+      p.textSize(8.5); p.fill(144,137,124,120); p.noStroke();
+      p.text('n = '+nSlider.value+'  ·  pink = chosen  ·  dim = other options', 8, H-6);
     };
 
   }, document.getElementById('mc-p5mount'));
 
   window.addEventListener('resize', function(){
     if(!window._mcP5) return;
-    var W2 = document.getElementById('mc-p5mount').offsetWidth || 300;
-    window._mcP5.onNewData(lastPath, chain);
+    window._mcP5.onNewData(lastPath, chain, lastResult);
   });
 })();
 </script>
