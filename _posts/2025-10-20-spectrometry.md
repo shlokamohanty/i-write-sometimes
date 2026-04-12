@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spectrometry, My qualms with my research experiences, Light, and Colors by Halsey"
+title: "spectrometry, my qualms with my research experiences, light, and colors by halsey"
 subtitle: "this might be a funny read. scrambled thoughts."
 date: 2025-10-20
 tags: reflections
