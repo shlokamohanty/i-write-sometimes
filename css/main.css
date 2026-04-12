@@ -747,3 +747,37 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.6;
   border-radius: 0;
 }
+
+/* ── DAY LOG ── */
+.day-block {
+  font-family: var(--mono);
+  font-size: .78rem;
+  line-height: 1.85;
+  color: var(--text);
+  white-space: pre-wrap;
+  background: var(--bg-raised);
+  border: 0.5px solid var(--faint);
+  border-radius: 6px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.day-block.pivotal {
+  background: #2a1f1f;
+  border-color: rgba(232,160,176,0.25);
+}
+
+.day-label {
+  display: block;
+  font-family: var(--mono);
+  font-size: .58rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: .6rem;
+}
+
+.day-block.pivotal .day-label {
+  color: var(--accent);
+}
