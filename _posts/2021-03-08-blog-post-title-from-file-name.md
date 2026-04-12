@@ -1,39 +1,98 @@
 ---
 layout: post
-title: "blog-post-title-from-file-name"
-date: 2025-10-15
+title: "your title here"
+subtitle: "optional — shows as italic line under the title"
+date: 2000-01-01
 tags: notes
-published: false   
----
-## Blog Post Title From First Header
-
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
-
-If the file does not start with a header, then the post title will be derived from the filename.
-
-This is a sample blog post. You can talk about all sorts of fun things here.
-
+# tags options: notes | reflections | writings
+# for writings you can also add:
+# form: essay
+# form: prose
+# form: poem
+published: false
 ---
 
-### This is a header
+write your opening paragraph here. just plain text, no special syntax needed.
 
-#### Some T-SQL Code
+a blank line between paragraphs makes a new paragraph.
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
+---
+
+## this is a section header
+
+### this is a smaller header
+
+*italic text*   **bold text**   ~~strikethrough~~
+
+> this is a blockquote. good for pulling out a line or a thought.
+
+---
+
+## links
+
+[link text](https://example.com)
+
+---
+
+## images
+
+plain image, centered automatically:
+
+![description of image](https://your-image-url-here.jpg)
+
+image with a caption (use figure tags):
+
+<figure>
+
+![description of image](https://your-image-url-here.jpg)
+<figcaption>your caption here — date, place, note, whatever</figcaption>
+</figure>
+
+for github-hosted images (uploaded via github issues or attachments):
+
+![description](https://github.com/user-attachments/assets/PASTE-YOUR-ID-HERE)
+
+---
+
+## lists
+
+unordered:
+- one thing
+- another thing
+- one more thing
+
+ordered:
+1. first
+2. second
+3. third
+
+---
+
+## code
+
+inline code: `some code here`
+
+code block:
+```
+plain code block, no highlighting
 ```
 
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
+with language highlighting:
+```python
+def hello():
+    print("hello")
 ```
+
+---
+
+## horizontal divider
+
+---
+
+## footnote-style aside
+
+use a divider + italic for end-of-post notes, like your spider-man footnote:
+
+---
+
+*a note added later: ...*
