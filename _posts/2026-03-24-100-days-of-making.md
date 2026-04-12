@@ -10,8 +10,8 @@ tags: ongoing
 So I came up with multiple ideas for 100 days of making, but I ended up sticking to illustrating for 100 days. Every day, I will illustrate a teenage memory. I'll use this space to log my feelings and thoughts.
 
 <figure>
-![sketch overview](<img width="1417" height="731" alt="image (7)" src="https://github.com/user-attachments/assets/14a99d38-7494-40f1-992b-3f83ece24dce" />)
-<figcaption>[rewiring connections](https://shlokamohanty.github.io/rewiring-connections/)</figcaption>
+<img width="1417" height="731" alt="image (7)" src="https://github.com/user-attachments/assets/14a99d38-7494-40f1-992b-3f83ece24dce" />
+<figcaption>https://shlokamohanty.github.io/rewiring-connections/</figcaption>
 </figure>
 
 ---
