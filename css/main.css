@@ -59,17 +59,28 @@ a { color: inherit; text-decoration: none; }
 
 /* ── HEADER ── */
 .site-header {
-  padding: 2.5rem 0 0;
   border-bottom: 1px solid var(--faint);
   margin-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-texture {
+  height: 90px;
+  background-image: url('/Ideation_Iteration6.jpg');
+  background-size: cover;
+  background-position: center top;
+  opacity: 0.07;
+  pointer-events: none;
 }
 
 .header-inner {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  padding-bottom: 1.1rem;
+  position: relative;
+  padding: .85rem 0 1rem;
 }
+
+/* header-inner now defined above with texture */
+.header-inner { display: flex; align-items: baseline; justify-content: space-between; }
 
 .site-title {
   font-family: var(--mono);
@@ -553,3 +564,60 @@ a { color: inherit; text-decoration: none; }
 
 /* paragraph immediately after an image loses its top gap */
 .post-body img + p { margin-top: 0; }
+
+/* ── POST SUBTITLE ── */
+.post-subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-top: .5rem;
+  max-width: 520px;
+}
+
+/* ── FIGURES & CAPTIONS ── */
+/* Usage in markdown:
+   <figure>
+   ![alt](url)
+   <figcaption>your caption here</figcaption>
+   </figure>
+*/
+.post-body figure {
+  margin: 2.25rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .65rem;
+}
+
+.post-body figure img {
+  max-width: min(480px, 100%);
+  width: auto;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin: 0;
+  opacity: 0.92;
+}
+
+.post-body figcaption {
+  font-family: var(--mono);
+  font-size: .65rem;
+  color: var(--muted);
+  letter-spacing: .04em;
+  text-align: center;
+  max-width: 420px;
+  line-height: 1.5;
+}
+
+/* standalone images (not in figure) stay centered */
+.post-body p img {
+  max-width: min(480px, 100%);
+  width: auto;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin: 2rem auto;
+  opacity: 0.92;
+}
