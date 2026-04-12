@@ -4,9 +4,7 @@ title: archive
 permalink: /archive.html
 ---
 
-<div class="home-intro">
-  <p>everything, in order.</p>
-</div>
+<p class="archive-intro">everything, in order.</p>
 
 {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
