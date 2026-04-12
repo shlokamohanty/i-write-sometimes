@@ -67,7 +67,7 @@ a { color: inherit; text-decoration: none; }
 
 .header-texture {
   height: 90px;
-  background-image: url('/Ideation_Iteration6.jpg');
+  background-image: var(--header-texture);
   background-size: cover;
   background-position: center top;
   opacity: 0.07;
