@@ -13,7 +13,7 @@ title: home
     {% for post in notes %}
     <li>
       <a href="{{ post.url | relative_url }}" class="post-row">
-        <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
+        <span class="post-row-date">{{ post.date | date: "%b %d, %Y" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
           {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
@@ -35,7 +35,7 @@ title: home
     {% for post in ongoing %}
     <li>
       <a href="{{ post.url | relative_url }}" class="post-row">
-        <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
+        <span class="post-row-date">{{ post.date | date: "%b %d, %Y" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
           {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
@@ -57,7 +57,7 @@ title: home
     {% for post in reflections %}
     <li>
       <a href="{{ post.url | relative_url }}" class="post-row">
-        <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
+        <span class="post-row-date">{{ post.date | date: "%b %d, %Y" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
           {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
@@ -79,7 +79,7 @@ title: home
     {% for post in writings %}
     <li>
       <a href="{{ post.url | relative_url }}" class="post-row">
-        <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
+        <span class="post-row-date">{{ post.date | date: "%b %d, %Y" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
           {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
