@@ -4,7 +4,9 @@ title: "your title here"
 subtitle: "optional — shows as italic line under the title"
 date: 2000-01-01
 tags: notes
-# tags options: notes | reflections | writings
+# tags options: notes | ongoing | reflections | writings
+# ongoing = current/active reflections
+# reflections = past reflections
 # for writings you can also add:
 # form: essay
 # form: prose
