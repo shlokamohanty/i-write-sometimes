@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A day to remember, I guess."
+title: "a day to remember, i guess."
 subtitle: "Spiderman: Across the Spider-Verse, computer crashing, I'm here right now because of a shitty movie that I made, painting, and vulnerability"
 date: 2025-10-15
 tags: reflections
