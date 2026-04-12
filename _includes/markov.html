@@ -158,14 +158,18 @@
 
     p.setup = function(){
       var mount = document.getElementById('mc-p5mount');
-      W = mount.offsetWidth || 340;
+      W = 300;
       H = 220;
       mount.style.height = H + 'px';
       var cnv = p.createCanvas(W, H);
       cnv.parent('mc-p5mount');
       p.noLoop();
       buildChain(2);
-      generate();
+      setTimeout(function(){
+        W = document.getElementById('mc-p5mount').offsetWidth || 300;
+        p.resizeCanvas(W, H);
+        generate();
+      }, 150);
     };
 
     p.onNewData = function(path, ch){
@@ -240,5 +244,11 @@
     };
 
   }, document.getElementById('mc-p5mount'));
+
+  window.addEventListener('resize', function(){
+    if(!window._mcP5) return;
+    var W2 = document.getElementById('mc-p5mount').offsetWidth || 300;
+    window._mcP5.onNewData(lastPath, chain);
+  });
 })();
 </script>
