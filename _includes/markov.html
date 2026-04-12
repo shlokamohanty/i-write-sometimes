@@ -13,7 +13,6 @@
   </div>
 
   <div class="mc-generated" id="mc-genout">press generate</div>
-
   <div class="mc-label">markov chain</div>
   <div id="mc-p5mount"></div>
 </div>
@@ -29,222 +28,208 @@
   var genBtn    = document.getElementById('mc-genbtn');
   var genOut    = document.getElementById('mc-genout');
 
-  nSlider.addEventListener('input',   function(){ nOut.textContent   = nSlider.value; rebuild(); });
-  lenSlider.addEventListener('input', function(){ lenOut.textContent = lenSlider.value; });
+  nSlider.addEventListener('input',   function(){ nOut.textContent=nSlider.value; rebuild(); });
+  lenSlider.addEventListener('input', function(){ lenOut.textContent=lenSlider.value; });
   corpusEl.addEventListener('input',  function(){ rebuild(); });
 
-  var chain = {}, lastPath = [], lastResult = [];
+  var chain={}, lastPath=[], lastResult=[];
 
-  function tokenize(txt){ return txt.toLowerCase().match(/[\w']+/g) || []; }
+  function tokenize(txt){ return txt.toLowerCase().match(/[\w']+/g)||[]; }
 
   function buildChain(n){
-    chain = {};
-    var t = tokenize(corpusEl.value);
-    for(var i = 0; i < t.length - n; i++){
-      var key = t.slice(i, i+n).join(' ');
-      if(!chain[key]) chain[key] = [];
+    chain={};
+    var t=tokenize(corpusEl.value);
+    for(var i=0;i<t.length-n;i++){
+      var key=t.slice(i,i+n).join(' ');
+      if(!chain[key]) chain[key]=[];
       chain[key].push(t[i+n]);
     }
   }
 
   function generate(){
-    var n = +nSlider.value, len = +lenSlider.value;
+    var n=+nSlider.value, len=+lenSlider.value;
     buildChain(n);
-    var keys = Object.keys(chain);
-    if(!keys.length){ genOut.innerHTML = 'not enough text'; return; }
-    var seed   = keys[Math.floor(Math.random()*keys.length)].split(' ');
-    var result = seed.slice(), path = [seed.join(' ')];
-    for(var i = 0; i < len; i++){
-      var key   = result.slice(-n).join(' ');
-      var nexts = chain[key];
+    var keys=Object.keys(chain);
+    if(!keys.length){ genOut.innerHTML='not enough text'; return; }
+    var seed=keys[Math.floor(Math.random()*keys.length)].split(' ');
+    var result=seed.slice(), path=[seed.join(' ')];
+    for(var i=0;i<len;i++){
+      var key=result.slice(-n).join(' ');
+      var nexts=chain[key];
       if(!nexts) break;
-      var w = nexts[Math.floor(Math.random()*nexts.length)];
+      var w=nexts[Math.floor(Math.random()*nexts.length)];
       result.push(w);
       path.push(key);
     }
-    lastPath   = path;
-    lastResult = result;
-    genOut.innerHTML = result.join(' ');
-    if(window._mcP5) window._mcP5.onNewData(path, chain, result);
+    lastPath=path; lastResult=result;
+    genOut.innerHTML=result.join(' ');
+    if(window._mcP5) window._mcP5.onNewData(path,chain,result);
   }
 
-  genBtn.addEventListener('click', generate);
-  function rebuild(){ buildChain(+nSlider.value); if(window._mcP5) window._mcP5.onNewData(lastPath, chain, lastResult); }
+  genBtn.addEventListener('click',generate);
+  function rebuild(){ buildChain(+nSlider.value); if(window._mcP5) window._mcP5.onNewData(lastPath,chain,lastResult); }
   buildChain(2);
 
   new p5(function(p){
-    window._mcP5 = p;
+    window._mcP5=p;
     var W, H;
-    var steps = [];
-    var PINK  = [232,160,176];
-    var BEIGE = [160,148,128];
+    var steps=[];
+    var NW=108, NH=36, VGAP=90;
 
-    // node dims
-    var NW = 90, NH = 32, VGAP = 68;
+    var PINK  = function(a){ return p.color(232,160,176, a*255); };
+    var BEIGE = function(a){ return p.color(160,148,128, a*255); };
 
-    function buildSteps(path, ch, result){
-      steps = [];
+    function buildSteps(path, ch){
+      steps=[];
       if(!path.length) return;
-      var maxShow = Math.min(path.length, 14);
-      for(var i = 0; i < maxShow; i++){
-        var key     = path[i];
-        var allNext = ch[key] ? Array.from(new Set(ch[key])) : [];
-        var chosen  = null;
-        if(i < path.length - 1){
-          chosen = path[i+1].split(' ').slice(-1)[0];
+      var maxShow=Math.min(path.length, 12);
+      for(var i=0;i<maxShow;i++){
+        var curKey  = path[i];
+        var nextKey = (i < path.length-1) ? path[i+1] : null;
+        // ghost bigrams = other possible next keys from curKey
+        var ghosts=[];
+        if(ch[curKey]){
+          var possible = Array.from(new Set(ch[curKey]));
+          possible.forEach(function(w){
+            // find the bigram that starts with last word of curKey + w
+            var parts = curKey.split(' ');
+            var ghostKey = parts.slice(1).join(' ') + (parts.length>1?' ':'') + w;
+            if(ghostKey !== nextKey && ch[ghostKey] !== undefined){
+              ghosts.push(ghostKey);
+            }
+          });
+          ghosts = ghosts.slice(0,3);
         }
-        steps.push({ key: key, options: allNext, chosen: chosen });
+        steps.push({ key: curKey, nextKey: nextKey, ghosts: ghosts });
       }
     }
 
     function computeLayout(){
       if(!steps.length) return;
-      // max pills per row based on width
-      var maxOpts = 0;
-      steps.forEach(function(s){ maxOpts = Math.max(maxOpts, s.options.length); });
-      var pillW = 46, pillGap = 6;
-      var pillRowW = maxOpts * (pillW + pillGap) - pillGap;
-      NW = Math.max(80, Math.min(100, W * 0.3));
-      // center column x
-      var cx = W / 2;
-      H = steps.length * VGAP + 80;
+      H = steps.length * VGAP + 70;
       p.resizeCanvas(W, H);
-      document.getElementById('mc-p5mount').style.height = H + 'px';
-      steps.forEach(function(s, i){
-        s.x = cx;
-        s.y = 40 + i * VGAP;
-        s.w = NW;
-        s.h = NH;
-        s.pillW = Math.min(pillW, (W - 20) / Math.max(s.options.length, 1) - pillGap);
+      document.getElementById('mc-p5mount').style.height = H+'px';
+      var cx = W/2;
+      steps.forEach(function(s,i){
+        s.x=cx; s.y=40+i*VGAP; s.w=NW; s.h=NH;
       });
     }
 
-    p.setup = function(){
-      var mount = document.getElementById('mc-p5mount');
-      W = 300; H = 400;
-      mount.style.height = H + 'px';
-      var cnv = p.createCanvas(W, H);
+    p.setup=function(){
+      var mount=document.getElementById('mc-p5mount');
+      W=300; H=500;
+      mount.style.height=H+'px';
+      var cnv=p.createCanvas(W,H);
       cnv.parent('mc-p5mount');
       p.textFont('monospace');
       p.noLoop();
       buildChain(2);
       setTimeout(function(){
-        W = document.getElementById('mc-p5mount').offsetWidth || 300;
+        W=document.getElementById('mc-p5mount').offsetWidth||300;
         generate();
-      }, 150);
+      },150);
     };
 
-    p.onNewData = function(path, ch, result){
-      W = document.getElementById('mc-p5mount').offsetWidth || W;
-      buildSteps(path, ch, result);
+    p.onNewData=function(path,ch){
+      W=document.getElementById('mc-p5mount').offsetWidth||W;
+      buildSteps(path,ch);
       computeLayout();
       p.redraw();
     };
 
-    p.draw = function(){
+    p.draw=function(){
       p.background(33,28,22);
       if(!steps.length){
         p.fill(144,137,124); p.noStroke();
         p.textSize(11); p.textAlign(p.CENTER,p.CENTER);
-        p.text('press generate', W/2, H/2);
+        p.text('press generate',W/2,H/2);
         return;
       }
 
-      // vertical connectors between nodes
-      for(var i = 0; i < steps.length - 1; i++){
-        var a = steps[i], b = steps[i+1];
-        p.stroke(...PINK, 110); p.strokeWeight(1.5);
-        p.line(a.x, a.y + a.h/2, b.x, b.y - b.h/2 - 7);
-        // arrowhead pointing down
-        p.fill(...PINK, 150); p.noStroke();
-        p.triangle(b.x, b.y - b.h/2,
-                   b.x - 4, b.y - b.h/2 - 8,
-                   b.x + 4, b.y - b.h/2 - 8);
+      // connectors between nodes
+      for(var i=0;i<steps.length-1;i++){
+        var a=steps[i], b=steps[i+1];
+        p.stroke(PINK(0.38)); p.strokeWeight(1.5);
+        p.line(a.x, a.y+a.h/2, b.x, b.y-b.h/2-6);
+        p.fill(PINK(0.55)); p.noStroke();
+        p.triangle(b.x, b.y-b.h/2,
+                   b.x-4, b.y-b.h/2-8,
+                   b.x+4, b.y-b.h/2-8);
       }
 
-      // option pills branching to the right of each node
+      // ghost bigrams floating around each node
       steps.forEach(function(s){
-        if(!s.options.length) return;
-        var count  = s.options.length;
-        var pw     = s.pillW;
-        var ph     = 18;
-        var startX = s.x + s.w/2 + 18;
-        var totalH = count * (ph + 5) - 5;
-        var startY = s.y - totalH/2 + ph/2;
+        if(!s.ghosts.length) return;
+        s.ghosts.forEach(function(g, gi){
+          var angle = p.PI*(0.18 + gi*0.30);
+          var gx = s.x + Math.cos(angle)*(NW*0.92);
+          var gy = s.y + Math.sin(angle)*(NH*1.15);
+          var gw = NW-6, gh = NH-4;
 
-        // horizontal stem from node right edge
-        p.stroke(...BEIGE, 50); p.strokeWeight(0.6);
-        p.line(s.x + s.w/2, s.y, startX, s.y);
+          p.rectMode(p.CENTER);
+          p.fill(BEIGE(0.09)); p.stroke(BEIGE(0.18)); p.strokeWeight(0.5);
+          p.rect(gx, gy, gw, gh, 4);
 
-        s.options.forEach(function(opt, oi){
-          var ox       = startX + pw/2;
-          var oy       = startY + oi * (ph + 5);
-          var isChosen = opt === s.chosen;
-
-          // small line from stem to pill
-          p.strokeWeight(isChosen ? 1.4 : 0.5);
-          p.stroke(isChosen ? p.color(...PINK,180) : p.color(255,255,255,18));
-          p.line(startX, s.y, ox - pw/2, oy);
-
-          // pill
-          p.rectMode(p.CENTER); p.noStroke();
-          p.fill(isChosen ? p.color(...PINK,210) : p.color(...BEIGE,45));
-          p.rect(ox, oy, pw, ph, 3);
-
-          // label
+          var parts=g.split(' ');
+          p.noStroke(); p.fill(BEIGE(0.30));
           p.textAlign(p.CENTER,p.CENTER);
-          p.textSize(7.5);
-          p.fill(isChosen ? 33 : 190, isChosen ? 22 : 175, isChosen ? 22 : 155,
-                 isChosen ? 255 : 95);
-          var label = opt.length > 7 ? opt.slice(0,6)+'…' : opt;
-          p.text(label, ox, oy);
+          if(parts.length>=2){
+            p.textSize(7.5);
+            p.text(parts[0], gx, gy-5.5);
+            p.text(parts.slice(1).join(' '), gx, gy+5.5);
+          } else {
+            p.textSize(8);
+            p.text(g, gx, gy);
+          }
         });
       });
 
-      // nodes
-      steps.forEach(function(s, i){
+      // main nodes
+      steps.forEach(function(s,i){
+        var isFirst = i===0;
+        var isLast  = i===steps.length-1;
+
         p.rectMode(p.CENTER);
-        p.fill(...BEIGE, i===0 ? 215 : 175);
-        p.stroke(...PINK, i===0 ? 230 : 130);
-        p.strokeWeight(i===0 ? 2 : 1.2);
+        p.fill(BEIGE(isFirst ? 0.72 : 0.62));
+        p.stroke(PINK(isFirst ? 0.88 : 0.48));
+        p.strokeWeight(isFirst ? 2 : 1.3);
         p.rect(s.x, s.y, s.w, s.h, 5);
 
-        p.noStroke();
+        var parts=s.key.split(' ');
+        p.noStroke(); p.fill(p.color(240,235,225,235));
         p.textAlign(p.CENTER,p.CENTER);
-        p.fill(240,235,225,235);
-        var words = s.key.split(' ');
-        if(words.length === 2){
+        if(parts.length>=2){
           p.textSize(8.5);
-          p.text(words[0], s.x, s.y - 5.5);
-          p.text(words[1], s.x, s.y + 5.5);
+          p.text(parts[0], s.x, s.y-6);
+          p.text(parts.slice(1).join(' '), s.x, s.y+6);
         } else {
           p.textSize(9);
-          p.text(s.key.length>11 ? s.key.slice(0,10)+'…' : s.key, s.x, s.y);
+          p.text(s.key, s.x, s.y);
         }
 
-        if(i===0){
-          p.textSize(7); p.fill(...PINK,170);
+        if(isFirst){
+          p.textSize(7); p.fill(PINK(0.65));
           p.textAlign(p.CENTER,p.CENTER);
-          p.text('start', s.x, s.y - s.h/2 - 8);
+          p.text('start', s.x, s.y-s.h/2-8);
         }
-        if(i===steps.length-1){
-          p.textSize(7); p.fill(...BEIGE,130);
+        if(isLast){
+          p.textSize(7); p.fill(BEIGE(0.4));
           p.textAlign(p.CENTER,p.CENTER);
-          p.text('end', s.x, s.y + s.h/2 + 10);
+          p.text('end', s.x, s.y+s.h/2+10);
         }
       });
 
       // legend
       p.textAlign(p.LEFT,p.BOTTOM);
-      p.textSize(8.5); p.fill(144,137,124,120); p.noStroke();
-      p.text('n = '+nSlider.value+'  ·  pink = chosen  ·  dim = other options', 8, H-6);
+      p.textSize(8.5); p.fill(p.color(144,137,124,100)); p.noStroke();
+      p.text('n='+nSlider.value+'  ·  ghost = bigrams not taken', 8, H-6);
     };
 
-  }, document.getElementById('mc-p5mount'));
+  },document.getElementById('mc-p5mount'));
 
-  window.addEventListener('resize', function(){
+  window.addEventListener('resize',function(){
     if(!window._mcP5) return;
-    window._mcP5.onNewData(lastPath, chain, lastResult);
+    window._mcP5.onNewData(lastPath,chain);
   });
 })();
 </script>
