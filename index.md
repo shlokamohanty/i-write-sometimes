@@ -16,7 +16,7 @@ title: home
         <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
-          {% if post.excerpt %}<div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 72 }}</div>{% endif %}
+          {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
         </div>
       </a>
     </li>
@@ -27,7 +27,29 @@ title: home
 
 <section class="post-section">
   <div class="section-head">
-    <span class="section-label">reflections</span>
+    <span class="section-label">ongoing reflections</span>
+    <div class="section-rule"></div>
+  </div>
+  <ul class="post-list">
+    {% assign ongoing = site.posts | where_exp: "post", "post.tags contains 'ongoing'" %}
+    {% for post in ongoing %}
+    <li>
+      <a href="{{ post.url | relative_url }}" class="post-row">
+        <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
+        <div class="post-row-body">
+          <div class="post-row-title">{{ post.title }}</div>
+          {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+    {% if ongoing.size == 0 %}<li><span class="post-row-empty">nothing here yet</span></li>{% endif %}
+  </ul>
+</section>
+
+<section class="post-section">
+  <div class="section-head">
+    <span class="section-label">past reflections</span>
     <div class="section-rule"></div>
   </div>
   <ul class="post-list">
@@ -38,7 +60,7 @@ title: home
         <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
-          {% if post.excerpt %}<div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 72 }}</div>{% endif %}
+          {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
         </div>
       </a>
     </li>
@@ -60,7 +82,7 @@ title: home
         <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
-          {% if post.excerpt %}<div class="post-row-excerpt">{{ post.excerpt | strip_html | truncate: 72 }}</div>{% endif %}
+          {% if post.subtitle %}<div class="post-row-excerpt">{{ post.subtitle }}</div>{% endif %}
         </div>
         {% if post.form %}<span class="post-tag">{{ post.form }}</span>{% endif %}
       </a>
