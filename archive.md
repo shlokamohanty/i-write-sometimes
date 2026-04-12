@@ -18,7 +18,7 @@ permalink: /archive.html
     {% for post in year.items %}
     <li>
       <a href="{{ post.url | relative_url }}" class="post-row">
-        <span class="post-row-date">{{ post.date | date: "%b %d" }}</span>
+        <span class="post-row-date">{{ post.date | date: "%b %d, %Y" }}</span>
         <div class="post-row-body">
           <div class="post-row-title">{{ post.title }}</div>
         </div>
