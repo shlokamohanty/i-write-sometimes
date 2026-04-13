@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f8bb44e327b33951",
+        "id": "23946578a777f7b1",
         "type": "tabs",
         "children": [
           {
-            "id": "eade7697cc3a4e63",
+            "id": "8670f297c4be1ce2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2025-11-09-birthdays.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "2025-11-09-birthdays"
@@ -183,21 +183,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "eade7697cc3a4e63",
+  "active": "8670f297c4be1ce2",
   "lastOpenFiles": [
-    "2025-10-29-observant.md",
+    "i-write-sometimes/assets/images/image.md",
     "2025-11-09-birthdays.md",
+    "i-write-sometimes/assets/images",
+    "i-write-sometimes/assets",
+    "i-write-sometimes",
+    "2025-10-29-observant.md",
     "2026-03-24-100-days-of-making.md",
     "2026-03-20-letter.md",
     "2025-10-15-a-day-to-remember-i-guess.md",
     "2025-10-20-spectrometry.md",
     "2021-03-08-blog-post-title-from-file-name.md",
-    "i-write-sometimes/assets/images/image.md",
-    "i-write-sometimes/assets/images",
     "i-write-sometimes/assets/videos/4F1E3355-A39F-4DDA-BDB9-D0C301D42E97.md",
     "i-write-sometimes/assets/videos",
-    "i-write-sometimes/assets",
-    "i-write-sometimes",
     "2025-10-25-brother.md",
     "Screenshot 2026-04-12 at 7.54.08 PM.png",
     "Untitled.canvas",

@@ -46,4 +46,10 @@ My 22nd birthday wasn’t a good one. I tried to break up, but I couldn’t. An 
 
 I think about when I was 19, because there’s no other song more well-written for me than Kilby Girl when I was 19. After all, that’s the same year I got my nose ring.
 
-![](/i-write-sometimes/assets/images/image trail 3.jpg)
+![](/i-write-sometimes/assets/images/image-trail-3.jpg)
+
+The fallen red maple leaves on the ground, and the colors of the sky made the trail really beautiful. Amisha and I talked about everything all day. We even made the funniest videos and played a singing game. Neither of us can really sing. We attempted slam poetry, in a really funny way, and now I’ve actually gotten the hang of it.
+
+We joked about invisible string theory, which reminded me of a concept in quantum physics called tethers, how we are all connected in some ways by unobservable strands. We also talked about how Amisha, Jatin, and I performed a song in 7th grade. Jatin wasn’t even our friend then, he was just this guy playing the piano for us. Amisha and I weren’t close either at that point, but it was so funny how we all three ended up performing together.
+
+Birthdays can be so… existential, but I think I’m going to keep trying my best to make it feel less existential and more like a simple day for someone else.
