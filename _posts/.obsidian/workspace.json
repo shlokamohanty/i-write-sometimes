@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "2021-03-08-blog-post-title-from-file-name.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "2021-03-08-blog-post-title-from-file-name"
             }
+          },
+          {
+            "id": "b69bce61d470dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-10-25-brother.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-25-brother"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,16 +198,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "eade7697cc3a4e63",
+  "active": "b69bce61d470dbf7",
   "lastOpenFiles": [
-    "2025-10-25-brother.md",
-    "2025-10-20-spectrometry.md",
-    "Screenshot 2026-04-12 at 7.54.08 PM.png",
-    "2026-03-24-100-days-of-making.md",
+    "2025-10-29-observant.md",
+    "2025-11-09-birthdays.md",
     "2026-03-20-letter.md",
     "2021-03-08-blog-post-title-from-file-name.md",
+    "2025-10-25-brother.md",
+    "2025-10-15-a-day-to-remember-i-guess.md",
+    "2025-10-20-spectrometry.md",
+    "2026-03-24-100-days-of-making.md",
+    "Screenshot 2026-04-12 at 7.54.08 PM.png",
     "Untitled.canvas",
-    "Untitled.base",
-    "2025-10-15-a-day-to-remember-i-guess.md"
+    "Untitled.base"
   ]
 }
