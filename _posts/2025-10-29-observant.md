@@ -7,6 +7,7 @@ tags: writings
 form: poem
 published: true
 ---
+
 ![subway](/i-write-sometimes/assets/images/image (8).jpg)
 
 I’m not the most observant person. I’m the most unobservant person that I know.
