@@ -7,11 +7,11 @@ tags: reflections
 published: true
 ---
 
-![Amisha and I](/i-write-sometimes/assets/videos/4F1E3355-A39F-4DDA-BDB9-D0C301D42E97 (1).mov)
+![Amisha and I](/i-write-sometimes/assets/videos/4F1E3355-A39F-4DDA-BDB9-D0C301D42E97-(1).mov)
 
 So today, to celebrate Amisha’s birthday, which is on the 10th, Amisha and I went to Manitou to hike a part of the Appalachian Trail called the Anthony’s Nose Trail. The trail itself was pretty short, about 45 minutes of hiking one way, but then walking to the trailhead took some time. It was really nice because it had been a minute since I got out of the city. I live under the Williamsburg Bridge, so when I wake up in the morning, there’s hardly any sunshine. I take the part of the subway that is above ground, so I always feel awake whenever the sun hits my face while waiting at the station. But this felt even warmer and pleasant. Everything was so beautiful.
 
-![](/i-write-sometimes/assets/images/image trail.jpg)
+![](/i-write-sometimes/assets/images/image-trail.jpg)
 
 This week has been a particularly tough one, mainly in the back of my mind, not upfront per se. I don’t think I’ve felt sad this past week. I still don’t, I’d say. Maybe it is a sadness, though, but it’s this type of sadness that’s about what’s done is done, so how do you even actually feel sad about the past? It’s some background sadness, I suppose.
 
@@ -23,7 +23,7 @@ Amisha and I spoke about each other’s favorite things, their favorite fruits b
 
 I thought about the fact that I was in a relationship for three years until this October, and the person I was dating didn’t know any of my favorite things.
 
-![](/i-write-sometimes/assets/images/image trail 2.jpg)
+![](/i-write-sometimes/assets/images/image-trail-2.jpg)
 
 Anyway, so today, before the hike, I was catching Amisha up on this sad revelation. That's because I don’t expect care, I’ve also developed a laid-back personality, where I’m good with someone else picking out activities or restaurants. You get it? The truth is that it has come to the point where, even if the choice were given to me, I don’t know what to do, and I know I do have the capacity to make good, quick decisions. Taking the first step — doing something I want — is to go for more walks and visit more parks.
 
