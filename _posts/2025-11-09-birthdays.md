@@ -8,9 +8,8 @@ published: true
 ---
 
 
-<video controls width="480" style="display:block;margin:2rem auto;border-radius:5px">
-  <source src="https://github.com/user-attachments/assets/c30e47da-455f-432a-9756-7793f68b4292" type="video/mp4">
-</video>
+![](https://github.com/user-attachments/assets/03c90ce6-e26b-434f-9c10-fb513d1f2eb5)
+
 
 So today, to celebrate Amisha’s birthday, which is on the 10th, Amisha and I went to Manitou to hike a part of the Appalachian Trail called the Anthony’s Nose Trail. The trail itself was pretty short, about 45 minutes of hiking one way, but then walking to the trailhead took some time. It was really nice because it had been a minute since I got out of the city. I live under the Williamsburg Bridge, so when I wake up in the morning, there’s hardly any sunshine. I take the part of the subway that is above ground, so I always feel awake whenever the sun hits my face while waiting at the station. But this felt even warmer and pleasant. Everything was so beautiful.
 
@@ -35,8 +34,6 @@ My therapist mentioned that I downplay my skills and intelligence a lot. So this
 It’s just this week, in the back of my mind, that’s been so overwhelming, because four people have pointed out my habits to me. I clearly understand their perspectives —some out of annoyance, some out of concern. I get it. I really have to work on myself, but it’s still a lot that my patterns are that identifiable.
 
 Amisha and I spoke a lot about this. They’ve known me for more than 7 years, have seen me change and grow a lot, and it’s nice to have someone understand you without having to explain your history. It’s just easy. I had my complaints about me not being observant, and then they are like I’m actually really observant, I remember tiny details that people talk about and the things they like. They know that I’m not the best at conversing, but they also know how to make me talk, because you know, years of just knowing each other so well.
-
-![](/i-write-sometimes/assets/images/image-trail-3.jpg)
 
 My 23rd birthday was a pretty bad one for me personally, but I made sure everyone else enjoyed it. I think, ever since my 23rd birthday, I’ve been grappling with something existential, trying to understand more about who I am and what I want to do, because this is the first time I’ve had so much control over my life. A lot has changed for me since I moved to New York. Almost everything that I knew was so different. A year back, around this time, I was stressing about getting a job. Everyone around me was, too. The job market has been so bad for a while. I thought I’d be working as a data analyst in some random city, but here I am in the second-best program to my dream program from when I was in the 11th grade. Somehow, unexpectedly, I made it here. But after making it here, I realised this is my first time doing something that I’ve always yearned to do, so it feels so much more different than before. Yesterday I also watched Tick Tick Boom, and I was thinking that maybe I don’t relate to the movie, but the more I think about it—and his anxiety—I think I grapple with something similar more often than not. I think my four years of undergrad, I was going through some form of misery, because I couldn’t do the things that I wanted to do or make the things that I wanted to. Now I’m here where I actually can do that after years of wanting to do so I feel like I have the pressure to make everything that I make to be the best that it is, in the same way, as seen in the movie, but maybe I also need to remind myself that there’s no specific age for success.
 
