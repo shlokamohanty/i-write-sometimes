@@ -7,6 +7,7 @@ tags: reflections
 published: true
 ---
 
+
 <video controls width="480" style="display:block;margin:2rem auto;border-radius:5px">
   <source src="https://github.com/user-attachments/assets/c30e47da-455f-432a-9756-7793f68b4292" type="video/mp4">
 </video>
