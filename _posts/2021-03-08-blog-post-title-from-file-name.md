@@ -4,9 +4,26 @@ title: "your title here"
 subtitle: "optional — shows as italic line under the title"
 date: 2000-01-01
 tags: notes
-# tags options: notes | ongoing | reflections | writings
-# ongoing = current/active reflections
-# reflections = past reflections
+# ── NOTES ──────────────────────────────
+# tags: notes            (general)
+# tags: personal         (personal notes)
+# tags: practice         (thoughts about creative practice)
+# tags: academic         (school / research)
+# tags: interests        (things you're into)
+#
+# ── ONGOING REFLECTIONS ─────────────────
+# tags: ongoing          (general ongoing)
+# tags: personal-ongoing (personal ongoing)
+# tags: work-ongoing     (work/school ongoing)
+#
+# ── PAST REFLECTIONS ────────────────────
+# tags: reflections         (general past)
+# tags: personal-reflection (personal past)
+# tags: work-reflection     (work/school past)
+#
+# ── FINISHED WRITINGS ───────────────────
+# tags: writings
+# form: essay / prose / poem
 # for writings you can also add:
 # form: essay
 # form: prose
