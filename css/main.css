@@ -446,11 +446,11 @@ a { color: inherit; text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: var(--side-texture);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: 0.08;
+  background-image: var(--header-texture);
+  background-size: 280px auto;
+  background-repeat: repeat;
+  background-position: center top;
+  opacity: 0.02;
   pointer-events: none;
   z-index: 0;
 }
@@ -796,4 +796,33 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: .4rem;
   padding-left: .2rem;
   opacity: 0.7;
+}
+
+/* ── SIDE ILLUSTRATIONS ── */
+.side-illustration {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 160px;
+  background-image: var(--side-texture);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.09;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.side-left  { left: 0; background-position: right center; }
+.side-right { right: 0; background-position: left center; }
+
+/* ensure site content sits above side illustrations */
+.site-wrap { position: relative; z-index: 1; }
+
+/* hide on smaller screens where there's no room */
+@media (max-width: 1300px) {
+  .side-illustration { width: 80px; opacity: 0.06; }
+}
+@media (max-width: 1100px) {
+  .side-illustration { display: none; }
 }
