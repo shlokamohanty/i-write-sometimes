@@ -3,8 +3,7 @@ layout: post
 title: "spectrometry, my qualms with my research experiences, light, and colors by halsey"
 subtitle: "this might be a funny read. scrambled thoughts."
 date: 2025-10-20
-tags: reflections
-form: prose
+tags: work-reflection
 ---
 So very few people know this, but, I was a little bit of a Tumblr kid. Not even an avid user, just a here and there type of a user but yes, I did have Tumblr. Coming back to my point, many Tumblr kids, also really got into Halsey, during the Badlands era, of course. And, because 9th grade was so emotionally traumatizing, I became the biggest fan, of ‘Colors’ by Halsey, it was my ringtone for the next year and a half, I think.
 

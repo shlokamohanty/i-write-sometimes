@@ -3,7 +3,7 @@ layout: post
 title: "100 days of making"
 subtitle: "after 100 days of pondering about what to make"
 date: 2026-03-24
-tags: ongoing
+tags: work-ongoing
 ---
 
 

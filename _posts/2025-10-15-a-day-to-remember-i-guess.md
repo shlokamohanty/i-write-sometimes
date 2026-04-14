@@ -3,7 +3,7 @@ layout: post
 title: "a day to remember, i guess."
 subtitle: "Spiderman: Across the Spider-Verse, computer crashing, I'm here right now because of a shitty movie that I made, painting, and vulnerability"
 date: 2025-10-15
-tags: reflections
+tags: personal-reflection
 form: prose
 ---
 Today has been a fun but intense day! I woke up really excited. I love fall, and I love layering. Then, suddenly, on the subway, I didn’t know why. Out of the blue, I decided to play Self-Love by Metro-Boomin and Coi Leray. Then I started thinking that it’s been a long time since I’ve watched Spider-Man across the Spider-Verse. So, the new game plan was to watch Spider-Man: Across the Spider-Verse and work on animation on the side. I still remember the summer of 2023 when the movie was released. I was hooked to my seat. Two weeks ago, I was asked if there was an artwork that moved me, and I didn’t have an answer. But I think I do have an answer, and funny enough, it is quite literally this movie. Many of my mixed media animations have been largely inspired by the style used in Spiderman. The track, along with everything else about the film, makes it what it is. Surprisingly, people can have such well-known pieces of work that truly inspire them. Then there’s mine, which is this specific Spider-Man movie. The fact that there’s a character, Hobie, animated in 4 FPS, and LEGO animation made by a kid in the same film is unbelievable.

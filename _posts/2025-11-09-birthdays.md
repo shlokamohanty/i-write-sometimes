@@ -3,7 +3,7 @@ layout: post
 title: "birthdays"
 subtitle: "existential crisis of birthdays."
 date: 2025-11-09
-tags: reflections
+tags: personal-reflection
 published: true
 ---
 
