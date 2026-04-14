@@ -118,5 +118,10 @@ Thoughts before drawing: Drew this outside. It was a beautiful day. Didn’t rea
 
 <div class="day-block">
 <span class="day-label">day 21</span>
-Thoughts before drawing: Haven't really gotten to drawing yet. The pivot from Substack took much longer than I thought. I learnt about Obsidian today, and I made my blog by bootstrapping, https://github.com/chadbaldwin/simple-blog-bootstrap, and Claude. I feel guilty every time nowadays if I don't entirely code things, but I wanted to set it up for easier, more personalised notes. The idea of how I'm being perceived felt weird. It started taking away from authenticity. Never felt that way with Instagram, but then suddenly with my writing and Substack, it felt like that. Social media got the better of me, haha, this is also easier. So I'd rather write this way so it's more real. Social media is definitely weird. I'm tired. Drew a lot of other things. I'll catch up the moment I wake up. Thoughts after drawing:
+Thoughts before drawing: Haven't really gotten to drawing yet. The pivot from Substack took much longer than I thought. I learnt about Obsidian today, and I made my blog by bootstrapping, https://github.com/chadbaldwin/simple-blog-bootstrap, and Claude. I feel guilty every time nowadays if I don't entirely code things, but I wanted to set it up for easier, more personalised notes. The idea of how I'm being perceived felt weird. It started taking away from authenticity. Never felt that way with Instagram, but then suddenly with my writing and Substack, it felt like that. Social media got the better of me, haha, this is also easier. So I'd rather write this way so it's more real. Social media is definitely weird. I'm tired. Drew a lot of other things. I'll catch up the moment I wake up. Thoughts after drawing: This drawing took longer than I thought.
+</div>
+
+<div class="day-block">
+<span class="day-label">day 22</span>
+Thoughts before drawing: Drew this right after, so I didn’t really have any thoughts before drawing. Thoughts after drawing: The detailing in this drawing really surprised me. I remember my room growing up, much better than I thought. It felt very free-flowing, the drawing. 
 </div>
