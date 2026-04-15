@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-03-24-100-days-of-making.md",
+                "file": "2021-03-08-blog-post-title-from-file-name.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-03-24-100-days-of-making"
+              "title": "2021-03-08-blog-post-title-from-file-name"
+            }
+          },
+          {
+            "id": "9c8b6821b7302fb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-04-14-first-semester.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-14-first-semester"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,22 +198,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "36c69bdbc76de527",
+  "active": "9c8b6821b7302fb9",
   "lastOpenFiles": [
-    "2026-03-20-letter.md",
+    "2025-12-01-story-of-storyteller.md",
     "2026-03-24-100-days-of-making.md",
     "2026-04-13-memory-n-grams.md",
     "2026-04-13-thoughts-from-energy-discussion.md",
+    "2026-04-14-first-semester.md",
     "2021-03-08-blog-post-title-from-file-name.md",
     "2025-10-15-a-day-to-remember-i-guess.md",
     "2025-10-20-spectrometry.md",
-    "Untitled.base",
-    "Untitled.canvas",
-    "2026-04-13.md",
     "2025-10-25-brother.md",
     "2025-10-29-observant.md",
     "2025-11-09-birthdays.md",
-    "2025-12-01-story-of-storyteller.md",
+    "2026-03-20-letter.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "2026-04-13.md",
     "i-write-sometimes/assets/images/image.md",
     "i-write-sometimes/assets/images",
     "i-write-sometimes/assets",

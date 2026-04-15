@@ -27,4 +27,4 @@ It’s more important to converse and acknowledge.
 
 And comes back to, do I want to tell my stories or be a biographer of some sort? Still don’t know how to tell stories of other people without it taking away their agency. How do you tell stories, without speaking for someone but just witnessing?
 
-[a paper that I want to read](https://www.research.ed.ac.uk/en/publications/architecture-in-context-habits-of-seeing-knowing-and-working/#:~:text=Abstract,more%20recently%2C%20field%20and%20territory.)
+[A paper that I want to read.](https://www.research.ed.ac.uk/en/publications/architecture-in-context-habits-of-seeing-knowing-and-working/#:~:text=Abstract,more%20recently%2C%20field%20and%20territory.)
