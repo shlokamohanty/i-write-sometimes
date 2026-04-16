@@ -6,7 +6,7 @@ date: 2026-03-24
 tags: academic
 ---
 
-idea
+
 1. corpus -> prior to learning
 2. my code with markov chains and n-grams -> learning
 3. give contextual clue using semantics and tagging -> consolidation
@@ -18,3 +18,4 @@ For the corpus, I'll look at images and write them, in a very direct manner. Som
 You know when I got your text with the pictures I had my AirPods on and Siri reads out my texts. If someone sends a picture she describes it . And she described it like “two children in front of a computer screen and other objects“ 
 ```
 
+corpus:
