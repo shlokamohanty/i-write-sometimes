@@ -1,7 +1,7 @@
 ---
 layout: post
-title: man friday.
-subtitle: tw: sexual violence. a short story.
+title: "man friday."
+subtitle: "tw: sexual violence. a short story."
 date: 2026-01-09
 tags: writings
 form: prose

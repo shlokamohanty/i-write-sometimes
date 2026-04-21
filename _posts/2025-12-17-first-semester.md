@@ -1,7 +1,7 @@
 ---
 layout: post
-title: first semester @ ITP
-subtitle: projects that I made, thoughts and a lot of feelings.
+title: "first semester @ ITP"
+subtitle: "projects that I made, thoughts and a lot of feelings."
 date: 2025-12-17
 tags: work-reflection
 ---

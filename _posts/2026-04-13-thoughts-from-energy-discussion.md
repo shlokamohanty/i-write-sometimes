@@ -1,6 +1,6 @@
 ---
 layout: post
-title: thoughts i had after the discussion in energy today
+title: "thoughts i had after the discussion in energy today"
 date: 2026-03-24
 tags: practice
 ---

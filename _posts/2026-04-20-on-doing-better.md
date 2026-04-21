@@ -1,7 +1,7 @@
 ---
 layout: post
-title: on doing better
-subtitle: finally feeling better
+title: "on doing better"
+subtitle: "finally feeling better"
 date: 2026-04-20
 tags:
   - personal-reflection

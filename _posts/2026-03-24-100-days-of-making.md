@@ -145,7 +145,7 @@ Thoughts before drawing: I'm two days behind. I've been only illustrating and dr
 <div class="day-block pivotal">
 <span class="day-label">day 25-26</span>
 Thoughts before drawing: Need to do a major catch-up. Well, I have been drawing every day, though. Perhaps, just not memories. Been extremely busy in the past few days with Cabinets of Wonder, leaving me so tired that I haven't had the chance to draw. Also realised today that I haven't been in school all that much in the past two weeks, and people have noticed that too, because of the amount of illustrating. Something about illustrating feels weirdly vulnerable that I don't want to do on the floor. I don't know what about drawing feels so vulnerable. Also, was just going through it. After looking at Aditi's work and the archival museum accession cards at Pratt Research Open House, I started reflecting on my choices in drawings. On why I choose to draw in 2-D as opposed to 3-D. Quite a few of the archival museum accession cards had drawings that were in 3-D, so that was interesting. There's definitely an aspect that's hard there, translating 3-D into pen and paper, which is a 2-D medium, but why do people sometimes still randomly draw in 3-D? Turns out each eye captures the image in 2-D, and the space between the two eyes captures different angles of the same scene, which creates depth, and because we do it so often, we can infer depth when we close one eye too. And, I forgot to push on Github. 8 day catch-up. Let's do it, and never fall behind, ever-again. 
-Thoughts after drawing: Okay, I realised that I have a tendency of combining 2-D and 3-D. GAH! It's 3 am. But, I have caught up halfway, so that's good progress. The rest for the morning. So I am caught up with 4 drawings. 5 more to go.
+Thoughts after drawing: Okay, I realised that I have a tendency of combining 2-D and 3-D. GAH! It's 3 am. But, I have caught up halfway, so that's good progress. The rest for the morning. So I am caught up with 4 drawings. 5 more to go. 
 </div>
 
 
@@ -154,3 +154,5 @@ Thoughts after drawing: Okay, I realised that I have a tendency of combining 2-D
 Thoughts before drawing: I have only so much time in a day. Now that I can't move to Delhi for three months, or even visit India at all in the next maybe 4 years, all I do is listen to the ‘Delhi Belly’ album, yearning for Delhi. I don't listen to good music anymore, but I can sing 'Bedardi Raja' and 'Switty Tera Pyaar Chaida' to perfection. One day, I know I'll look back at this and think 23-year-old me was funny. I miss the days when I used to listen to 'Clairo'. 
 Thoughts after drawing:
 </div>
+
+![i-don't-have-time](/i-write-sometimes/assets/images/IMG_0932.jpg)
