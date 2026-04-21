@@ -150,9 +150,15 @@ Thoughts after drawing: Okay, I realised that I have a tendency of combining 2-D
 
 
 <div class="day-block">
-<span class="day-label">day 27-28-29-30-31</span>
-Thoughts before drawing: I have only so much time in a day. Now that I can't move to Delhi for three months, or even visit India at all in the next maybe 4 years, all I do is listen to the ‘Delhi Belly’ album, yearning for Delhi. I don't listen to good music anymore, but I can sing 'Bedardi Raja' and 'Switty Tera Pyaar Chaida' to perfection. One day, I know I'll look back at this and think 23-year-old me was funny. I miss the days when I used to listen to 'Clairo'. 
-Thoughts after drawing:
+<span class="day-label">day 27-28-29-30</span>
+Thoughts before drawing: I have only so much time in a day. Now that I can't move to Delhi for three months, or even visit India at all in the next maybe 4 years, all I do is listen to the ‘Delhi Belly’ album, yearning for Delhi. I've only been to the airport, and, Delhi Haat. Delhi would have likely chewed me up alive. I don't listen to good music anymore, but I can sing 'Bedardi Raja' and 'Switty Tera Pyaar Chaida' to perfection. One day, I know I'll look back at this and think 23-year-old me was funny. I miss the days when I used to listen to 'Clairo'. 
+Thoughts after drawing: This felt rather stressful. Never again. I have to stick to my routine. Did not have fun catching up.
 </div>
 
 ![i-don't-have-time](/i-write-sometimes/assets/images/IMG_0932.jpg)
+
+<div class="day-block">
+<span class="day-label">day 31-32</span>
+Thoughts before drawing: 
+Thoughts after drawing:
+</div>

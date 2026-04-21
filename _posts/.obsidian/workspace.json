@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36c69bdbc76de527",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2021-03-08-blog-post-title-from-file-name.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2021-03-08-blog-post-title-from-file-name"
-            }
-          },
-          {
-            "id": "b5223654464a4dca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2021-03-08-blog-post-title-from-file-name.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2021-03-08-blog-post-title-from-file-name"
-            }
-          },
-          {
-            "id": "bc39031461c538d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-04-13-memory-n-grams.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-13-memory-n-grams"
-            }
-          },
-          {
             "id": "7818fc23f258f4ab",
             "type": "leaf",
             "state": {
@@ -63,8 +21,7 @@
               "title": "2026-03-24-100-days-of-making"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,11 +185,12 @@
   },
   "active": "7818fc23f258f4ab",
   "lastOpenFiles": [
+    "2021-03-08-blog-post-title-from-file-name.md",
+    "2026-03-24-100-days-of-making.md",
+    "2026-04-13-memory-n-grams.md",
     "2026-04-20-on-doing-better.md",
     "2026-04-19-readings.md",
     "2026-04-13-thoughts-from-energy-discussion.md",
-    "2026-04-13-memory-n-grams.md",
-    "2026-03-24-100-days-of-making.md",
     "2026-03-20-letter.md",
     "2026-01-12-man-friday.md",
     "2026-01-12-eyrah-lua.md",
@@ -244,7 +202,6 @@
     "2025-10-25-brother.md",
     "2025-10-20-spectrometry.md",
     "2025-10-15-a-day-to-remember-i-guess.md",
-    "2021-03-08-blog-post-title-from-file-name.md",
     "Untitled.base",
     "Untitled.canvas",
     "2026-04-13.md",
