@@ -159,6 +159,6 @@ Thoughts after drawing: This felt rather stressful. Never again. I have to stick
 
 <div class="day-block">
 <span class="day-label">day 31-32</span>
-Thoughts before drawing: 
+Thoughts before drawing: Realised today during class that I articulated well. Writing these daily is helping me better formulate my thoughts and opinions in general. Perhaps, a practice I will keep on doing, even more privately, after this class. It’s also helping me develop a much better framework for my practice and my approach. An interesting topic that came across in class today was that ‘You are not your work’, but I don’t know, I disagree, because your work, in a way, is your inner world, at least as an artist, I think. Perhaps the distinction is attaching worth to it. While it could represent your inner world, it might not be presented in a way that’s appreciated by everyone and may actually be a bad piece of work. 
 Thoughts after drawing:
 </div>
