@@ -73,7 +73,10 @@ title: home
     {% endif %}
   {% endfor %}
   {% assign ongoing_all = site.posts | where_exp: "post", "post.tags contains 'ongoing'" %}
-  {% if ongoing_all.size == 0 %}
+  {% assign ongoing_p = site.posts | where_exp: "post", "post.tags contains 'personal-ongoing'" %}
+  {% assign ongoing_w = site.posts | where_exp: "post", "post.tags contains 'work-ongoing'" %}
+  {% assign ongoing_total = ongoing_all.size | plus: ongoing_p.size | plus: ongoing_w.size %}
+  {% if ongoing_total == 0 %}
   <ul class="post-list"><li><span class="post-row-empty">nothing here yet</span></li></ul>
   {% endif %}
 </section>
