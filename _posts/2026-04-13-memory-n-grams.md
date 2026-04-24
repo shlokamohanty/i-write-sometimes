@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "mini memory n-grams"
-subtitle: "can i use computational text to show how memory encoded, consolidated, retrieved, implanted, and sometimes forgotten."
+subtitle: "can i use computational text to show how memory is encoded, consolidated, retrieved, implanted, and sometimes forgotten."
 date: 2026-03-24
 tags: academic
 ---
@@ -33,9 +33,30 @@ Amisha and Shloka are in a bathroom in Mumbai with a sign indicating that a mirr
 Amisha and Shloka are sitting on bleachers at a stadium in Georgia Tech with beer spilled right below them.  
 Amisha and Shloka are in Atlanta, while Shloka has their thumbs up and the other hand has a glove with a shape like a large pointed hand.  
 Amisha and Shloka, while Amisha is blinking and Shloka is holding their breath to stop their hiccups.  
-Amisha and Shloka are hugging in a Subway Station.  
+Amisha and Shloka are hugging eachother in a Subway Station.  
 Amisha and Shloka are in Madison, while Amisha has their thumbs down and Shloka is holding a mop.  
 Amisha and Shloka, while Amisha is holding a plushy shaped like a strawberry, right after they woke up in the morning.  
 Amisha and Shloka are in front of an Urgent Care in Madison, while Shloka is smiling and has their head placed on Amisha's shoulders, and Amisha is frowning.  
 Amisha and Shloka are in New York, while Shloka is pouting and Amisha has their head placed on Shloka's shoulders with their mouth wide open and their eyes tightly scrunched.
+Amisha and Shloka are posing in front of a waterfall in Minnesota.
+Amisha and Shloka are in an Uber in Mumbai, they have their heads touching, and sunlight is falling on Amisha’s face.
+Amisha and Shloka are lying next to eachother while Shloka has a scruntched face and Amisha is looking directly into the camera.
+Amisha and Shloka in a bus heading from Chicago to Madison, and they are sharing earpods to listen to music.
+Amisha and Shloka are in Boston, and Amisha is hugging Shloka, and they have a fake heart tattoo on their wrist, and Shloka is wearing white eyeliner that is winged.
+Amisha and Shloka are in a car while Shloka put their hair up, and Amisha is side-eyeing.
+Amisha and Shloka are acting like monkeys.
+Amisha and Shloka are posing with the body cut out of a cricketer.
+Amisha and Shloka, while Shloka is squeezing them.
+Amisha and Shloka are in school, standing under a tree while sunlight falls on both of them, and Shloka is reaching for Amisha’s hands.
+Amisha and Shloka are in a Rickshaw after celebrating Holi; they are covered in color, mostly pink.
+Amisha and Shloka, while Amisha appears to be peeping from behind Shloka.
+Amisha and Shloka, while they are dressed in Halloween costumes, Shloka appears to be a pirate, and Amisha seems to be a cat, and Amisha is hugging Shloka while their hands are clawed.
+Amisha and Shloka, while Shloka is on their knees, and Amisha is pretending to slap Shloka.
+Amisha and Shloka are sitting in front of the steps of the Asiatic Society in Mumbai, while Shloka is hugging Amisha.
+Amisha and Shloka are at Amisha’s house right after waking up, while Amisha waits to cut their cake.
+Amisha and Shloka are looking at each other; they have glitter makeup on.
+Amisha and Shloka are somewhere with their legs dipped in a river stream.
+Amisha and Shloka, lying on the grass in Boston, are using their bags as pillows.
+Amisha and Shloka are in school, while Amisha is swinging her tongue out, and Shloka is beside them.
+Amisha and Shloka are in a shop at a mall with Shloka having their eyebrows raised and their mouth shut, and Amisha is smiling wide.
 ```
