@@ -60,3 +60,9 @@ Amisha and Shloka, lying on the grass in Boston, are using their bags as pillows
 Amisha and Shloka are in school, while Amisha is swinging her tongue out, and Shloka is beside them.
 Amisha and Shloka are in a shop at a mall with Shloka having their eyebrows raised and their mouth shut, and Amisha is smiling wide.
 ```
+
+Proud of this one. It was conceptually solid. Definitely going to work on this further because so much potential to explore here.
+
+https://github.com/shlokamohanty/Reading-and-Writing-Electronic-Text/blob/main/mini_memory_n-grams.ipynb
+
+
