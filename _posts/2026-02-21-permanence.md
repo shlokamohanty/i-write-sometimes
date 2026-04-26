@@ -4,7 +4,7 @@ title: "a dreamer’s excerpt on permanence"
 subtitle: "when does the present hold permanence?"
 date: 2026-02-21
 tags: writings
-forms: poem
+form: poem
 ---
 
 ![my-brother-and-i](/i-write-sometimes/assets/images/image (8) copy.jpg)
