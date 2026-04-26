@@ -2,7 +2,7 @@
 layout: post
 title: "a dreamer’s excerpt on permanence"
 subtitle: "when does the present hold permanence?"
-date: 2026-04-26
+date: 2026-02-21
 tags: writings
 forms: poem
 ---
