@@ -171,7 +171,7 @@ Thoughts before drawing: Tired, but I'm liking the work, so it's fine. I'm excit
 Thoughts after drawing: I need to start analysing my first person memories. There is a pattern, I think.
 </div>
 
-<div class="day-block pivotal">
+<div class="day-block">
 <span class="day-label">day 36</span>
 Thoughts before drawing: So, I definitely, want to put this project on my portfolio. I know, for sure. But, I'd feel extremely guilty putting it on my portfolio, because these are real experiences I've had, real stories of mine, and not abstracted. So I reached out to the people that I drew. And, based on their reactions, I'll decide how to present or put this up online. The good thing is, on talking to one of my exes about this, he said these experiences were as much mine, as they were his so, I don't have to overthink all that much. Also realised that logging this, in some ways, can be a micro-blog or a micro-journal?
 Thoughts after drawing: 
