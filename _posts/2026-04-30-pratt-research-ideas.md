@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "thesis-ideation"
+title: "pratt research ideas"
 subtitle: 
 date: 2026-04-24
 tags: academic
