@@ -178,7 +178,7 @@ Thoughts after drawing: Body aches, I only made a drawing, but I'll catch up tom
 </div>
 
 <div class="day-block">
-<span class="day-label">37-38-39-40-41-42</span>
-Thoughts before drawing: 
+<span class="day-label">37-38-39-40-41-42-43-44</span>
+Thoughts before drawing: Yikes, I'm really behind. Tomorrow is a catch-up day. For once, I'm proud of my skills upgrading. Yesterday, I soldered really quickly and well, compared to before. In the process of doing that, I also realised that I enjoy soldering, and that over the summer, I want to work on more challenging circuits. I knew the project wasn't perfect, and I knew I didn't put in my full efforts, which disappointed me, and that's good. I wouldn't have felt this disappointed last semester, but I knew it was a challenge I took upon myself, and I presented it well. I said that I failed, and cheerfully presented an incomplete project. 'Energy' made me realise how to tell stories physically. I like that. Something to note. I also submitted this project for the spring show waitlist, because I don't necessarily want to present this, but it would be an interesting challenge and would be a good way to start and see how people react with personal stories. Perhaps, I am a data person, after-all. 
 Thoughts after drawing: 
 </div>
