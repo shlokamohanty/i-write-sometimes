@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "facial hair"
-subtitle: 
+subtitle: making hair poetic
 date: 2026-05-06
 tags: personal-reflection
 ---
@@ -16,7 +16,7 @@ It’s a weird feeling today. How quickly hair grows, and consumes, the face, an
 
 ![me-and-facial-hair-2](/i-write-sometimes/assets/images/shloka_hair_2.jpg)
 
-Now, today, it's all on me, I’ve barely had a strand alone existing, a singular strand. People brush their hair to keep the strands from being entangled with one another. That keeps the hair healthy, too. The knotted strands always fall off when I brush hard, so perhaps I should brush often. Now, at 23, that’s a scary feeling, realising how little time you spent brushing your hair, and letting knots take precedence over spending time brushing.
+Now, today, it's all on me, I’ve barely had a strand alone existing, a singular strand. People brush their hair to keep the strands from being entangled with one another. That keeps the hair healthy, too. The most knotted strands always fall off when I brush hard, so perhaps I should brush often. Now, at 23, that’s a scary feeling, realising how little time you spent brushing your hair, and letting knots take precedence over spending time brushing.
 
 ![me-and-facial-hair-3](/i-write-sometimes/assets/images/shloka_hair_3.jpg)
 
@@ -27,3 +27,7 @@ But the entanglements are fun, they are cute, they give me the curls that I like
 23 is weird. 
 
 I shaved my facial hair today. 
+
+![me-and-facial-hair-4](/i-write-sometimes/assets/images/shloka_hair_4.jpg)
+
+oops.
