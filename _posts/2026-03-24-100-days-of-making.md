@@ -178,7 +178,15 @@ Thoughts after drawing: Body aches, I only made a drawing, but I'll catch up tom
 </div>
 
 <div class="day-block">
-<span class="day-label">40-41-42-43-44-45-46-47-48</span>
+<span class="day-label">40</span>
 Thoughts before drawing: Yikes, I'm really behind. Tomorrow is a catch-up day. For once, I'm proud of my skills upgrading. Yesterday, I soldered really quickly and well, compared to before. In the process of doing that, I also realised that I enjoy soldering, and that over the summer, I want to work on more challenging circuits. I knew the project wasn't perfect, and I knew I didn't put in my full efforts, which disappointed me, and that's good. I wouldn't have felt this disappointed last semester, but I knew it was a challenge I took upon myself, and I presented it well. I said that I failed, and cheerfully presented an incomplete project. 'Energy' made me realise how to tell stories physically. I like that. Something to note. I also submitted this project for the spring show waitlist, because I don't necessarily want to present this, but it would be an interesting challenge and would be a good way to start and see how people react with personal stories. Perhaps, I am a data person, after-all. 
+Thoughts after drawing: Well, this drawing was fairly quick. Realised that I have more memories with Aaranyah than Aananya, which makes sense, since we were closer for much longer. Now, that I've talked to them about this project, might as well, use their actual names.
+</div>
+
+<div class="day-block">
+<span class="day-label">41</span>
+Thoughts before drawing: I think, playing catch up here does not make sense. I'll continue regularly from this point onwards. I liked what people had to say about this, even though, I was barely standing by this project. Cody told me to start reading, 'Live Blog' by Megan Boyle, so I'm excited for that now that I have some more space and time. I felt fidgety today having time, which is weird. I'm not used to taking breaks lately. This project is going to be the basis for my thesis, for sure. My childhood is an interesting one. I'm starting to like how the brain map is looking right now. After this project ends, I think, I'll be able to find more correlations between the memories, as well as, patterns. 
 Thoughts after drawing: 
 </div>
+
+![live-blog](/i-write-sometimes/assets/images/live-blog.jpg)
