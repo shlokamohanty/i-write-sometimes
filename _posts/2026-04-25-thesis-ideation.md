@@ -12,11 +12,13 @@ things that become important in memories:
 - perspective shifts
 - chain reaction of memories
 - mundane anchors
-- understanding: shared human context in the micro-moments (empathy)
+- understanding: shared human context in the micro-moments (empathy). tie it all together with the politics of transcription.
 
 learning more about neuroscience and computation 
 using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration. 
 
 putting another marker on the memories to note when I was on amitriptyline and when I wasn't for 100 days.
 
-Tie it all together with the politics of transcription.
+It has to be solar, because, the 'Sun'. 
+
+'The Sun, it burns every day.'
