@@ -2,7 +2,7 @@
 layout: post
 title: "changes and acceptance"
 subtitle: ""
-date: 2026-05-25
+date: 2026-05-15
 tags: personal-ongoing
 ---
 ![notes](/i-write-sometimes/assets/images/me-in-a-dress.jpg)
