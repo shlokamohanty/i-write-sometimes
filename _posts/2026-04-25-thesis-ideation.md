@@ -22,3 +22,6 @@ putting another marker on the memories to note when I was on amitriptyline and w
 It has to be solar, because, the 'Sun'. 
 
 'The Sun, it burns every day.'
+
+Find people to talk to in neuroscience - ground this with more empirical science.
+
