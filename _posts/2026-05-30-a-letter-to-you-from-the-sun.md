@@ -7,11 +7,8 @@ tags: writings
 form: poems
 ---
 
-
----
-Morning
----
-
+<div class="letter-section">
+<span class="letter-to">Morning</span>
  <div class="letter-block">To the light in you,
 Your eyes, dear, are so big in the mornings, glistening through the weariness. They mirror the sunlight shining through your windowpane.
 </div>
@@ -35,12 +32,10 @@ Every morning, the skin keeps changing. We put lotion on it to make the change e
 <div class="letter-block">To your night sweats,
 It was that time of year when the winds reversed. Another night of thunder and lightning, and you were monsooning over. But I like the rain, so I held you tight until it ended. Now, it’s a new dawn, and the skies have become a kaleidoscope of colors and sun showers.
 </div>
+</div>
 
-
----
-Night
----
-
+<div class="letter-section">
+<span class="letter-to">Night</span>
 <div class="letter-block">To your dry hands,
 I swam through the river, love, by our house. When the sun was too bright, I saw the riverbed as the water dried up. Soon, the rain will fall, and the river will fill. Your hands were hard to hold when the waves hit, but I’d rather swim with you than stand on the empty riverbed.
 </div>
@@ -64,7 +59,8 @@ It’s the end of the day, so I’ll spin you a yarn. Whisk the yarn to soften i
 <div class="letter-block">To your clenched teeth,
 The corners of your mouth ached as you tried to bite into the baguette. Yesterday, you gnawed on a rock with your teeth, leaving them weathered. But here’s some French onion soup that I also made, letting your teeth rest for the night.
 </div>
+</div>
 
-https://www.shlokamohanty.com/design/physical-computing
+[portfolio link](https://www.shlokamohanty.com/design/physical-computing)
 
-https://github.com/shlokamohanty/Reading-and-Writing-Electronic-Text/blame/main/epistolary_poems.ipynb
+[jupyter notebook](https://github.com/shlokamohanty/Reading-and-Writing-Electronic-Text/blame/main/epistolary_poems.ipynb)

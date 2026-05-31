@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Reflections on life and perhaps making art, and on what I want to do."
+subtitle: "the ongoing dilemma"
+date: 2026-02-21
+tags: personal-reflection
+---
+
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do1.jpg)
+
+The semester has been off to a rough start, emotionally. But, learning a lot about myself, and coming to terms with a lot. But, it’s rough. Really rough. I find myself crying a lot more than before. Not an uncharted territory, though. Anyways, so I got away for a day, made an impromptu trip to Princeton, and that helped because it feels like home when I’m around Amisha.
+
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do2.jpg)
+
+I’ve struggled with anxiety and my allergies since moving to the US because my immune system got messed up, and I started reacting to some of the foods that I had eaten all my life during the second year of undergrad. So when I did an allergy test, more than 30 things came back positive. The thing about allergy tests is that they’re often false positives, so I’ve slowly started trying foods I think I might not be allergic to, but they showed up otherwise on the test. So, this weekend, I took the step and ate an orange, and nothing happened, so now I can eat oranges, and drink orange juice without getting scared.
+
+In terms of coursework, though, it’s better than last semester. Especially, in terms of ideations, great, I keep coming up with a lot of ideas. The scope of those ideas is terrible, though. Keep being told each of them can be a thesis idea, but I know, as a matter of fact, none of these is a thesis idea, or even close to it. Why? I don’t know, it just doesn’t feel like it. I’ve realised this semester that I’m coming up with more personal ideas, which is good. But my method of ideation still gets stuck in the too literal realm. For now, since the assignments have been low stakes, I’ve been able to finish all of them to their entirety, but I worry I’m going to run into the same problems as we are reaching closer to the middle point of the semester. Another struggle is tying an idea to a larger concept that actually proves useful and helpful to someone else. Furthermore, I’m never sure whether the idea I’m thinking of is the one that makes sense, so I wait and wait until it feels exactly right. I need to think more about when to move from ideation to prototyping the project. Another interesting thing that I realised is that almost none of my ideas are games now, which is funny, because I thought that was a good way to approach my projects. I think the games I made last semester were an easy way to translate my ideas. I still like making games and would want to, but I want to explore the new ideas I’ve been having. Today, I read that “expressive courage matters more than technical mastery,” and I think I’m a bit more expressive now than last semester, even though it’s more literal. And, I think last semester, I got stuck trying to understand all the new technology.
+
+I miss the rigour of STEM. It’s the same feeling that I had at the start of last semester. I miss being confused about a concept and taking hours and hours trying to solve a problem. But I think this will naturally come up in one of the projects I’m working on. Currently, tired of creative writing. Rather, it gets too intertwined with feelings, and then what’s the fine line between being too vulnerable and not being as vulnerable? So I’ve decided to take a lot more time with creative writing and work on it more slowly, and spend more time reflecting on myself through my writing, as I intended to do with this account.
+
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do3.jpg)
+
+Now I’m working on a really personal project, taking my time with it and treading carefully. Thinking about the storyboard really thoroughly, and slowly. I realised I’ve reached my ideal level of abstraction through filmmaking. It comes much more naturally to me. I often talk to my roommates about my project ideas, and read to them what I’ve written, even show them my projects. Initially, they used to tell me it was all good, but now they’re comfortable enough with me to give me a critique, which has been really helpful. They now straight-up tell me when any of my ideas don’t sound good. I’ve been told by them that I’m really stubborn, too, when it comes to getting critique. Part of me gets defensive, which I need to work on. I showed them some of my old projects, too, and they said that [“Puppet Hands”](https://youtu.be/_Lz7r3BFsOg?si=QfcF6mWCRDd-wxfr) has been the best project of mine they have seen so far, and I agree with them, as it came to me much more easily. It’s a medium I’m really familiar with. So for this personal project, I’ll be using film as a medium and making it interactive. I have also realised that I only trust a few people to give me a thorough critique. Even if others say it’s good, I don’t believe that. I think people are more comfortable giving critique when they are more comfortable around the people, when there’s a level of trust, and when they are confident that the other person won’t take the critique personally.
+
+Now, more on my reflections on my writing. I wrote when I was a kid, then completely stopped during undergrad, and now I’m back at it again. Since October, my writing has improved a lot more. When I look back at some of my writings, I get annoyed, though, looking at the manner in which I’ve written them, but if I hadn’t written so much over time, it wouldn’t have improved, so all I have to do is keep writing, in different manners, even if I get tired of one.
+
+Furthermore, for one of my classes, we are working with computational poetry. Most people used other sources of writing, but I used mine and played around with it. I was trying to make my writing make sense, and while doing so, my initial poetry generator didn’t generate as randomly. It missed the element of surprise that the poetry generator should elicit. So I played around with it more, separated certain phrases, and then it became more randomised, which was much more fun to play around with. If I had a bigger bank of words and phrases, it would have been more interesting, but right now, I used a very limited one. The professor and I talked about the juxtaposition that computational poetry creates and how it challenges English’s syntactic notions, and that was interesting. In another conversation, I realised it’s almost as though AI just tries to make too much sense, in terms of the writing it generates. So, that changes the way I want to approach the class and try to be even more experimental with language and writing. But, for now, these are some outputs that were interesting to read, I thought.
+
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do4.jpg)
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do5.jpg)
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do6.jpg)
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do7.jpg)
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do8.jpg)
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do9.jpg)
+
+And, what I want to do after graduation, well, that question still looms over my head, multiple titles that I can think of, multiple suggestions too. I know that in my 20s, I want to work towards getting a PhD and, in my 30s, eventually getting into teaching.
+
+![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do10.jpg)
+
+That was something told to me in Madison, in one of my classes, and I’ve resonated with that for a long time. Perhaps that’s why academia feels like the best place for me to settle. Perhaps a STEM PhD is where I’m at right now, so I can learn much more thoroughly and then translate that knowledge. Then again, I’m not sure. It keeps changing, and it’s an ongoing dilemma.
