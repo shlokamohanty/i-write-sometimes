@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-05-30-what-tf-is-new-media-art"
             }
-          },
-          {
-            "id": "6f3bdfb210c94f5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-05-30-anxiety.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-30-anxiety"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "6f3bdfb210c94f5f",
+  "active": "a3e73b8201e9bab5",
   "lastOpenFiles": [
+    "2026-05-30-anxiety.md",
     "2026-05-30-a-letter-to-you-from-the-sun.md",
     "2026-03-20-letter.md",
     "2026-04-30-pratt-research-ideas.md",
@@ -210,7 +196,6 @@
     "2026-04-13-memory-n-grams.md",
     "2026-03-24-100-days-of-making.md",
     "2026-05-30-what-tf-is-new-media-art.md",
-    "2026-05-30-anxiety.md",
     "2026-05-12-complexity for complexity's sake.md",
     "2025-12-01-story-of-storyteller.md",
     "2025-10-29-observant.md",
