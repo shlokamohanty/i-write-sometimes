@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a784a094186b205",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-03-06-computational-poetry.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-06-computational-poetry"
-            }
-          },
-          {
-            "id": "fba1195b7f7f7f95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-03-13-projects.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-13-projects"
-            }
-          },
-          {
-            "id": "3f33660cdc75e27e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-03-06-computational-poetry.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-06-computational-poetry"
-            }
-          },
-          {
-            "id": "0824a77dc3f11750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-05-12-complexity for complexity's sake.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-12-complexity for complexity's sake"
-            }
-          },
-          {
             "id": "712eae7efc71364f",
             "type": "leaf",
             "state": {
@@ -77,8 +21,7 @@
               "title": "2026-06-1-oranges"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,13 +185,14 @@
   },
   "active": "712eae7efc71364f",
   "lastOpenFiles": [
-    "2026-01-03-subway.md",
+    "2026-03-06-computational-poetry.md",
     "2026-06-1-oranges.md",
+    "2026-05-12-complexity for complexity's sake.md",
+    "2026-01-03-subway.md",
     "2026-05-22-migraines.md",
     "2026-01-12-eyrah-lua.md",
     "2026-01-09-man-friday.md",
     "2026-05-31-drawings-and-expression-of-language.md",
-    "2026-05-12-complexity for complexity's sake.md",
     "2026-05-30-a-letter-to-you-from-the-sun.md",
     "2026-03-01-relationships.md",
     "2025-10-25-brother.md",
@@ -259,7 +203,6 @@
     "2026-02-16-what-do-you-do-alone-in-your-room.md",
     "2026-02-24-wisconsin-pines.md",
     "2026-02-21-permanence.md",
-    "2026-03-06-computational-poetry.md",
     "2026-03-18-on-junoon-and-fitoor.md",
     "2026-05-31-creative-coding-with-python.md",
     "2026-05-30-what-tf-is-new-media-art.md",
