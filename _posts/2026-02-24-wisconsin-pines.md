@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wisconsin Pines"
+title: "wisconsin pines"
 subtitle: "collaborating with the day glow vibes"
 date: 2026-02-24
 tags: personal-reflection

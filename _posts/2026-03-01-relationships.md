@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thinking about how I form my relationships with people, and how I see myself"
+title: "thinking about how I form my relationships with people, and how I see myself"
 subtitle: "A reflection"
 date: 2026-02-24
 tags: personal-reflection
