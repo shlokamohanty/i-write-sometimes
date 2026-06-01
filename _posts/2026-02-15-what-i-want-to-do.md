@@ -10,7 +10,7 @@ tags: personal-reflection
 
 The semester has been off to a rough start, emotionally. But, learning a lot about myself, and coming to terms with a lot. But, it’s rough. Really rough. I find myself crying a lot more than before. Not an uncharted territory, though. Anyways, so I got away for a day, made an impromptu trip to Princeton, and that helped because it feels like home when I’m around Amisha.
 
-![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do2.jpg)
+![amisha-and-i](/i-write-sometimes/assets/images/image-what-i-want-to-do2.jpg)
 
 I’ve struggled with anxiety and my allergies since moving to the US because my immune system got messed up, and I started reacting to some of the foods that I had eaten all my life during the second year of undergrad. So when I did an allergy test, more than 30 things came back positive. The thing about allergy tests is that they’re often false positives, so I’ve slowly started trying foods I think I might not be allergic to, but they showed up otherwise on the test. So, this weekend, I took the step and ate an orange, and nothing happened, so now I can eat oranges, and drink orange juice without getting scared.
 
