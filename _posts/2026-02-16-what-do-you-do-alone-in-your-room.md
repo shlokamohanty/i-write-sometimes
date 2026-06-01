@@ -26,8 +26,6 @@ This was my favorite room, even to date. I loved the color, and I loved Winnie t
 
 ![](/i-write-sometimes/assets/images/image-room6.jpg)
 
-![](/i-write-sometimes/assets/images/image-room7.jpg)
-
 This room is haunting, yet I’m grateful for it. I hated the room, though. I hated pink. The colour then seemed so gendered. Even then, I questioned my gender. For some reason, even to this date, I feel more comfortable being called a girl than a woman. Well, I guess, lately I’ve been feeling more girly, perhaps. The other parts of the room were green. The combination then was just really ugly to me. So I hated the wall colours. We moved within the same society. It wasn’t much of a change, but this was the house I grew up in. My parents don’t live there anymore. I loved city lights. As did everyone on Tumblr that time. But it was interesting playing around with your reflection, and I did that a lot.
 
 ![](/i-write-sometimes/assets/images/image-room7.jpg)
