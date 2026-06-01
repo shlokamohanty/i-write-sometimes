@@ -23,3 +23,4 @@ There's something about this cyclic behaviors. I think, everyone has cyclic beha
 
 Koreki, Akihiro et al. “Interoception and dissociation in migraine: a case-control study of chronic and episodic subtypes.” _Frontiers in neurology_ vol. 16 1643260. 20 Aug. 2025, doi:10.3389/fneur.2025.1643260
 
+while doing this, I need to remind myself not to fall into the rabbit holes of self-diagnoses. 

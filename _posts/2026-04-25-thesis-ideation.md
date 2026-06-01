@@ -40,3 +40,4 @@ Read more on **Predictive Processing Framework**.
 
 Perhaps this leads me to conclude that I want my art practice to be rooted in autoethnographic research. This is the word I was looking for that ties arts and sciences together for me.
 
+- more to think on in terms of drawings and language
