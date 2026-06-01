@@ -2,7 +2,7 @@
 layout: post
 title: "Reflections on life and perhaps making art, and on what I want to do."
 subtitle: "the ongoing dilemma"
-date: 2026-02-21
+date: 2026-02-15
 tags: personal-reflection
 ---
 

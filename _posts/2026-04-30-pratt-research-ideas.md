@@ -2,6 +2,6 @@
 layout: post
 title: "pratt research ideas"
 subtitle: 
-date: 2026-04-24
+date: 2026-04-30
 tags: academic
 ---

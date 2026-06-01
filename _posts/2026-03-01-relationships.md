@@ -2,7 +2,7 @@
 layout: post
 title: "thinking about how I form my relationships with people, and how I see myself"
 subtitle: "A reflection"
-date: 2026-02-24
+date: 2026-03-01
 tags: personal-reflection
 ---
 ![](/i-write-sometimes/assets/images/image-relationship1.jpg)
