@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --mono: 'Space Mono', monospace;
+      --serif: 'Noto Serif', serif;
+      --text-dark: #2a1f15;
+      --text-light: #f0ebe1;
+      --muted: rgba(240,235,225,0.6);
+    }
+
+    html, body {
+      min-height: 100vh;
+      font-family: var(--serif);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* ── CORKBOARD BG ── */
+    body {
+      background-color: #2a211a;
+      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 1.5rem 2.5rem 1rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    .site-title {
+      font-family: var(--mono);
+      font-size: .95rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      color: var(--text-light);
+      text-decoration: none;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .site-nav {
+      display: flex;
+      gap: 1.75rem;
+    }
+
+    .site-nav a {
+      font-family: var(--mono);
+      font-size: .65rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: rgba(240,235,225,0.55);
+      text-decoration: none;
+      transition: color .15s;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .site-nav a:hover { color: var(--text-light); }
+
+    /* ── BOARD ── */
+    .board {
+      padding: 1rem 2rem 4rem;
+      position: relative;
+    }
+
+    .board-title {
+      font-family: var(--mono);
+      font-size: .62rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: rgba(240,235,225,0.3);
+      margin-bottom: 2rem;
+      padding-left: .25rem;
+    }
+
+    /* ── CARD GRID ── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 2.5rem 2rem;
+      padding: 1rem .5rem;
+    }
+
+    /* ── CARD ── */
+    .card {
+      position: relative;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      transition: transform .2s ease, filter .2s ease;
+    }
+
+    /* slight random tilt per card via inline style */
+    .card:hover {
+      transform: scale(1.04) rotate(0deg) !important;
+      filter: brightness(1.08);
+      z-index: 5;
+    }
+
+    .card-paper {
+      width: 100%;
+      aspect-ratio: 1 / 1.05;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 1.1rem 1.1rem 1rem;
+    }
+
+    /* artwork image as card background */
+    .card-paper img.card-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      border-radius: 2px;
+      display: block;
+    }
+
+    .card-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .card-category {
+      font-family: var(--mono);
+      font-size: .58rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: rgba(42,31,21,0.55);
+      margin-bottom: .35rem;
+    }
+
+    .card-title {
+      font-family: var(--mono);
+      font-size: .82rem;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #1e1510;
+    }
+
+    .card-count {
+      font-family: var(--serif);
+      font-size: .72rem;
+      color: rgba(42,31,21,0.5);
+      margin-top: .3rem;
+      font-style: italic;
+    }
+
+    /* light cards (sticky, grid paper) = dark text */
+    .card.light .card-category { color: rgba(42,31,21,0.5); }
+    .card.light .card-title    { color: #1e1510; }
+    .card.light .card-count    { color: rgba(42,31,21,0.45); }
+
+    /* ── SECTION PAGES (hidden by default) ── */
+    .section-page {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      overflow-y: auto;
+      background-color: #2a211a;
+      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding: 2rem 2.5rem 4rem;
+    }
+
+    .section-page.active { display: block; }
+
+    .section-back {
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .06em;
+      color: rgba(240,235,225,0.55);
+      cursor: pointer;
+      margin-bottom: 2rem;
+      display: inline-block;
+      transition: color .15s;
+      background: none;
+      border: none;
+      padding: 0;
+    }
+
+    .section-back:hover { color: var(--text-light); }
+
+    .section-header {
+      margin-bottom: 2.5rem;
+    }
+
+    .section-header h2 {
+      font-family: var(--mono);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-light);
+      letter-spacing: .04em;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    /* post list on section page */
+    .section-posts {
+      max-width: 640px;
+    }
+
+    .section-post-list {
+      list-style: none;
+    }
+
+    .section-post-list li {
+      border-bottom: 1px solid rgba(240,235,225,0.12);
+    }
+
+    .section-post-list li:first-child {
+      border-top: 1px solid rgba(240,235,225,0.12);
+    }
+
+    .section-post-row {
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+      padding: .75rem .3rem;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background .12s;
+    }
+
+    .section-post-row:hover {
+      background: rgba(240,235,225,0.06);
+    }
+
+    .section-post-date {
+      font-family: var(--mono);
+      font-size: .62rem;
+      color: rgba(240,235,225,0.4);
+      min-width: 90px;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+
+    .section-post-body { flex: 1; min-width: 0; }
+
+    .section-post-title {
+      font-family: var(--mono);
+      font-size: .82rem;
+      font-weight: 700;
+      color: var(--text-light);
+      line-height: 1.4;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .section-post-subtitle {
+      font-family: var(--serif);
+      font-size: .75rem;
+      color: rgba(240,235,225,0.45);
+      margin-top: .15rem;
+    }
+
+    .section-post-tag {
+      font-family: var(--mono);
+      font-size: .58rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: rgba(232,160,176,0.7);
+      border: 1px solid rgba(232,160,176,0.25);
+      border-radius: 2px;
+      padding: .1rem .4rem;
+      flex-shrink: 0;
+      align-self: center;
+    }
+
+    /* subtag grouping */
+    .subtag-group { margin-bottom: 1.75rem; }
+    .subtag-group-label {
+      font-family: var(--mono);
+      font-size: .58rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(240,235,225,0.3);
+      border-left: 1.5px solid rgba(240,235,225,0.15);
+      padding-left: .5rem;
+      margin-bottom: .5rem;
+    }
+
+    /* footer */
+    .site-footer-board {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      padding: .75rem 2.5rem;
+      font-family: var(--mono);
+      font-size: .62rem;
+      color: rgba(240,235,225,0.25);
+      display: flex;
+      gap: .75rem;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    .site-footer-board a {
+      pointer-events: all;
+      color: rgba(240,235,225,0.25);
+      text-decoration: none;
+      transition: color .15s;
+    }
+
+    .site-footer-board a:hover { color: rgba(240,235,225,0.6); }
+
+
+    /* ── PINNED IMAGES on board ── */
+    .pinned-img {
+      position: relative;
+      cursor: default;
+      display: block;
+    }
+
+    .pinned-img img.board-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 2px;
+      display: block;
+      filter: brightness(0.88);
+      transition: filter .2s;
+    }
+
+    .pinned-img:hover img.board-photo { filter: brightness(1); }
+
+    .pinned-img .pin {
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 14px;
+      height: 14px;
+      background: rgba(200,170,140,0.85);
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+      z-index: 3;
+    }
+
+    /* photo card aspect ratio — taller than note cards */
+    .card.photo-card .card-paper {
+      aspect-ratio: 3 / 4;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    /* markov inline section */
+    .markov-section-page {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      overflow-y: auto;
+      background-color: #2a211a;
+      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding: 2rem 2.5rem 4rem;
+    }
+
+    .markov-section-page.active { display: block; }
+
+    /* markov widget styles on dark board */
+    .mc-board-wrap { max-width: 700px; }
+    .mc-board-label {
+      font-family: var(--mono);
+      font-size: .62rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: rgba(232,160,176,0.8);
+      margin-bottom: .6rem;
+    }
+    .mc-board-wrap textarea {
+      width: 100%;
+      height: 80px;
+      font-family: var(--mono);
+      font-size: 11px;
+      resize: none;
+      background: rgba(33,28,22,0.85);
+      color: rgba(240,235,225,0.75);
+      border: 0.5px solid rgba(240,235,225,0.12);
+      border-radius: 6px;
+      padding: 10px 12px;
+      line-height: 1.6;
+    }
+    .mc-board-wrap textarea:focus { outline: none; border-color: rgba(232,160,176,0.4); }
+    .mc-board-row {
+      display: flex;
+      gap: 8px;
+      margin: .6rem 0 .9rem;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+    .mc-board-row label { font-family: var(--mono); font-size: 11px; color: rgba(240,235,225,0.45); }
+    .mc-board-row input[type=range] { width: 70px; accent-color: rgba(232,160,176,0.8); }
+    .mc-board-row span { font-family: var(--mono); font-size: 11px; color: rgba(240,235,225,0.75); min-width: 16px; }
+    .mc-board-row button {
+      font-family: var(--mono); font-size: 10px; letter-spacing: .06em; text-transform: uppercase;
+      background: transparent; border: 0.5px solid rgba(240,235,225,0.2);
+      color: rgba(240,235,225,0.5); padding: .3rem .7rem; border-radius: 4px; cursor: pointer;
+      transition: color .15s, border-color .15s;
+    }
+    .mc-board-row button:hover { color: rgba(240,235,225,0.9); border-color: rgba(240,235,225,0.5); }
+    .mc-board-generated {
+      font-family: var(--serif); font-size: .85rem; color: rgba(240,235,225,0.7);
+      line-height: 1.85; min-height: 44px; padding: .8rem 1rem;
+      border: 0.5px solid rgba(240,235,225,0.1); border-radius: 6px;
+      background: rgba(33,28,22,0.7); margin-bottom: 1.25rem;
+    }
+    #mc-board-p5mount { width: 100%; border-radius: 6px; overflow: hidden; border: 0.5px solid rgba(240,235,225,0.1); }
+    #mc-board-p5mount canvas { display: block; width: 100% !important; }
+
+    @media (max-width: 600px) {
+      .card-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1rem; }
+      .site-header { padding: 1rem 1.25rem; }
+      .board { padding: .5rem 1rem 4rem; }
+      .section-page { padding: 1.5rem 1.25rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="{{ '/' | relative_url }}" class="site-title" id="home-link">{{ site.title }}</a>
+    <nav class="site-nav">
+      <a href="{{ '/archive.html' | relative_url }}">archive</a>
+      <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+    </nav>
+  </header>
+
+  <!-- CORKBOARD -->
+  <div class="board" id="board">
+    <div class="board-title">{{ site.description }}</div>
+    <div class="card-grid">
+
+      {% assign card_images = "55,54,53,55,54,53,55,54" | split: "," %}
+
+      <!-- NOTES card -->
+      {% assign all_notes = site.posts | where_exp: "p", "p.tags contains 'notes' or p.tags contains 'personal' or p.tags contains 'practice' or p.tags contains 'academic' or p.tags contains 'interests'" %}
+      <a class="card light" style="transform: rotate(-2.1deg)" onclick="showSection('notes'); return false;" href="#">
+        <div class="card-paper">
+          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
+          <div class="card-content">
+            <div class="card-category">notes</div>
+            <div class="card-title">thoughts,<br>observations,<br>ideas</div>
+            <div class="card-count">{{ all_notes.size }} entries</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- ONGOING REFLECTIONS card -->
+      {% assign all_ongoing = site.posts | where_exp: "p", "p.tags contains 'ongoing' or p.tags contains 'personal-ongoing' or p.tags contains 'work-ongoing'" %}
+      <a class="card light" style="transform: rotate(1.4deg)" onclick="showSection('ongoing'); return false;" href="#">
+        <div class="card-paper">
+          <img class="card-bg" src="{{ '/Untitled_Artwork_55.png' | relative_url }}" alt="" />
+          <div class="card-content">
+            <div class="card-category">ongoing reflections</div>
+            <div class="card-title">things i'm<br>still sitting<br>with</div>
+            <div class="card-count">{{ all_ongoing.size }} entries</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- PAST REFLECTIONS card -->
+      {% assign all_ref = site.posts | where_exp: "p", "p.tags contains 'reflections' or p.tags contains 'personal-reflection' or p.tags contains 'work-reflection'" %}
+      <a class="card light" style="transform: rotate(-1.2deg)" onclick="showSection('reflections'); return false;" href="#">
+        <div class="card-paper">
+          <img class="card-bg" src="{{ '/Untitled_Artwork_53.png' | relative_url }}" alt="" />
+          <div class="card-content">
+            <div class="card-category">past reflections</div>
+            <div class="card-title">looking<br>back</div>
+            <div class="card-count">{{ all_ref.size }} entries</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- FINISHED WRITINGS card -->
+      {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
+      <a class="card light" style="transform: rotate(2.2deg)" onclick="showSection('writings'); return false;" href="#">
+        <div class="card-paper">
+          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
+          <div class="card-content">
+            <div class="card-category">finished writings</div>
+            <div class="card-title">things i<br>made</div>
+            <div class="card-count">{{ all_writings.size }} entries</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- MARKOV card -->
+      <a class="card light" style="transform: rotate(-0.8deg)" onclick="showMarkov(); return false;" href="#">
+        <div class="card-paper">
+          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
+          <div class="card-content">
+            <div class="card-category">word machine</div>
+            <div class="card-title">markov<br>chain</div>
+            <div class="card-count">generate something</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- ILLUSTRATION pinned image -->
+      <div class="card pinned-img photo-card" style="transform: rotate(1.8deg)">
+        <div class="card-paper">
+          <div class="pin"></div>
+          <img class="board-photo" src="{{ '/IMG_2357_3.JPG' | relative_url }}" alt="illustration" />
+        </div>
+      </div>
+
+      <!-- GEOMETRIC PRINT pinned image -->
+      <div class="card pinned-img photo-card" style="transform: rotate(-1.5deg)">
+        <div class="card-paper">
+          <div class="pin"></div>
+          <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION PAGES -->
+
+  <!-- NOTES -->
+  <div class="section-page" id="section-notes">
+    <button class="section-back" onclick="hideSection()">← back to board</button>
+    <div class="section-header"><h2>notes</h2></div>
+    <div class="section-posts">
+      {% assign note_groups = "personal,practice,academic,interests,notes" | split: "," %}
+      {% assign seen = "" %}
+      {% for grp in note_groups %}
+        {% assign grp_posts = site.posts | where_exp: "p", "p.tags contains grp" %}
+        {% if grp_posts.size > 0 %}
+      <div class="subtag-group">
+        <div class="subtag-group-label">{{ grp }}</div>
+        <ul class="section-post-list">
+          {% for post in grp_posts %}
+            {% unless seen contains post.url %}
+              {% assign seen = seen | append: post.url | append: "," %}
+          <li>
+            <a href="{{ post.url | relative_url }}" class="section-post-row">
+              <span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+              <div class="section-post-body">
+                <div class="section-post-title">{{ post.title }}</div>
+                {% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}
+              </div>
+            </a>
+          </li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- ONGOING REFLECTIONS -->
+  <div class="section-page" id="section-ongoing">
+    <button class="section-back" onclick="hideSection()">← back to board</button>
+    <div class="section-header"><h2>ongoing reflections</h2></div>
+    <div class="section-posts">
+      {% assign ongoing_groups = "personal-ongoing,work-ongoing,ongoing" | split: "," %}
+      {% assign seen2 = "" %}
+      {% for grp in ongoing_groups %}
+        {% assign grp_posts = site.posts | where_exp: "p", "p.tags contains grp" %}
+        {% if grp_posts.size > 0 %}
+      <div class="subtag-group">
+        <div class="subtag-group-label">{{ grp | replace: "-ongoing","" }}</div>
+        <ul class="section-post-list">
+          {% for post in grp_posts %}
+            {% unless seen2 contains post.url %}
+              {% assign seen2 = seen2 | append: post.url | append: "," %}
+          <li>
+            <a href="{{ post.url | relative_url }}" class="section-post-row">
+              <span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+              <div class="section-post-body">
+                <div class="section-post-title">{{ post.title }}</div>
+                {% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}
+              </div>
+            </a>
+          </li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- PAST REFLECTIONS -->
+  <div class="section-page" id="section-reflections">
+    <button class="section-back" onclick="hideSection()">← back to board</button>
+    <div class="section-header"><h2>past reflections</h2></div>
+    <div class="section-posts">
+      {% assign ref_groups = "personal-reflection,work-reflection,reflections" | split: "," %}
+      {% assign seen3 = "" %}
+      {% for grp in ref_groups %}
+        {% assign grp_posts = site.posts | where_exp: "p", "p.tags contains grp" %}
+        {% if grp_posts.size > 0 %}
+      <div class="subtag-group">
+        <div class="subtag-group-label">{{ grp | replace: "-reflection","" | replace: "reflections","general" }}</div>
+        <ul class="section-post-list">
+          {% for post in grp_posts %}
+            {% unless seen3 contains post.url %}
+              {% assign seen3 = seen3 | append: post.url | append: "," %}
+          <li>
+            <a href="{{ post.url | relative_url }}" class="section-post-row">
+              <span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+              <div class="section-post-body">
+                <div class="section-post-title">{{ post.title }}</div>
+                {% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}
+              </div>
+            </a>
+          </li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- FINISHED WRITINGS -->
+  <div class="section-page" id="section-writings">
+    <button class="section-back" onclick="hideSection()">← back to board</button>
+    <div class="section-header"><h2>finished writings</h2></div>
+    <div class="section-posts">
+      <ul class="section-post-list">
+        {% assign writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
+        {% for post in writings %}
+        <li>
+          <a href="{{ post.url | relative_url }}" class="section-post-row">
+            <span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+            <div class="section-post-body">
+              <div class="section-post-title">{{ post.title }}</div>
+              {% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}
+            </div>
+            {% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}
+          </a>
+        </li>
+        {% endfor %}
+        {% if writings.size == 0 %}<li><span style="font-family:var(--mono);font-size:.7rem;color:rgba(240,235,225,0.3);padding:.6rem 0;display:block">nothing here yet</span></li>{% endif %}
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- MARKOV SECTION -->
+  <div class="markov-section-page" id="section-markov">
+    <button class="section-back" onclick="hideSection()">← back to board</button>
+    <div class="section-header"><h2>word machine</h2></div>
+    <div class="mc-board-wrap">
+      <div class="mc-board-label">corpus</div>
+      <textarea id="mc-board-corpus">Words are funny. Some words go in from one ear and out the other. Some words stay. Some sting and stay. Some heal and stay. Some fill your heart and stay. Some words remain with me longer than I thought. I write words better than I say them. I'll use a pen to weave the words about how I feel for you, but my voice will choke up when I try to tell you. I have a lot to say, but I'm at a loss for words, so I write.</textarea>
+      <div class="mc-board-row">
+        <label>n =</label>
+        <input type="range" id="mc-board-nval" min="1" max="3" value="2" step="1">
+        <span id="mc-board-nout">2</span>
+        <label>length</label>
+        <input type="range" id="mc-board-lenval" min="8" max="60" value="20" step="1">
+        <span id="mc-board-lenout">20</span>
+        <button id="mc-board-genbtn">generate</button>
+      </div>
+      <div class="mc-board-generated" id="mc-board-genout">press generate</div>
+      <div class="mc-board-label">chain</div>
+      <div id="mc-board-p5mount"></div>
+    </div>
+  </div>
+
+  <div class="site-footer-board">
+    <span>{{ site.author }} · {{ site.title }}</span>
+    <span>·</span>
+    <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+  </div>
+
+  <script>
+    function showSection(name) {
+      document.getElementById('board').style.display = 'none';
+      document.querySelector('.site-footer-board').style.display = 'none';
+      document.getElementById('section-' + name).classList.add('active');
+      window.scrollTo(0, 0);
+    }
+
+    function showMarkov() {
+      document.getElementById('board').style.display = 'none';
+      document.querySelector('.site-footer-board').style.display = 'none';
+      document.getElementById('section-markov').classList.add('active');
+      window.scrollTo(0, 0);
+      initMarkov();
+    }
+
+    function hideSection() {
+      document.querySelectorAll('.section-page, .markov-section-page').forEach(function(el) {
+        el.classList.remove('active');
+      });
+      document.getElementById('board').style.display = 'block';
+      document.querySelector('.site-footer-board').style.display = 'flex';
+      window.scrollTo(0, 0);
+    }
+
+    var markovInited = false;
+    function initMarkov() {
+      if(markovInited) return;
+      markovInited = true;
+      var script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js';
+      script.onload = function(){ setupMarkov(); };
+      document.head.appendChild(script);
+    }
+
+    function setupMarkov() {
+      var corpusEl  = document.getElementById('mc-board-corpus');
+      var nSlider   = document.getElementById('mc-board-nval');
+      var nOut      = document.getElementById('mc-board-nout');
+      var lenSlider = document.getElementById('mc-board-lenval');
+      var lenOut    = document.getElementById('mc-board-lenout');
+      var genBtn    = document.getElementById('mc-board-genbtn');
+      var genOut    = document.getElementById('mc-board-genout');
+
+      nSlider.addEventListener('input',   function(){ nOut.textContent=nSlider.value; rebuild(); });
+      lenSlider.addEventListener('input', function(){ lenOut.textContent=lenSlider.value; });
+      corpusEl.addEventListener('input',  function(){ rebuild(); });
+
+      var chain={}, lastPath=[], lastResult=[];
+      function tokenize(txt){ return txt.toLowerCase().match(/[\w']+/g)||[]; }
+      function buildChain(n){
+        chain={};
+        var t=tokenize(corpusEl.value);
+        for(var i=0;i<t.length-n;i++){
+          var key=t.slice(i,i+n).join(' ');
+          if(!chain[key]) chain[key]=[];
+          chain[key].push(t[i+n]);
+        }
+      }
+      function generate(){
+        var n=+nSlider.value, len=+lenSlider.value;
+        buildChain(n);
+        var keys=Object.keys(chain);
+        if(!keys.length){ genOut.innerHTML='not enough text'; return; }
+        var seed=keys[Math.floor(Math.random()*keys.length)].split(' ');
+        var result=seed.slice(), path=[seed.join(' ')];
+        for(var i=0;i<len;i++){
+          var key=result.slice(-n).join(' ');
+          var nexts=chain[key];
+          if(!nexts) break;
+          var w=nexts[Math.floor(Math.random()*nexts.length)];
+          result.push(w); path.push(key);
+        }
+        lastPath=path; lastResult=result;
+        genOut.innerHTML=result.join(' ');
+        if(window._mcBoard) window._mcBoard.onNewData(path,chain,result);
+      }
+      genBtn.addEventListener('click',generate);
+      function rebuild(){ buildChain(+nSlider.value); if(window._mcBoard) window._mcBoard.onNewData(lastPath,chain,lastResult); }
+      buildChain(2);
+
+      new p5(function(p){
+        window._mcBoard=p;
+        var W,H; var steps=[]; var NW=108,NH=36,VGAP=90;
+        var PINK=function(a){ return p.color(232,160,176,a*255); };
+        var BEIGE=function(a){ return p.color(160,148,128,a*255); };
+        function buildSteps(path,ch){
+          steps=[];
+          if(!path.length) return;
+          var maxShow=Math.min(path.length,12);
+          for(var i=0;i<maxShow;i++){
+            var curKey=path[i], nextKey=(i<path.length-1)?path[i+1]:null;
+            var ghosts=[];
+            if(ch[curKey]){
+              var possible=Array.from(new Set(ch[curKey]));
+              possible.forEach(function(w){
+                var parts=curKey.split(' ');
+                var ghostKey=parts.slice(1).join(' ')+(parts.length>1?' ':'')+w;
+                if(ghostKey!==nextKey && ch[ghostKey]!==undefined) ghosts.push(ghostKey);
+              });
+              ghosts=ghosts.slice(0,3);
+            }
+            steps.push({key:curKey,nextKey:nextKey,ghosts:ghosts});
+          }
+        }
+        function computeLayout(){
+          if(!steps.length) return;
+          H=steps.length*VGAP+70;
+          p.resizeCanvas(W,H);
+          document.getElementById('mc-board-p5mount').style.height=H+'px';
+          var cx=W/2;
+          steps.forEach(function(s,i){ s.x=cx; s.y=40+i*VGAP; s.w=NW; s.h=NH; });
+        }
+        p.setup=function(){
+          var mount=document.getElementById('mc-board-p5mount');
+          W=mount.offsetWidth||500; H=500;
+          mount.style.height=H+'px';
+          var cnv=p.createCanvas(W,H);
+          cnv.parent('mc-board-p5mount');
+          p.textFont('monospace'); p.noLoop();
+          buildChain(2);
+          setTimeout(function(){ W=document.getElementById('mc-board-p5mount').offsetWidth||500; generate(); },150);
+        };
+        p.onNewData=function(path,ch){ W=document.getElementById('mc-board-p5mount').offsetWidth||W; buildSteps(path,ch); computeLayout(); p.redraw(); };
+        p.draw=function(){
+          p.background(24,16,10,230);
+          if(!steps.length){ p.fill(144,137,124);p.noStroke();p.textSize(11);p.textAlign(p.CENTER,p.CENTER);p.text('press generate',W/2,H/2);return; }
+          for(var i=0;i<steps.length-1;i++){
+            var a=steps[i],b=steps[i+1];
+            p.stroke(PINK(0.38));p.strokeWeight(1.5);
+            p.line(a.x,a.y+a.h/2,b.x,b.y-b.h/2-6);
+            p.fill(PINK(0.55));p.noStroke();
+            p.triangle(b.x,b.y-b.h/2,b.x-4,b.y-b.h/2-8,b.x+4,b.y-b.h/2-8);
+          }
+          steps.forEach(function(s){
+            if(!s.ghosts.length) return;
+            s.ghosts.forEach(function(g,gi){
+              var angle=p.PI*(0.18+gi*0.30);
+              var gx=s.x+Math.cos(angle)*(NW*0.92),gy=s.y+Math.sin(angle)*(NH*1.15);
+              var gw=NW-6,gh=NH-4;
+              p.rectMode(p.CENTER);p.fill(BEIGE(0.09));p.stroke(BEIGE(0.18));p.strokeWeight(0.5);p.rect(gx,gy,gw,gh,4);
+              var parts=g.split(' ');p.noStroke();p.fill(BEIGE(0.30));p.textAlign(p.CENTER,p.CENTER);
+              if(parts.length>=2){p.textSize(7.5);p.text(parts[0],gx,gy-5.5);p.text(parts.slice(1).join(' '),gx,gy+5.5);}
+              else{p.textSize(8);p.text(g,gx,gy);}
+            });
+          });
+          steps.forEach(function(s,i){
+            var isFirst=i===0,isLast=i===steps.length-1;
+            p.rectMode(p.CENTER);p.fill(BEIGE(isFirst?0.72:0.62));p.stroke(PINK(isFirst?0.88:0.48));p.strokeWeight(isFirst?2:1.3);p.rect(s.x,s.y,s.w,s.h,5);
+            var parts=s.key.split(' ');p.noStroke();p.fill(p.color(240,235,225,235));p.textAlign(p.CENTER,p.CENTER);
+            if(parts.length>=2){p.textSize(8.5);p.text(parts[0],s.x,s.y-6);p.text(parts.slice(1).join(' '),s.x,s.y+6);}
+            else{p.textSize(9);p.text(s.key,s.x,s.y);}
+            if(isFirst){p.textSize(7);p.fill(PINK(0.65));p.text('start',s.x,s.y-s.h/2-8);}
+            if(isLast){p.textSize(7);p.fill(BEIGE(0.4));p.text('end',s.x,s.y+s.h/2+10);}
+          });
+          p.textAlign(p.LEFT,p.BOTTOM);p.textSize(8.5);p.fill(p.color(144,137,124,100));p.noStroke();
+          p.text('n='+nSlider.value+'  ·  ghost = bigrams not taken',8,H-6);
+        };
+      },document.getElementById('mc-board-p5mount'));
+      generate();
+    }
+
+    // logo click always goes to board, not reload
+    document.getElementById('home-link').addEventListener('click', function(e) {
+      var anyActive = document.querySelector('.section-page.active');
+      if (anyActive) { e.preventDefault(); hideSection(); }
+    });
+  </script>
+
+</body>
+</html>
