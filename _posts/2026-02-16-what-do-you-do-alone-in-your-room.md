@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What do you do when you’re alone in your room?"
+title: "what do you do when you’re alone in your room?"
 subtitle: "not that kind of a read."
 date: 2026-02-16
 tags: personal-reflection
