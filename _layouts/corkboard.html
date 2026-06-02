@@ -29,11 +29,12 @@
 
     /* ── CORKBOARD BG ── */
     body {
-      background-color: #2a211a;
+      background-color: #3d2e22;
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center center;
       background-attachment: fixed;
+      background-blend-mode: luminosity;
     }
 
     /* ── HEADER ── */
@@ -93,10 +94,16 @@
 
     /* ── CARD GRID ── */
     .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
       gap: 2.5rem 2rem;
       padding: 1rem .5rem;
+      align-items: flex-start;
+    }
+
+    .card {
+      flex: 0 0 200px;
+      width: 200px;
     }
 
     /* ── CARD ── */
@@ -116,13 +123,14 @@
     }
 
     .card-paper {
-      width: 100%;
-      aspect-ratio: 1 / 1.05;
+      width: 200px;
+      height: 210px;
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       padding: 1.1rem 1.1rem 1rem;
+      overflow: hidden;
     }
 
     /* artwork image as card background */
@@ -153,9 +161,9 @@
 
     .card-title {
       font-family: var(--mono);
-      font-size: .82rem;
+      font-size: .75rem;
       font-weight: 700;
-      line-height: 1.4;
+      line-height: 1.35;
       color: #1e1510;
     }
 
@@ -179,11 +187,12 @@
       inset: 0;
       z-index: 100;
       overflow-y: auto;
-      background-color: #2a211a;
+      background-color: #3d2e22;
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
+      background-blend-mode: luminosity;
       padding: 2rem 2.5rem 4rem;
     }
 
@@ -360,15 +369,14 @@
       z-index: 3;
     }
 
-    /* photo card aspect ratio — smaller than note cards */
-    .card.photo-card .card-paper {
-      aspect-ratio: 3 / 4;
-      padding: 0;
-      overflow: hidden;
-      max-width: 140px;
-    }
     .card.photo-card {
-      max-width: 140px;
+      flex: 0 0 120px;
+      width: 120px;
+    }
+    .card.photo-card .card-paper {
+      width: 120px;
+      height: 150px;
+      padding: 0;
     }
 
     /* markov inline section */
@@ -378,11 +386,12 @@
       inset: 0;
       z-index: 100;
       overflow-y: auto;
-      background-color: #2a211a;
+      background-color: #3d2e22;
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
+      background-blend-mode: luminosity;
       padding: 2rem 2.5rem 4rem;
     }
 
