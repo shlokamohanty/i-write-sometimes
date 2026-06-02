@@ -2,7 +2,6 @@ title: "i write sometimes"
 author: "shloka"
 description: "some reflections, writings, and rough notes"
 
-theme: "minima"
 rss: rss
 
 kramdown:
@@ -32,7 +31,7 @@ titles_from_headings:
 defaults:
   - scope:
       path: ""
-      type: post       
+      type: posts
     values:
       layout: post
       tags: notes
