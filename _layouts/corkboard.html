@@ -30,7 +30,7 @@
     /* ── CORKBOARD BG ── */
     body {
       background-color: #2a211a;
-      background-image: url("{{ '/Untitled_Artwork%2056.png' | relative_url }}");
+      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center center;
       background-attachment: fixed;
@@ -180,7 +180,7 @@
       z-index: 100;
       overflow-y: auto;
       background-color: #2a211a;
-      background-image: url("{{ '/Untitled_Artwork%2056.png' | relative_url }}");
+      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -379,7 +379,7 @@
       z-index: 100;
       overflow-y: auto;
       background-color: #2a211a;
-      background-image: url("{{ '/Untitled_Artwork%2056.png' | relative_url }}");
+      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -473,7 +473,7 @@
       {% assign all_notes = _n1 | concat: _n2 | concat: _n3 | concat: _n4 | concat: _n5 | uniq %}
       <a class="card light" style="transform: rotate(-2.1deg)" onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork%2054.png' | relative_url }}" alt="" />
+          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
           <div class="card-content">
             <div class="card-category">notes</div>
             <div class="card-title">thoughts,<br>observations,<br>ideas</div>
@@ -489,7 +489,7 @@
       {% assign all_ongoing = _o1 | concat: _o2 | concat: _o3 | uniq %}
       <a class="card light" style="transform: rotate(1.4deg)" onclick="showSection('ongoing'); return false;" href="#">
         <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork%2055.png' | relative_url }}" alt="" />
+          <img class="card-bg" src="{{ '/Untitled_Artwork_55.png' | relative_url }}" alt="" />
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
             <div class="card-title">things i'm<br>still sitting<br>with</div>
@@ -505,7 +505,7 @@
       {% assign all_ref = _r1 | concat: _r2 | concat: _r3 | uniq %}
       <a class="card light" style="transform: rotate(-1.2deg)" onclick="showSection('reflections'); return false;" href="#">
         <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork%2053.png' | relative_url }}" alt="" />
+          <img class="card-bg" src="{{ '/Untitled_Artwork_53.png' | relative_url }}" alt="" />
           <div class="card-content">
             <div class="card-category">past reflections</div>
             <div class="card-title">looking<br>back</div>
@@ -518,7 +518,7 @@
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
       <a class="card light" style="transform: rotate(2.2deg)" onclick="showSection('writings'); return false;" href="#">
         <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork%2054.png' | relative_url }}" alt="" />
+          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
           <div class="card-content">
             <div class="card-category">finished writings</div>
             <div class="card-title">things i<br>made</div>
@@ -530,7 +530,7 @@
       <!-- MARKOV card -->
       <a class="card light" style="transform: rotate(-0.8deg)" onclick="showMarkov(); return false;" href="#">
         <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork%2054.png' | relative_url }}" alt="" />
+          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
           <div class="card-content">
             <div class="card-category">markov chain</div>
             <div class="card-title">generate<br>something</div>
