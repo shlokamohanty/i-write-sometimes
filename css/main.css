@@ -35,7 +35,7 @@
   --accent:    #e8a0b0;
   --accent-h:  #f0b8c4;
   --mono:      'Space Mono', 'Courier New', monospace;
-  --serif:     'Noto Serif', serif;
+  --serif:     'JuliaMono', 'Space Mono', monospace;
 }
 
 html { font-size: 16px; scroll-behavior: smooth; overflow-x: hidden; }
