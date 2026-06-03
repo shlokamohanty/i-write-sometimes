@@ -207,12 +207,17 @@
     }
     .string-layer path {
       fill: none;
-      stroke-width: 1.5;
+      stroke-width: 1.6;
       stroke-linecap: round;
+      filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35));
     }
     /* alternating baby pink + white strings — kept faint so text stays clear */
-    .string-layer path:nth-child(odd)  { stroke: rgba(248,200,214,0.3); }  /* baby pink */
-    .string-layer path:nth-child(even) { stroke: rgba(255,255,255,0.22); }  /* soft white */
+    .string-layer path:nth-child(odd)  { stroke: rgba(248,200,214,0.4); }  /* baby pink */
+    .string-layer path:nth-child(even) { stroke: rgba(255,255,255,0.3); }  /* soft white */
+    /* tiny knots where string ties to a pin */
+    .string-layer circle {
+      fill: rgba(248,200,214,0.5);
+    }
 
     /* ── CARDS ── */
     .card {
@@ -821,6 +826,14 @@
       };
     }
 
+    function knot(svg, p) {
+      var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      c.setAttribute('cx', p.x);
+      c.setAttribute('cy', p.y);
+      c.setAttribute('r', 2.2);
+      svg.appendChild(c);
+    }
+
     function drawStrings() {
       var grid = document.querySelector('.card-grid');
       var svg = document.getElementById('string-layer');
@@ -837,17 +850,24 @@
       targets.forEach(function(t) {
         var end = pinPoint(t, grid);
         if (!end) return;
-        // control point sags below the midpoint, like a hanging string
-        var mx = (start.x + end.x) / 2;
-        var my = (start.y + end.y) / 2;
         var dist = Math.hypot(end.x - start.x, end.y - start.y);
-        var sag = Math.min(60, dist * 0.12);
+        // gravity-style sag: string dips between the two pins
+        var sag = Math.min(90, dist * 0.18);
+        // two control points for a soft catenary-like droop
+        var c1x = start.x + (end.x - start.x) * 0.33;
+        var c1y = start.y + (end.y - start.y) * 0.33 + sag;
+        var c2x = start.x + (end.x - start.x) * 0.66;
+        var c2y = start.y + (end.y - start.y) * 0.66 + sag;
         var d = 'M ' + start.x + ' ' + start.y +
-                ' Q ' + mx + ' ' + (my + sag) + ' ' + end.x + ' ' + end.y;
+                ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + end.x + ' ' + end.y;
         var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         path.setAttribute('d', d);
         svg.appendChild(path);
+        // knot at the far pin
+        knot(svg, end);
       });
+      // knot at the hub pin
+      knot(svg, start);
     }
 
     window.addEventListener('load', drawStrings);
