@@ -24,6 +24,12 @@ tags: notes
 # ── FINISHED WRITINGS ───────────────────
 # tags: writings
 # form: essay / prose / poem
+#
+# mood: proud      → proud of these
+# mood: raw        → published anyway, too vulnerable
+# mood: spill      → unfiltered, hurried, reactive
+# mood: unsure     → not proud of but it exists
+# (leave mood out if none of these fit)
 # for writings you can also add:
 # form: essay
 # form: prose
