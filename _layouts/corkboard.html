@@ -22,8 +22,7 @@
       min-height: 100vh;
       font-family: var(--serif);
       -webkit-font-smoothing: antialiased;
-      overflow-x: hidden;
-      background-color: #2a211a;
+      background-color: #18140f;
     }
 
     /* corkboard illustration fills the page */
@@ -34,13 +33,12 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 1;
+      opacity: 0.55;
       z-index: 0;
       pointer-events: none;
     }
 
-    /* lighter base so corkboard reads stronger */
-    html, body { background-color: #3a2e22; }
+
 
     /* faint paint texture over everything */
     body::after {
@@ -65,7 +63,7 @@
       background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
       background-size: auto 100%;
       background-repeat: no-repeat;
-      opacity: 0.12;
+      opacity: 0.18;
       pointer-events: none;
       z-index: 5;
     }
@@ -131,7 +129,20 @@
       position: relative;
       z-index: 1;
       padding: 1rem 2rem 5rem;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      min-height: calc(100vh - 90px);
     }
+
+    /* subtle scrollbar styling */
+    .board::-webkit-scrollbar { height: 8px; }
+    .board::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
+    .board::-webkit-scrollbar-thumb {
+      background: rgba(240,235,225,0.15);
+      border-radius: 4px;
+    }
+    .board::-webkit-scrollbar-thumb:hover { background: rgba(240,235,225,0.3); }
 
     .board-title {
       font-family: var(--mono);
@@ -146,20 +157,17 @@
 
     /* ── CARD GRID ── */
     .card-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem 2rem;
-      justify-content: center;
-      align-items: center;
-      max-width: 900px;
-      margin: 2rem auto 0;
+      position: relative;
+      width: 1200px;
+      min-width: 1200px;
+      margin: 1rem auto 0;
+      height: 760px;
     }
 
     /* ── CARDS ── */
     .card {
-      flex: 0 0 400px;
-      width: 400px;
-      position: relative;
+      position: absolute;
+      width: 360px;
       cursor: pointer;
       text-decoration: none;
       display: block;
@@ -173,25 +181,29 @@
     }
 
     .card-paper {
-      width: 400px;
-      min-height: 290px;
+      width: 360px;
+      height: 260px;
       position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 4rem;
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center;
     }
 
+    /* text sits on the actual painted area (paint center ≈ 59% x, 45% y) */
     .card-content {
-      position: relative;
+      position: absolute;
       z-index: 2;
       text-align: center;
-      width: 55%;
-      margin: 0 auto;
+      width: 50%;
+      left: 59%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+    }
+
+    .card[data-paint="spiral"] .card-content {
+      width: 40%;
+      left: 53%;
+      top: 51%;
     }
 
     .card-category {
@@ -206,11 +218,10 @@
 
     .card-title {
       font-family: var(--mono);
-      font-size: .88rem;
+      font-size: .78rem;
       font-weight: 700;
-      line-height: 1.55;
+      line-height: 1.6;
       color: #1a0f08;
-      word-break: break-word;
     }
 
     .card-count {
@@ -407,29 +418,27 @@
     /* ── MOBILE ── */
     @media (max-width: 768px) {
       .card-grid {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        padding: 1.5rem;
+        height: 900px;
         max-width: 100%;
       }
-      .card {
-        flex: none;
-        width: 280px;
-        transform: none !important;
-      }
+      .card { width: 250px; }
       .card-paper {
-        width: 280px !important;
-        min-height: 170px !important;
+        width: 250px !important;
+        min-height: 175px !important;
         background-size: 100% 100% !important;
       }
-      .card.photo-card { width: 100px; }
-      .card-paper-photo { width: 100px !important; height: 120px !important; }
-      .card-content { width: 80% !important; }
+      .card-content { width: 62% !important; }
+      /* scattered overlapping positions for mobile */
+      #card-notes       { top: 30px;  left: 8%;  z-index: 4; }
+      #card-ongoing     { top: 130px; left: 38%; z-index: 5; }
+      #card-reflections { top: 440px; left: 4%;  z-index: 3; }
+      #card-writings    { top: 540px; left: 34%; z-index: 4; }
+      .card.photo-card { width: 90px; top: 720px !important; left: 20% !important; }
+      .card-paper-photo { width: 90px !important; height: 110px !important; }
       .site-header { padding: 1rem 1.25rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
       .section-post-title { white-space: normal; }
+      .section-post-date { min-width: 70px; }
     }
   </style>
 </head>
@@ -470,7 +479,7 @@
 
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      <a class="card light" style="transform: rotate(-2.5deg)" onclick="showSection('notes'); return false;" href="#">
+      <a class="card light" id="card-notes" style="top: 20px; left: 14%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">notes</div>
@@ -480,7 +489,7 @@
         </div>
       </a>
 
-      <a class="card light" style="transform: rotate(2.8deg)" onclick="showSection('ongoing'); return false;" href="#">
+      <a class="card light" id="card-ongoing" style="top: 50px; left: 42%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
@@ -490,7 +499,7 @@
         </div>
       </a>
 
-      <a class="card light" style="transform: rotate(-1.8deg)" onclick="showSection('reflections'); return false;" href="#">
+      <a class="card light" id="card-reflections" style="top: 360px; left: 22%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_53.png' | relative_url }}'); min-height: 380px">
           <div class="card-content">
             <div class="card-category">past reflections</div>
@@ -500,7 +509,7 @@
         </div>
       </a>
 
-      <a class="card light" style="transform: rotate(1.5deg)" onclick="showSection('writings'); return false;" href="#">
+      <a class="card light" id="card-writings" style="top: 400px; left: 50%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">finished writings</div>
@@ -510,7 +519,7 @@
         </div>
       </a>
 
-      <div class="card pinned-img photo-card" style="transform: rotate(-2.2deg)">
+      <div class="card pinned-img photo-card" style="top: 420px; left: 78%; transform: rotate(-2.2deg); z-index: 5">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
