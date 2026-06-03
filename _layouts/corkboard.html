@@ -487,32 +487,38 @@
     /* ── MOBILE ── */
     @media (max-width: 768px) {
       .card-grid {
-        height: 820px;
-        width: 760px;
-        min-width: 760px;
-        margin: 1rem 0 0;
+        height: 1500px;
+        width: 100%;
+        min-width: 0;
+        margin: 1.5rem 0 0;
       }
-      .card { width: 230px; }
+      .card { width: 215px; }
       .card-paper {
-        width: 230px !important;
-        min-height: 165px !important;
+        width: 215px !important;
+        min-height: 155px !important;
         background-size: 100% 100% !important;
       }
       .card-content { width: 62% !important; }
-      /* cards sit just below the intro text; some visible, rest via sideways scroll */
-      #card-notes       { top: 20px;  left: 4%;   z-index: 4; }
-      #card-ongoing     { top: 60px;  left: 46%;  z-index: 5; }
-      #card-reflections { top: 280px; left: 8%;   z-index: 3; }
-      #card-writings    { top: 330px; left: 44%;  z-index: 4; }
-      .card.photo-card { width: 100px; }
-      #photo-1510 { top: 30px !important; left: 80% !important; }
-      #photo-1549 { top: 300px !important; left: 78% !important; }
-      .card.pinned-img:not([id]) { top: 540px !important; left: 30% !important; }
-      .card-paper-photo { width: 100px !important; }
+      /* gentle scatter, vertical flow, no overlap */
+      #card-notes       { top: 20px;   left: 6%;   z-index: 4; }
+      #photo-1510       { top: 40px !important;  left: 64% !important; }
+      #card-ongoing     { top: 300px;  left: 30%;  z-index: 3; }
+      #card-reflections { top: 560px;  left: 8%;   z-index: 2; }
+      #photo-1549       { top: 600px !important;  left: 66% !important; }
+      #card-writings    { top: 900px;  left: 26%;  z-index: 3; }
+      .card.pinned-img:not([id]) { top: 1180px !important; left: 14% !important; }
+      .card.photo-card { width: 95px; }
+      .card-paper-photo { width: 95px !important; }
       .site-header { padding: 1rem 1.25rem; }
+
+      /* section pages: stack badges below the text so they don't collide */
       .section-page { padding: 1.5rem 1.25rem 4rem; }
+      .section-post-row { flex-wrap: wrap; }
       .section-post-title { white-space: normal; }
-      .section-post-date { min-width: 70px; }
+      .section-post-date { min-width: 100%; margin-bottom: .15rem; }
+      .section-post-body { flex: 1 1 100%; }
+      .section-post-tag:first-of-type { margin-left: 0; margin-top: .4rem; }
+      .section-post-tag + .section-post-tag { margin-top: .4rem; }
     }
   </style>
 </head>
@@ -650,35 +656,35 @@
       {% if personal_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if practice_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">practice</div>
         <ul class="section-post-list">{% for post in practice_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if academic_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">academic</div>
         <ul class="section-post-list">{% for post in academic_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if interests_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">interests</div>
         <ul class="section-post-list">{% for post in interests_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_notes_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">notes</div>
         <ul class="section-post-list">{% for post in general_notes_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -697,21 +703,21 @@
       {% if personal_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if work_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">work</div>
         <ul class="section-post-list">{% for post in work_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">general</div>
         <ul class="section-post-list">{% for post in general_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -730,21 +736,21 @@
       {% if personal_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if work_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">work</div>
         <ul class="section-post-list">{% for post in work_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">general</div>
         <ul class="section-post-list">{% for post in general_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
