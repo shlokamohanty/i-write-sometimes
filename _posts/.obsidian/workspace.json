@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-01-circuits.md",
+                "file": "2026-05-30-a-letter-to-you-from-the-sun.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-06-01-circuits"
+              "title": "2026-05-30-a-letter-to-you-from-the-sun"
             }
           }
         ],
@@ -214,6 +214,7 @@
   },
   "active": "9fbaa6f356e892e3",
   "lastOpenFiles": [
+    "2026-06-01-circuits.md",
     "2026-05-02-pain-of-my-phantom-limb.md",
     "2026-04-25-thesis-ideation.md",
     "2026-04-20-on-doing-better.md",
@@ -239,7 +240,6 @@
     "2025-11-09-birthdays.md",
     "2025-10-29-observant.md",
     "2025-10-25-brother.md",
-    "2025-10-20-spectrometry.md",
     "Untitled.base",
     "Untitled 1.base",
     "Untitled 3.canvas",
