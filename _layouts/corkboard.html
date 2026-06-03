@@ -33,7 +33,7 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.75;
+      opacity: 0.9;
       z-index: 0;
       pointer-events: none;
     }
@@ -95,15 +95,17 @@
     .card-grid {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 1.5rem 2rem;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
+      max-width: 900px;
+      margin: 2rem auto 0;
     }
 
     /* ── CARDS ── */
     .card {
-      flex: 0 0 240px;
-      width: 240px;
+      flex: 0 0 360px;
+      width: 360px;
       position: relative;
       cursor: pointer;
       text-decoration: none;
@@ -118,14 +120,14 @@
     }
 
     .card-paper {
-      width: 240px;
-      height: 240px;
+      width: 360px;
+      height: 360px;
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 2rem 1.5rem;
+      padding: 3rem;
       overflow: hidden;
     }
 
@@ -142,33 +144,33 @@
       position: relative;
       z-index: 2;
       text-align: center;
-      width: 65%;
+      width: 58%;
     }
 
     .card-category {
       font-family: var(--mono);
-      font-size: .52rem;
+      font-size: .58rem;
       font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
-      color: rgba(42,31,21,0.6);
-      margin-bottom: .3rem;
+      color: rgba(42,31,21,0.55);
+      margin-bottom: .4rem;
     }
 
     .card-title {
       font-family: var(--mono);
-      font-size: .72rem;
+      font-size: .85rem;
       font-weight: 700;
-      line-height: 1.4;
+      line-height: 1.45;
       color: #1a0f08;
       word-break: break-word;
     }
 
     .card-count {
       font-family: var(--serif);
-      font-size: .62rem;
+      font-size: .72rem;
       color: rgba(42,31,21,0.5);
-      margin-top: .3rem;
+      margin-top: .4rem;
     }
 
     /* photo cards */
