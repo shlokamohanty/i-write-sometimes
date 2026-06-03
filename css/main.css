@@ -29,11 +29,11 @@
   --bg:        #faf8f4;
   --bg-raised: #f2ede4;
   --bg-hover:  #ece5d8;
-  --text:      #4a3829;
-  --muted:     #a89a87;
+  --text:      #2e2118;
+  --muted:     #7a6e5d;
   --faint:     #e6ddcf;
-  --accent:    #d98a9e;
-  --accent-h:  #c97185;
+  --accent:    #b85f78;
+  --accent-h:  #9e4860;
   --mono:      'Space Mono', 'Courier New', monospace;
   --serif:     'JuliaMono', 'Space Mono', monospace;
 }
