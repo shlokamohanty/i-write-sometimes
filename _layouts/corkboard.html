@@ -487,23 +487,28 @@
     /* ── MOBILE ── */
     @media (max-width: 768px) {
       .card-grid {
-        height: 900px;
-        max-width: 100%;
+        height: 820px;
+        width: 760px;
+        min-width: 760px;
+        margin: 1rem 0 0;
       }
-      .card { width: 250px; }
+      .card { width: 230px; }
       .card-paper {
-        width: 250px !important;
-        min-height: 175px !important;
+        width: 230px !important;
+        min-height: 165px !important;
         background-size: 100% 100% !important;
       }
       .card-content { width: 62% !important; }
-      /* scattered overlapping positions for mobile */
-      #card-notes       { top: 30px;  left: 8%;  z-index: 4; }
-      #card-ongoing     { top: 130px; left: 38%; z-index: 5; }
-      #card-reflections { top: 440px; left: 4%;  z-index: 3; }
-      #card-writings    { top: 540px; left: 34%; z-index: 4; }
-      .card.photo-card { width: 110px; top: 720px !important; left: 20% !important; }
-      .card-paper-photo { width: 110px !important; }
+      /* cards sit just below the intro text; some visible, rest via sideways scroll */
+      #card-notes       { top: 20px;  left: 4%;   z-index: 4; }
+      #card-ongoing     { top: 60px;  left: 46%;  z-index: 5; }
+      #card-reflections { top: 280px; left: 8%;   z-index: 3; }
+      #card-writings    { top: 330px; left: 44%;  z-index: 4; }
+      .card.photo-card { width: 100px; }
+      #photo-1510 { top: 30px !important; left: 80% !important; }
+      #photo-1549 { top: 300px !important; left: 78% !important; }
+      .card.pinned-img:not([id]) { top: 540px !important; left: 30% !important; }
+      .card-paper-photo { width: 100px !important; }
       .site-header { padding: 1rem 1.25rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
       .section-post-title { white-space: normal; }
@@ -529,7 +534,7 @@
     <div class="board-title">{{ site.description }}</div>
 
     <div class="board-intro">
-      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world — thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
+      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world —thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
       <p>most of my thoughts are rather mundane. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many other things, only sometimes.</p>
     </div>
 
@@ -555,15 +560,15 @@
 
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      {% comment %} collect distinct moods present in each category {% endcomment %}
+      {% comment %} one entry per mood-tagged post in each category — handle mood as string OR array {% endcomment %}
       {% assign notes_moods = "" %}
-      {% for p in all_notes %}{% if p.mood %}{% for m in p.mood %}{% unless notes_moods contains m %}{% assign notes_moods = notes_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_notes %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign notes_moods = notes_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
       {% assign ongoing_moods = "" %}
-      {% for p in all_ongoing %}{% if p.mood %}{% for m in p.mood %}{% unless ongoing_moods contains m %}{% assign ongoing_moods = ongoing_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_ongoing %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign ongoing_moods = ongoing_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
       {% assign ref_moods = "" %}
-      {% for p in all_ref %}{% if p.mood %}{% for m in p.mood %}{% unless ref_moods contains m %}{% assign ref_moods = ref_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_ref %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign ref_moods = ref_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
       {% assign writings_moods = "" %}
-      {% for p in all_writings %}{% if p.mood %}{% for m in p.mood %}{% unless writings_moods contains m %}{% assign writings_moods = writings_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_writings %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign writings_moods = writings_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
 
       <a class="card light" id="card-notes" data-moods="{{ notes_moods }}" style="top: 30px; left: 48%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
@@ -847,7 +852,7 @@
       var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       c.setAttribute('cx', p.x);
       c.setAttribute('cy', p.y);
-      c.setAttribute('r', 2.4);
+      c.setAttribute('r', 2.2);
       if (color) c.setAttribute('fill', color);
       svg.appendChild(c);
     }
@@ -855,13 +860,30 @@
     function pinOf(el, grid) {
       var r = el.getBoundingClientRect();
       var g = grid.getBoundingClientRect();
-      // connect from the centre of the card/illustration
       return { x: r.left - g.left + r.width / 2, y: r.top - g.top + r.height / 2 };
     }
 
-    function moodsOf(el) {
+    // returns { mood: count } for a card
+    function moodCounts(el) {
       var raw = (el.getAttribute('data-moods') || '').trim();
-      return raw.split(',').map(function(s){ return s.trim(); }).filter(Boolean);
+      var counts = {};
+      raw.split(',').map(function(s){ return s.trim(); }).filter(Boolean)
+         .forEach(function(m){ counts[m] = (counts[m] || 0) + 1; });
+      return counts;
+    }
+
+    function curve(svg, a, b, color, offset) {
+      var dist = Math.hypot(b.x - a.x, b.y - a.y);
+      var sag = Math.min(80, dist * 0.14) + offset;
+      var c1x = a.x + (b.x - a.x) * 0.33;
+      var c1y = a.y + (b.y - a.y) * 0.33 + sag;
+      var c2x = a.x + (b.x - a.x) * 0.66;
+      var c2y = a.y + (b.y - a.y) * 0.66 + sag;
+      var d = 'M ' + a.x + ' ' + a.y + ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + b.x + ' ' + b.y;
+      var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', d);
+      path.setAttribute('stroke', color);
+      svg.appendChild(path);
     }
 
     function drawStrings() {
@@ -874,37 +896,33 @@
         .map(function(id){ return document.getElementById(id); })
         .filter(Boolean);
 
-      // connect every pair of cards that share at least one mood;
-      // one string per shared mood, coloured by that mood
+      var data = cards.map(function(c){
+        return { el: c, pin: pinOf(c, grid), counts: moodCounts(c) };
+      });
+
       var usedPins = {};
-      for (var i = 0; i < cards.length; i++) {
-        for (var j = i + 1; j < cards.length; j++) {
-          var a = cards[i], b = cards[j];
-          var ma = moodsOf(a), mb = moodsOf(b);
-          var shared = ma.filter(function(m){ return mb.indexOf(m) !== -1; });
-          if (shared.length === 0) continue;
+      var MOODS = ['proud', 'raw', 'spill', 'unsure'];
 
-          var pa = pinOf(a, grid), pb = pinOf(b, grid);
-          usedPins[a.id] = pa; usedPins[b.id] = pb;
-
-          shared.forEach(function(mood, k) {
-            var color = MOOD_COLORS[mood] || 'rgba(248,200,214,0.5)';
-            var dist = Math.hypot(pb.x - pa.x, pb.y - pa.y);
-            var sag = Math.min(90, dist * 0.16) + k * 18;  // offset stacked strings
-            var c1x = pa.x + (pb.x - pa.x) * 0.33;
-            var c1y = pa.y + (pb.y - pa.y) * 0.33 + sag;
-            var c2x = pa.x + (pb.x - pa.x) * 0.66;
-            var c2y = pa.y + (pb.y - pa.y) * 0.66 + sag;
-            var d = 'M ' + pa.x + ' ' + pa.y +
-                    ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + pb.x + ' ' + pb.y;
-            var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-            path.setAttribute('d', d);
-            path.setAttribute('stroke', color);
-            svg.appendChild(path);
-          });
+      MOODS.forEach(function(mood) {
+        var color = MOOD_COLORS[mood];
+        // every pair of categories that BOTH have this mood gets tied together
+        for (var i = 0; i < data.length; i++) {
+          for (var j = i + 1; j < data.length; j++) {
+            var ca = data[i].counts[mood] || 0;
+            var cb = data[j].counts[mood] || 0;
+            if (ca === 0 || cb === 0) continue;
+            // number of strands = how many posts they share this mood through (min of the two)
+            var strands = Math.min(ca, cb);
+            strands = Math.min(strands, 4); // cap so it doesn't get too dense
+            for (var s = 0; s < strands; s++) {
+              curve(svg, data[i].pin, data[j].pin, color, s * 14);
+            }
+            usedPins[data[i].el.id] = data[i].pin;
+            usedPins[data[j].el.id] = data[j].pin;
+          }
         }
-      }
-      // knots at each connected pin
+      });
+
       Object.keys(usedPins).forEach(function(id){ knot(svg, usedPins[id]); });
     }
 
