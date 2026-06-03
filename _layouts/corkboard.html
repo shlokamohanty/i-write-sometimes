@@ -13,13 +13,13 @@
       font-family: 'JuliaMono';
       font-weight: 400;
       font-display: swap;
-      src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2") format("woff2");
+      src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono@0.062/webfonts/JuliaMono-Regular.woff2") format("woff2");
     }
     @font-face {
       font-family: 'JuliaMono';
       font-weight: 700;
       font-display: swap;
-      src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Bold.woff2") format("woff2");
+      src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono@0.062/webfonts/JuliaMono-Bold.woff2") format("woff2");
     }
   </style>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
@@ -192,9 +192,27 @@
       position: relative;
       width: 1200px;
       min-width: 1200px;
-      margin: -300px auto 0;
-      height: 760px;
+      margin: -280px auto 0;
+      height: 720px;
     }
+
+    .string-layer {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+      overflow: visible;
+    }
+    .string-layer path {
+      fill: none;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+    }
+    /* alternating baby pink + white strings — kept faint so text stays clear */
+    .string-layer path:nth-child(odd)  { stroke: rgba(248,200,214,0.3); }  /* baby pink */
+    .string-layer path:nth-child(even) { stroke: rgba(255,255,255,0.22); }  /* soft white */
 
     /* ── CARDS ── */
     .card {
@@ -226,10 +244,14 @@
       position: absolute;
       z-index: 2;
       text-align: center;
-      width: 50%;
+      width: 54%;
       left: 59%;
       top: 45%;
       transform: translate(-50%, -50%);
+      background: rgba(255,255,255,0.45);
+      padding: .6rem .7rem;
+      border-radius: 3px;
+      backdrop-filter: blur(1px);
     }
 
     .card[data-paint="spiral"] .card-content {
@@ -242,8 +264,7 @@
       font-family: var(--serif);
       font-size: .62rem;
       font-weight: 700;
-      letter-spacing: .1em;
-      text-transform: uppercase;
+      letter-spacing: .08em;
       color: rgba(20,12,6,0.85);
       margin-bottom: .5rem;
     }
@@ -400,15 +421,27 @@
 
     .section-post-tag {
       font-family: var(--mono);
-      font-size: .58rem;
+      font-size: .6rem;
       letter-spacing: .08em;
       text-transform: uppercase;
-      color: rgba(232,160,176,0.7);
-      border: 1px solid rgba(232,160,176,0.25);
+      color: #90897c;
+      border: 1px solid #35302a;
       border-radius: 2px;
-      padding: .1rem .4rem;
+      padding: .15rem .45rem;
       flex-shrink: 0;
       align-self: center;
+      white-space: nowrap;
+    }
+    /* push the first badge in a row to the right; subsequent badges sit beside it */
+    .section-post-tag:first-of-type { margin-left: auto; }
+    .section-post-tag + .section-post-tag { margin-left: .4rem; }
+    /* mood badges get a faint pink accent */
+    .section-post-tag.mood-proud,
+    .section-post-tag.mood-raw,
+    .section-post-tag.mood-spill,
+    .section-post-tag.mood-unsure {
+      color: rgba(232,160,176,0.8);
+      border-color: rgba(232,160,176,0.3);
     }
 
     .subtag-group { margin-bottom: 1.75rem; }
@@ -497,6 +530,7 @@
     </div>
 
     <div class="card-grid">
+      <svg class="string-layer" id="string-layer" aria-hidden="true"></svg>
 
       {% assign _n1 = site.posts | where_exp: "p", "p.tags contains 'notes'" %}
       {% assign _n2 = site.posts | where_exp: "p", "p.tags contains 'personal'" %}
@@ -517,7 +551,7 @@
 
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      <a class="card light" id="card-notes" style="top: 20px; left: 50%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
+      <a class="card light" id="card-notes" style="top: 30px; left: 48%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">notes</div>
@@ -527,7 +561,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-ongoing" style="top: 280px; left: 70%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
+      <a class="card light" id="card-ongoing" style="top: 250px; left: 66%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
@@ -537,7 +571,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-reflections" style="top: 430px; left: 12%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
+      <a class="card light" id="card-reflections" style="top: 420px; left: 20%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_53.png' | relative_url }}'); min-height: 380px">
           <div class="card-content">
             <div class="card-category">past reflections</div>
@@ -547,7 +581,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-writings" style="top: 470px; left: 44%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
+      <a class="card light" id="card-writings" style="top: 450px; left: 46%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">finished writings</div>
@@ -557,21 +591,21 @@
         </div>
       </a>
 
-      <div class="card pinned-img photo-card" style="top: 470px; left: 78%; transform: rotate(-2.2deg); z-index: 5">
+      <div class="card pinned-img photo-card" style="top: 440px; left: 72%; transform: rotate(-2.2deg); z-index: 5">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
         </div>
       </div>
 
-      <div class="card pinned-img photo-card" id="photo-1510" style="top: 30px; left: 88%; transform: rotate(3.2deg); z-index: 4">
+      <div class="card pinned-img photo-card" id="photo-1510" style="top: 20px; left: 82%; transform: rotate(3.2deg); z-index: 4">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/IMG_1510.jpg' | relative_url }}" alt="illustration" />
         </div>
       </div>
 
-      <div class="card pinned-img photo-card" id="photo-1549" style="top: 450px; left: 2%; transform: rotate(-3deg); z-index: 4">
+      <div class="card pinned-img photo-card" id="photo-1549" style="top: 430px; left: 6%; transform: rotate(-3deg); z-index: 4">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/IMG_1549.jpg' | relative_url }}" alt="illustration" />
@@ -596,35 +630,35 @@
       {% if personal_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if practice_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">practice</div>
         <ul class="section-post-list">{% for post in practice_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if academic_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">academic</div>
         <ul class="section-post-list">{% for post in academic_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if interests_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">interests</div>
         <ul class="section-post-list">{% for post in interests_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_notes_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">notes</div>
         <ul class="section-post-list">{% for post in general_notes_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -643,21 +677,21 @@
       {% if personal_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if work_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">work</div>
         <ul class="section-post-list">{% for post in work_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">general</div>
         <ul class="section-post-list">{% for post in general_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -676,21 +710,21 @@
       {% if personal_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if work_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">work</div>
         <ul class="section-post-list">{% for post in work_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">general</div>
         <ul class="section-post-list">{% for post in general_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div></a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -711,33 +745,33 @@
       {% if proud_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">proud of these</div>
         <ul class="section-post-list">{% for post in proud_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if raw_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">published anyway — too vulnerable</div>
         <ul class="section-post-list">{% for post in raw_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if spill_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">spill — unfiltered, hurried</div>
         <ul class="section-post-list">{% for post in spill_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if unsure_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">not proud of but it exists</div>
         <ul class="section-post-list">{% for post in unsure_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% for post in all_writings %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-      <ul class="section-post-list"><li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li></ul>
+      <ul class="section-post-list"><li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li></ul>
       {% endunless %}{% endfor %}
 
       {% if all_writings.size == 0 %}<p style="font-family:var(--mono);font-size:.7rem;color:rgba(240,235,225,0.3);padding:.6rem 0">nothing here yet</p>{% endif %}
@@ -774,6 +808,52 @@
     document.getElementById('home-link').addEventListener('click', handleHomeClick);
     var homeNav = document.getElementById('home-nav');
     if (homeNav) homeNav.addEventListener('click', handleHomeClick);
+
+    // ── corkboard strings between pinned cards ──
+    function pinPoint(el, grid) {
+      if (!el) return null;
+      var r = el.getBoundingClientRect();
+      var g = grid.getBoundingClientRect();
+      // pin sits at top-center of each card
+      return {
+        x: r.left - g.left + r.width / 2,
+        y: r.top - g.top + 8
+      };
+    }
+
+    function drawStrings() {
+      var grid = document.querySelector('.card-grid');
+      var svg = document.getElementById('string-layer');
+      if (!grid || !svg) return;
+      svg.innerHTML = '';
+
+      var hub = document.getElementById('card-notes');
+      var targets = ['card-ongoing', 'card-reflections', 'card-writings', 'photo-1510', 'photo-1549']
+        .map(function(id){ return document.getElementById(id); });
+
+      var start = pinPoint(hub, grid);
+      if (!start) return;
+
+      targets.forEach(function(t) {
+        var end = pinPoint(t, grid);
+        if (!end) return;
+        // control point sags below the midpoint, like a hanging string
+        var mx = (start.x + end.x) / 2;
+        var my = (start.y + end.y) / 2;
+        var dist = Math.hypot(end.x - start.x, end.y - start.y);
+        var sag = Math.min(60, dist * 0.12);
+        var d = 'M ' + start.x + ' ' + start.y +
+                ' Q ' + mx + ' ' + (my + sag) + ' ' + end.x + ' ' + end.y;
+        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', d);
+        svg.appendChild(path);
+      });
+    }
+
+    window.addEventListener('load', drawStrings);
+    window.addEventListener('resize', drawStrings);
+    // redraw once fonts/images settle
+    setTimeout(drawStrings, 400);
   </script>
 
 </body>
