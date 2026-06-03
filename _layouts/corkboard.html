@@ -487,28 +487,28 @@
     /* ── MOBILE ── */
     @media (max-width: 768px) {
       .card-grid {
-        height: 1500px;
+        height: 1850px;
         width: 100%;
         min-width: 0;
         margin: 1.5rem 0 0;
       }
-      .card { width: 215px; }
+      .card { width: 200px; }
       .card-paper {
-        width: 215px !important;
-        min-height: 155px !important;
+        width: 200px !important;
+        min-height: 145px !important;
         background-size: 100% 100% !important;
       }
-      .card-content { width: 62% !important; }
-      /* gentle scatter, vertical flow, no overlap */
-      #card-notes       { top: 20px;   left: 6%;   z-index: 4; }
-      #photo-1510       { top: 40px !important;  left: 64% !important; }
-      #card-ongoing     { top: 300px;  left: 30%;  z-index: 3; }
-      #card-reflections { top: 560px;  left: 8%;   z-index: 2; }
-      #photo-1549       { top: 600px !important;  left: 66% !important; }
-      #card-writings    { top: 900px;  left: 26%;  z-index: 3; }
-      .card.pinned-img:not([id]) { top: 1180px !important; left: 14% !important; }
-      .card.photo-card { width: 95px; }
-      .card-paper-photo { width: 95px !important; }
+      .card-content { width: 64% !important; }
+      /* each card on its own vertical band, alternating sides, no overlap */
+      #card-notes       { top: 40px;    left: 8%;   z-index: 4; }
+      #photo-1510       { top: 70px !important;    right: 8% !important; left: auto !important; }
+      #card-ongoing     { top: 380px;   left: 38%;  z-index: 3; }
+      #card-reflections { top: 720px;   left: 8%;   z-index: 2; }
+      #photo-1549       { top: 760px !important;   right: 10% !important; left: auto !important; }
+      #card-writings    { top: 1080px;  left: 34%;  z-index: 3; }
+      .card.pinned-img:not([id]) { top: 1440px !important; left: 12% !important; }
+      .card.photo-card { width: 90px; }
+      .card-paper-photo { width: 90px !important; }
       .site-header { padding: 1rem 1.25rem; }
 
       /* section pages: stack badges below the text so they don't collide */
