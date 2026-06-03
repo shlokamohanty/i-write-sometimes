@@ -190,10 +190,10 @@
     /* ── CARD GRID ── */
     .card-grid {
       position: relative;
-      width: 1200px;
-      min-width: 1200px;
+      width: 1400px;
+      min-width: 1400px;
       margin: -280px auto 0;
-      height: 720px;
+      height: 760px;
     }
 
     .string-layer {
@@ -207,17 +207,42 @@
     }
     .string-layer path {
       fill: none;
-      stroke-width: 1.6;
+      stroke-width: 1.5;
       stroke-linecap: round;
       filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35));
     }
-    /* alternating baby pink + white strings — kept faint so text stays clear */
-    .string-layer path:nth-child(odd)  { stroke: rgba(248,200,214,0.4); }  /* baby pink */
-    .string-layer path:nth-child(even) { stroke: rgba(255,255,255,0.3); }  /* soft white */
-    /* tiny knots where string ties to a pin */
-    .string-layer circle {
-      fill: rgba(248,200,214,0.5);
+
+    /* mood pins — small pinned tabs for each mood-tagged writing */
+    .mood-pin {
+      position: absolute;
+      z-index: 6;
+      display: flex;
+      align-items: center;
+      gap: .35rem;
+      text-decoration: none;
+      max-width: 150px;
     }
+    .mood-pin-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: rgba(248,200,214,0.9);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      flex-shrink: 0;
+    }
+    .mood-pin-label {
+      font-family: var(--serif);
+      font-size: .58rem;
+      color: rgba(240,235,225,0.55);
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 130px;
+      transition: color .15s;
+    }
+    .mood-pin:hover .mood-pin-label { color: #f0ebe1; }
+    .mood-pin:hover .mood-pin-dot { background: #f0b8c4; }
 
     /* ── CARDS ── */
     .card {
@@ -617,6 +642,19 @@
         </div>
       </div>
 
+      {% comment %} mood pins: each writing with a mood gets a small pinned tab; same-mood pins get tied with string {% endcomment %}
+      {% assign mood_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood" %}
+      {% for post in mood_writings %}
+      <a class="mood-pin"
+         href="{{ post.url | relative_url }}"
+         data-moods="{% for m in post.mood %}{{ m }} {% endfor %}"
+         style="top: {{ forloop.index0 | modulo: 5 | times: 52 | plus: 540 }}px; left: {{ forloop.index0 | divided_by: 5 | times: 130 | plus: 760 }}px;"
+         title="{{ post.title }}">
+        <span class="mood-pin-dot"></span>
+        <span class="mood-pin-label">{{ post.title }}</span>
+      </a>
+      {% endfor %}
+
     </div>
   </div>
 
@@ -826,12 +864,31 @@
       };
     }
 
-    function knot(svg, p) {
-      var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-      c.setAttribute('cx', p.x);
-      c.setAttribute('cy', p.y);
-      c.setAttribute('r', 2.2);
-      svg.appendChild(c);
+    // each mood gets its own string colour
+    var MOOD_COLORS = {
+      proud:  'rgba(248,200,214,0.55)',   // baby pink
+      raw:    'rgba(255,255,255,0.4)',     // soft white
+      spill:  'rgba(232,180,210,0.5)',     // pink-lilac
+      unsure: 'rgba(255,228,236,0.45)'     // pale blush
+    };
+
+    function dotCenter(el, grid) {
+      var dot = el.querySelector('.mood-pin-dot') || el;
+      var r = dot.getBoundingClientRect();
+      var g = grid.getBoundingClientRect();
+      return { x: r.left - g.left + r.width / 2, y: r.top - g.top + r.height / 2 };
+    }
+
+    function curve(svg, a, b, color) {
+      var dist = Math.hypot(b.x - a.x, b.y - a.y);
+      var sag = Math.min(70, dist * 0.16);
+      var c1x = a.x + (b.x - a.x) * 0.33, c1y = a.y + (b.y - a.y) * 0.33 + sag;
+      var c2x = a.x + (b.x - a.x) * 0.66, c2y = a.y + (b.y - a.y) * 0.66 + sag;
+      var d = 'M ' + a.x + ' ' + a.y + ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + b.x + ' ' + b.y;
+      var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', d);
+      path.setAttribute('stroke', color);
+      svg.appendChild(path);
     }
 
     function drawStrings() {
@@ -840,34 +897,30 @@
       if (!grid || !svg) return;
       svg.innerHTML = '';
 
-      var hub = document.getElementById('card-notes');
-      var targets = ['card-ongoing', 'card-reflections', 'card-writings', 'photo-1510', 'photo-1549']
-        .map(function(id){ return document.getElementById(id); });
+      var pins = Array.prototype.slice.call(document.querySelectorAll('.mood-pin'));
+      if (pins.length < 2) return;
 
-      var start = pinPoint(hub, grid);
-      if (!start) return;
-
-      targets.forEach(function(t) {
-        var end = pinPoint(t, grid);
-        if (!end) return;
-        var dist = Math.hypot(end.x - start.x, end.y - start.y);
-        // gravity-style sag: string dips between the two pins
-        var sag = Math.min(90, dist * 0.18);
-        // two control points for a soft catenary-like droop
-        var c1x = start.x + (end.x - start.x) * 0.33;
-        var c1y = start.y + (end.y - start.y) * 0.33 + sag;
-        var c2x = start.x + (end.x - start.x) * 0.66;
-        var c2y = start.y + (end.y - start.y) * 0.66 + sag;
-        var d = 'M ' + start.x + ' ' + start.y +
-                ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + end.x + ' ' + end.y;
-        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-        path.setAttribute('d', d);
-        svg.appendChild(path);
-        // knot at the far pin
-        knot(svg, end);
+      // group pins by each mood they carry
+      var byMood = {};
+      pins.forEach(function(pin) {
+        var moods = (pin.getAttribute('data-moods') || '').trim().split(/\s+/);
+        moods.forEach(function(m) {
+          if (!m) return;
+          (byMood[m] = byMood[m] || []).push(pin);
+        });
       });
-      // knot at the hub pin
-      knot(svg, start);
+
+      // for each mood, tie its pins together in a chain
+      Object.keys(byMood).forEach(function(mood) {
+        var group = byMood[mood];
+        if (group.length < 2) return;
+        var color = MOOD_COLORS[mood] || 'rgba(248,200,214,0.5)';
+        for (var i = 0; i < group.length - 1; i++) {
+          var a = dotCenter(group[i], grid);
+          var b = dotCenter(group[i + 1], grid);
+          curve(svg, a, b, color);
+        }
+      });
     }
 
     window.addEventListener('load', drawStrings);
