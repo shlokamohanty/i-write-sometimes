@@ -7,14 +7,28 @@
   <meta name="description" content="{{ site.description }}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+    @font-face {
+      font-family: 'JuliaMono';
+      font-weight: 400;
+      font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: 'JuliaMono';
+      font-weight: 700;
+      font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Bold.woff2") format("woff2");
+    }
+  </style>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
       --mono: 'Space Mono', monospace;
-      --serif: 'Noto Serif', serif;
+      --serif: 'JuliaMono', 'Space Mono', monospace;
       --text-light: #f0ebe1;
     }
 
@@ -33,7 +47,7 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.55;
+      opacity: 0.45;
       z-index: 0;
       pointer-events: none;
     }
@@ -59,11 +73,12 @@
       position: fixed;
       top: 0;
       bottom: 0;
-      width: 130px;
+      width: 160px;
       background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
       background-size: auto 100%;
       background-repeat: no-repeat;
-      opacity: 0.18;
+      background-position: center center;
+      opacity: 0.09;
       pointer-events: none;
       z-index: 5;
     }
@@ -71,9 +86,9 @@
     .side-right { right: 0; background-position: left center; }
 
     @media (max-width: 1300px) {
-      .side-illustration { width: 70px; opacity: 0.08; }
+      .side-illustration { width: 80px; opacity: 0.06; }
     }
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       .side-illustration { display: none; }
     }
 
@@ -155,6 +170,23 @@
       padding-left: .25rem;
     }
 
+    .board-intro {
+      max-width: 620px;
+      margin: 0 0 2.5rem;
+      padding-left: .25rem;
+      position: relative;
+      z-index: 2;
+    }
+    .board-intro p {
+      font-family: var(--serif);
+      font-size: .92rem;
+      line-height: 1.7;
+      color: #f0ebe1;
+      margin-bottom: 1rem;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.6);
+    }
+    .board-intro p:last-child { margin-bottom: 0; }
+
     /* ── CARD GRID ── */
     .card-grid {
       position: relative;
@@ -212,7 +244,7 @@
       font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
-      color: rgba(42,31,21,0.55);
+      color: rgba(20,12,6,0.85);
       margin-bottom: .5rem;
     }
 
@@ -221,13 +253,13 @@
       font-size: .78rem;
       font-weight: 700;
       line-height: 1.6;
-      color: #1a0f08;
+      color: #0d0703;
     }
 
     .card-count {
       font-family: var(--serif);
       font-size: .9rem;
-      color: rgba(42,31,21,0.5);
+      color: rgba(26,15,8,0.78);
       margin-top: .5rem;
     }
 
@@ -258,7 +290,7 @@
       inset: 0;
       z-index: 100;
       overflow-y: auto;
-      background-color: #2a211a;
+      background-color: #18140f;
       padding: 2rem 2.5rem 4rem;
     }
 
@@ -269,7 +301,7 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.75;
+      opacity: 0.15;
       z-index: 0;
       pointer-events: none;
     }
@@ -340,7 +372,7 @@
     .section-post-date {
       font-family: var(--mono);
       font-size: .62rem;
-      color: rgba(240,235,225,0.4);
+      color: #90897c;
       min-width: 90px;
       flex-shrink: 0;
       padding-top: 2px;
@@ -362,7 +394,7 @@
     .section-post-subtitle {
       font-family: var(--serif);
       font-size: .75rem;
-      color: rgba(240,235,225,0.45);
+      color: #90897c;
       margin-top: .15rem;
     }
 
@@ -386,8 +418,8 @@
       font-size: .58rem;
       letter-spacing: .12em;
       text-transform: uppercase;
-      color: rgba(240,235,225,0.3);
-      border-left: 1.5px solid rgba(240,235,225,0.15);
+      color: #90897c;
+      border-left: 1.5px solid rgba(144,137,124,0.3);
       padding-left: .5rem;
       margin-bottom: .5rem;
     }
@@ -458,6 +490,12 @@
   <!-- CORKBOARD -->
   <div class="board" id="board">
     <div class="board-title">{{ site.description }}</div>
+
+    <div class="board-intro">
+      <p>if you've stumbled upon this here, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world, and thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
+      <p>most of my thoughts are mundane, not fresh. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many others, only sometimes.</p>
+    </div>
+
     <div class="card-grid">
 
       {% assign _n1 = site.posts | where_exp: "p", "p.tags contains 'notes'" %}
@@ -523,6 +561,20 @@
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
+        </div>
+      </div>
+
+      <div class="card pinned-img photo-card" id="photo-1510" style="top: 70px; left: 70%; transform: rotate(3.2deg); z-index: 4">
+        <div class="card-paper-photo">
+          <div class="pin"></div>
+          <img class="board-photo" src="{{ '/IMG_1510.jpg' | relative_url }}" alt="illustration" />
+        </div>
+      </div>
+
+      <div class="card pinned-img photo-card" id="photo-1549" style="top: 380px; left: 4%; transform: rotate(-3deg); z-index: 4">
+        <div class="card-paper-photo">
+          <div class="pin"></div>
+          <img class="board-photo" src="{{ '/IMG_1549.jpg' | relative_url }}" alt="illustration" />
         </div>
       </div>
 
