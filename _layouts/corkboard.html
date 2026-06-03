@@ -131,13 +131,13 @@
       font-size: .65rem;
       letter-spacing: .1em;
       text-transform: uppercase;
-      color: rgba(240,235,225,0.55);
+      color: #90897c;
       text-decoration: none;
       transition: color .15s;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
     }
 
     .site-nav a:hover { color: var(--text-light); }
+    .site-nav a.active { color: var(--text-light); }
 
     /* ── BOARD ── */
     .board {
@@ -171,8 +171,8 @@
     }
 
     .board-intro {
-      max-width: 620px;
-      margin: 0 0 2.5rem;
+      max-width: 560px;
+      margin: 0 0 1rem;
       padding-left: .25rem;
       position: relative;
       z-index: 2;
@@ -192,7 +192,7 @@
       position: relative;
       width: 1200px;
       min-width: 1200px;
-      margin: 1rem auto 0;
+      margin: -300px auto 0;
       height: 760px;
     }
 
@@ -239,18 +239,18 @@
     }
 
     .card-category {
-      font-family: var(--mono);
-      font-size: .72rem;
+      font-family: var(--serif);
+      font-size: .62rem;
       font-weight: 700;
-      letter-spacing: .12em;
+      letter-spacing: .1em;
       text-transform: uppercase;
       color: rgba(20,12,6,0.85);
       margin-bottom: .5rem;
     }
 
     .card-title {
-      font-family: var(--mono);
-      font-size: .78rem;
+      font-family: var(--serif);
+      font-size: .72rem;
       font-weight: 700;
       line-height: 1.6;
       color: #0d0703;
@@ -258,21 +258,21 @@
 
     .card-count {
       font-family: var(--serif);
-      font-size: .9rem;
+      font-size: .78rem;
       color: rgba(26,15,8,0.78);
       margin-top: .5rem;
     }
 
-    /* photo cards */
-    .card.photo-card { flex: 0 0 130px; width: 130px; }
-    .card-paper-photo { width: 130px; height: 160px; position: relative; }
+    /* photo cards — keep each image's natural proportions */
+    .card.photo-card { width: 150px; }
+    .card-paper-photo { width: 150px; position: relative; }
     .card.photo-card img.board-photo {
-      width: 100%; height: 100%;
-      object-fit: cover; display: block;
-      filter: brightness(0.88);
+      width: 100%; height: auto;
+      display: block;
+      filter: brightness(0.92);
       border-radius: 2px;
     }
-    .card.photo-card:hover img.board-photo { filter: brightness(1); }
+    .card.photo-card:hover img.board-photo { filter: brightness(1.05); }
     .pin {
       position: absolute; top: -6px; left: 50%;
       transform: translateX(-50%);
@@ -465,8 +465,8 @@
       #card-ongoing     { top: 130px; left: 38%; z-index: 5; }
       #card-reflections { top: 440px; left: 4%;  z-index: 3; }
       #card-writings    { top: 540px; left: 34%; z-index: 4; }
-      .card.photo-card { width: 90px; top: 720px !important; left: 20% !important; }
-      .card-paper-photo { width: 90px !important; height: 110px !important; }
+      .card.photo-card { width: 110px; top: 720px !important; left: 20% !important; }
+      .card-paper-photo { width: 110px !important; }
       .site-header { padding: 1rem 1.25rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
       .section-post-title { white-space: normal; }
@@ -482,7 +482,7 @@
   <header class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-title" id="home-link">{{ site.title }}</a>
     <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}" id="home-nav">home</a>
+      <a href="{{ '/' | relative_url }}" id="home-nav" class="active">home</a>
       <a href="{{ '/archive.html' | relative_url }}">archive</a>
     </nav>
   </header>
@@ -492,8 +492,8 @@
     <div class="board-title">{{ site.description }}</div>
 
     <div class="board-intro">
-      <p>if you've stumbled upon this here, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world, and thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
-      <p>most of my thoughts are mundane, not fresh. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many others, only sometimes.</p>
+      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world —thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
+      <p>most of my thoughts are rather mundane. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many other things, only sometimes.</p>
     </div>
 
     <div class="card-grid">
@@ -517,7 +517,7 @@
 
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      <a class="card light" id="card-notes" style="top: 20px; left: 14%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
+      <a class="card light" id="card-notes" style="top: 20px; left: 50%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">notes</div>
@@ -527,7 +527,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-ongoing" style="top: 50px; left: 42%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
+      <a class="card light" id="card-ongoing" style="top: 280px; left: 70%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
@@ -537,7 +537,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-reflections" style="top: 360px; left: 22%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
+      <a class="card light" id="card-reflections" style="top: 430px; left: 12%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_53.png' | relative_url }}'); min-height: 380px">
           <div class="card-content">
             <div class="card-category">past reflections</div>
@@ -547,7 +547,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-writings" style="top: 400px; left: 50%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
+      <a class="card light" id="card-writings" style="top: 470px; left: 44%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">finished writings</div>
@@ -557,21 +557,21 @@
         </div>
       </a>
 
-      <div class="card pinned-img photo-card" style="top: 420px; left: 78%; transform: rotate(-2.2deg); z-index: 5">
+      <div class="card pinned-img photo-card" style="top: 470px; left: 78%; transform: rotate(-2.2deg); z-index: 5">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
         </div>
       </div>
 
-      <div class="card pinned-img photo-card" id="photo-1510" style="top: 70px; left: 70%; transform: rotate(3.2deg); z-index: 4">
+      <div class="card pinned-img photo-card" id="photo-1510" style="top: 30px; left: 88%; transform: rotate(3.2deg); z-index: 4">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/IMG_1510.jpg' | relative_url }}" alt="illustration" />
         </div>
       </div>
 
-      <div class="card pinned-img photo-card" id="photo-1549" style="top: 380px; left: 4%; transform: rotate(-3deg); z-index: 4">
+      <div class="card pinned-img photo-card" id="photo-1549" style="top: 450px; left: 2%; transform: rotate(-3deg); z-index: 4">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/IMG_1549.jpg' | relative_url }}" alt="illustration" />
