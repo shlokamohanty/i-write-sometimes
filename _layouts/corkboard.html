@@ -205,19 +205,18 @@
       z-index: 1;
       overflow: visible;
     }
+    /* cards/illustrations sit above the strings */
+    .card { z-index: 3; }
+    .card.photo-card { z-index: 4; }
     .string-layer path {
       fill: none;
       stroke-width: 1.6;
       stroke-linecap: round;
       filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35));
     }
-    /* alternating baby pink + white strings — kept faint so text stays clear */
-    .string-layer path:nth-child(odd)  { stroke: rgba(248,200,214,0.4); }  /* baby pink */
-    .string-layer path:nth-child(even) { stroke: rgba(255,255,255,0.3); }  /* soft white */
-    /* tiny knots where string ties to a pin */
-    .string-layer circle {
-      fill: rgba(248,200,214,0.5);
-    }
+    .string-layer path:nth-child(odd)  { stroke: rgba(248,200,214,0.4); }
+    .string-layer path:nth-child(even) { stroke: rgba(255,255,255,0.3); }
+    .string-layer circle { fill: rgba(248,200,214,0.5); }
 
     /* ── CARDS ── */
     .card {
@@ -530,7 +529,7 @@
     <div class="board-title">{{ site.description }}</div>
 
     <div class="board-intro">
-      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world —thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
+      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world — thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
       <p>most of my thoughts are rather mundane. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many other things, only sometimes.</p>
     </div>
 
@@ -556,7 +555,17 @@
 
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      <a class="card light" id="card-notes" style="top: 30px; left: 48%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
+      {% comment %} collect distinct moods present in each category {% endcomment %}
+      {% assign notes_moods = "" %}
+      {% for p in all_notes %}{% if p.mood %}{% for m in p.mood %}{% unless notes_moods contains m %}{% assign notes_moods = notes_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% assign ongoing_moods = "" %}
+      {% for p in all_ongoing %}{% if p.mood %}{% for m in p.mood %}{% unless ongoing_moods contains m %}{% assign ongoing_moods = ongoing_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% assign ref_moods = "" %}
+      {% for p in all_ref %}{% if p.mood %}{% for m in p.mood %}{% unless ref_moods contains m %}{% assign ref_moods = ref_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% assign writings_moods = "" %}
+      {% for p in all_writings %}{% if p.mood %}{% for m in p.mood %}{% unless writings_moods contains m %}{% assign writings_moods = writings_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+
+      <a class="card light" id="card-notes" data-moods="{{ notes_moods }}" style="top: 30px; left: 48%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">notes</div>
@@ -566,7 +575,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-ongoing" style="top: 250px; left: 66%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
+      <a class="card light" id="card-ongoing" data-moods="{{ ongoing_moods }}" style="top: 250px; left: 66%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
@@ -576,7 +585,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-reflections" style="top: 420px; left: 20%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
+      <a class="card light" id="card-reflections" data-moods="{{ ref_moods }}" style="top: 420px; left: 20%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_53.png' | relative_url }}'); min-height: 380px">
           <div class="card-content">
             <div class="card-category">past reflections</div>
@@ -586,7 +595,7 @@
         </div>
       </a>
 
-      <a class="card light" id="card-writings" style="top: 450px; left: 46%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
+      <a class="card light" id="card-writings" data-moods="{{ writings_moods }}" style="top: 450px; left: 46%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">finished writings</div>
@@ -616,6 +625,7 @@
           <img class="board-photo" src="{{ '/IMG_1549.jpg' | relative_url }}" alt="illustration" />
         </div>
       </div>
+
 
     </div>
   </div>
@@ -826,12 +836,32 @@
       };
     }
 
-    function knot(svg, p) {
+    var MOOD_COLORS = {
+      proud:  'rgba(248,200,214,0.5)',
+      raw:    'rgba(255,255,255,0.38)',
+      spill:  'rgba(232,180,210,0.48)',
+      unsure: 'rgba(255,228,236,0.42)'
+    };
+
+    function knot(svg, p, color) {
       var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       c.setAttribute('cx', p.x);
       c.setAttribute('cy', p.y);
-      c.setAttribute('r', 2.2);
+      c.setAttribute('r', 2.4);
+      if (color) c.setAttribute('fill', color);
       svg.appendChild(c);
+    }
+
+    function pinOf(el, grid) {
+      var r = el.getBoundingClientRect();
+      var g = grid.getBoundingClientRect();
+      // connect from the centre of the card/illustration
+      return { x: r.left - g.left + r.width / 2, y: r.top - g.top + r.height / 2 };
+    }
+
+    function moodsOf(el) {
+      var raw = (el.getAttribute('data-moods') || '').trim();
+      return raw.split(',').map(function(s){ return s.trim(); }).filter(Boolean);
     }
 
     function drawStrings() {
@@ -840,34 +870,42 @@
       if (!grid || !svg) return;
       svg.innerHTML = '';
 
-      var hub = document.getElementById('card-notes');
-      var targets = ['card-ongoing', 'card-reflections', 'card-writings', 'photo-1510', 'photo-1549']
-        .map(function(id){ return document.getElementById(id); });
+      var cards = ['card-notes', 'card-ongoing', 'card-reflections', 'card-writings']
+        .map(function(id){ return document.getElementById(id); })
+        .filter(Boolean);
 
-      var start = pinPoint(hub, grid);
-      if (!start) return;
+      // connect every pair of cards that share at least one mood;
+      // one string per shared mood, coloured by that mood
+      var usedPins = {};
+      for (var i = 0; i < cards.length; i++) {
+        for (var j = i + 1; j < cards.length; j++) {
+          var a = cards[i], b = cards[j];
+          var ma = moodsOf(a), mb = moodsOf(b);
+          var shared = ma.filter(function(m){ return mb.indexOf(m) !== -1; });
+          if (shared.length === 0) continue;
 
-      targets.forEach(function(t) {
-        var end = pinPoint(t, grid);
-        if (!end) return;
-        var dist = Math.hypot(end.x - start.x, end.y - start.y);
-        // gravity-style sag: string dips between the two pins
-        var sag = Math.min(90, dist * 0.18);
-        // two control points for a soft catenary-like droop
-        var c1x = start.x + (end.x - start.x) * 0.33;
-        var c1y = start.y + (end.y - start.y) * 0.33 + sag;
-        var c2x = start.x + (end.x - start.x) * 0.66;
-        var c2y = start.y + (end.y - start.y) * 0.66 + sag;
-        var d = 'M ' + start.x + ' ' + start.y +
-                ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + end.x + ' ' + end.y;
-        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-        path.setAttribute('d', d);
-        svg.appendChild(path);
-        // knot at the far pin
-        knot(svg, end);
-      });
-      // knot at the hub pin
-      knot(svg, start);
+          var pa = pinOf(a, grid), pb = pinOf(b, grid);
+          usedPins[a.id] = pa; usedPins[b.id] = pb;
+
+          shared.forEach(function(mood, k) {
+            var color = MOOD_COLORS[mood] || 'rgba(248,200,214,0.5)';
+            var dist = Math.hypot(pb.x - pa.x, pb.y - pa.y);
+            var sag = Math.min(90, dist * 0.16) + k * 18;  // offset stacked strings
+            var c1x = pa.x + (pb.x - pa.x) * 0.33;
+            var c1y = pa.y + (pb.y - pa.y) * 0.33 + sag;
+            var c2x = pa.x + (pb.x - pa.x) * 0.66;
+            var c2y = pa.y + (pb.y - pa.y) * 0.66 + sag;
+            var d = 'M ' + pa.x + ' ' + pa.y +
+                    ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + pb.x + ' ' + pb.y;
+            var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            path.setAttribute('d', d);
+            path.setAttribute('stroke', color);
+            svg.appendChild(path);
+          });
+        }
+      }
+      // knots at each connected pin
+      Object.keys(usedPins).forEach(function(id){ knot(svg, usedPins[id]); });
     }
 
     window.addEventListener('load', drawStrings);
