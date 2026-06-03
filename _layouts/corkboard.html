@@ -40,7 +40,7 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.35;
+      opacity: 0.75;
       z-index: 0;
       pointer-events: none;
     }
@@ -115,8 +115,8 @@
     }
 
     .card {
-      flex: 0 0 360px;
-      width: 360px;
+      flex: 0 0 420px;
+      width: 420px;
     }
 
     /* ── CARD ── */
@@ -135,13 +135,14 @@
     }
 
     .card-paper {
-      width: 360px;
-      height: 360px;
+      width: 420px;
+      height: 420px;
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 1.5rem 1.5rem 1.25rem;
+      align-items: center;
+      padding: 2rem;
       overflow: hidden;
     }
 
@@ -160,6 +161,7 @@
       position: relative;
       z-index: 2;
       text-align: center;
+      max-width: 80%;
     }
 
     .card-category {
@@ -178,7 +180,7 @@
       font-weight: 700;
       line-height: 1.4;
       color: #1a0f08;
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
 
     .card-count {
@@ -187,6 +189,7 @@
       color: rgba(42,31,21,0.55);
       margin-top: .4rem;
     }
+    .card-count:empty { display: none; }
 
     /* light cards (sticky, grid paper) = dark text */
     .card.light .card-category { color: rgba(42,31,21,0.5); }
@@ -451,9 +454,33 @@
     #mc-board-p5mount { width: 100%; border-radius: 6px; overflow: hidden; border: 0.5px solid rgba(240,235,225,0.1); }
     #mc-board-p5mount canvas { display: block; width: 100% !important; }
 
-    @media (max-width: 600px) {
-      .card-grid { gap: 1.5rem 1rem; }
-      .card { flex: 0 0 160px; width: 160px; }
+    @media (max-width: 768px) {
+      .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+      }
+      .card {
+        flex: none;
+        width: 100%;
+        transform: none !important;
+      }
+      .card-paper {
+        width: 100% !important;
+        height: 180px !important;
+      }
+      .card.photo-card {
+        width: 80px !important;
+        flex: none;
+      }
+      .card.photo-card .card-paper {
+        width: 80px !important;
+        height: 95px !important;
+      }
+      .card-title { font-size: .85rem !important; }
+      .card-category { font-size: .58rem !important; }
+      .card-count { font-size: .68rem !important; }
       .site-header { padding: 1rem 1.25rem; }
       .board { padding: .5rem 1rem 4rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
@@ -546,7 +573,6 @@
           <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
           <div class="card-content">
             <div class="card-title">generate<br>something</div>
-            <div class="card-count">generate something</div>
           </div>
         </div>
       </a>
@@ -714,22 +740,47 @@
     <button class="section-back" onclick="hideSection()">← back to board</button>
     <div class="section-header"><h2>finished writings</h2></div>
     <div class="section-posts">
-      <ul class="section-post-list">
-        {% assign writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
-        {% for post in writings %}
-        <li>
-          <a href="{{ post.url | relative_url }}" class="section-post-row">
-            <span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
-            <div class="section-post-body">
-              <div class="section-post-title">{{ post.title }}</div>
-              {% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}
-            </div>
-            {% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}
-          </a>
-        </li>
-        {% endfor %}
-        {% if writings.size == 0 %}<li><span style="font-family:var(--mono);font-size:.7rem;color:rgba(240,235,225,0.3);padding:.6rem 0;display:block">nothing here yet</span></li>{% endif %}
-      </ul>
+      {% assign seen_w = "" %}
+      {% assign proud_posts   = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'proud'" %}
+      {% assign raw_posts     = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'raw'" %}
+      {% assign spill_posts   = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'spill'" %}
+      {% assign unsure_posts  = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'unsure'" %}
+      {% assign all_writings  = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
+
+      {% if proud_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">proud of these</div>
+        <ul class="section-post-list">{% for post in proud_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+        {% endunless %}{% endfor %}</ul>
+      </div>{% endif %}
+
+      {% if raw_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">published anyway — too vulnerable</div>
+        <ul class="section-post-list">{% for post in raw_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+        {% endunless %}{% endfor %}</ul>
+      </div>{% endif %}
+
+      {% if spill_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">spill — unfiltered, hurried</div>
+        <ul class="section-post-list">{% for post in spill_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+        {% endunless %}{% endfor %}</ul>
+      </div>{% endif %}
+
+      {% if unsure_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">not proud of but it exists</div>
+        <ul class="section-post-list">{% for post in unsure_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+        {% endunless %}{% endfor %}</ul>
+      </div>{% endif %}
+
+      {% comment %} writings with no mood tag {% endcomment %}
+      {% for post in all_writings %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+      <ul class="section-post-list"><li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li></ul>
+      {% endunless %}{% endfor %}
+
+      {% if all_writings.size == 0 %}<p style="font-family:var(--mono);font-size:.7rem;color:rgba(240,235,225,0.3);padding:.6rem 0">nothing here yet</p>{% endif %}
     </div>
   </div>
 
