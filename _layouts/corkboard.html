@@ -39,6 +39,9 @@
       pointer-events: none;
     }
 
+    /* lighter base so corkboard reads stronger */
+    html, body { background-color: #3a2e22; }
+
     /* faint paint texture over everything */
     body::after {
       content: '';
@@ -93,10 +96,9 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      padding: 1.25rem 2.5rem 1rem;
+      padding: 1.5rem 2.5rem 1rem;
       position: relative;
       z-index: 10;
-      border-bottom: 1px solid rgba(240,235,225,0.12);
     }
 
     .site-title {
@@ -146,17 +148,17 @@
     .card-grid {
       display: flex;
       flex-wrap: wrap;
-      gap: 2rem 3rem;
+      gap: 1.5rem 2rem;
       justify-content: center;
       align-items: center;
-      max-width: 1100px;
+      max-width: 900px;
       margin: 2rem auto 0;
     }
 
     /* ── CARDS ── */
     .card {
-      flex: 0 0 460px;
-      width: 460px;
+      flex: 0 0 400px;
+      width: 400px;
       position: relative;
       cursor: pointer;
       text-decoration: none;
@@ -171,14 +173,14 @@
     }
 
     .card-paper {
-      width: 460px;
-      min-height: 320px;
+      width: 400px;
+      min-height: 290px;
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 5rem 4rem;
+      padding: 4rem;
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center;
@@ -188,7 +190,8 @@
       position: relative;
       z-index: 2;
       text-align: center;
-      width: 75%;
+      width: 55%;
+      margin: 0 auto;
     }
 
     .card-category {
@@ -203,9 +206,9 @@
 
     .card-title {
       font-family: var(--mono);
-      font-size: 1.15rem;
+      font-size: .88rem;
       font-weight: 700;
-      line-height: 1.5;
+      line-height: 1.55;
       color: #1a0f08;
       word-break: break-word;
     }
@@ -435,8 +438,6 @@
   <div class="side-illustration side-left"></div>
   <div class="side-illustration side-right"></div>
 
-  <div class="header-texture"></div>
-
   <header class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-title" id="home-link">{{ site.title }}</a>
     <nav class="site-nav">
@@ -480,7 +481,7 @@
       </a>
 
       <a class="card light" style="transform: rotate(2.8deg)" onclick="showSection('ongoing'); return false;" href="#">
-        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_55.png' | relative_url }}')">
+        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
             <div class="card-title">things i'm still sitting with</div>
