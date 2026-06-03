@@ -5,6 +5,7 @@ subtitle: ""
 date: 2026-02-10
 tags: writings
 form: prose
+mood: [unsure, raw]
 ---
 
 Before starting undergrad, maybe a month before coming into undergrad, I came out as bisexual on Instagram. During my life, I’ve liked girls longer than boys. My first kiss was with a girl. I’ve kissed more girls/enbys, dated around with more girls/enbys, but been in more long-term relationships with boys. So in India, I was in school when I came out, but after coming into undergrad, I got this freedom, away from parents, away from societal judgment. I could wear what I wanted, I could do what I wanted, and there wasn’t anyone stopping me. I could stay out as late as I wanted. The first taste of freedom that year never tasted better.

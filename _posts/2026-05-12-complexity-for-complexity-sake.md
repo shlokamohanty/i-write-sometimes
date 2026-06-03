@@ -4,6 +4,7 @@ title: "complexity for complexity's sake"
 subtitle: 
 date: 2026-05-12
 tags: personal-reflection
+mood: raw
 ---
 ![notes](/i-write-sometimes/assets/images/notes.jpg)
 

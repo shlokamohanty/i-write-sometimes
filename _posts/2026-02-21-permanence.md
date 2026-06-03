@@ -5,6 +5,7 @@ subtitle: "when does the present hold permanence?"
 date: 2026-02-21
 tags: writings
 form: poem
+mood: [proud, raw]
 ---
 
 ![my-brother-and-i](/i-write-sometimes/assets/images/image (8) copy.jpg)

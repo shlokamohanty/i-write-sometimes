@@ -4,6 +4,7 @@ title: "reflections on life and perhaps making art, and on what I want to do."
 subtitle: "the ongoing dilemma"
 date: 2026-02-15
 tags: personal-reflection
+mood: spill
 ---
 
 ![me-in-nj-transit](/i-write-sometimes/assets/images/image-what-i-want-to-do1.jpg)

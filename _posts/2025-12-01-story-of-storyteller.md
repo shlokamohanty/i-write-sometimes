@@ -6,6 +6,7 @@ date: 2025-12-01
 tags: writings
 form: poem
 published: true
+mood: [spill, unsure]
 ---
 
 ![me, sleeping.](/i-write-sometimes/assets/images/image-2.jpg)

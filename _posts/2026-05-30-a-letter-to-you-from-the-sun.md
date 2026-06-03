@@ -5,6 +5,7 @@ subtitle: ""
 date: 2026-05-30
 tags: writings
 form: poems
+mood: [proud, raw, spill, unsure]
 ---
 
 <div class="letter-section">

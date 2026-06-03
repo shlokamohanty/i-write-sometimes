@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "wisconsin pines"
-subtitle: "collaborating with the day glow vibes"
+title: "computational poetry"
+subtitle: ""
 date: 2026-03-06
 tags: work-reflection
 ---

@@ -3,7 +3,9 @@ layout: post
 title: "facial hair"
 subtitle: making hair poetic
 date: 2026-05-06
-tags: personal-reflection
+tags: writings
+form: poem
+mood: [spill, proud, raw]
 ---
 
 Shloka, you’ve not shaved in a while. You have sideburns and a moustache growing, and your eyebrows are going haywire. 

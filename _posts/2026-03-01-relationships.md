@@ -4,6 +4,7 @@ title: "thinking about how I form my relationships with people, and how I see my
 subtitle: "A reflection"
 date: 2026-03-01
 tags: personal-reflection
+mood: spill
 ---
 ![](/i-write-sometimes/assets/images/image-relationship1.jpg)
 

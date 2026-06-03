@@ -6,6 +6,7 @@ date: 2026-05-02
 tags: writings
 form: poem
 published: true
+mood: [spill, raw]
 ---
 
 Pain of my phantom limb.

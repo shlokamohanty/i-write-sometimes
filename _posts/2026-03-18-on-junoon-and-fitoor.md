@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "reflections on my projects and life at the moment."
-subtitle: "figuring it out"
+title: "on junoon and fitoor"
+subtitle: ""
 date: 2026-03-18
 tags: personal-reflection
+mood: spill
 ---
 
 I spend a lot of time thinking by myself. I got called a planner yesterday, and truly, I don’t sometimes see myself as one, so that was a bit of a shocker. But then I thought that I keep making plans, backup plans, and plans for those, almost continuously. I am not a routine person, but I do have certain habits I repeat. In some ways, subconsciously, I follow a routine. Last semester, I got into the habit of picking up groceries on my walk home in the morning, about once a week, and this semester, I found myself without any groceries at home many times because the walk back home stopped. Didn’t even realise that, grocery shopping in the morning became a routine. Things like that. Perhaps I don’t give myself enough credit for the system that I create in my head.

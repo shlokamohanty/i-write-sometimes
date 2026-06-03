@@ -6,6 +6,7 @@ date: 2025-10-29
 tags: writings
 form: poem
 published: true
+mood: [unsure, spill]
 ---
 
 ![subway](/i-write-sometimes/assets/images/image (8).jpg)

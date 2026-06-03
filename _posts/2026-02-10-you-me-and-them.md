@@ -5,6 +5,7 @@ subtitle: ""
 date: 2026-02-10
 tags: writings
 form: prose
+mood: spill
 ---
 
 Zun had been dating since she was 12. Most of the people she dated were different from each other, but most of their names started with the letter ‘R’, barring perhaps two people. So when Zun first met Rahul, whom she now jokingly calls Ra, she was like, not another person whose name starts with an ‘R’, even though this felt different. At this point, she should get the letter ‘R’ tattooed. Let alone, his name was Rahul. Rahul! A name she and her best friend, Rahima, used often, for so many of their projects, and random things since growing up. So subconsciously, had she again manifested this? The way she manifested dating Rithik. Well, if she gets the letter ‘R’ tattooed and it doesn’t work out, she could just say it is for Rahima.
