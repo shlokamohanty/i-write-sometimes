@@ -26,6 +26,7 @@
       background-color: #2a211a;
     }
 
+    /* corkboard illustration fills the page */
     body::before {
       content: '';
       position: fixed;
@@ -33,9 +34,23 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.9;
+      opacity: 1;
       z-index: 0;
       pointer-events: none;
+    }
+
+    /* faint paint texture over everything */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
+      background-size: cover;
+      background-position: center;
+      opacity: 0.05;
+      z-index: 0;
+      pointer-events: none;
+      mix-blend-mode: overlay;
     }
 
     /* ── HEADER ── */
@@ -104,8 +119,8 @@
 
     /* ── CARDS ── */
     .card {
-      flex: 0 0 360px;
-      width: 360px;
+      flex: 0 0 300px;
+      width: 300px;
       position: relative;
       cursor: pointer;
       text-decoration: none;
@@ -120,31 +135,24 @@
     }
 
     .card-paper {
-      width: 360px;
-      height: 360px;
+      width: 300px;
+      min-height: 200px;
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 3rem;
-      overflow: hidden;
-    }
-
-    .card-paper img.card-bg {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
+      padding: 3.5rem 3rem;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     .card-content {
       position: relative;
       z-index: 2;
       text-align: center;
-      width: 58%;
+      width: 75%;
     }
 
     .card-category {
@@ -175,12 +183,12 @@
 
     /* photo cards */
     .card.photo-card { flex: 0 0 90px; width: 90px; }
-    .card.photo-card .card-paper { width: 90px; height: 110px; padding: 0; }
+    .card-paper-photo { width: 90px; height: 110px; position: relative; }
     .card.photo-card img.board-photo {
-      position: absolute; inset: 0;
       width: 100%; height: 100%;
       object-fit: cover; display: block;
       filter: brightness(0.88);
+      border-radius: 2px;
     }
     .card.photo-card:hover img.board-photo { filter: brightness(1); }
     .pin {
@@ -360,17 +368,29 @@
     /* ── MOBILE ── */
     @media (max-width: 768px) {
       .card-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.5rem;
+        max-width: 100%;
       }
-      .card { flex: none; width: 100%; transform: none !important; }
-      .card-paper { width: 100% !important; height: 180px !important; }
-      .card.photo-card { width: 80px !important; }
-      .card.photo-card .card-paper { width: 80px !important; height: 95px !important; }
+      .card {
+        flex: none;
+        width: 280px;
+        transform: none !important;
+      }
+      .card-paper {
+        width: 280px !important;
+        min-height: 170px !important;
+        background-size: 100% 100% !important;
+      }
+      .card.photo-card { width: 100px; }
+      .card-paper-photo { width: 100px !important; height: 120px !important; }
+      .card-content { width: 80% !important; }
       .site-header { padding: 1rem 1.25rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
+      .section-post-title { white-space: normal; }
     }
   </style>
 </head>
@@ -409,8 +429,7 @@
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
       <a class="card light" style="transform: rotate(-2.5deg)" onclick="showSection('notes'); return false;" href="#">
-        <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
+        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">notes</div>
             <div class="card-title">thoughts, observations, ideas</div>
@@ -420,8 +439,7 @@
       </a>
 
       <a class="card light" style="transform: rotate(2.8deg)" onclick="showSection('ongoing'); return false;" href="#">
-        <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork_55.png' | relative_url }}" alt="" />
+        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_55.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
             <div class="card-title">things i'm still sitting with</div>
@@ -431,8 +449,7 @@
       </a>
 
       <a class="card light" style="transform: rotate(-1.8deg)" onclick="showSection('reflections'); return false;" href="#">
-        <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork_53.png' | relative_url }}" alt="" />
+        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_53.png' | relative_url }}'); min-height: 260px">
           <div class="card-content">
             <div class="card-category">past reflections</div>
             <div class="card-title">looking back</div>
@@ -442,8 +459,7 @@
       </a>
 
       <a class="card light" style="transform: rotate(1.5deg)" onclick="showSection('writings'); return false;" href="#">
-        <div class="card-paper">
-          <img class="card-bg" src="{{ '/Untitled_Artwork_54.png' | relative_url }}" alt="" />
+        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
           <div class="card-content">
             <div class="card-category">finished writings</div>
             <div class="card-title">things i wrote</div>
@@ -452,15 +468,8 @@
         </div>
       </a>
 
-      <div class="card pinned-img photo-card" style="transform: rotate(3.5deg)">
-        <div class="card-paper">
-          <div class="pin"></div>
-          <img class="board-photo" src="{{ '/IMG_2357_3.JPG' | relative_url }}" alt="illustration" />
-        </div>
-      </div>
-
       <div class="card pinned-img photo-card" style="transform: rotate(-2.2deg)">
-        <div class="card-paper">
+        <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
         </div>
