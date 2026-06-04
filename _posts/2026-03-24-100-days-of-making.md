@@ -191,8 +191,8 @@ Thoughts after drawing: So I drew this a while back, but because, I've been so b
 
 ![live-blog](/i-write-sometimes/assets/images/live-blog.jpg)
 
-<div class="day-block">
+<div class="day-block pivotal">
 <span class="day-label">42</span>
-Thoughts before drawing: I can't tell if I'm dealing with grief or anxiety anymore. This feels like a way in which I'm letting go of the pain of my childhood, and formulate more meaningful experiences and be more open. But, I felt extrememly dissociated today, for a bit. Reminded me of days in undergrad. Felt so out of body. I think, in some ways, I've been really not in tune with my body as much.
+Thoughts before drawing: I can't tell if I'm dealing with grief or anxiety anymore. This feels like a way in which I'm letting go of the pain of my childhood, and formulating more meaningful experiences and being more open. But I felt extremely dissociated today, for a bit. Reminded me of days in undergrad. Felt so out of body. I think, in some ways, I've not been in tune with my body as much lately. But, I was able to ground myself. Unlike before. I could sense dissociation last night when I wrote a poem. Even though sometimes I feel things from afar, they come spilling out in words, and then I realise. Writing is so important for me. The stress is really getting to me. I've been getting into the rabbit holes of reading, how memory is a material in neuroscience that builds identity. As per physics, 98% of a person's atoms changes every year. The body's molecular components are replaced over time; this is a basic biological property. In some ways, this is scientifically rewiring connections. Maybe there's something more in these drawings that can show it too if I get to it and study. Why do I make childlike drawings?
 Thoughts after drawing: 
 </div>
