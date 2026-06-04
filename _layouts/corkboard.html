@@ -47,7 +47,7 @@
       background-color: var(--bg);
     }
 
-    /* faint grain over the grey board */
+    /* full board background — the collage illustration fills the whole page */
     body::before {
       content: '';
       position: fixed;
@@ -55,37 +55,14 @@
       background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.06;
+      opacity: 0.55;
       z-index: 0;
       pointer-events: none;
-      mix-blend-mode: multiply;
       filter: grayscale(1);
     }
 
-    /* ── SIDE ILLUSTRATIONS ── */
-    .side-illustration {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      width: 160px;
-      background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
-      background-size: auto 100%;
-      background-repeat: no-repeat;
-      background-position: center center;
-      opacity: 0.18;
-      pointer-events: none;
-      z-index: 5;
-      filter: grayscale(1);
-    }
-    .side-left  { left: 0; background-position: right center; }
-    .side-right { right: 0; background-position: left center; }
-
-    @media (max-width: 1300px) {
-      .side-illustration { width: 80px; opacity: 0.13; }
-    }
-    @media (max-width: 1100px) {
-      .side-illustration { display: none; }
-    }
+    /* side illustrations hidden on corkboard — full bg image covers everything */
+    .side-illustration { display: none; }
 
     /* ── HEADER ── */
     .site-header {
@@ -125,7 +102,7 @@
     .board {
       position: relative;
       z-index: 1;
-      padding: .5rem 2rem 5rem;
+      padding: 1.2rem 2rem 5rem;
       overflow-x: auto;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
@@ -140,50 +117,50 @@
     }
     .board::-webkit-scrollbar-thumb:hover { background: rgba(17,17,17,0.4); }
 
-    /* ── INTRO TEXT CARDS (white note shapes) ── */
+    /* ── INTRO TEXT CARDS — pinned top-left of the board ── */
     .board-intro-cards {
-      position: relative;
-      z-index: 2;
-      margin-bottom: 0;
+      position: absolute;
+      top: 1.2rem;
+      left: .5rem;
+      z-index: 10;
       pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      gap: .35rem;
     }
 
     .intro-note {
       display: inline-block;
       background: var(--card-bg);
-      border-radius: 8px 10px 12px 9px / 9px 12px 10px 11px;
-      padding: .45rem .9rem .5rem;
-      margin-bottom: .5rem;
-      position: relative;
+      border-radius: 6px 8px 9px 7px / 7px 9px 8px 8px;
+      padding: .3rem .75rem .35rem;
     }
 
     .intro-note p {
       font-family: var(--mono);
-      font-size: .82rem;
-      line-height: 1.65;
+      font-size: .78rem;
+      line-height: 1.6;
       color: var(--text);
     }
 
     .intro-note.title-note {
       font-family: var(--mono);
-      font-size: 1rem;
+      font-size: .95rem;
       font-weight: 700;
       letter-spacing: .02em;
-      padding: .3rem .8rem;
-      margin-bottom: .4rem;
-      transform: rotate(-0.4deg);
+      padding: .25rem .7rem;
+      transform: rotate(-0.5deg);
     }
 
     .intro-note.subtitle-note {
-      font-size: .75rem;
+      font-size: .7rem;
       transform: rotate(-0.2deg);
     }
 
     .intro-note.body-note {
-      max-width: 480px;
-      transform: rotate(-0.6deg);
-      padding: .7rem 1rem .75rem;
-      margin-top: .3rem;
+      max-width: 420px;
+      transform: rotate(-0.4deg);
+      padding: .55rem .85rem .6rem;
     }
 
     /* ── CARD GRID ── */
@@ -191,7 +168,7 @@
       position: relative;
       width: 1200px;
       min-width: 1200px;
-      margin: -260px auto 0;
+      margin: 80px auto 0;
       height: 720px;
     }
 
@@ -548,7 +525,6 @@
   <div class="board" id="board">
 
     <div class="board-intro-cards">
-      <div class="intro-note title-note">{{ site.title }}</div><br>
       <div class="intro-note subtitle-note">some reflections, writings, and rough notes</div>
       <div class="intro-note body-note">
         <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here — my inner world.</p>
