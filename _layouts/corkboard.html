@@ -117,50 +117,40 @@
     }
     .board::-webkit-scrollbar-thumb:hover { background: rgba(17,17,17,0.4); }
 
-    /* ── INTRO TEXT CARDS — pinned top-left of the board ── */
+    /* ── INTRO TEXT — normal document flow ── */
     .board-intro-cards {
-      position: absolute;
-      top: 1.2rem;
-      left: .5rem;
+      position: relative;
       z-index: 10;
-      pointer-events: none;
+      max-width: 560px;
+      margin: 0 0 1.5rem .25rem;
       display: flex;
       flex-direction: column;
-      gap: .35rem;
+      gap: .5rem;
     }
 
     .intro-note {
-      display: inline-block;
-      background: var(--card-bg);
-      border-radius: 6px 8px 9px 7px / 7px 9px 8px 8px;
-      padding: .3rem .75rem .35rem;
+      display: block;
     }
 
     .intro-note p {
-      font-family: var(--mono);
-      font-size: .78rem;
-      line-height: 1.6;
+      font-family: var(--serif);
+      font-size: .88rem;
+      line-height: 1.75;
       color: var(--text);
     }
 
-    .intro-note.title-note {
-      font-family: var(--mono);
-      font-size: .95rem;
-      font-weight: 700;
-      letter-spacing: .02em;
-      padding: .25rem .7rem;
-      transform: rotate(-0.5deg);
-    }
+    .intro-note p + p { margin-top: .75rem; }
 
     .intro-note.subtitle-note {
-      font-size: .7rem;
-      transform: rotate(-0.2deg);
+      font-family: var(--mono);
+      font-size: .62rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-mid);
     }
 
     .intro-note.body-note {
-      max-width: 420px;
-      transform: rotate(-0.4deg);
-      padding: .55rem .85rem .6rem;
+      max-width: 520px;
     }
 
     /* ── CARD GRID ── */
@@ -168,7 +158,7 @@
       position: relative;
       width: 1200px;
       min-width: 1200px;
-      margin: 80px auto 0;
+      margin: 1rem auto 0;
       height: 720px;
     }
 
@@ -248,7 +238,7 @@
     .card-category {
       font-family: var(--mono);
       font-size: .6rem;
-      font-weight: 700;
+      font-weight: 400;
       letter-spacing: .1em;
       text-transform: uppercase;
       color: var(--text-faint);
@@ -256,10 +246,10 @@
     }
 
     .card-title {
-      font-family: var(--mono);
-      font-size: .78rem;
-      font-weight: 700;
-      line-height: 1.55;
+      font-family: var(--serif);
+      font-size: .8rem;
+      font-weight: 400;
+      line-height: 1.6;
       color: var(--text);
       letter-spacing: .01em;
     }
@@ -482,19 +472,24 @@
 
     /* ── MOBILE ── */
     @media (max-width: 768px) {
+      .board-intro-cards { margin: 0 0 1.2rem .1rem; max-width: 100%; }
+      .intro-note p { font-size: .82rem; }
       .card-grid {
-        height: 2400px;
+        height: 2200px;
         width: 100%;
         min-width: 0;
-        margin: 1.5rem 0 0;
+        margin: .5rem 0 0;
       }
       .card-paper { width: 220px !important; min-height: 155px !important; }
+      /* hide the pin teardrop, keep the white card */
+      .pin { display: none !important; }
+      .card-paper::before { display: none !important; }
       #photo-1510       { top: 20px !important;    left: 50% !important; margin-left: -45px; }
       #card-notes       { top: 180px;   left: 6%;   z-index: 4; }
       #card-ongoing     { top: 500px;   left: 40%;  z-index: 3; }
       #card-reflections { top: 820px;   left: 6%;   z-index: 2; }
-      #card-writings    { top: 1240px;  left: 36%;  z-index: 3; }
-      #photo-1549       { top: 1620px !important;  left: 50% !important; margin-left: -45px; }
+      #card-writings    { top: 1160px;  left: 36%;  z-index: 3; }
+      #photo-1549       { top: 1540px !important;  left: 50% !important; margin-left: -45px; }
       .card.photo-card { width: 90px; }
       .card-paper-photo { width: 90px !important; }
       .site-header { padding: 1rem 1.25rem; }
@@ -564,7 +559,7 @@
       {% for p in all_writings %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign writings_moods = writings_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
 
       <a class="card" id="card-notes" data-moods="{{ notes_moods }}"
-         style="top: 40px; left: 48%; transform: rotate(-2.5deg); z-index: 4"
+         style="top: 30px; left: 36%; transform: rotate(-2.5deg); z-index: 4"
          onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper">
           <div class="card-content">
@@ -576,7 +571,7 @@
       </a>
 
       <a class="card" id="card-ongoing" data-moods="{{ ongoing_moods }}"
-         style="top: 260px; left: 66%; transform: rotate(2.8deg); z-index: 3"
+         style="top: 280px; left: 60%; transform: rotate(2.8deg); z-index: 3"
          onclick="showSection('ongoing'); return false;" href="#">
         <div class="card-paper">
           <div class="card-content">
@@ -588,7 +583,7 @@
       </a>
 
       <a class="card" id="card-reflections" data-moods="{{ ref_moods }}"
-         style="top: 430px; left: 20%; transform: rotate(-1.8deg); z-index: 2"
+         style="top: 430px; left: 18%; transform: rotate(-1.8deg); z-index: 2"
          onclick="showSection('reflections'); return false;" href="#">
         <div class="card-paper" style="border-radius: 22px 16px 20px 18px / 18px 22px 16px 20px;">
           <div class="card-content">
@@ -600,7 +595,7 @@
       </a>
 
       <a class="card" id="card-writings" data-moods="{{ writings_moods }}"
-         style="top: 460px; left: 46%; transform: rotate(1.5deg); z-index: 3"
+         style="top: 450px; left: 47%; transform: rotate(1.5deg); z-index: 3"
          onclick="showSection('writings'); return false;" href="#">
         <div class="card-paper" style="border-radius: 18px 22px 14px 20px / 20px 14px 22px 16px;">
           <div class="card-content">
@@ -611,7 +606,7 @@
         </div>
       </a>
 
-      <div class="card pinned-img photo-card" style="top: 440px; left: 72%; transform: rotate(-2.2deg); z-index: 5">
+      <div class="card pinned-img photo-card" style="top: 440px; left: 75%; transform: rotate(-2.2deg); z-index: 5">
         <div class="card-paper-photo">
           <div class="pin"></div>
           <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
@@ -904,9 +899,10 @@
       Object.keys(usedPins).forEach(function(id){ knot(svg, usedPins[id]); });
     }
 
-    window.addEventListener('load', drawStrings);
-    window.addEventListener('resize', drawStrings);
-    setTimeout(drawStrings, 400);
+    // strings disabled for now
+    // window.addEventListener('load', drawStrings);
+    // window.addEventListener('resize', drawStrings);
+    // setTimeout(drawStrings, 400);
   </script>
 
 </body>
