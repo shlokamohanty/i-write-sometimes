@@ -26,7 +26,6 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
   <style>
     :root {
-      --header-texture: url("{{ '/Ideation_Iteration6.jpg' | relative_url }}");
       --side-texture: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
     }
   </style>
@@ -34,9 +33,7 @@
 <body>
   <div class="side-illustration side-left"></div>
   <div class="side-illustration side-right"></div>
-
   <div class="site-wrap">
-
     <header class="site-header">
       <div class="header-inner">
         <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
@@ -46,7 +43,6 @@
         </nav>
       </div>
     </header>
-
     <main class="site-main">
       {% if page.layout == 'home' %}
         <div class="home-columns">
@@ -61,14 +57,11 @@
         {{ content }}
       {% endif %}
     </main>
-
     <footer class="site-footer">
       <span>{{ site.author }} · {{ site.title }}</span>
       <span class="footer-sep">·</span>
       <a href="{{ '/feed.xml' | relative_url }}">rss</a>
     </footer>
-
   </div>
-
 </body>
 </html>
