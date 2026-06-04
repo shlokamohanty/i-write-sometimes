@@ -454,17 +454,34 @@
     @media (max-width: 768px) {
       .board-intro-cards { margin: 0 0 1.2rem .1rem; max-width: 100%; }
       .intro-note p { font-size: .82rem; }
+      /* switch card-grid to flex column — no more absolute positioning fights */
       .card-grid {
-        height: 1500px;
-        width: 100%;
-        min-width: 0;
-        margin: .5rem 0 0;
+        width: 100% !important;
+        min-width: 0 !important;
+        height: auto !important;
+        margin: .5rem 0 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1.5rem !important;
+        padding-bottom: 3rem;
       }
-      .card-paper { width: 220px !important; min-height: 155px !important; }
-      #card-notes       { top: 180px;   left: 6%;   z-index: 4; }
-      #card-ongoing     { top: 500px;   left: 40%;  z-index: 3; }
-      #card-reflections { top: 820px;   left: 6%;   z-index: 2; }
-      #card-writings    { top: 1160px;  left: 36%;  z-index: 3; }
+      .card {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        width: 86vw !important;
+        max-width: 340px !important;
+      }
+      .card-paper {
+        width: 100% !important;
+        min-height: 140px !important;
+      }
+      /* alternate slight tilts for the scattered feel */
+      #card-notes       { transform: rotate(-1.2deg) !important; }
+      #card-ongoing     { transform: rotate(1.4deg)  !important; }
+      #card-reflections { transform: rotate(-0.8deg) !important; }
+      #card-writings    { transform: rotate(1deg)    !important; }
       .site-header { padding: 1rem 1.25rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
       .section-post-row { flex-wrap: wrap; }
