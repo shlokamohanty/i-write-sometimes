@@ -29,43 +29,37 @@
     :root {
       --mono: 'Space Mono', monospace;
       --serif: 'JuliaMono', 'Space Mono', monospace;
-      --text-light: #2e2118;
+      --bg: #c9c8c5;
+      --card-bg: #ffffff;
+      --text: #111111;
+      --text-mid: #444440;
+      --text-faint: rgba(17,17,17,0.45);
+      --pin: #b8895a;
+      --string: rgba(38,36,33,0.48);
+      --string-alt: rgba(38,36,33,0.32);
+      --border: rgba(17,17,17,0.12);
     }
 
     html, body {
       min-height: 100vh;
       font-family: var(--serif);
       -webkit-font-smoothing: antialiased;
-      background-color: #faf8f4;
+      background-color: var(--bg);
     }
 
-    /* corkboard illustration fills the page */
+    /* faint grain over the grey board */
     body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
-      background-size: cover;
-      background-position: center;
-      opacity: 0.05;
-      z-index: 0;
-      pointer-events: none;
-    }
-
-
-
-    /* faint paint texture over everything */
-    body::after {
       content: '';
       position: fixed;
       inset: 0;
       background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.04;
+      opacity: 0.06;
       z-index: 0;
       pointer-events: none;
       mix-blend-mode: multiply;
+      filter: grayscale(1);
     }
 
     /* ── SIDE ILLUSTRATIONS ── */
@@ -78,30 +72,19 @@
       background-size: auto 100%;
       background-repeat: no-repeat;
       background-position: center center;
-      opacity: 0.3;
+      opacity: 0.18;
       pointer-events: none;
       z-index: 5;
+      filter: grayscale(1);
     }
     .side-left  { left: 0; background-position: right center; }
     .side-right { right: 0; background-position: left center; }
 
     @media (max-width: 1300px) {
-      .side-illustration { width: 80px; opacity: 0.22; }
+      .side-illustration { width: 80px; opacity: 0.13; }
     }
     @media (max-width: 1100px) {
       .side-illustration { display: none; }
-    }
-
-    /* ── HEADER TEXTURE STRIP ── */
-    .header-texture {
-      width: 100%;
-      height: 90px;
-      background-image: url("{{ '/Ideation_Iteration6.jpg' | relative_url }}");
-      background-size: cover;
-      background-position: center 30%;
-      position: relative;
-      z-index: 10;
-      border-bottom: 1px solid rgba(74,56,41,0.12);
     }
 
     /* ── HEADER ── */
@@ -109,88 +92,106 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      padding: 1.5rem 2.5rem 1rem;
+      padding: 1.4rem 2.5rem 1rem;
       position: relative;
       z-index: 10;
     }
 
     .site-title {
       font-family: var(--mono);
-      font-size: .95rem;
+      font-size: .9rem;
       font-weight: 700;
-      letter-spacing: .06em;
-      color: var(--text-light);
+      letter-spacing: .04em;
+      color: var(--text);
       text-decoration: none;
     }
 
-    .site-nav { display: flex; gap: 1.75rem; }
+    .site-nav { display: flex; gap: 2rem; }
 
     .site-nav a {
       font-family: var(--mono);
-      font-size: .65rem;
+      font-size: .7rem;
       letter-spacing: .1em;
       text-transform: uppercase;
-      color: #7a6e5d;
+      color: var(--text);
       text-decoration: none;
-      transition: color .15s;
+      transition: opacity .15s;
     }
 
-    .site-nav a:hover { color: var(--text-light); }
-    .site-nav a.active { color: var(--text-light); }
+    .site-nav a:hover { opacity: 0.55; }
+    .site-nav a.active { opacity: 1; }
 
     /* ── BOARD ── */
     .board {
       position: relative;
       z-index: 1;
-      padding: 1rem 2rem 5rem;
+      padding: .5rem 2rem 5rem;
       overflow-x: auto;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
-      min-height: calc(100vh - 90px);
+      min-height: calc(100vh - 60px);
     }
 
-    /* subtle scrollbar styling */
-    .board::-webkit-scrollbar { height: 8px; }
-    .board::-webkit-scrollbar-track { background: rgba(74,56,41,0.06); }
+    .board::-webkit-scrollbar { height: 6px; }
+    .board::-webkit-scrollbar-track { background: rgba(17,17,17,0.06); }
     .board::-webkit-scrollbar-thumb {
-      background: rgba(74,56,41,0.15);
-      border-radius: 4px;
+      background: rgba(17,17,17,0.2);
+      border-radius: 3px;
     }
-    .board::-webkit-scrollbar-thumb:hover { background: rgba(46,33,24,0.45); }
+    .board::-webkit-scrollbar-thumb:hover { background: rgba(17,17,17,0.4); }
 
-    .board-title {
-      font-family: var(--mono);
-      font-size: .6rem;
-      font-weight: 700;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-      color: rgba(46,33,24,0.55);
-      margin-bottom: 1.5rem;
-      padding-left: .25rem;
-    }
-
-    .board-intro {
-      max-width: 560px;
-      margin: 0 0 1rem;
-      padding-left: .25rem;
+    /* ── INTRO TEXT CARDS (white note shapes) ── */
+    .board-intro-cards {
       position: relative;
       z-index: 2;
+      margin-bottom: 0;
+      pointer-events: none;
     }
-    .board-intro p {
-      font-family: var(--serif);
-      font-size: .92rem;
-      line-height: 1.7;
-      color: #2e2118;
-      margin-bottom: 1rem;
+
+    .intro-note {
+      display: inline-block;
+      background: var(--card-bg);
+      border-radius: 8px 10px 12px 9px / 9px 12px 10px 11px;
+      padding: .45rem .9rem .5rem;
+      margin-bottom: .5rem;
+      position: relative;
     }
-    .board-intro p:last-child { margin-bottom: 0; }
+
+    .intro-note p {
+      font-family: var(--mono);
+      font-size: .82rem;
+      line-height: 1.65;
+      color: var(--text);
+    }
+
+    .intro-note.title-note {
+      font-family: var(--mono);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+      padding: .3rem .8rem;
+      margin-bottom: .4rem;
+      transform: rotate(-0.4deg);
+    }
+
+    .intro-note.subtitle-note {
+      font-size: .75rem;
+      transform: rotate(-0.2deg);
+    }
+
+    .intro-note.body-note {
+      max-width: 480px;
+      transform: rotate(-0.6deg);
+      padding: .7rem 1rem .75rem;
+      margin-top: .3rem;
+    }
 
     /* ── CARD GRID ── */
     .card-grid {
       position: relative;
       width: 1200px;
       min-width: 1200px;
-      margin: -280px auto 0;
+      margin: -260px auto 0;
       height: 720px;
     }
 
@@ -203,107 +204,125 @@
       z-index: 1;
       overflow: visible;
     }
-    /* cards/illustrations sit above the strings */
+
     .card { z-index: 3; }
     .card.photo-card { z-index: 4; }
+
     .string-layer path {
       fill: none;
-      stroke-width: 1.6;
+      stroke-width: 1.2;
       stroke-linecap: round;
-      filter: drop-shadow(0 1px 1px rgba(74,56,41,0.15));
     }
-    .string-layer path:nth-child(odd)  { stroke: rgba(201,113,133,0.5); }
-    .string-layer path:nth-child(even) { stroke: rgba(184,120,150,0.45); }
-    .string-layer circle { fill: rgba(201,113,133,0.6); }
+    .string-layer circle { fill: var(--pin); }
 
     /* ── CARDS ── */
     .card {
       position: absolute;
-      width: 360px;
       cursor: pointer;
       text-decoration: none;
       display: block;
-      transition: transform .2s ease, filter .2s ease;
+      transition: transform .18s ease, filter .18s ease;
     }
 
     .card:hover {
-      transform: scale(1.06) rotate(0deg) !important;
-      filter: brightness(1.1);
+      transform: scale(1.05) rotate(0deg) !important;
+      filter: brightness(1.04);
       z-index: 20;
     }
 
+    /* White organic paper card — no artwork background */
     .card-paper {
-      width: 360px;
-      height: 260px;
+      width: 300px;
+      min-height: 200px;
       position: relative;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      filter: drop-shadow(0 2px 10px rgba(74,56,41,0.13));
+      background: var(--card-bg);
+      /* organic blob shape via clip-path */
+      border-radius: 16px 20px 18px 22px / 20px 16px 22px 18px;
+      box-shadow:
+        0 2px 8px rgba(17,17,17,0.12),
+        0 6px 24px rgba(17,17,17,0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2.2rem 1.6rem 1.6rem;
     }
 
-    /* text sits on the actual painted area (paint center ≈ 59% x, 45% y) */
-    .card-content {
+    /* pin dot at top of each card */
+    .card-paper::before {
+      content: '';
       position: absolute;
+      top: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 18px;
+      height: 22px;
+      background: var(--pin);
+      border-radius: 50% 50% 48% 48% / 60% 60% 40% 40%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
       z-index: 2;
-      text-align: center;
-      width: 54%;
-      left: 59%;
-      top: 45%;
-      transform: translate(-50%, -50%);
-      background: rgba(255,255,255,0.6);
-      padding: .6rem .7rem;
-      border-radius: 3px;
-      backdrop-filter: blur(1px);
     }
 
-    .card[data-paint="spiral"] .card-content {
-      width: 40%;
-      left: 53%;
-      top: 51%;
+    .card-content {
+      text-align: center;
+      z-index: 1;
     }
 
     .card-category {
-      font-family: var(--serif);
-      font-size: .62rem;
+      font-family: var(--mono);
+      font-size: .6rem;
       font-weight: 700;
-      letter-spacing: .08em;
-      color: rgba(15,8,3,0.92);
-      margin-bottom: .5rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: .55rem;
     }
 
     .card-title {
-      font-family: var(--serif);
-      font-size: .72rem;
+      font-family: var(--mono);
+      font-size: .78rem;
       font-weight: 700;
-      line-height: 1.6;
-      color: #0d0703;
+      line-height: 1.55;
+      color: var(--text);
+      letter-spacing: .01em;
     }
 
     .card-count {
-      font-family: var(--serif);
-      font-size: .62rem;
-      color: rgba(20,12,6,0.88);
-      margin-top: .5rem;
+      font-family: var(--mono);
+      font-size: .6rem;
+      color: var(--text-faint);
+      margin-top: .6rem;
+      letter-spacing: .04em;
     }
 
-    /* photo cards — keep each image's natural proportions */
-    .card.photo-card { width: 150px; }
-    .card-paper-photo { width: 150px; position: relative; }
-    .card.photo-card img.board-photo {
-      width: 100%; height: auto;
-      display: block;
-      filter: brightness(0.92);
-      border-radius: 2px;
+    /* photo cards — high contrast B&W */
+    .card.photo-card { width: 130px; }
+    .card-paper-photo {
+      width: 130px;
+      position: relative;
     }
-    .card.photo-card:hover img.board-photo { filter: brightness(1.05); }
+    .card.photo-card img.board-photo {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 3px;
+      filter: grayscale(1) contrast(1.15) brightness(0.88);
+      box-shadow: 0 2px 10px rgba(17,17,17,0.25);
+    }
+    .card.photo-card:hover img.board-photo {
+      filter: grayscale(1) contrast(1.2) brightness(0.95);
+    }
+
     .pin {
-      position: absolute; top: -6px; left: 50%;
+      position: absolute;
+      top: -5px;
+      left: 50%;
       transform: translateX(-50%);
-      width: 12px; height: 12px;
-      background: rgba(200,170,140,0.85);
-      border-radius: 50%;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+      width: 16px;
+      height: 20px;
+      background: var(--pin);
+      border-radius: 50% 50% 48% 48% / 60% 60% 40% 40%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
       z-index: 3;
     }
 
@@ -314,7 +333,7 @@
       inset: 0;
       z-index: 100;
       overflow-y: auto;
-      background-color: #faf8f4;
+      background-color: var(--bg);
       padding: 2rem 2.5rem 4rem;
     }
 
@@ -322,21 +341,23 @@
       content: '';
       position: fixed;
       inset: 0;
-      background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
+      background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.04;
+      opacity: 0.05;
       z-index: 0;
       pointer-events: none;
+      mix-blend-mode: multiply;
+      filter: grayscale(1);
     }
 
     .section-page.active { display: block; }
 
     .section-back {
       font-family: var(--mono);
-      font-size: .7rem;
+      font-size: .68rem;
       letter-spacing: .06em;
-      color: rgba(46,33,24,0.7);
+      color: var(--text-mid);
       cursor: pointer;
       margin-bottom: 2rem;
       display: inline-block;
@@ -345,10 +366,10 @@
       padding: 0;
       position: relative;
       z-index: 1;
-      transition: color .15s;
+      transition: opacity .15s;
     }
 
-    .section-back:hover { color: var(--text-light); }
+    .section-back:hover { opacity: 0.6; }
 
     .section-header {
       margin-bottom: 2rem;
@@ -358,10 +379,10 @@
 
     .section-header h2 {
       font-family: var(--mono);
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       font-weight: 700;
-      color: var(--text-light);
-      letter-spacing: .04em;
+      color: var(--text);
+      letter-spacing: .03em;
     }
 
     .section-posts {
@@ -373,11 +394,11 @@
     .section-post-list { list-style: none; }
 
     .section-post-list li {
-      border-bottom: 1px solid rgba(74,56,41,0.1);
+      border-bottom: 1px solid var(--border);
     }
 
     .section-post-list li:first-child {
-      border-top: 1px solid rgba(74,56,41,0.1);
+      border-top: 1px solid var(--border);
     }
 
     .section-post-row {
@@ -390,12 +411,12 @@
       transition: background .12s;
     }
 
-    .section-post-row:hover { background: rgba(74,56,41,0.05); }
+    .section-post-row:hover { background: rgba(17,17,17,0.05); }
 
     .section-post-date {
       font-family: var(--mono);
       font-size: .62rem;
-      color: #7a6e5d;
+      color: var(--text-mid);
       min-width: 90px;
       flex-shrink: 0;
       padding-top: 2px;
@@ -405,9 +426,9 @@
 
     .section-post-title {
       font-family: var(--mono);
-      font-size: .82rem;
+      font-size: .8rem;
       font-weight: 700;
-      color: var(--text-light);
+      color: var(--text);
       line-height: 1.4;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -416,45 +437,45 @@
 
     .section-post-subtitle {
       font-family: var(--serif);
-      font-size: .75rem;
-      color: #7a6e5d;
+      font-size: .72rem;
+      color: var(--text-mid);
       margin-top: .15rem;
     }
 
     .section-post-tag {
       font-family: var(--mono);
-      font-size: .6rem;
+      font-size: .58rem;
       letter-spacing: .08em;
       text-transform: uppercase;
-      color: #7a6e5d;
-      border: 1px solid #e6ddcf;
+      color: var(--text-mid);
+      border: 1px solid rgba(17,17,17,0.2);
       border-radius: 2px;
-      padding: .15rem .45rem;
+      padding: .15rem .4rem;
       flex-shrink: 0;
       align-self: center;
       white-space: nowrap;
     }
-    /* push the first badge in a row to the right; subsequent badges sit beside it */
     .section-post-tag:first-of-type { margin-left: auto; }
     .section-post-tag + .section-post-tag { margin-left: .4rem; }
-    /* mood badges get a faint pink accent */
+
+    /* mood badges — warm caramel accent to match pins */
     .section-post-tag.mood-proud,
     .section-post-tag.mood-raw,
     .section-post-tag.mood-spill,
     .section-post-tag.mood-unsure {
-      color: rgba(158,72,96,0.95);
-      border-color: rgba(184,95,120,0.55);
+      color: #8a5c2a;
+      border-color: rgba(184,137,90,0.5);
     }
 
     .subtag-group { margin-bottom: 1.75rem; }
 
     .subtag-group-label {
       font-family: var(--mono);
-      font-size: .58rem;
+      font-size: .56rem;
       letter-spacing: .12em;
       text-transform: uppercase;
-      color: #7a6e5d;
-      border-left: 1.5px solid rgba(144,137,124,0.3);
+      color: var(--text-mid);
+      border-left: 1.5px solid rgba(17,17,17,0.2);
       padding-left: .5rem;
       margin-bottom: .5rem;
     }
@@ -465,8 +486,8 @@
       bottom: 0; left: 0; right: 0;
       padding: .75rem 2.5rem;
       font-family: var(--mono);
-      font-size: .62rem;
-      color: rgba(46,33,24,0.5);
+      font-size: .6rem;
+      color: rgba(17,17,17,0.4);
       display: flex;
       gap: .75rem;
       pointer-events: none;
@@ -475,12 +496,12 @@
 
     .site-footer-board a {
       pointer-events: all;
-      color: rgba(46,33,24,0.5);
+      color: rgba(17,17,17,0.4);
       text-decoration: none;
-      transition: color .15s;
+      transition: opacity .15s;
     }
 
-    .site-footer-board a:hover { color: rgba(46,33,24,0.7); }
+    .site-footer-board a:hover { opacity: 0.7; }
 
     /* ── MOBILE ── */
     @media (max-width: 768px) {
@@ -490,26 +511,16 @@
         min-width: 0;
         margin: 1.5rem 0 0;
       }
-      .card { width: 200px; }
-      .card-paper {
-        width: 200px !important;
-        min-height: 145px !important;
-        background-size: 100% 100% !important;
-      }
-      .card-content { width: 64% !important; }
-      /* every card in its own vertical band — none share a row, no overlap */
+      .card-paper { width: 220px !important; min-height: 155px !important; }
       #photo-1510       { top: 20px !important;    left: 50% !important; margin-left: -45px; }
       #card-notes       { top: 180px;   left: 6%;   z-index: 4; }
       #card-ongoing     { top: 500px;   left: 40%;  z-index: 3; }
       #card-reflections { top: 820px;   left: 6%;   z-index: 2; }
       #card-writings    { top: 1240px;  left: 36%;  z-index: 3; }
       #photo-1549       { top: 1620px !important;  left: 50% !important; margin-left: -45px; }
-      .card.pinned-img:not([id]) { top: 1820px !important; left: 50% !important; margin-left: -45px; }
       .card.photo-card { width: 90px; }
       .card-paper-photo { width: 90px !important; }
       .site-header { padding: 1rem 1.25rem; }
-
-      /* section pages: stack badges below the text so they don't collide */
       .section-page { padding: 1.5rem 1.25rem 4rem; }
       .section-post-row { flex-wrap: wrap; }
       .section-post-title { white-space: normal; }
@@ -535,11 +546,13 @@
 
   <!-- CORKBOARD -->
   <div class="board" id="board">
-    <div class="board-title">{{ site.description }}</div>
 
-    <div class="board-intro">
-      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world —thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
-      <p>most of my thoughts are rather mundane. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many other things, only sometimes.</p>
+    <div class="board-intro-cards">
+      <div class="intro-note title-note">{{ site.title }}</div><br>
+      <div class="intro-note subtitle-note">some reflections, writings, and rough notes</div>
+      <div class="intro-note body-note">
+        <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here — my inner world.</p>
+      </div>
     </div>
 
     <div class="card-grid">
@@ -564,7 +577,6 @@
 
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      {% comment %} one entry per mood-tagged post in each category — handle mood as string OR array {% endcomment %}
       {% assign notes_moods = "" %}
       {% for p in all_notes %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign notes_moods = notes_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
       {% assign ongoing_moods = "" %}
@@ -574,8 +586,10 @@
       {% assign writings_moods = "" %}
       {% for p in all_writings %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign writings_moods = writings_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
 
-      <a class="card light" id="card-notes" data-moods="{{ notes_moods }}" style="top: 30px; left: 48%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
-        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
+      <a class="card" id="card-notes" data-moods="{{ notes_moods }}"
+         style="top: 40px; left: 48%; transform: rotate(-2.5deg); z-index: 4"
+         onclick="showSection('notes'); return false;" href="#">
+        <div class="card-paper">
           <div class="card-content">
             <div class="card-category">notes</div>
             <div class="card-title">thoughts, observations, ideas</div>
@@ -584,8 +598,10 @@
         </div>
       </a>
 
-      <a class="card light" id="card-ongoing" data-moods="{{ ongoing_moods }}" style="top: 250px; left: 66%; transform: rotate(2.8deg); z-index: 3" onclick="showSection('ongoing'); return false;" href="#">
-        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
+      <a class="card" id="card-ongoing" data-moods="{{ ongoing_moods }}"
+         style="top: 260px; left: 66%; transform: rotate(2.8deg); z-index: 3"
+         onclick="showSection('ongoing'); return false;" href="#">
+        <div class="card-paper">
           <div class="card-content">
             <div class="card-category">ongoing reflections</div>
             <div class="card-title">things i'm still sitting with</div>
@@ -594,8 +610,10 @@
         </div>
       </a>
 
-      <a class="card light" id="card-reflections" data-moods="{{ ref_moods }}" style="top: 420px; left: 20%; transform: rotate(-1.8deg); z-index: 2" data-paint="spiral" onclick="showSection('reflections'); return false;" href="#">
-        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_53.png' | relative_url }}'); min-height: 380px">
+      <a class="card" id="card-reflections" data-moods="{{ ref_moods }}"
+         style="top: 430px; left: 20%; transform: rotate(-1.8deg); z-index: 2"
+         onclick="showSection('reflections'); return false;" href="#">
+        <div class="card-paper" style="border-radius: 22px 16px 20px 18px / 18px 22px 16px 20px;">
           <div class="card-content">
             <div class="card-category">past reflections</div>
             <div class="card-title">looking back</div>
@@ -604,8 +622,10 @@
         </div>
       </a>
 
-      <a class="card light" id="card-writings" data-moods="{{ writings_moods }}" style="top: 450px; left: 46%; transform: rotate(1.5deg); z-index: 3" onclick="showSection('writings'); return false;" href="#">
-        <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
+      <a class="card" id="card-writings" data-moods="{{ writings_moods }}"
+         style="top: 460px; left: 46%; transform: rotate(1.5deg); z-index: 3"
+         onclick="showSection('writings'); return false;" href="#">
+        <div class="card-paper" style="border-radius: 18px 22px 14px 20px / 20px 14px 22px 16px;">
           <div class="card-content">
             <div class="card-category">finished writings</div>
             <div class="card-title">things i wrote</div>
@@ -634,7 +654,6 @@
           <img class="board-photo" src="{{ '/IMG_1549.jpg' | relative_url }}" alt="illustration" />
         </div>
       </div>
-
 
     </div>
   </div>
@@ -798,7 +817,7 @@
       <ul class="section-post-list"><li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li></ul>
       {% endunless %}{% endfor %}
 
-      {% if all_writings.size == 0 %}<p style="font-family:var(--mono);font-size:.7rem;color:rgba(46,33,24,0.45);padding:.6rem 0">nothing here yet</p>{% endif %}
+      {% if all_writings.size == 0 %}<p style="font-family:var(--mono);font-size:.7rem;color:rgba(17,17,17,0.4);padding:.6rem 0">nothing here yet</p>{% endif %}
     </div>
   </div>
 
@@ -833,33 +852,9 @@
     var homeNav = document.getElementById('home-nav');
     if (homeNav) homeNav.addEventListener('click', handleHomeClick);
 
-    // ── corkboard strings between pinned cards ──
-    function pinPoint(el, grid) {
-      if (!el) return null;
-      var r = el.getBoundingClientRect();
-      var g = grid.getBoundingClientRect();
-      // pin sits at top-center of each card
-      return {
-        x: r.left - g.left + r.width / 2,
-        y: r.top - g.top + 8
-      };
-    }
-
-    var MOOD_COLORS = {
-      proud:  'rgba(201,113,133,0.55)',
-      raw:    'rgba(168,154,135,0.5)',
-      spill:  'rgba(184,120,150,0.55)',
-      unsure: 'rgba(214,160,180,0.55)'
-    };
-
-    function knot(svg, p, color) {
-      var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-      c.setAttribute('cx', p.x);
-      c.setAttribute('cy', p.y);
-      c.setAttribute('r', 2.2);
-      if (color) c.setAttribute('fill', color);
-      svg.appendChild(c);
-    }
+    // ── corkboard strings ──
+    var STRING_COLOR  = 'rgba(38,36,33,0.42)';
+    var STRING_COLOR2 = 'rgba(38,36,33,0.28)';
 
     function pinOf(el, grid) {
       var r = el.getBoundingClientRect();
@@ -867,7 +862,6 @@
       return { x: r.left - g.left + r.width / 2, y: r.top - g.top + r.height / 2 };
     }
 
-    // returns { mood: count } for a card
     function moodCounts(el) {
       var raw = (el.getAttribute('data-moods') || '').trim();
       var counts = {};
@@ -878,48 +872,51 @@
 
     function curve(svg, a, b, color, offset) {
       var dist = Math.hypot(b.x - a.x, b.y - a.y);
-      var sag = Math.min(80, dist * 0.14) + offset;
+      var sag = Math.min(70, dist * 0.13) + offset;
       var c1x = a.x + (b.x - a.x) * 0.33;
       var c1y = a.y + (b.y - a.y) * 0.33 + sag;
       var c2x = a.x + (b.x - a.x) * 0.66;
       var c2y = a.y + (b.y - a.y) * 0.66 + sag;
-      var d = 'M ' + a.x + ' ' + a.y + ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + b.x + ' ' + b.y;
+      var d = 'M '+a.x+' '+a.y+' C '+c1x+' '+c1y+' '+c2x+' '+c2y+' '+b.x+' '+b.y;
       var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       path.setAttribute('d', d);
       path.setAttribute('stroke', color);
       svg.appendChild(path);
     }
 
+    function knot(svg, p) {
+      var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      c.setAttribute('cx', p.x);
+      c.setAttribute('cy', p.y);
+      c.setAttribute('r', 2.5);
+      c.setAttribute('fill', 'rgba(38,36,33,0.55)');
+      svg.appendChild(c);
+    }
+
     function drawStrings() {
       var grid = document.querySelector('.card-grid');
-      var svg = document.getElementById('string-layer');
+      var svg  = document.getElementById('string-layer');
       if (!grid || !svg) return;
       svg.innerHTML = '';
 
-      var cards = ['card-notes', 'card-ongoing', 'card-reflections', 'card-writings']
-        .map(function(id){ return document.getElementById(id); })
-        .filter(Boolean);
+      var cards = ['card-notes','card-ongoing','card-reflections','card-writings']
+        .map(function(id){ return document.getElementById(id); }).filter(Boolean);
 
       var data = cards.map(function(c){
         return { el: c, pin: pinOf(c, grid), counts: moodCounts(c) };
       });
 
       var usedPins = {};
-      var MOODS = ['proud', 'raw', 'spill', 'unsure'];
-
-      MOODS.forEach(function(mood) {
-        var color = MOOD_COLORS[mood];
-        // every pair of categories that BOTH have this mood gets tied together
+      ['proud','raw','spill','unsure'].forEach(function(mood, mi) {
+        var col = mi % 2 === 0 ? STRING_COLOR : STRING_COLOR2;
         for (var i = 0; i < data.length; i++) {
           for (var j = i + 1; j < data.length; j++) {
             var ca = data[i].counts[mood] || 0;
             var cb = data[j].counts[mood] || 0;
-            if (ca === 0 || cb === 0) continue;
-            // number of strands = how many posts they share this mood through (min of the two)
-            var strands = Math.min(ca, cb);
-            strands = Math.min(strands, 4); // cap so it doesn't get too dense
+            if (!ca || !cb) continue;
+            var strands = Math.min(Math.min(ca, cb), 3);
             for (var s = 0; s < strands; s++) {
-              curve(svg, data[i].pin, data[j].pin, color, s * 14);
+              curve(svg, data[i].pin, data[j].pin, col, s * 12);
             }
             usedPins[data[i].el.id] = data[i].pin;
             usedPins[data[j].el.id] = data[j].pin;
@@ -932,7 +929,6 @@
 
     window.addEventListener('load', drawStrings);
     window.addEventListener('resize', drawStrings);
-    // redraw once fonts/images settle
     setTimeout(drawStrings, 400);
   </script>
 
