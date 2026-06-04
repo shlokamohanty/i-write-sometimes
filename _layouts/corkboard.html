@@ -29,14 +29,14 @@
     :root {
       --mono: 'Space Mono', monospace;
       --serif: 'JuliaMono', 'Space Mono', monospace;
-      --text-light: #f0ebe1;
+      --text-light: #2e2118;
     }
 
     html, body {
       min-height: 100vh;
       font-family: var(--serif);
       -webkit-font-smoothing: antialiased;
-      background-color: #18140f;
+      background-color: #faf8f4;
     }
 
     /* corkboard illustration fills the page */
@@ -47,7 +47,7 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.45;
+      opacity: 0.05;
       z-index: 0;
       pointer-events: none;
     }
@@ -62,10 +62,10 @@
       background-image: url("{{ '/IMG_2357_3.JPG' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.05;
+      opacity: 0.04;
       z-index: 0;
       pointer-events: none;
-      mix-blend-mode: overlay;
+      mix-blend-mode: multiply;
     }
 
     /* ── SIDE ILLUSTRATIONS ── */
@@ -78,7 +78,7 @@
       background-size: auto 100%;
       background-repeat: no-repeat;
       background-position: center center;
-      opacity: 0.09;
+      opacity: 0.14;
       pointer-events: none;
       z-index: 5;
     }
@@ -86,7 +86,7 @@
     .side-right { right: 0; background-position: left center; }
 
     @media (max-width: 1300px) {
-      .side-illustration { width: 80px; opacity: 0.06; }
+      .side-illustration { width: 80px; opacity: 0.1; }
     }
     @media (max-width: 1100px) {
       .side-illustration { display: none; }
@@ -101,7 +101,7 @@
       background-position: center 30%;
       position: relative;
       z-index: 10;
-      border-bottom: 1px solid rgba(240,235,225,0.12);
+      border-bottom: 1px solid rgba(74,56,41,0.12);
     }
 
     /* ── HEADER ── */
@@ -121,7 +121,6 @@
       letter-spacing: .06em;
       color: var(--text-light);
       text-decoration: none;
-      text-shadow: 0 1px 4px rgba(0,0,0,0.6);
     }
 
     .site-nav { display: flex; gap: 1.75rem; }
@@ -131,7 +130,7 @@
       font-size: .65rem;
       letter-spacing: .1em;
       text-transform: uppercase;
-      color: #90897c;
+      color: #7a6e5d;
       text-decoration: none;
       transition: color .15s;
     }
@@ -152,12 +151,12 @@
 
     /* subtle scrollbar styling */
     .board::-webkit-scrollbar { height: 8px; }
-    .board::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
+    .board::-webkit-scrollbar-track { background: rgba(74,56,41,0.06); }
     .board::-webkit-scrollbar-thumb {
-      background: rgba(240,235,225,0.15);
+      background: rgba(74,56,41,0.15);
       border-radius: 4px;
     }
-    .board::-webkit-scrollbar-thumb:hover { background: rgba(240,235,225,0.3); }
+    .board::-webkit-scrollbar-thumb:hover { background: rgba(46,33,24,0.45); }
 
     .board-title {
       font-family: var(--mono);
@@ -165,7 +164,7 @@
       font-weight: 700;
       letter-spacing: .16em;
       text-transform: uppercase;
-      color: rgba(240,235,225,0.25);
+      color: rgba(46,33,24,0.55);
       margin-bottom: 1.5rem;
       padding-left: .25rem;
     }
@@ -181,9 +180,8 @@
       font-family: var(--serif);
       font-size: .92rem;
       line-height: 1.7;
-      color: #f0ebe1;
+      color: #2e2118;
       margin-bottom: 1rem;
-      text-shadow: 0 1px 6px rgba(0,0,0,0.6);
     }
     .board-intro p:last-child { margin-bottom: 0; }
 
@@ -212,11 +210,11 @@
       fill: none;
       stroke-width: 1.6;
       stroke-linecap: round;
-      filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35));
+      filter: drop-shadow(0 1px 1px rgba(74,56,41,0.15));
     }
-    .string-layer path:nth-child(odd)  { stroke: rgba(248,200,214,0.4); }
-    .string-layer path:nth-child(even) { stroke: rgba(255,255,255,0.3); }
-    .string-layer circle { fill: rgba(248,200,214,0.5); }
+    .string-layer path:nth-child(odd)  { stroke: rgba(201,113,133,0.5); }
+    .string-layer path:nth-child(even) { stroke: rgba(184,120,150,0.45); }
+    .string-layer circle { fill: rgba(201,113,133,0.6); }
 
     /* ── CARDS ── */
     .card {
@@ -241,6 +239,7 @@
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center;
+      filter: drop-shadow(0 2px 10px rgba(74,56,41,0.13));
     }
 
     /* text sits on the actual painted area (paint center ≈ 59% x, 45% y) */
@@ -252,7 +251,7 @@
       left: 59%;
       top: 45%;
       transform: translate(-50%, -50%);
-      background: rgba(255,255,255,0.45);
+      background: rgba(255,255,255,0.6);
       padding: .6rem .7rem;
       border-radius: 3px;
       backdrop-filter: blur(1px);
@@ -269,7 +268,7 @@
       font-size: .62rem;
       font-weight: 700;
       letter-spacing: .08em;
-      color: rgba(20,12,6,0.85);
+      color: rgba(15,8,3,0.92);
       margin-bottom: .5rem;
     }
 
@@ -283,8 +282,8 @@
 
     .card-count {
       font-family: var(--serif);
-      font-size: .78rem;
-      color: rgba(26,15,8,0.78);
+      font-size: .62rem;
+      color: rgba(20,12,6,0.88);
       margin-top: .5rem;
     }
 
@@ -315,7 +314,7 @@
       inset: 0;
       z-index: 100;
       overflow-y: auto;
-      background-color: #18140f;
+      background-color: #faf8f4;
       padding: 2rem 2.5rem 4rem;
     }
 
@@ -326,7 +325,7 @@
       background-image: url("{{ '/Untitled_Artwork_56.png' | relative_url }}");
       background-size: cover;
       background-position: center;
-      opacity: 0.15;
+      opacity: 0.04;
       z-index: 0;
       pointer-events: none;
     }
@@ -337,7 +336,7 @@
       font-family: var(--mono);
       font-size: .7rem;
       letter-spacing: .06em;
-      color: rgba(240,235,225,0.6);
+      color: rgba(46,33,24,0.7);
       cursor: pointer;
       margin-bottom: 2rem;
       display: inline-block;
@@ -363,7 +362,6 @@
       font-weight: 700;
       color: var(--text-light);
       letter-spacing: .04em;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.5);
     }
 
     .section-posts {
@@ -375,11 +373,11 @@
     .section-post-list { list-style: none; }
 
     .section-post-list li {
-      border-bottom: 1px solid rgba(240,235,225,0.1);
+      border-bottom: 1px solid rgba(74,56,41,0.1);
     }
 
     .section-post-list li:first-child {
-      border-top: 1px solid rgba(240,235,225,0.1);
+      border-top: 1px solid rgba(74,56,41,0.1);
     }
 
     .section-post-row {
@@ -392,12 +390,12 @@
       transition: background .12s;
     }
 
-    .section-post-row:hover { background: rgba(240,235,225,0.06); }
+    .section-post-row:hover { background: rgba(74,56,41,0.05); }
 
     .section-post-date {
       font-family: var(--mono);
       font-size: .62rem;
-      color: #90897c;
+      color: #7a6e5d;
       min-width: 90px;
       flex-shrink: 0;
       padding-top: 2px;
@@ -419,7 +417,7 @@
     .section-post-subtitle {
       font-family: var(--serif);
       font-size: .75rem;
-      color: #90897c;
+      color: #7a6e5d;
       margin-top: .15rem;
     }
 
@@ -428,8 +426,8 @@
       font-size: .6rem;
       letter-spacing: .08em;
       text-transform: uppercase;
-      color: #90897c;
-      border: 1px solid #35302a;
+      color: #7a6e5d;
+      border: 1px solid #e6ddcf;
       border-radius: 2px;
       padding: .15rem .45rem;
       flex-shrink: 0;
@@ -444,8 +442,8 @@
     .section-post-tag.mood-raw,
     .section-post-tag.mood-spill,
     .section-post-tag.mood-unsure {
-      color: rgba(232,160,176,0.8);
-      border-color: rgba(232,160,176,0.3);
+      color: rgba(158,72,96,0.95);
+      border-color: rgba(184,95,120,0.55);
     }
 
     .subtag-group { margin-bottom: 1.75rem; }
@@ -455,7 +453,7 @@
       font-size: .58rem;
       letter-spacing: .12em;
       text-transform: uppercase;
-      color: #90897c;
+      color: #7a6e5d;
       border-left: 1.5px solid rgba(144,137,124,0.3);
       padding-left: .5rem;
       margin-bottom: .5rem;
@@ -468,7 +466,7 @@
       padding: .75rem 2.5rem;
       font-family: var(--mono);
       font-size: .62rem;
-      color: rgba(240,235,225,0.25);
+      color: rgba(46,33,24,0.5);
       display: flex;
       gap: .75rem;
       pointer-events: none;
@@ -477,37 +475,48 @@
 
     .site-footer-board a {
       pointer-events: all;
-      color: rgba(240,235,225,0.25);
+      color: rgba(46,33,24,0.5);
       text-decoration: none;
       transition: color .15s;
     }
 
-    .site-footer-board a:hover { color: rgba(240,235,225,0.6); }
+    .site-footer-board a:hover { color: rgba(46,33,24,0.7); }
 
     /* ── MOBILE ── */
     @media (max-width: 768px) {
       .card-grid {
-        height: 900px;
-        max-width: 100%;
+        height: 2400px;
+        width: 100%;
+        min-width: 0;
+        margin: 1.5rem 0 0;
       }
-      .card { width: 250px; }
+      .card { width: 200px; }
       .card-paper {
-        width: 250px !important;
-        min-height: 175px !important;
+        width: 200px !important;
+        min-height: 145px !important;
         background-size: 100% 100% !important;
       }
-      .card-content { width: 62% !important; }
-      /* scattered overlapping positions for mobile */
-      #card-notes       { top: 30px;  left: 8%;  z-index: 4; }
-      #card-ongoing     { top: 130px; left: 38%; z-index: 5; }
-      #card-reflections { top: 440px; left: 4%;  z-index: 3; }
-      #card-writings    { top: 540px; left: 34%; z-index: 4; }
-      .card.photo-card { width: 110px; top: 720px !important; left: 20% !important; }
-      .card-paper-photo { width: 110px !important; }
+      .card-content { width: 64% !important; }
+      /* every card in its own vertical band — none share a row, no overlap */
+      #photo-1510       { top: 20px !important;    left: 50% !important; margin-left: -45px; }
+      #card-notes       { top: 180px;   left: 6%;   z-index: 4; }
+      #card-ongoing     { top: 500px;   left: 40%;  z-index: 3; }
+      #card-reflections { top: 820px;   left: 6%;   z-index: 2; }
+      #card-writings    { top: 1240px;  left: 36%;  z-index: 3; }
+      #photo-1549       { top: 1620px !important;  left: 50% !important; margin-left: -45px; }
+      .card.pinned-img:not([id]) { top: 1820px !important; left: 50% !important; margin-left: -45px; }
+      .card.photo-card { width: 90px; }
+      .card-paper-photo { width: 90px !important; }
       .site-header { padding: 1rem 1.25rem; }
+
+      /* section pages: stack badges below the text so they don't collide */
       .section-page { padding: 1.5rem 1.25rem 4rem; }
+      .section-post-row { flex-wrap: wrap; }
       .section-post-title { white-space: normal; }
-      .section-post-date { min-width: 70px; }
+      .section-post-date { min-width: 100%; margin-bottom: .15rem; }
+      .section-post-body { flex: 1 1 100%; }
+      .section-post-tag:first-of-type { margin-left: 0; margin-top: .4rem; }
+      .section-post-tag + .section-post-tag { margin-top: .4rem; }
     }
   </style>
 </head>
@@ -529,7 +538,7 @@
     <div class="board-title">{{ site.description }}</div>
 
     <div class="board-intro">
-      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world — thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
+      <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world —thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
       <p>most of my thoughts are rather mundane. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many other things, only sometimes.</p>
     </div>
 
@@ -555,15 +564,15 @@
 
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      {% comment %} collect distinct moods present in each category {% endcomment %}
+      {% comment %} one entry per mood-tagged post in each category — handle mood as string OR array {% endcomment %}
       {% assign notes_moods = "" %}
-      {% for p in all_notes %}{% if p.mood %}{% for m in p.mood %}{% unless notes_moods contains m %}{% assign notes_moods = notes_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_notes %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign notes_moods = notes_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
       {% assign ongoing_moods = "" %}
-      {% for p in all_ongoing %}{% if p.mood %}{% for m in p.mood %}{% unless ongoing_moods contains m %}{% assign ongoing_moods = ongoing_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_ongoing %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign ongoing_moods = ongoing_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
       {% assign ref_moods = "" %}
-      {% for p in all_ref %}{% if p.mood %}{% for m in p.mood %}{% unless ref_moods contains m %}{% assign ref_moods = ref_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_ref %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign ref_moods = ref_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
       {% assign writings_moods = "" %}
-      {% for p in all_writings %}{% if p.mood %}{% for m in p.mood %}{% unless writings_moods contains m %}{% assign writings_moods = writings_moods | append: m | append: "," %}{% endunless %}{% endfor %}{% endif %}{% endfor %}
+      {% for p in all_writings %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign writings_moods = writings_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
 
       <a class="card light" id="card-notes" data-moods="{{ notes_moods }}" style="top: 30px; left: 48%; transform: rotate(-2.5deg); z-index: 4" onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper" style="background-image: url('{{ '/Untitled_Artwork_54.png' | relative_url }}')">
@@ -645,35 +654,35 @@
       {% if personal_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if practice_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">practice</div>
         <ul class="section-post-list">{% for post in practice_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if academic_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">academic</div>
         <ul class="section-post-list">{% for post in academic_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if interests_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">interests</div>
         <ul class="section-post-list">{% for post in interests_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_notes_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">notes</div>
         <ul class="section-post-list">{% for post in general_notes_posts %}{% unless seen contains post.url %}{% assign seen = seen | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -692,21 +701,21 @@
       {% if personal_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if work_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">work</div>
         <ul class="section-post-list">{% for post in work_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_ongoing_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">general</div>
         <ul class="section-post-list">{% for post in general_ongoing_posts %}{% unless seen2 contains post.url %}{% assign seen2 = seen2 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -725,21 +734,21 @@
       {% if personal_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
         <ul class="section-post-list">{% for post in personal_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if work_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">work</div>
         <ul class="section-post-list">{% for post in work_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
       {% if general_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">general</div>
         <ul class="section-post-list">{% for post in general_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
     </div>
@@ -789,7 +798,7 @@
       <ul class="section-post-list"><li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li></ul>
       {% endunless %}{% endfor %}
 
-      {% if all_writings.size == 0 %}<p style="font-family:var(--mono);font-size:.7rem;color:rgba(240,235,225,0.3);padding:.6rem 0">nothing here yet</p>{% endif %}
+      {% if all_writings.size == 0 %}<p style="font-family:var(--mono);font-size:.7rem;color:rgba(46,33,24,0.45);padding:.6rem 0">nothing here yet</p>{% endif %}
     </div>
   </div>
 
@@ -837,17 +846,17 @@
     }
 
     var MOOD_COLORS = {
-      proud:  'rgba(248,200,214,0.5)',
-      raw:    'rgba(255,255,255,0.38)',
-      spill:  'rgba(232,180,210,0.48)',
-      unsure: 'rgba(255,228,236,0.42)'
+      proud:  'rgba(201,113,133,0.55)',
+      raw:    'rgba(168,154,135,0.5)',
+      spill:  'rgba(184,120,150,0.55)',
+      unsure: 'rgba(214,160,180,0.55)'
     };
 
     function knot(svg, p, color) {
       var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       c.setAttribute('cx', p.x);
       c.setAttribute('cy', p.y);
-      c.setAttribute('r', 2.4);
+      c.setAttribute('r', 2.2);
       if (color) c.setAttribute('fill', color);
       svg.appendChild(c);
     }
@@ -855,13 +864,30 @@
     function pinOf(el, grid) {
       var r = el.getBoundingClientRect();
       var g = grid.getBoundingClientRect();
-      // connect from the centre of the card/illustration
       return { x: r.left - g.left + r.width / 2, y: r.top - g.top + r.height / 2 };
     }
 
-    function moodsOf(el) {
+    // returns { mood: count } for a card
+    function moodCounts(el) {
       var raw = (el.getAttribute('data-moods') || '').trim();
-      return raw.split(',').map(function(s){ return s.trim(); }).filter(Boolean);
+      var counts = {};
+      raw.split(',').map(function(s){ return s.trim(); }).filter(Boolean)
+         .forEach(function(m){ counts[m] = (counts[m] || 0) + 1; });
+      return counts;
+    }
+
+    function curve(svg, a, b, color, offset) {
+      var dist = Math.hypot(b.x - a.x, b.y - a.y);
+      var sag = Math.min(80, dist * 0.14) + offset;
+      var c1x = a.x + (b.x - a.x) * 0.33;
+      var c1y = a.y + (b.y - a.y) * 0.33 + sag;
+      var c2x = a.x + (b.x - a.x) * 0.66;
+      var c2y = a.y + (b.y - a.y) * 0.66 + sag;
+      var d = 'M ' + a.x + ' ' + a.y + ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + b.x + ' ' + b.y;
+      var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', d);
+      path.setAttribute('stroke', color);
+      svg.appendChild(path);
     }
 
     function drawStrings() {
@@ -874,37 +900,33 @@
         .map(function(id){ return document.getElementById(id); })
         .filter(Boolean);
 
-      // connect every pair of cards that share at least one mood;
-      // one string per shared mood, coloured by that mood
+      var data = cards.map(function(c){
+        return { el: c, pin: pinOf(c, grid), counts: moodCounts(c) };
+      });
+
       var usedPins = {};
-      for (var i = 0; i < cards.length; i++) {
-        for (var j = i + 1; j < cards.length; j++) {
-          var a = cards[i], b = cards[j];
-          var ma = moodsOf(a), mb = moodsOf(b);
-          var shared = ma.filter(function(m){ return mb.indexOf(m) !== -1; });
-          if (shared.length === 0) continue;
+      var MOODS = ['proud', 'raw', 'spill', 'unsure'];
 
-          var pa = pinOf(a, grid), pb = pinOf(b, grid);
-          usedPins[a.id] = pa; usedPins[b.id] = pb;
-
-          shared.forEach(function(mood, k) {
-            var color = MOOD_COLORS[mood] || 'rgba(248,200,214,0.5)';
-            var dist = Math.hypot(pb.x - pa.x, pb.y - pa.y);
-            var sag = Math.min(90, dist * 0.16) + k * 18;  // offset stacked strings
-            var c1x = pa.x + (pb.x - pa.x) * 0.33;
-            var c1y = pa.y + (pb.y - pa.y) * 0.33 + sag;
-            var c2x = pa.x + (pb.x - pa.x) * 0.66;
-            var c2y = pa.y + (pb.y - pa.y) * 0.66 + sag;
-            var d = 'M ' + pa.x + ' ' + pa.y +
-                    ' C ' + c1x + ' ' + c1y + ' ' + c2x + ' ' + c2y + ' ' + pb.x + ' ' + pb.y;
-            var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-            path.setAttribute('d', d);
-            path.setAttribute('stroke', color);
-            svg.appendChild(path);
-          });
+      MOODS.forEach(function(mood) {
+        var color = MOOD_COLORS[mood];
+        // every pair of categories that BOTH have this mood gets tied together
+        for (var i = 0; i < data.length; i++) {
+          for (var j = i + 1; j < data.length; j++) {
+            var ca = data[i].counts[mood] || 0;
+            var cb = data[j].counts[mood] || 0;
+            if (ca === 0 || cb === 0) continue;
+            // number of strands = how many posts they share this mood through (min of the two)
+            var strands = Math.min(ca, cb);
+            strands = Math.min(strands, 4); // cap so it doesn't get too dense
+            for (var s = 0; s < strands; s++) {
+              curve(svg, data[i].pin, data[j].pin, color, s * 14);
+            }
+            usedPins[data[i].el.id] = data[i].pin;
+            usedPins[data[j].el.id] = data[j].pin;
+          }
         }
-      }
-      // knots at each connected pin
+      });
+
       Object.keys(usedPins).forEach(function(id){ knot(svg, usedPins[id]); });
     }
 
