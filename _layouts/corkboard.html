@@ -455,23 +455,16 @@
       .board-intro-cards { margin: 0 0 1.2rem .1rem; max-width: 100%; }
       .intro-note p { font-size: .82rem; }
       .card-grid {
-        height: 2200px;
+        height: 1500px;
         width: 100%;
         min-width: 0;
         margin: .5rem 0 0;
       }
       .card-paper { width: 220px !important; min-height: 155px !important; }
-      /* hide the pin teardrop, keep the white card */
-      .pin { display: none !important; }
-      .card-paper::before { display: none !important; }
-      #photo-1510       { top: 20px !important;    left: 50% !important; margin-left: -45px; }
       #card-notes       { top: 180px;   left: 6%;   z-index: 4; }
       #card-ongoing     { top: 500px;   left: 40%;  z-index: 3; }
       #card-reflections { top: 820px;   left: 6%;   z-index: 2; }
       #card-writings    { top: 1160px;  left: 36%;  z-index: 3; }
-      #photo-1549       { top: 1540px !important;  left: 50% !important; margin-left: -45px; }
-      .card.photo-card { width: 90px; }
-      .card-paper-photo { width: 90px !important; }
       .site-header { padding: 1rem 1.25rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
       .section-post-row { flex-wrap: wrap; }
@@ -586,26 +579,6 @@
         </div>
       </a>
 
-      <div class="card pinned-img photo-card" style="top: 440px; left: 75%; transform: rotate(-2.2deg); z-index: 5">
-        <div class="card-paper-photo">
-          <div class="pin"></div>
-          <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
-        </div>
-      </div>
-
-      <div class="card pinned-img photo-card" id="photo-1510" style="top: 20px; left: 82%; transform: rotate(3.2deg); z-index: 4">
-        <div class="card-paper-photo">
-          <div class="pin"></div>
-          <img class="board-photo" src="{{ '/IMG_1510.jpg' | relative_url }}" alt="illustration" />
-        </div>
-      </div>
-
-      <div class="card pinned-img photo-card" id="photo-1549" style="top: 430px; left: 6%; transform: rotate(-3deg); z-index: 4">
-        <div class="card-paper-photo">
-          <div class="pin"></div>
-          <img class="board-photo" src="{{ '/IMG_1549.jpg' | relative_url }}" alt="illustration" />
-        </div>
-      </div>
 
     </div>
   </div>
