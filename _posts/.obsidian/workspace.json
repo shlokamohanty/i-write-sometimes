@@ -11,10 +11,14 @@
             "id": "104e5bf68f1aafa4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-03-24-100-days-of-making.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-03-24-100-days-of-making"
             }
           }
         ]
@@ -181,26 +185,26 @@
   },
   "active": "104e5bf68f1aafa4",
   "lastOpenFiles": [
-    "2026-03-28-jack-of-all-trades.md",
-    "2026-06-01-oranges.md",
-    "2026-06-04-journaling.md",
-    "2026-06-03-tamil-love-poems.md",
-    "2026-05-22-migraines.md",
+    "2026-04-19-readings.md",
     "2026-05-06-facial-hair.md",
-    "2026-05-12-complexity-for-complexity-sake.md",
-    "2026-03-24-100-days-of-making.md",
-    "2026-05-31-drawings-and-expression-of-language.md",
-    "2026-06-01-circuits.md",
+    "2026-05-30-a-letter-to-you-from-the-sun.md",
+    "2026-06-01-oranges.md",
+    "2026-06-03-adolescence-of-suffering.md",
+    "2026-05-22-migraines.md",
     "2026-05-30-what-tf-is-new-media-art.md",
+    "2026-05-31-creative-coding-with-python.md",
+    "2026-05-31-drawings-and-expression-of-language.md",
+    "2026-03-24-100-days-of-making.md",
+    "2026-06-01-circuits.md",
+    "2026-06-03-tamil-love-poems.md",
+    "2026-06-04-journaling.md",
+    "2026-03-28-jack-of-all-trades.md",
+    "2026-05-12-complexity-for-complexity-sake.md",
     "2026-04-25-thesis-ideation.md",
     "2026-04-30-pratt-research-ideas.md",
     "2026-05-02-pain-of-my-phantom-limb.md",
     "2026-04-13-memory-n-grams.md",
-    "2026-06-03-adolescence-of-suffering.md",
-    "2026-05-31-creative-coding-with-python.md",
-    "2026-05-30-a-letter-to-you-from-the-sun.md",
     "2026-04-20-on-doing-better.md",
-    "2026-04-19-readings.md",
     "2026-04-13-thoughts-from-energy-discussion.md",
     "2026-03-01-relationships.md",
     "2026-02-24-wisconsin-pines.md",
