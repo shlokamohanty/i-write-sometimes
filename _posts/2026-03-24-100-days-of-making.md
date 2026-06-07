@@ -205,6 +205,6 @@ Read about Murakami's journaling technique, and perhaps instead of writing about
 
 <div class="day-block">
 <span class="day-label">43</span>
-Thoughts before drawing: I wonder if changing this into the journaling technique would tell a lot more than introspection. That might be a better way to record the other half of this project. Journal the observations, and instead of a separate page, since this activity is ritualistic, it might be interesting to see what I find from here. So from this point on, I'll have write the observations.
+Thoughts before drawing: I wonder if changing this into the journaling technique would tell a lot more than introspection. That might be a better way to record the other half of this project. Journal the observations, and instead of a separate page, since this activity is ritualistic, it might be interesting to see what I find from here. So from this point on, I'll have write the observations. I need to keep up the routine with this.
 Observations: 
 </div>
