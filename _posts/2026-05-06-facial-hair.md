@@ -14,7 +14,7 @@ Shloka, you’ve not shaved in a while. You have sideburns and a moustache growi
 
 Okay, I’ll shave today. 
 
-It’s a weird feeling today. How quickly hair grows, and consumes, the face, and the scalp. But I suppose hair plays a big role in people’s lives. If I were a strand, perhaps, I’d find myself in knots and entanglements with many now. But, the most entangled to mine, soon slip away. Now, there were two that were knotted, entangled, intertwined, in love, if I may, I loved twice. I’ve lost count. I’ve lost track of the entanglements, of the hair that grows on me, outward, inward even.
+It’s a weird feeling today. How quickly hair grows, and consumes, the face, and the scalp. But I suppose hair plays a big role in people’s lives. If I were a strand, perhaps, I’d find myself in knots and entanglements with many now. But, the most entangled to mine, soon slip away. Now, there were two that were knotted, entangled, intertwined, in love, if I may, I love and loved a total of twos. I’ve lost count. I’ve lost track of the entanglements, of the hair that grows on me, outward, inward even.
 
 ![me-and-facial-hair-2](/i-write-sometimes/assets/images/shloka_hair_2.jpg)
 
