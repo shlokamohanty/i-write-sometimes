@@ -44,6 +44,7 @@ Perhaps this leads me to conclude that I want my art practice to be rooted in au
 
 physical mechanisms: 
 airport departure board flipping mechanism
+
 [https://www.newschool.edu/parsons/profile/lucia-daniel/](https://www.newschool.edu/parsons/profile/lucia-daniel/)
 
 Figure out whole anatomy of brain by broad regions 
