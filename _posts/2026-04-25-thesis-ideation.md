@@ -5,6 +5,7 @@ subtitle:
 date: 2026-04-25
 tags: academic
 ---
+
 very rough - from using 100 days of making as my basis
 things that become important in memories:
 - sensory anchors (highly emotional situations)
