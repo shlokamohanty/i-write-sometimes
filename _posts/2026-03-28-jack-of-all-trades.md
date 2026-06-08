@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "jack of all trades"
-subtitle: "proclaiming my identity as a silly goof - will keep adding and revising"
+title: jack of all trades
+subtitle: proclaiming my identity as a silly goof - will keep adding and revising
 date: 2026-03-28
-tags: practice
+tags:
+  - personal-ongoing
+  - practice
 ---
 
 Coming into ITP, so unsure of my identity, I think finally, I’m more certain of who I am as a person.
