@@ -13,7 +13,7 @@ things that become important in memories:
 - perspective shifts
 - chain reaction of memories
 - mundane anchors
-- understanding: shared human context in the micro-moments (empathy). tie it all together with my conceptions on 'the politics of transcription'.
+- understanding: shared human context in the micro-moments (empathy). tie it all together with my conceptions on 'the politics of transcription', (or as I say, the paper that changed my life).
 
 learning more about neuroscience and computation 
 using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration. 
@@ -22,10 +22,10 @@ putting another marker on the memories to note when I was on amitriptyline and w
 
 It has to be solar, because, the 'Sun'. 
 
-'The Sun, it burns every day.'
+'The Sun, it burns every day.' - more so, the circadian rhythm
 
-Find people to talk to in neuroscience - ground this with more empirical science.
-
+Find people to talk to in neuroscience - ground this with more empirical science. 
+- Sarah, Raviya's friend
 
 ![notes](/i-write-sometimes/assets/images/migraines.jpg)
 
@@ -44,9 +44,8 @@ Perhaps this leads me to conclude that I want my art practice to be rooted in au
 - more to think on in terms of drawings and language
 
 physical mechanisms: 
-airport departure board flipping mechanism
-
-[https://www.newschool.edu/parsons/profile/lucia-daniel/](https://www.newschool.edu/parsons/profile/lucia-daniel/)
+- airport departure board flipping mechanism
+- [https://www.newschool.edu/parsons/profile/lucia-daniel/](https://www.newschool.edu/parsons/profile/lucia-daniel/)
 
 Figure out whole anatomy of brain by broad regions 
 Picking out most important for chronic pain, depression, anxiety
@@ -57,3 +56,7 @@ Picking out most important for chronic pain, depression, anxiety
 
 brain as a city?
 
+https://atlas.brain-map.org/
+
+I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues.
+- Read about both over summer, and, see what sits well.
