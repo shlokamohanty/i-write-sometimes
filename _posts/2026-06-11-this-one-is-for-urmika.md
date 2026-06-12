@@ -20,8 +20,6 @@ She told me yesterday that she’s been reading all of this secretly. And was sa
 
 We’ve now known each other for about two and a half years. We’ve had moments where we’ve felt closer to each other and drifted apart in bits because we both moved to different places, and a lot happened in our lives. She’s in Kansas, and I’m in New York. We’re doing things that are worlds apart. I miss her laughter and how she would have loved the person that I’m becoming here.
 
-She’d always complain about how I’d hate hugs and any kind of physical affection, but how that’s different here, and how physically affectionate I am. I love hugs now, and I’d immediately give her one. I never really told her what’s going on with me, what I’m feeling like, but I’d be present, back then. Only if she were here now, she’d know that I talk a lot more about what’s going on with me and what I’m feeling like. My roommate Raviya is a lot like her. Except she’s much more shy.
-
 ![](/i-write-sometimes/assets/images/IMG_1736.jpg)
 
 A rare image of me hugging back then, I was quite drunk too.
