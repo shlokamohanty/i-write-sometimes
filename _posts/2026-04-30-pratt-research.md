@@ -8,3 +8,5 @@ tags: academic
 
 Technically starts June 15th but I'm going to start reading more.
 
+Resources:
+https://www.akademie-solitude.de/de/listening-as-an-act-of-conservation/

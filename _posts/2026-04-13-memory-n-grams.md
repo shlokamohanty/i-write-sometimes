@@ -3,7 +3,7 @@ layout: post
 title: "mini memory n-grams"
 subtitle: "can i use computational text to show how memory is encoded, consolidated, retrieved, implanted, and sometimes forgotten."
 date: 2026-03-24
-tags: academic
+tags: work-ongoing
 ---
 
 1. corpus -> prior to learning
