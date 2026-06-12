@@ -211,6 +211,6 @@ Observations: Used a 03 Micron Pen to make the drawing. Initially, struggled to 
 
 <div class="day-block">
 <span class="day-label">44</span>
-Studying the data: Amisha is the exception, till now. Whenever I'm around Amisha, I feel warmth. The only person in my memory yet that’s in first person and is associated with warmth, at the same time. This is going to be such an awesome data-storytelling project.
-Observations:
+Studying the data: Amisha is the exception, till now. Whenever I'm around Amisha, I feel warmth. The only person in my memory yet that’s in first person and is associated with warmth, at the same time. This is going to be such an awesome data-storytelling project. 
+Observations: Used a 03 Micron Pen to make the drawing. There was some ease today while drawing the structure of the face, but then I messed up the eyes. I struggle to make an annoyance. The basket looks like a bag rather than a basket. I added some color, using my highlighter, but it caused the pen to smudge slightly. It doesn't look the way I remember the memory. I don't think the person was wearing specs. I just added them so the eyes don't look incorrect.
 </div>
