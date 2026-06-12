@@ -36,7 +36,7 @@ Amisha and Shloka, while Amisha is blinking and Shloka is holding their breath t
 Amisha and Shloka are hugging eachother in a Subway Station.  
 Amisha and Shloka are in Madison, while Amisha has their thumbs down and Shloka is holding a mop.  
 Amisha and Shloka, while Amisha is holding a plushy shaped like a strawberry, right after they woke up in the morning.  
-Amisha and Shloka are in front of an Urgent Care in Madison, while Shloka is smiling and has their head placed on Amisha's shoulders, and Amisha is frowning.  
+Amisha and Shloka are in front of an Urgent Care in Madison, while Shloka is smiling and has their head placed on Amisha's shoulders, and Amisha is frowning. 
 Amisha and Shloka are in New York, while Shloka is pouting and Amisha has their head placed on Shloka's shoulders with their mouth wide open and their eyes tightly scrunched.
 Amisha and Shloka are posing in front of a waterfall in Minnesota.
 Amisha and Shloka are in an Uber in Mumbai, they have their heads touching, and sunlight is falling on Amisha’s face.
