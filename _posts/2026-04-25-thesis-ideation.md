@@ -56,7 +56,20 @@ Picking out most important for chronic pain, depression, anxiety
 
 brain as a city?
 
-https://atlas.brain-map.org/
-
 I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues.
 - Read about both over summer, and, see what sits well.
+
+time in conjunction to neuroscience and physics 
+in physics 
+- past, present and future, exist at once
+in neuroscience 
+- organises reality through memories 
+- sequences life experiences into narratives create the illusion or the sensation of continuity
+- without memory your perception of linear time will begin to collapse
+
+To read:
+https://www.nature.com/articles/s41380-021-01400-x
+https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/Consciousness_2014/Emotions/10-Damasio-OCR.pdf
+
+To explore:
+https://atlas.brain-map.org/
