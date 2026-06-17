@@ -24,7 +24,6 @@ I think there's a privilege to being young, in comparison to my peers. In some w
 
 more from: https://pmc.ncbi.nlm.nih.gov/articles/PMC1299014/pdf/5-7400103.pdf
 
-
 "science corresponds to progress, methodical rationality, austerity and objectivism, art is recognized as mysterious creativity, ambiguity and joyful idiosyncrasy."
 
 "The general public usually looks to science to find solutions for practical problems in the hope for a better world and to artists to borrow a personal vision of the experience of life"
@@ -33,5 +32,9 @@ more from: https://pmc.ncbi.nlm.nih.gov/articles/PMC1299014/pdf/5-7400103.pdf
 
 There is a risk that art ends up being a servant of science education, just bringing a decorative aspect to the scientific enterprise, which could result in a dilution of the science and an increase in misconceptions.
 
+https://www.symmetrymagazine.org/article/art-draws-out-the-beauty-of-physics?language_content_entity=und
 
+https://tcaproject.net/portfolio/biomess/
+
+The difference, with using physics and art as a means of depiction in comparison to biology and art, is that, in physics, you deal with the realm of the invisible. You can only observe their effects on other objects. Whereas biology, you can physically hold. It's kind of the problem Cody and I had building a kinetic sculpture for baryon asymmetry. How do you show annihilation in a controlled environment? It's easy to use code to do it, but physically, that's difficult. That's why, in some ways, that project in itself became a vessel towards science education rather than a piece of art. Maybe, now looking back at it, a manner in which this could have been done is looking at humans, and how humans are fundamentally flawed, and an imbalanced system (the flaws), would be the reason why we exist. Neuroscience deals with the same problem as in physics. It's invisible, and we see the effects. It's kind of what I was trying to say with energy being an invisible infrastructure as a larger concept. When you start seeing and accepting people through their complexities, it’s easier to connect them to these invisible realms and concepts. The nature of physics, mathematics, and neuroscience is not simple. My projects like the poetry generator and love bugs don’t necessarily deal with complexity. They are cheesy, cute, direct people to feel one way. But people aren’t just that. There are equations, cancellations, and bonds that become easier to tie to the complexities of humanness, their nuances. Forming a framework here is important, since I am becoming capable of understanding that in people and relationships, myself and I want to show my perspective.
 
