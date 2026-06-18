@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "creative coding with python?"
+title: creative coding with python
 subtitle: ""
 date: 2026-05-31
 tags: academic
@@ -10,3 +10,4 @@ I've barely dabbled in creative coding, which is something, I want to try out mo
 
 - Learning py5
 - Trying https://www.drawbot.com/
+- https://github.com/hollygrimm/py5-noc-book-2

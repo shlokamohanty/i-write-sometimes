@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "what the fuck is new media art?"
+title: new media art
 subtitle: ""
 date: 2026-05-30
 tags: academic
