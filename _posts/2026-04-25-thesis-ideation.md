@@ -73,3 +73,7 @@ https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/Consciousnes
 
 To explore:
 https://atlas.brain-map.org/
+
+fear memory is the learned content (what's dangerous), and anxiety is what it looks like when that threat-prediction system runs chronically, even without a trigger.
+
+what if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up?
