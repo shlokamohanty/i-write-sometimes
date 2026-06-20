@@ -3,6 +3,8 @@ layout: post
 title: pratt research
 subtitle: artist's eye
 date: 2026-04-30
-tags: academic
+tags:
+  - academic
+  - work-ongoing
 ---
 
