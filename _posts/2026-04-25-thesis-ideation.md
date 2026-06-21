@@ -29,8 +29,6 @@ It has to be solar, because, the 'Sun'.
 Find people to talk to in neuroscience - ground this with more empirical science. 
 - Sarah, Raviya's friend
 
-![notes](/i-write-sometimes/assets/images/migraines.jpg)
-
 My stories revolve around breaking cycles, especially the way I made my migraine chronic by overusing analgesics. Perhaps the stress from my abuse triggered the migraines, and the repeated overuse created a chronic pattern. I find that I keep repeating and growing these cycles. But doesn't everyone repeat and ruminate on certain things? The patterns we choose or allow tend to prevail. When things go well, a positive cycle develops. Then, anxiety or something else takes over, shifting the pattern. It all connects back to how our brains work. 
 
 There’s some connection with cycles, familiarity, and the fact that people find themselves in cycles because they are surprise-averse. What if we just accepted people for who they are, perhaps embraced their surprises, the nuances, the complex creatures that we are, instead of finding comfort in familiarity? Does that change the cycle, break it, or what kind of a mechanism would that be? Well, in a larger neuroscience sense, the brain is surprise-averse. The assumption that people are broken generally implies that they were whole before. 
@@ -56,7 +54,7 @@ Picking out most important for chronic pain, depression, anxiety
 - 98% of a person's atoms are replaced every year
 - basic biology property: molecular components are replaced over time
 
-brain as a city?
+brain as a ~~city?~~ database
 
 I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues.
 - Read about both over summer, and, see what sits well.
@@ -76,6 +74,24 @@ https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/Consciousnes
 To explore:
 https://atlas.brain-map.org/
 
-fear memory is the learned content (what's dangerous), and anxiety is what it looks like when that threat-prediction system runs chronically, even without a trigger.
+Fear memory is the learned content (what's dangerous), and anxiety is what it looks like when that threat-prediction system runs chronically, even without a trigger.
 
-what if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up?
+What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up?
+
+While reading Jan Westerhoff's 'Reality', some quotes stood out:
+
+'Our brain is fairly complex, but its computational power is not that large'
+
+'The problem seems to be that the words, ideas, and beliefs of the brain provided with the simulation and our words, ideas, and beliefs are strictly isolated from each other. Our talk refers to whatever is the cause of our ideas, and their talk refers to whatever is the cause of their ideas, and these causes are very different things.'
+
+I think there's a lot I want to say about the second quote. Especially regarding people and communication. The histories of two people can be so different that, even though they are in the same room and use the exact same words, they are talking about different things. One can use the same word, but the cause of the idea of that word is unique to their past. We all assume that we have the same semantic world, but in fact, it's completely isolated. So conversations are always isolated. We only feel this isolation when there is a disagreement.
+
+The brain creates a simulation of how other people feel based on their words and expressions. We can never feel what another person feels.
+
+Now, when it comes to anxiety. Anxious people turn people into puzzles, as do I, because this isolation feels uncomfortable. The simulation of the people in anxious minds is "over-fitted," so the brain essentially fails to handle the randomness that makes people human.
+
+My withdrawal makes sense. I'm burnt out from constantly analysing. The way each brain is is not predictable. It's a wild, chaotic system. No one can predict mine, as I can't predict theirs. Objectively, I need to treat the simulations of my observations of people like Schrödinger's cat. I am hyper-observant. There's no way to change that. But this information about people and predicting their outcomes. It's Schrödinger's cat. It could be the worst case, or it could be a neutral case. Both stay unproven, unless I ask.
+
+Another thing, the brain is structurally isolated. The sensory signals are what make up the reality.
+
+But, thinking back to the reading: "Nature's Folly" from RWET. I love the line in it, on how art breaches this loneliness. Art is that external object that describes this feeling, and when you feel it, you realise you weren't the only one feeling it. It's the strange feeling from experiencing art that connects people.
