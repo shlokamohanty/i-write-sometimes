@@ -63,7 +63,7 @@ I love the line in it, on how art breaches this loneliness. ~~Art is that extern
 
 > Art makes people feel. Even though the specifics of a situation aren't present. The feeling is shared. This feeling, is what connects people, thus, breaches this isolation.
 
-I am an extremely introspective person. 
+> This shared feeling is understanding.
 
 ## mechanics
 
@@ -80,6 +80,8 @@ physical mechanisms:
 - airport departure board flipping mechanism
 - [https://www.newschool.edu/parsons/profile/lucia-daniel/](https://www.newschool.edu/parsons/profile/lucia-daniel/)
 
+> It has to be a dynamic system.
+
 ## to do and questions
 
 - more to think on in terms of drawings and language
@@ -88,7 +90,7 @@ physical mechanisms:
 - I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues. Read about both over summer, and, see what sits well.
 - What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up?
 - I want to learn more about chaos theory.
-- But, why do I want to do this? What about analysing my brain is important? What do I want to show? That's the bigger question.
+- But, why do I want to do this? What about analysing my brain is important? What do I want to show? Is it for people to understand me? Do I want to understand myself?
 - Is the brain just calm chaos?
 
 ## readings and quotes
