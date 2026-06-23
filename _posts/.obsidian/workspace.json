@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "e434e81157cbf608",
+            "id": "1c6292ed0d72bae4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-23-naming-it-down-further.md",
+                "file": "2026-06-22-thinking-more-on-storyteller-and-readers.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-06-23-naming-it-down-further"
+              "title": "2026-06-22-thinking-more-on-storyteller-and-readers"
             }
           }
         ],
@@ -198,15 +198,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "e434e81157cbf608",
+  "active": "1c6292ed0d72bae4",
   "lastOpenFiles": [
-    "2026-06-22-how-i-understand-the-world.md",
     "2026-06-23-naming-it-down-further.md",
+    "2026-06-23-silly-dejected.md",
+    "2026-06-22-thinking-more-on-storyteller-and-readers.md",
+    "2026-04-30-pratt-research.md",
+    "2026-06-21-storyteller-and-readers.md",
+    "2026-06-22-how-i-understand-the-world.md",
     "2026-06-14-looking-back.md",
     "2026-06-15-forming-a-framework.md",
     "2026-06-20-on-making-a-meaning-of-suffering.md",
-    "2026-06-21-storyteller-and-readers.md",
-    "2026-06-22-thinking-more-on-storyteller-and-readers.md",
     "2026-06-01-oranges.md",
     "2026-06-03-adolescence-of-suffering.md",
     "2026-06-03-tamil-love-poems.md",
@@ -224,8 +226,6 @@
     "2026-04-20-on-doing-better.md",
     "2026-04-19-readings.md",
     "2026-04-13-memory-n-grams.md",
-    "2026-01-12-eyrah-lua.md",
-    "2026-02-10-you-me-and-them.md",
     "Untitled.base",
     "Untitled 1.base",
     "Untitled 3.canvas",
