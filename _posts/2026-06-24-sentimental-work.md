@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "sentimental work"
+title: sentimental work
 subtitle: ""
-date: 2026-06-22
-tags: 
+date: 2026-06-24
+tags:
   - work-reflection
   - practice
 ---
