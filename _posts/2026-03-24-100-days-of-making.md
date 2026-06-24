@@ -218,5 +218,6 @@ Observations: Used a 03 Micron Pen to make the drawing. There was some ease toda
 <div class="day-block">
 <span class="day-label">45</span>
 Studying the data: I think I should redraw the electrocuted memory. It's in first-person perspective. I cannot actually picture myself there, even as I'm trying to think about it now. I don't know what I wore or how I looked then.
+Notes: I need to be more disciplined. Of course, this wasn't a continuous 100 days process, so I can't actually evaluate on how it'll make me feel, but it'll give me good data to go along. Even for my thesis and multiple data collection aspects, I need to be more disciplined.
 Observations: 
 </div>
