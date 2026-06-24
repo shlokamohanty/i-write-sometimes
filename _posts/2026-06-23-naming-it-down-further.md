@@ -10,6 +10,6 @@ What I learnt from wanting to do autoethnographic research as my practice, and h
 
 Decomposition -> Reconstruction -> Interpretation.
 
-Exactly, what I'm doing for my thesis, in a way. ~~And, I do this to myself. Aaaah - I broke myself down, this year.~~
+Exactly, what I'm doing for my thesis, in a way. 
 
 In other words, data collection, and analysis.
