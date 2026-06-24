@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "i'm so silly and dejected"
+title: i'm so silly and dejected
 subtitle: ""
 date: 2026-06-23
-tags: 
+tags:
   - personal-reflection
+published: false
 ---
 
 Sometimes I think I’m so silly. I’m having these revelations, which I think are revelations, but they are just objectively human things. When I show these to Raviya, she’s like, it’s like your first day being human. Sometimes, the answers are so clearly in front of me, and I’m just so oblivious. I love linguistics and research, and I clearly have an interest in archaeology and anthropology, as well as the sciences. Makes sense, auto-ethnography as a practice, and the fact that the paper that changed my life was the 'Politics of Transcription'. Even the decomposition as a method is archaeological. I’m so stupid. Or I’m just living life with some form of childlike wonder.
