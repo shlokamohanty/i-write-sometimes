@@ -88,7 +88,7 @@ physical mechanisms:
 - Read more on **Predictive Processing Framework**.
 - Figure out whole anatomy of brain by broad regions — picking out most important for chronic pain, depression, anxiety
 - I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues. Read about both over summer, and, see what sits well.
-- What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up?
+- What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up? Cornell anxiety-log
 - I want to learn more about chaos theory.
 - But, why do I want to do this? What about analysing my brain is important? What do I want to show? Is it for people to understand me? Do I want to understand myself?
 - Is the brain just calm chaos?
