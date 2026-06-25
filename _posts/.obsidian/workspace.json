@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38010498dfa3c121",
+            "id": "353a31e431e4d3f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-24-the-framework.md",
+                "file": "2026-03-24-100-days-of-making.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-06-24-the-framework"
+              "title": "2026-03-24-100-days-of-making"
             }
           }
         ]
@@ -183,34 +183,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "38010498dfa3c121",
+  "active": "353a31e431e4d3f3",
   "lastOpenFiles": [
+    "2026-03-20-letter.md",
+    "2026-06-23-naming-it-down-further.md",
     "2026-06-24-sentimental-work.md",
+    "2026-06-24-skybone-studios.md",
+    "2026-02-24-wisconsin-pines.md",
+    "2026-06-07-π.md",
+    "2026-02-21-permanence.md",
+    "2026-03-01-relationships.md",
+    "2026-06-22-thinking-more-on-storyteller-and-readers.md",
     "2026-06-24-the-framework.md",
+    "2026-06-03-adolescence-of-suffering.md",
+    "2026-06-22-how-i-understand-the-world.md",
+    "2021-03-08-blog-post-title-from-file-name.md",
+    "2026-06-01-circuits.md",
+    "2026-06-07-transcription.md",
+    "2026-01-12-eyrah-lua.md",
+    "2025-10-29-observant.md",
+    "2026-06-21-storyteller-and-readers.md",
     "2026-06-11-this-one-is-for-urmika.md",
     "2026-06-14-looking-back.md",
     "2026-06-20-on-making-a-meaning-of-suffering.md",
     "2026-06-01-oranges.md",
     "2026-06-03-tamil-love-poems.md",
-    "2026-06-07-π.md",
     "2026-06-15-forming-a-framework.md",
-    "2026-06-21-storyteller-and-readers.md",
-    "2026-06-22-how-i-understand-the-world.md",
-    "2026-06-22-thinking-more-on-storyteller-and-readers.md",
-    "2026-06-23-naming-it-down-further.md",
     "2026-05-31-drawings-and-expression-of-language.md",
     "2026-05-31-creative-coding-with-python.md",
-    "2026-06-07-transcription.md",
-    "2026-06-01-circuits.md",
-    "2026-04-13-memory-n-grams.md",
-    "2026-03-24-100-days-of-making.md",
-    "2026-03-28-xenon.md",
-    "2026-03-20-letter.md",
-    "2026-02-24-wisconsin-pines.md",
-    "2026-02-15-what-i-want-to-do.md",
-    "2026-02-11-and-they-were-roommates..md",
-    "2026-04-30-pratt-research.md",
-    "2026-04-25-thesis-ideation.md",
     "Untitled.base",
     "Untitled 1.base",
     "Untitled 3.canvas",
