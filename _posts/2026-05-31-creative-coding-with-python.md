@@ -40,8 +40,9 @@ def draw():
     side = int(py5.random(50))
     
     cx, cy = py5.width / 2, py5.height / 2
-    scale = 0.5
-    # vector scaling: v_new = vec_A +s*(vec_V_random - vec_A)
+    
+    # the intention was to try vector scaling: v_new = vec_A +s*(vec_V_random - vec_A) but, what i did instead is v_new = vec_V_random + vec_V1_random. the two controls and ending anchors are not algebraically related to each other.
+    
     scale_left = 1.5
     scale_right = 1.5
 
@@ -64,5 +65,9 @@ py5.run_sketch()
 ```
 
 ![](/i-write-sometimes/assets/images/noc_intro.png)
+
+Even though this wasn't really challenging, it was still really fun. And, mathematically, I didn't use vector scaling. Instead did random jitter. Honestly, this just looks pretty, because even the string theory interpretation is technically wrong here, but that's fine. Well, the strings do function like open vibrating strings. I do like the imbalance and unpredictability: early universe representation.
+
+The thing with Python is that I can actually use datasets and pandas, hehe, yay. This is so exciting. I understand why people like creative coding.
 
 ## randomness
