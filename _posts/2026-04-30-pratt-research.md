@@ -8,7 +8,7 @@ tags:
   - work-ongoing
 ---
 
-# Formulating a Research Question
+## Formulating a Research Question
 Researching how illustrators make choices about what to emphasize, omit, and preserve.
 
 ## Gesture Drawing

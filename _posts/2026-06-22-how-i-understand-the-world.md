@@ -21,6 +21,6 @@ After drawing the model of my framework. On a base level, I do have a reductioni
 
 This is the framework, looking at life as art, and turning it into data. From there the scientific inquiry. This all supposedly mirrors consilience. 
 
-AAAAAAAH! Consilience just tells me that the way I deal with things, the way I am, helix/spirals are literally the way in which I end up living and understanding life. (*pagli* meaning crazy)
+AAAAAAAH! Consilience just tells me that the way I deal with things, the way I am, helix~~/spirals~~ are literally the way in which I end up living and understanding life. (*pagli* meaning crazy)
 
 And it's true, every time, I have a revelation, on most occasion, people tell me, you already knew this, you gave me advice on this. Just from time to time, I need to René Descartes my way into life, then restructure a bit.
