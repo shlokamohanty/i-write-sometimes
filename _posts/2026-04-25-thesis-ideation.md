@@ -21,7 +21,7 @@ things that become important in memories:
 - mundane anchors
 - understanding: shared human context in the micro-moments (empathy). tie it all together with my conceptions on 'the politics of transcription', (or as I say, the paper that changed my life).
 
-My stories revolve around breaking cycles, especially the way I made my migraine chronic by overusing analgesics. Perhaps the stress from my abuse triggered the migraines, and the repeated overuse created a chronic pattern. I find that I keep repeating and growing these cycles. ~~But doesn't everyone repeat and ruminate on certain things?~~ The patterns ~~we~~ I choose or allow tend to prevail. %% hasty generalisation -> one case to everyone %%
+My stories revolve around breaking cycles, especially the way I made my migraine chronic by overusing analgesics. Perhaps the stress from my abuse triggered the migraines, and the repeated overuse created a chronic pattern. I find that I keep repeating and growing these cycles. ~~But doesn't everyone repeat and ruminate on certain things?~~ The patterns ~~we~~ I choose or allow tend to prevail. 
 
 When things go well, a positive cycle develops. Then, anxiety or something else takes over, shifting the pattern. It all connects back to how our brains work.
 
@@ -51,7 +51,11 @@ Fear memory is the learned content (what's dangerous), and anxiety is what it lo
 
 I think there's a lot I want to say about the second quote. Especially regarding people and communication. The histories of two people can be so different that, even though they are in the same room and use the exact same words, they are talking about different things. One can use the same word, but the cause of the idea of that word is unique to their past. 
 
-We all assume that we have the same semantic world, but in fact, it's ~~completely~~ partially isolated. So conversations are partially isolated. %% I am using partially here, since, semantic worlds can have some overlap in meaning. %% We feel this isolation when there is a disagreement.
+> We all assume that we have the same semantic world, but in fact, it's ~~completely~~ partially isolated. So conversations are partially isolated. 
+
+I am using partially here, since, semantic worlds can have some overlap in meaning. 
+
+We feel this isolation when there is a disagreement.
 
 The brain creates a simulation of how other people are and feel based on their words and expressions. We can never feel what another person feels.
 
@@ -67,14 +71,16 @@ I love the line in it, on how art breaches this loneliness. ~~Art is that extern
 
 Instead of the word -> loneliness, I want to refer to it as 'isolation'.
 
-> Art makes people feel. Even though the specifics of a situation aren't present. The feeling is shared. This feeling, is what connects people, thus, breaches this isolation.
+> Art makes people feel. Even though the specifics of a situation aren't present. The feeling is shared. Art creates this shared experience. This ~~feeling~~ experience, is what connects people, thus, breaches this isolation.
 
-> This shared feeling is understanding. Wait is it though? I can't just come to that conclusion.
+> This shared ~~feeling~~ experience is understanding. Wait is it though? I can't just come to that conclusion.
 
 Essentially, I'm trying to learn more about the philosophy of mind.
 
+Raviya pointed out that I occasionally have a tendency to hide my feelings, which made me think that what we show to the world outside vs what we keep to ourselves is shaped by how we choose to transcribe it, which goes back to 'Politics of Transcription'. I thought this was interesting, in the context of where my thesis is headed.
+
 More on the notion of understanding:
-https://philosophynow.org/issues/139/How_Do_We_Understand_Each_Other
+
 
 
 
@@ -103,7 +109,7 @@ physical mechanisms:
 - I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues. Read about both over summer, and, see what sits well.
 - What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up? Cornell anxiety-log?
 - I want to learn more about chaos theory.
-- But, why do I want to do this? What about analysing my brain is important? What do I want to show? Is it for people to understand me? Do I want to understand myself? What is understanding? This is a crazy thing though. 
+- But, why do I want to do this? What about analysing my brain is important? What do I want to show? ~~Is it for people to understand me?~~ Do I want to understand myself? What is understanding? This is a crazy thing though. 
 - ~~Is the brain just calm chaos?~~
 
 ## readings and quotes
@@ -117,6 +123,7 @@ While reading Jan Westerhoff's 'Reality', some quotes stood out:
 
 - https://www.nature.com/articles/s41380-021-01400-x
 - https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/Consciousness_2014/Emotions/10-Damasio-OCR.pdf
+- https://philosophynow.org/issues/139/How_Do_We_Understand_Each_Other
 
 ### to explore
 
