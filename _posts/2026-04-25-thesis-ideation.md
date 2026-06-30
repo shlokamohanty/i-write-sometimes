@@ -38,7 +38,7 @@ memory is a material in neuroscience that builds identity
 - 98% of a person's atoms are replaced every year
 - basic biology property: molecular components are replaced over time
 
-brain as a ~~city?~~ database
+brain as a ~~city?~~ ~~database~~ data center with a database?
 
 time in conjunction to neuroscience and physics in physics
 
