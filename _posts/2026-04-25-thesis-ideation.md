@@ -79,6 +79,8 @@ Essentially, I'm trying to learn more about the philosophy of mind.
 
 Raviya pointed out that I occasionally have a tendency to hide my feelings, which made me think that what we show to the world outside vs what we keep to ourselves is shaped by how we choose to transcribe it, which goes back to 'Politics of Transcription'. I thought this was interesting, in the context of where my thesis is headed.
 
+I wonder if I can combine data and animation? Definitely possible, in the manner that I did my rewiring connections, but what would that look like pandas dataframe wise? hmm. It's good I'm doing more Python though. I'll need Raspberry Pis, I think. And, if it's semantics, then it's still Python. This is exciting. Hehe, when else will I get to make something crazy, like this?
+
 More on the notion of understanding:
 
 

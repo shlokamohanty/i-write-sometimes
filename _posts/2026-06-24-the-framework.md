@@ -6,6 +6,7 @@ date: 2026-06-24
 tags:
   - work-reflection
   - practice
+  - work-ongoing
 ---
 
 ![](/i-write-sometimes/assets/images/IMG_2557.jpg)
