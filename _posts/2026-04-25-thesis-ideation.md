@@ -99,6 +99,7 @@ Gosh, now my brain hurts. Ironic. There are more logical fallacies here. Funny t
 
 I need to be conscious about my word choices when writing. Sometimes, I say words without really understanding what they mean. I guess it comes down to differences in semantic worlds, how my semantic world of English has been shaped. I wonder if I understand other languages better. I don't particularly think so. Maybe I don't have a flair for language. Now, I can't revisit, every writing and see if I chose the right word. 
 
+The dark side of grief is escapism.
 ## mechanics
 
 learning more about neuroscience and computation using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration.

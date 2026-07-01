@@ -67,3 +67,5 @@ Also, a little secret that everyone should know: the original phrase is "a jack 
 
 ---
 I would have looked at the ITP statement, but I didn't write it well, so I don't want to. I am working at LIAVH though, so that's nice. Although, again, I'm not doing what I said. My interests are evolving, but some things do stand. I like translating physics, but by analytical thinking, I think I wanted to say philosophy there. And Urban Systems Lab is at NYU now. Also, don't feel like puppet hands anymore. 
+
+---

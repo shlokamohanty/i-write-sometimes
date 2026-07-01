@@ -18,8 +18,25 @@ tags:
 *I wanted to show the formation of a molecule and tap into the concept of string theory. This is experimental in that it plays a lot with music. Each subatomic particle is a string, and these strings come together; each string is a different note. As the strings come together, the sound is cacophonous, gradually resolving into a symphony.*
 
 Moving forward with **Pitch 2**:
+
 To Do:
 - Thumbnail storyboard
 - Rough character designs
 - Find other examples to reference
 - Roughly plan a schedule
+
+![](/i-write-sometimes/assets/images/IMG_2582_2.jpg)
+
+![](/i-write-sometimes/assets/images/Untitled_Artwork-54.jpg)
+
+**Schedule:**
+**8th July** - animatic and test shots/test animations
+**15th July** - filming
+**22nd July** - keys 1st pass/ music due
+**29th July** - keys 2nd pass due
+**31st July** - optional check-in day
+**10th August** - in-betweens due
+**14th August** - clean-up first pass due
+**24th August** - final animation/ comp test due
+**26th August** - optional check-in day
+**28th August** - film due
