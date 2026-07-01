@@ -215,7 +215,7 @@ Studying the data: Amisha is the exception, till now. Whenever I'm around Amisha
 Observations: Used a 03 Micron Pen to make the drawing. There was some ease today while drawing the structure of the face, but then I messed up the eyes. I struggle to make an annoyance. The basket looks like a bag rather than a basket. I added some color, using my highlighter, but it caused the pen to smudge slightly. It doesn't look the way I remember the memory. I don't think the person was wearing specs. I just added them so the eyes don't look incorrect.
 </div>
 
-after, a very long break.
+After a very long break, part of me doesn't want to continue this because I feel like I'm finally over dreading my childhood. But I'll do it since, as per my methodology, I already know the memories that I need to draw.
 
 <div class="day-block">
 <span class="day-label">45</span>

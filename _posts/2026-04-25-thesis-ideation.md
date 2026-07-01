@@ -20,11 +20,14 @@ things that become important in memories:
 - mundane anchors
 - understanding: shared human context in the micro-moments (empathy). tie it all together with my conceptions on 'the politics of transcription', (or as I say, the paper that changed my life).
 
-My stories revolve around breaking cycles, especially the way I made my migraine chronic by overusing analgesics. Perhaps the stress from my abuse triggered the migraines, and the repeated overuse created a chronic pattern. I find that I keep repeating and growing these cycles. ~~But doesn't everyone repeat and ruminate on certain things?~~ The patterns ~~we~~ I choose or allow tend to prevail. 
+My stories revolve around breaking cycles, especially the way I made my migraine chronic by overusing analgesics. Perhaps the stress from my abuse triggered the migraines, and the repeated overuse created a chronic pattern. I find that I keep repeating and growing these cycles. ~~But doesn't everyone repeat and ruminate on certain things? The patterns we I choose or allow tend to prevail.~~ *Well, my chronic migraine was triggered, and then compounded. I didn't really choose it.*
 
 When things go well, a positive cycle develops. Then, anxiety or something else takes over, shifting the pattern. It all connects back to how our brains work.
 
-There's some connection with cycles, familiarity, and the fact that people find themselves in cycles because they are surprise-averse. What if we just accepted people for who they are, perhaps embraced their surprises, the nuances, the complex creatures that we are, instead of finding comfort in familiarity? Does that change the cycle, break it, or what kind of a mechanism would that be? Well, in a larger neuroscience sense, the brain is surprise-averse. The assumption that people are broken generally implies that they were whole before.
+There's some connection with cycles, familiarity, and the fact that people find themselves in cycles ~~because they are surprise-averse~~. What if we just accepted people for who they are, perhaps embraced their surprises, the nuances, the complex creatures that we are, instead of finding comfort in familiarity? Does that change the cycle, break it, or what kind of a mechanism would that be? ~~Well, in a larger neuroscience sense, the brain is surprise-averse.~~ 
+*That's a really big jump there, because, it is true on a predictive processing level, but not on a personal or even a relational pattern.*
+
+The assumption that people are broken generally implies that they were whole before.
 
 > Maybe you can't break the cycle, but what cycles through?
 
@@ -74,16 +77,27 @@ Instead of the word -> loneliness, I want to refer to it as 'isolation'.
 
 > This shared ~~feeling~~ experience is understanding. Wait is it though? I can't just come to that conclusion.
 
-Essentially, I'm trying to learn more about the philosophy of mind.
-
 Raviya pointed out that I occasionally have a tendency to hide my feelings, which made me think that what we show to the world outside vs what we keep to ourselves is shaped by how we choose to transcribe it, which goes back to 'Politics of Transcription'. I thought this was interesting, in the context of where my thesis is headed.
 
-I wonder if I can combine data and animation? Definitely possible, in the manner that I did my rewiring connections, but what would that look like pandas dataframe wise?
+> I wonder if I can combine data and animation? Definitely possible, in the manner that I did my rewiring connections, but what would that look like, pandas dataframe-wise?
 
-More on the notion of understanding:
+> Initially, much of my thesis stemmed from wanting to understand myself, and maybe hoping others would, too. But that's an insane thing. No one can really understand you. That's a very deep-seated need for validation. Is understanding actually exhaustive and complete? Then, I wonder if I can even truly understand myself. Because I am a dynamic system.
 
+> It made me think about the difference between a want and a choice. Because I used to use them interchangeably, I didn't think much. But want is more internal, vs choice is external. Want is something you can't control, but choice is something you can control. Want is something that happens to you. There's more intentionality.
 
+Now, I thought about this more, and realised I have a deep-rooted desire to be chosen for. This is a want. In reality, you don't choose to be chosen. I only have choice over my actions.
 
+So, being chosen for is not in your control. Something I've tried to control, perhaps, tied into what Raviya said about how I have a tendency to hide my feels, and how I show myself to the world. This want to be chosen.
+
+>Even when it comes to self-love, or whatever, the feeling of want can fade. Thus, self-love can fade, but the choices you make are deliberate. Choice is something you make, even after the want disappears. Even after the self-love disappears. Ah-but then again, here I claim, love is a feeling. If it's a practice, then it's a choice.
+
+So maybe this thesis stemmed from wanting to understand myself, but I think as I'm going forward, I want to be more intentional and choose to understand myself. Perhaps, not in a complete, exhaustive manner, because that's actually impossible. Again what does it mean?
+
+>In fact, in terms of particle physics, when an observer is present, particles change their behaviour. So, in a broader fashion, by observing myself, I'll change my behaviour. Double-slit-experiment, hehe.
+
+Gosh, now my brain hurts. Ironic. There are more logical fallacies here. Funny thing, when I had an argument with my parents, I'm like you won't understand, and my dad is like we are not trying to. Is this what he meant? Guess, I'll never know his semantic world.
+
+I need to be conscious about my word choices when writing. Sometimes, I say words without really understanding what they mean. I guess it comes down to differences in semantic worlds, how my semantic world of English has been shaped. I wonder if I understand other languages better. I don't particularly think so. Maybe I don't have a flair for language. Now, I can't revisit, every writing and see if I chose the right word. 
 
 ## mechanics
 
