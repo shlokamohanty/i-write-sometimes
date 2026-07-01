@@ -7,6 +7,8 @@ tags:
   - academic
   - work-ongoing
 ---
+Names:
+Nervous system??
 
 very rough - from using 100 days of making as my basis
 
