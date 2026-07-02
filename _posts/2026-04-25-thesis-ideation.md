@@ -9,6 +9,10 @@ tags:
 ---
 very rough - from using 100 days of making as my basis
 
+## funny names
+lobotomy of my brain
+nervous system
+
 ## thoughts
 
 things that become important in memories:
@@ -25,7 +29,7 @@ My stories revolve around breaking cycles, especially the way I made my migraine
 When things go well, a positive cycle develops. Then, anxiety or something else takes over, shifting the pattern. It all connects back to how our brains work.
 
 There's some connection with cycles, familiarity, and the fact that people find themselves in cycles ~~because they are surprise-averse~~. What if we just accepted people for who they are, perhaps embraced their surprises, the nuances, the complex creatures that we are, instead of finding comfort in familiarity? Does that change the cycle, break it, or what kind of a mechanism would that be? ~~Well, in a larger neuroscience sense, the brain is surprise-averse.~~ 
-*That's a really big jump there, because, it is true on a predictive processing level, but not on a personal or even a relational pattern.*
+*That's a really big jump there, because, it is true on a predictive processing level, but not on a personal or even a relational pattern.* *I make a lot of one-is-to-many judgements.*
 
 The assumption that people are broken generally implies that they were whole before.
 
@@ -42,7 +46,7 @@ memory is a material in neuroscience that builds identity
 
 brain as a ~~city?~~ ~~database~~ data center with a database?
 
-time in conjunction to neuroscience and physics in physics
+time in conjunction to neuroscience and physics
 
 - past, present and future, exist at once in neuroscience
 - organises reality through memories
@@ -51,7 +55,7 @@ time in conjunction to neuroscience and physics in physics
 
 Fear memory is the learned content (what's dangerous), and anxiety is what it looks like when that threat-prediction system runs chronically, even without a trigger.
 
-I think there's a lot I want to say about the second quote. Especially regarding people and communication. The histories of two people can be so different that, even though they are in the same room and use the exact same words, they are talking about different things. One can use the same word, but the cause of the idea of that word is unique to their past. 
+There is so much about people and communication. The histories of two people can be so different that, even though they are in the same room and use the exact same words, they are talking about different things. One can use the same word, but the cause of the idea of that word is unique to their past. 
 
 > We all assume that we have the same semantic world, but in fact, it's ~~completely~~ partially isolated. So conversations are partially isolated. 
 
@@ -65,41 +69,53 @@ Now, when it comes to anxiety. Anxious people turn people into puzzles, as do I,
 
 My withdrawal makes sense. I'm burnt out from constantly analysing. The way each brain is is not predictable. It's a wild, chaotic system. No one can predict mine, as I can't predict theirs. Objectively, I need to treat ~~the simulations of~~ 
 
-> my observations of people like Schrödinger's cat. I am hyper-observant. There's no way to change that. I can't predict outcomes based on observations. It could be the worst case, or it could be a neutral case. Both stay unproven, unless I confirm. Schrödinger's cat. And this confirmation, is vulnerability.
+> my observations of people like Schrödinger's cat. I am hyper-observant. There's no way to change that. **I can't predict outcomes based on observations.** It could be the worst case, or it could be a neutral case. Both stay unproven, unless I confirm. Schrödinger's cat. And is this confirmation, is vulnerability?
+
+> There's something there with uncertainty as a form of a virtue. The most intellectual thing to do here is to treat people with the Schrödinger's cat metaphor. Not claiming to know something, I don't. But while looking at my letters, I've said that the same thing there is a form of avoidance. I cannot predict people, so I shouldn't assume it's true, but at the same time, this coming from a place of fear of being hurt is so different. How do you know whether it's from a place of fear or a form of wisdom? That wisdom can become a cover for fear.
+
+> The paradox here is that if uncertainty is a virtue, I want to live by, I don't know if I'm acting out of wisdom or fear? And, wanting to know the answer is rejecting that. Funny. The paradox of my Schrödinger's cat mantra.
+
+> Concluding that, I'm overthinking about how to not overthink. Wow. This is awesome.
 
 Another thing, the brain is structurally isolated. The sensory signals are what make up the reality.
 
 I love the line in it, on how art breaches this loneliness. ~~Art is that external object that describes this feeling, and when you feel it, you realise you weren't the only one feeling it. It's the strange feeling from experiencing art that connects people.~~ Spitballing at 3 am, of course, I explained it poorly.
 
-Instead of the word -> loneliness, I want to refer to it as 'isolation'.
+~~Instead of the word -> loneliness, I want to refer to it as 'isolation'.~~ That is making an assumption about the meaning. I can't do that. And, I remembered the quote wrong. It was solitude, not loneliness.
 
-> Art makes people feel. Even though the specifics of a situation aren't present. The feeling is shared. Art creates this shared experience. This ~~feeling~~ experience, is what connects people, thus, breaches this isolation.
+> ~~Art makes people feel. Even though the specifics of a situation aren't present. The feeling is shared. Art creates this shared experience. This feeling experience, is what connects people, thus, breaches this isolation.~~
 
-> This shared ~~feeling~~ experience is understanding. Wait is it though? I can't just come to that conclusion.
+> ~~This shared feeling experience is understanding. Wait is it though? I can't just come to that conclusion.~~
+
+So, I'm not going to make an interpretation of the line, just yet.
+> We are social beings, but, tragically, the richest part of our inner lives are forever trapped inside ourselves, the only place that no one else can ever be. For me, poetry, music, art, etc. are attempts to reach across not just time and space, but to breach this ultimately inescapable solitude. - https://theluddite.org/post/ai-poetry.html
 
 Raviya pointed out that I occasionally have a tendency to hide my feelings, which made me think that what we show to the world outside vs what we keep to ourselves is shaped by how we choose to transcribe it, which goes back to 'Politics of Transcription'. I thought this was interesting, in the context of where my thesis is headed.
 
-> I wonder if I can combine data and animation? Definitely possible, in the manner that I did my rewiring connections, but what would that look like, pandas dataframe-wise?
+> I wonder if I can combine data and animation? Definitely possible, in the manner that I did my rewiring connections, but what would that look like~~, pandas dataframe-wise~~?
 
-> Initially, much of my thesis stemmed from wanting to understand myself, and maybe hoping others would, too. But that's an insane thing. No one can really understand you. That's a very deep-seated need for validation. Is understanding actually exhaustive and complete? Then, I wonder if I can even truly understand myself. Because I am a dynamic system.
+> Initially, much of my thesis stemmed from wanting to understand myself, and maybe hoping others would, too. But that's an insane thing. No one can really understand you. That's a very deep-seated need for validation. The funny thing is, I came into ITP knowing that, no one can really understand you. And, a year later, I wanted to be understood. Is understanding actually exhaustive and complete? Then, I wonder if I can even truly understand myself. Because I am a dynamic system.
 
-> It made me think about the difference between a want and a choice. Because I used to use them interchangeably, I didn't think much. But want is more internal, vs choice is external. Want is something you can't control, but choice is something you can control. Want is something that happens to you. There's more intentionality.
+> It made me think about the difference between a want and a choice. Because I used to use them interchangeably, I didn't think much. But want is more internal, vs choice is external. Want is something you can't control, but choice is something you can control. Want is something that happens to you. There's more intentionality with choice.
 
-Now, I thought about this more, and realised I have a deep-rooted desire to be chosen for. This is a want. In reality, you don't choose to be chosen. I only have choice over my actions.
+**Now, I thought about this more, and realised I have a deep-rooted desire to be chosen for. This is a want.** In reality, you don't choose to be chosen. I only have choice over my actions.
 
 So, being chosen for is not in your control. Something I've tried to control, perhaps, tied into what Raviya said about how I have a tendency to hide my feels, and how I show myself to the world. This want to be chosen.
 
->Even when it comes to self-love, or whatever, the feeling of want can fade. Thus, self-love can fade, but the choices you make are deliberate. Choice is something you make, even after the want disappears. Even after the self-love disappears. Ah-but then again, here I claim, love is a feeling. If it's a practice, then it's a choice.
+> Even when it comes to self-love, or whatever, the feeling of want can fade. Thus, self-love can fade, but the choices you make are deliberate. Choice is something you make, even after the want disappears. Even after the self-love disappears. Ah-but then again, here I claim, love is a feeling. If it's a practice, then it's a choice. **Words as a feeling vs. a practice**.
 
 So maybe this thesis stemmed from wanting to understand myself, but I think as I'm going forward, I want to be more intentional and choose to understand myself. Perhaps, not in a complete, exhaustive manner, because that's actually impossible. Again what does it mean?
 
->In fact, in terms of particle physics, when an observer is present, particles change their behaviour. So, in a broader fashion, by observing myself, I'll change my behaviour. Double-slit-experiment, hehe.
+> In fact, in terms of particle physics, when an observer is present, particles change their behaviour. So, in a broader fashion, by observing myself, I'll change my behaviour. Double-slit-experiment, hehe.
 
 Gosh, now my brain hurts. Ironic. There are more logical fallacies here. Funny thing, when I had an argument with my parents, I'm like you won't understand, and my dad is like we are not trying to. Is this what he meant? Guess, I'll never know his semantic world.
 
 I need to be conscious about my word choices when writing. Sometimes, I say words without really understanding what they mean. I guess it comes down to differences in semantic worlds, how my semantic world of English has been shaped. I wonder if I understand other languages better. I don't particularly think so. Maybe I don't have a flair for language. Now, I can't revisit, every writing and see if I chose the right word. 
 
 The dark side of grief is escapism.
+
+I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
+
 ## mechanics
 
 learning more about neuroscience and computation using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration.
