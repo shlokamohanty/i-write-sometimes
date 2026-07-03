@@ -8,6 +8,4 @@ form: comic
 mood: proud
 ---
 
-![](/i-write-sometimes/assets/images/stochastic1.jpg)
-
-![](/i-write-sometimes/assets/images/stochastic2.jpg)
+![](/i-write-sometimes/assets/images/stochastic.jpg)
