@@ -69,7 +69,7 @@ Now, when it comes to anxiety. Anxious people turn people into puzzles, as do I,
 
 My withdrawal makes sense. I'm burnt out from constantly analysing. The way each brain is is not predictable. It's a wild, chaotic system. No one can predict mine, as I can't predict theirs. Objectively, I need to treat ~~the simulations of~~ 
 
-> my observations of people like Schrödinger's cat. I am hyper-observant. There's no way to change that. **I can't predict outcomes based on observations.** It could be the worst case, or it could be a neutral case. Both stay unproven, unless I confirm. Schrödinger's cat. And is this confirmation, is vulnerability?
+> my observations of people like Schrödinger's cat. I am hyper-observant. There's no way to change that. **I can't predict outcomes based on observations.** It could be the worst case, or it could be a neutral case. Both stay unproven, unless I confirm. Schrödinger's cat. And is this confirmation, vulnerability?
 
 > There's something there with uncertainty as a form of a virtue. The most intellectual thing to do here is to treat people with the Schrödinger's cat metaphor. Not claiming to know something, I don't. But while looking at my letters, I've said that the same thing there is a form of avoidance. I cannot predict people, so I shouldn't assume it's true, but at the same time, this coming from a place of fear of being hurt is so different. How do you know whether it's from a place of fear or a form of wisdom? That wisdom can become a cover for fear.
 
@@ -79,7 +79,7 @@ My withdrawal makes sense. I'm burnt out from constantly analysing. The way each
 
 Another thing, the brain is structurally isolated. The sensory signals are what make up the reality.
 
-I love the line in it, on how art breaches this loneliness. ~~Art is that external object that describes this feeling, and when you feel it, you realise you weren't the only one feeling it. It's the strange feeling from experiencing art that connects people.~~ Spitballing at 3 am, of course, I explained it poorly.
+I love the line in it, on how art breaches this solitude ~~loneliness~~. ~~Art is that external object that describes this feeling, and when you feel it, you realise you weren't the only one feeling it. It's the strange feeling from experiencing art that connects people.~~ Spitballing at 3 am, of course, I explained it poorly.
 
 ~~Instead of the word -> loneliness, I want to refer to it as 'isolation'.~~ That is making an assumption about the meaning. I can't do that. And, I remembered the quote wrong. It was solitude, not loneliness.
 
@@ -102,7 +102,7 @@ Raviya pointed out that I occasionally have a tendency to hide my feelings, whic
 
 So, being chosen for is not in your control. Something I've tried to control, perhaps, tied into what Raviya said about how I have a tendency to hide my feels, and how I show myself to the world. This want to be chosen.
 
-> Even when it comes to self-love, or whatever, the feeling of want can fade. Thus, self-love can fade, but the choices you make are deliberate. Choice is something you make, even after the want disappears. Even after the self-love disappears. Ah-but then again, here I claim, love is a feeling. If it's a practice, then it's a choice. **Words as a feeling vs. a practice**.
+> Even when it comes to self-love, or whatever, the feeling of want can fade. Thus, self-love can fade, but the choices you make are deliberate. Choice is something you make, even after the want disappears. Even after the self-love disappears. Ah-but then again, here I claim, love is a feeling. If it's a practice, then it's a choice. **Words as a feeling vs. a practice**. And part of suffering comes from expecting words-as-feeling to be words-as-practice.
 
 So maybe this thesis stemmed from wanting to understand myself, but I think as I'm going forward, I want to be more intentional and choose to understand myself. Perhaps, not in a complete, exhaustive manner, because that's actually impossible. Again what does it mean?
 
