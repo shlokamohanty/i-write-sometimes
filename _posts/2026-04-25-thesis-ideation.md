@@ -112,6 +112,8 @@ Gosh, now my brain hurts. Ironic. There are more logical fallacies here. Funny t
 
 I need to be conscious about my word choices when writing. Sometimes, I say words without really understanding what they mean. I guess it comes down to differences in semantic worlds, how my semantic world of English has been shaped. I wonder if I understand other languages better. I don't particularly think so. Maybe I don't have a flair for language. Now, I can't revisit, every writing and see if I chose the right word. 
 
+Thinking about that more. I started rereading my letters made me realise how I've used the same metaphors and symbolism in different contexts of my work. Like, shadows, sun, moon, all the same language but extremely different meanings. There is so much nuance in the same semantic world. Coming back to the fact that I need to be more careful with my word choices when writing, but then sometimes it's so quick. It's hard to be careful. I can't beat myself over the words that I use all the time. That's exhausting, and I can't always come up with unique words and new metaphors. How do you carry conversations then? Which makes me think about how context matters so much in the same semantics. Like, in the letters, shadows are used positively, vs. the metaphor in "Shadows by the blue light" is so different, and was used to portray abuse. The surrounding vocabulary and the emotional framing of the pieces create this context. This, in linguistics, is known as polysemy, something that I apply very frequently.
+
 The dark side of grief is escapism.
 
 I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
