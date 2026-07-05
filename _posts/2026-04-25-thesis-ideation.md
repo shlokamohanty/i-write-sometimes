@@ -15,6 +15,8 @@ nervous system
 
 ## thoughts
 
+I came into ITP thinking of a thesis exploration, based on a story I wrote, called 'Steel City'. However, because of visa issues, I wouldn't actually be able to go to Orissa and do more research, and the ethical conundrum about how to tell other people's stories without taking away their agency. I decided to pivot and start at my stories, with the starting point, which I tapped into through 'Rewiring Connections'.
+
 things that become important in memories:
 
 - sensory anchors (highly emotional situations)
@@ -62,6 +64,8 @@ There is so much about people and communication. The histories of two people can
 I am using partially here, since, semantic worlds can have some overlap in meaning. 
 
 We feel this isolation when there is a disagreement.
+
+Also explained in: https://www.youtube.com/watch?si=YVJQkQESSeekGOSq&v=iDGMS_tjRxU&feature=youtu.be&themeRefresh=1 
 
 The brain creates a simulation of how other people are and feel based on their words and expressions. We can never feel what another person feels.
 
@@ -114,7 +118,10 @@ I need to be conscious about my word choices when writing. Sometimes, I say word
 
 Thinking about that more. I started rereading my letters made me realise how I've used the same metaphors and symbolism in different contexts of my work. Like, shadows, sun, moon, all the same language but extremely different meanings. There is so much nuance in the same semantic world. Coming back to the fact that I need to be more careful with my word choices when writing, but then sometimes it's so quick. It's hard to be careful. I can't beat myself over the words that I use all the time. That's exhausting, and I can't always come up with unique words and new metaphors. How do you carry conversations then? Which makes me think about how context matters so much in the same semantics. Like, in the letters, shadows are used positively, vs. the metaphor in "Shadows by the blue light" is so different, and was used to portray abuse. **The surrounding vocabulary and the emotional framing of the pieces create this context. This, in linguistics, is known as polysemy, something that I apply very frequently.**
 
-The dark side of grief is escapism.
+> The dark side of grief is escapism. I don't know how I came up with that line. 
+
+I watched this, [https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2](https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2), and it was beautiful, ties back to my ideas on uncertainty.
+
 
 I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
 
@@ -126,7 +133,7 @@ putting another marker on the memories to note when I was on amitriptyline and w
 
 It has to be solar, because, the 'Sun'.
 
-> 'The Sun, it burns every day.' - more so, the circadian rhythm
+> 'The Sun, it burns every day.' - more so, the circadian rhythm 
 
 physical mechanisms:
 
@@ -134,6 +141,10 @@ physical mechanisms:
 - [https://www.newschool.edu/parsons/profile/lucia-daniel/](https://www.newschool.edu/parsons/profile/lucia-daniel/)
 
 > It has to be a dynamic system.
+
+> When I went to MoMa last December, I really liked https://www.moma.org/calendar/exhibitions/5768. It was also inspired by drawings.
+
+> I think my initial form factor of 'Rewiring Connections' and NIME idea was interesting. Although now, looking at where my thesis is headed and at my NIME idea being a version of the brain idea, maybe I don't want to do NIME. I should incorporate things from that idea here.
 
 ## to do and questions
 
