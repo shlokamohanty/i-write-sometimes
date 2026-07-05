@@ -122,7 +122,6 @@ Thinking about that more. I started rereading my letters made me realise how I'v
 
 I watched this, [https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2](https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2), and it was beautiful, ties back to my ideas on uncertainty.
 
-
 I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
 
 ## mechanics
