@@ -26,3 +26,4 @@ AAAAAAAH! Consilience just tells me that the way I deal with things, the way I a
 
 And it's true, every time, I have a revelation, on most occasion, people tell me, you already knew this, you gave me advice on this. Just from time to time, I need to René Descartes my way into life, then restructure a bit.
 
+HAHAH, Cody sent me this: https://pswscience.org/meeting/the-doom-of-spacetime/, and that is the end of reductionism sciences. Space-Time is itself emergent. From this, although, comes the view, that consciousness is essentially fundamental. My mind is boggled.

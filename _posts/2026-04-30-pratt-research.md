@@ -54,6 +54,23 @@ https://www.jstor.org/stable/20715817
 open ended questionnaire -> little narratives
 
 ## Politics of Transcription
+naturalized transcription -> text conforms to written discourse
+denaturalized transcription -> text retains links to oral discourse
+
+interpretive level
+- what is transcribed?
+representational level
+- how it is transcribed?
+
+interpretation
+- transcription is not objective, it is shaped by interests
+
+representational
+- interpretive decisions about what is said and by whom are decisions of representation that shape how it is understood by readers
+
+one part of the paper that caught on, was the part about representing the transcript in a technical way, it still a form of transcription:
+- there was a deliberate choice in choosing 'courier', because the characters are fixed width and appears scientific over choosing reader friendly propotional width font. It neutralises stigma.
+- 
 
 
 ## Language and Drawings

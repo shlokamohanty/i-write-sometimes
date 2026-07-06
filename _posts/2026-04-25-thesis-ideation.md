@@ -122,6 +122,15 @@ Thinking about that more. I started rereading my letters made me realise how I'v
 
 I watched this, [https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2](https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2), and it was beautiful, ties back to my ideas on uncertainty.
 
+from https://philosophy.stackexchange.com/questions/1624/which-philosophers-have-written-about-fear
+
+```
+uncertainty -> lack of control -> desire for control [+/- fear] -> action
+the lack of control may or may not result in fear 
+```
+
+it's 1:47am and, wait, omg. the uncertainty principle. i just remembered. omg, i fully forgot about that and now i remembered yayyaya.
+
 I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
 
 ## mechanics
