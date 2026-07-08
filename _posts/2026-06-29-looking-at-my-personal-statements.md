@@ -1,6 +1,6 @@
 ---
 layout: post
-title: parson's and pratt personal statement
+title: personal statements
 subtitle: ""
 date: 2026-06-29
 tags:

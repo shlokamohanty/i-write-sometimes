@@ -131,6 +131,8 @@ the lack of control may or may not result in fear
 
 it's 1:47am and, wait, omg. the uncertainty principle. i just remembered. omg, i fully forgot about that and now i remembered yayyaya.
 
+I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer, I don't want to make a writing thesis, I won't be able to pull that off.
+
 I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
 
 ## mechanics
@@ -154,6 +156,8 @@ physical mechanisms:
 
 > I think my initial form factor of 'Rewiring Connections' and NIME idea was interesting. Although now, looking at where my thesis is headed and at my NIME idea being a version of the brain idea, maybe I don't want to do NIME. I should incorporate things from that idea here.
 
+> I thought I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It’s rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off.
+
 ## to do and questions
 
 - more to think on in terms of drawings and language
@@ -170,6 +174,7 @@ physical mechanisms:
 While reading Jan Westerhoff's 'Reality', some quotes stood out:
 > 'Our brain is fairly complex, but its computational power is not that large'
 > 'The problem seems to be that the words, ideas, and beliefs of the brain provided with the simulation and our words, ideas, and beliefs are strictly isolated from each other. Our talk refers to whatever is the cause of our ideas, and their talk refers to whatever is the cause of their ideas, and these causes are very different things.'
+
 "Nature's Folly" from RWET.
 
 ### to read

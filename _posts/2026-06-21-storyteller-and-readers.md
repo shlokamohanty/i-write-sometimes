@@ -4,7 +4,6 @@ title: "storytellers and readers"
 subtitle: ""
 date: 2026-06-21
 tags: 
-  - work-reflection
   - personal-reflection
 ---
 

@@ -10,6 +10,20 @@ tags:
 
 Formulating a research question: researching how illustrators make choices about what to emphasize, omit, and preserve.
 
+More Notes:
+Uzma said that the drawings in the museum accession cards, can be made by another person, while someone is dictating. so there is a power dynamic there
+
+i found this class: https://artandarchaeology.princeton.edu/whats/news/students-art-407-explore-archaeology-through-drawing
+
+reading list from the class:
+- C. Renfrew and P. Bahn, Archaeology: Theories, Methods, Practices
+- B. L. Molyneaux, The Cultural Life of Images: Visual Representation in Arch.
+- C. Meyer and A. Petsalis-Diomidis, Drawing the Greek Vase: Visual Conversations in Art and Arch
+- J. Papadopoulos, The Art of Antiquity: Piet de Jong and the Athenian Agora
+- Massimo Scholari, Oblique Drawing: A History of Antiperspective
+- Stuart Piggott, Antiquity Depicted: Aspects of Archaeological Illustration
+
+
 ## Gesture Drawing
 https://www.jstor.org/stable/27031262
 
@@ -54,24 +68,30 @@ https://www.jstor.org/stable/20715817
 open ended questionnaire -> little narratives
 
 ## Politics of Transcription
-naturalized transcription -> text conforms to written discourse
-denaturalized transcription -> text retains links to oral discourse
+naturalized transcription -> text conforms to written discourse (like an article)
+denaturalized transcription -> text retains links to oral discourse (messy mechanics of human speech)
 
 interpretive level
 - what is transcribed?
 representational level
 - how it is transcribed?
 
-interpretation
+interpretation (what is transcribed?)
 - transcription is not objective, it is shaped by interests
 
-representational
+representational (how is it transcribed?)
 - interpretive decisions about what is said and by whom are decisions of representation that shape how it is understood by readers
 
 one part of the paper that caught on, was the part about representing the transcript in a technical way, it still a form of transcription:
-- there was a deliberate choice in choosing 'courier', because the characters are fixed width and appears scientific over choosing reader friendly propotional width font. It neutralises stigma.
-- 
+- there was a deliberate choice in choosing 'courier', because the characters are fixed width and appears scientific over choosing reader friendly proportional width font. It neutralises stigma.
 
+nature of AAVE -> African American Vernacular English
+
+transcription choices, therefore, can lead to self-fulfilling analyses
+
+whenever you transcribe speech into written text, you are making interpretive and subjective decisions 
 
 ## Language and Drawings
 https://thewire.in/the-arts/korwa-drawings-adivasi-expression-at-the-edge-of-language
+
+## 

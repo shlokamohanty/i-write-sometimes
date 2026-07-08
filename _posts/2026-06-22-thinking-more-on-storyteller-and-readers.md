@@ -4,7 +4,6 @@ title: "thinking more on storytellers and readers"
 subtitle: ""
 date: 2026-06-22
 tags: 
-  - work-reflection
   - personal-reflection
 ---
 
