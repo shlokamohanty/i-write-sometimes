@@ -46,7 +46,7 @@ memory is a material in neuroscience that builds identity
 - 98% of a person's atoms are replaced every year
 - basic biology property: molecular components are replaced over time
 
-brain as a ~~city?~~ ~~database~~ data center with a database?
+brain as a ~~city?~~ ~~database~~ ~~data center with a database?~~ time machine
 
 time in conjunction to neuroscience and physics
 
@@ -131,9 +131,17 @@ the lack of control may or may not result in fear
 
 it's 1:47am and, wait, omg. the uncertainty principle. i just remembered. omg, i fully forgot about that and now i remembered yayyaya.
 
+science is deeply rooted in control. makes sense, how in undergrad, the structure and control helped. need to strucutre my thoughts here more. there's a lot of concepts here.
+
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer, I don't want to make a writing thesis, I won't be able to pull that off.
 
 I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
+
+I think, I need to do simulataneous thinking, going back to what i learnt from feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique, because, I want to try new things, that's where the story falls short. 
+
+What's the story/stories here, that I want to say. I work well with conveying deep concepts with sentimentality, i think. that's why puppet hands works well, and what i wrote today. 
+
+there's something about the genre of cosmic horror that ties ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
 
 ## mechanics
 
