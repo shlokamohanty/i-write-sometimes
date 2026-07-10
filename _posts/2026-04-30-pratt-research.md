@@ -29,7 +29,22 @@ reading list from the class:
 - Each archaeologist makes a choice while rendering an object or site.
 
 ## An Archaeologist's Eye
-- after photography
+
+### Stuart Piggott, Antiquity Depicted: Aspects of Archaeological Illustration
+- after photography became commonplace, hand illustrations continued to be used as a means to make certain objects more comprehensible
+- illustration requires filling gaps that observation alone can't fill
+
+"objective drawings"
+- Stuart and Revett's 18th century extrapolated using trigonometry but it was wrong
+- Cyriacus of Ancona's drawings were shaped by stylistic conventions he brought with him
+
+illustration depicts the artist's contemporary world as it does about the past
+
+Schwab's analytical process
+- photographic study of drawings
+- directly examining the sculptures
+- applying technical knowledge
+- stylistic knowledge
 
 ## Gesture Drawing
 https://www.jstor.org/stable/27031262
