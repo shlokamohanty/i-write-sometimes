@@ -23,6 +23,13 @@ reading list from the class:
 - Massimo Scholari, Oblique Drawing: A History of Antiperspective
 - Stuart Piggott, Antiquity Depicted: Aspects of Archaeological Illustration
 
+## More from the Princeton Course Article
+- "Drawing as a tool of observation that requires you to pause and really look at an object"
+- "an archaeological illustration must be carefully tailored to its intended audience and the specific purpose it serves, regardless of the technology available to illustrator"
+- Each archaeologist makes a choice while rendering an object or site.
+
+## An Archaeologist's Eye
+- after photography
 
 ## Gesture Drawing
 https://www.jstor.org/stable/27031262
@@ -93,5 +100,10 @@ whenever you transcribe speech into written text, you are making interpretive an
 
 ## Language and Drawings
 https://thewire.in/the-arts/korwa-drawings-adivasi-expression-at-the-edge-of-language
+
+Abstract line drawings on paper by Pahadi Korwa
+- script-like visual qualities
+- one artist is known to describe his work as a report of his people's sufferings to the government
+- creation of drawing described as ecstatic or spontaneous rather than conscious or intentional
 
 ## 

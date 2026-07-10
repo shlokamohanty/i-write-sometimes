@@ -129,19 +129,28 @@ uncertainty -> lack of control -> desire for control [+/- fear] -> action
 the lack of control may or may not result in fear 
 ```
 
-it's 1:47am and, wait, omg. the uncertainty principle. i just remembered. omg, i fully forgot about that and now i remembered yayyaya.
+It's 1:47am and, wait, omg. the uncertainty principle. I just remembered. I fully forgot about that, and now I remembered yayyaya.
 
-science is deeply rooted in control. makes sense, how in undergrad, the structure and control helped. need to strucutre my thoughts here more. there's a lot of concepts here.
+Science is deeply rooted in control. Makes sense, how in undergrad, the structure and control helped. Need to structure my thoughts here more. there's a lot of concepts here.
 
-I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer, I don't want to make a writing thesis, I won't be able to pull that off.
+I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
 I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
 
-I think, I need to do simulataneous thinking, going back to what i learnt from feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique, because, I want to try new things, that's where the story falls short. 
+I think I need to do simulataneous thinking, going back to what i learnt from the feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique because I want to try new things. That's where the story falls short.
 
-What's the story/stories here, that I want to say. I work well with conveying deep concepts with sentimentality, i think. that's why puppet hands works well, and what i wrote today. 
+What's the story/stories here that I want to say? I work well with conveying deep concepts with sentimentality, I think. That's why puppet hands work well, and what I wrote today.
 
-there's something about the genre of cosmic horror that ties ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
+There's something about the genre of cosmic horror that ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
+
+I need to lean more into how to make this a playful object.
+
+Ideas I’m toying with are the need for control and anxiety. So the time machine had control, but it doesn't actually work. time machine is cool.
+
+I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘omni loop’, ‘everything everywhere all at once’, ‘spiderman’. I should lean into that form of storytelling.
+
+Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
+
 
 ## mechanics
 
@@ -194,6 +203,7 @@ While reading Jan Westerhoff's 'Reality', some quotes stood out:
 ### to explore
 
 - https://atlas.brain-map.org/
+- https://drawingcenter.org/exhibitions/rashid-johnson-anxious-men
 
 ## people and resources
 
