@@ -12,3 +12,5 @@ tags:
 ![](/i-write-sometimes/assets/images/IMG_2557.jpg)
 
 That's the framework, and perhaps, who I am as a person as well.
+
+I have solidified this more, and, I need to make some more tweaks here.

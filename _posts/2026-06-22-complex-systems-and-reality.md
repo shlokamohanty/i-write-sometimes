@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "complex systems and reality"
+title: "Jan Westerhoff' Reality"
 subtitle: ""
 date: 2026-06-22
 tags: 

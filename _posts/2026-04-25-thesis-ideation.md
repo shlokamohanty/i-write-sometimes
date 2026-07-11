@@ -147,10 +147,11 @@ I need to lean more into how to make this a playful object.
 
 Ideas I’m toying with are the need for control and anxiety. So the time machine had control, but it doesn't actually work. time machine is cool.
 
-I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘omni loop’, ‘everything everywhere all at once’, ‘spiderman’. I should lean into that form of storytelling.
+I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
 
 Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
 
+Slowly start writing the story/stories.
 
 ## mechanics
 
