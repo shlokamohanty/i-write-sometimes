@@ -4,7 +4,6 @@ title: the framework
 subtitle: ""
 date: 2026-06-24
 tags:
-  - work-reflection
   - practice
   - work-ongoing
 ---

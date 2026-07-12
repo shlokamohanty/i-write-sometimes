@@ -4,7 +4,7 @@ title: "how i understand the world"
 subtitle: ""
 date: 2026-06-22
 tags: 
-  - interests
+  - personal-ongoing
 ---
 
 ~~I remember as a kid, I would tell people that physics is the science. That everything in this world can be broken down into subatomic particles. Well, now I realised those can be broken down further into strings. But, essentially, everything in the world can be broken down to that. It’s beautiful. It’s the ‘god’ science, in my opinion. That biology, can be broken down into chemistry, and chemistry can be broken down into physics. And now I understand that people are collections of strings interacting with each other.~~

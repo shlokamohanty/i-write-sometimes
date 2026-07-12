@@ -43,3 +43,6 @@ To Do:
 **24th August** - final animation/ comp test due
 **26th August** - optional check-in day
 **28th August** - film due
+
+
+![](/i-write-sometimes/assets/images/Untitled_Artwork_56.jpg)

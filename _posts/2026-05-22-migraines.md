@@ -4,8 +4,7 @@ title: migraines
 subtitle: ""
 date: 2026-05-22
 tags:
-  - academic
-  - work-ongoing
+  - interests
 ---
 
 ![notes](/i-write-sometimes/assets/images/Screenshot 2026-05-23 at 2.32.38 AM.png)
