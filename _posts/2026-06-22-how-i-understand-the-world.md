@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Jan Westerhoff's Reality"
+title: "how i understand the world"
 subtitle: ""
 date: 2026-06-22
 tags: 
-  - personal-ongoing
+  - interests
 ---
-
-Initial take on 'how i understand world' but there's lot of mistakes here, so need to frame it better from readings:
 
 ~~I remember as a kid, I would tell people that physics is the science. That everything in this world can be broken down into subatomic particles. Well, now I realised those can be broken down further into strings. But, essentially, everything in the world can be broken down to that. It’s beautiful. It’s the ‘god’ science, in my opinion. That biology, can be broken down into chemistry, and chemistry can be broken down into physics. And now I understand that people are collections of strings interacting with each other.~~
 
@@ -27,4 +25,4 @@ Initial take on 'how i understand world' but there's lot of mistakes here, so ne
 
 ~~HAHAH, Cody sent me this: https://pswscience.org/meeting/the-doom-of-spacetime/, and that is the end of reductionism sciences. Space-Time is itself emergent. From this, although, comes the view, that consciousness is essentially fundamental. My mind is boggled.~~
 
-Jan Westerhoff's Reality:
+I will take more time formulating this. I think it will also keep changing.

@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4a25afaf4e59df32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-02-24-wisconsin-pines.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-02-24-wisconsin-pines"
-            }
-          },
-          {
             "id": "ebc61d2ff4b1eada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-22-reality.md",
+                "file": "2026-07-12-reality.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-06-22-reality"
+              "title": "2026-07-12-reality"
+            }
+          },
+          {
+            "id": "400908fb60739839",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-06-21-storyteller-and-readers.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-21-storyteller-and-readers"
             }
           }
         ],
@@ -198,34 +198,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "ebc61d2ff4b1eada",
+  "active": "400908fb60739839",
   "lastOpenFiles": [
-    "2026-06-23-naming-it-down-further.md",
-    "2026-06-24-skybone-studios.md",
-    "2026-07-09-summer-is-being-good-to-me.md",
-    "2026-07-03-stochastic-parrot.md",
-    "2026-06-29-looking-at-my-personal-statements.md",
-    "2026-07-11-thesis-story.md",
-    "2026-04-25-thesis-ideation.md",
-    "2026-01-09-man-friday.md",
-    "2026-02-15-what-i-want-to-do.md",
-    "2026-02-10-you-me-and-them.md",
-    "2026-01-03-subway.md",
-    "2026-02-24-wisconsin-pines.md",
-    "2026-05-12-complexity-for-complexity-sake.md",
-    "2026-05-22-migraines.md",
-    "2026-05-31-creative-coding-with-python.md",
-    "2026-06-22-reality.md",
-    "2026-06-20-on-making-a-meaning-of-suffering.md",
-    "2025-12-01-story-of-storyteller.md",
+    "2026-06-22-how-i-understand-the-world.md",
     "2026-06-21-storyteller-and-readers.md",
     "2026-06-22-thinking-more-on-storyteller-and-readers.md",
+    "2026-06-23-naming-it-down-further.md",
     "2026-06-24-sentimental-work.md",
+    "2026-06-24-skybone-studios.md",
     "2026-06-24-the-framework.md",
-    "2026-07-09-changing-seasons.md",
-    "2026-04-30-pratt-research.md",
-    "2026-05-02-pain-of-my-phantom-limb.md",
-    "2026-05-30-a-letter-to-you-from-the-sun.md",
+    "2026-06-25-my-days.md",
+    "2026-06-29-looking-at-my-personal-statements.md",
+    "2026-07-03-stochastic-parrot.md",
+    "2026-07-09-summer-is-being-good-to-me.md",
+    "2026-07-11-thesis-story.md",
+    "2026-07-12-reality.md",
+    "2025-10-06-goals.md",
+    "2025-10-20-spectrometry.md",
+    "2025-10-29-observant.md",
+    "2025-11-09-birthdays.md",
+    "2026-01-09-man-friday.md",
+    "2026-06-15-forming-a-framework.md",
+    "2026-06-20-on-making-a-meaning-of-suffering.md",
+    "2026-03-24-100-days-of-making.md",
+    "2021-03-08-blog-post-title-from-file-name.md",
+    "2025-10-15-a-day-to-remember-i-guess.md",
+    "2026-06-14-looking-back.md",
+    "2026-06-11-this-one-is-for-urmika.md",
+    "2026-06-07-π.md",
     "Untitled.canvas",
     "Untitled.base",
     "Untitled 1.base",
