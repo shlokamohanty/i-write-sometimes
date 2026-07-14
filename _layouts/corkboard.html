@@ -101,11 +101,11 @@
     .board {
       position: relative;
       z-index: 1;
-      padding: .5rem 1rem 5rem;
+      padding: 1.2rem 2rem 5rem;
       overflow-x: auto;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
-      min-height: calc(100vh - 55px);
+      min-height: calc(100vh - 60px);
     }
 
     .board::-webkit-scrollbar { height: 6px; }
@@ -116,55 +116,52 @@
     }
     .board::-webkit-scrollbar-thumb:hover { background: rgba(17,17,17,0.4); }
 
-    /* ── INTRO TEXT CARDS — small pinned labels top-left ── */
+    /* ── INTRO TEXT — normal document flow ── */
     .board-intro-cards {
-      position: absolute;
-      top: .8rem;
-      left: .5rem;
+      position: relative;
       z-index: 10;
-      pointer-events: none;
+      max-width: 560px;
+      margin: 0 0 1.5rem .25rem;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      gap: .3rem;
+      gap: .5rem;
     }
 
     .intro-note {
       display: inline-block;
       background: var(--card-bg);
-      border-radius: 5px 7px 8px 6px / 6px 8px 7px 7px;
-      padding: .25rem .65rem .3rem;
-      width: auto;
-      max-width: 320px;
+      border-radius: 6px 8px 9px 7px / 7px 9px 8px 8px;
+      padding: .35rem .85rem .4rem;
     }
 
     .intro-note p {
-      font-family: var(--mono);
-      font-size: .72rem;
-      line-height: 1.55;
+      font-family: var(--serif);
+      font-size: .88rem;
+      line-height: 1.75;
       color: var(--text);
     }
 
+    .intro-note p + p { margin-top: .75rem; }
+
     .intro-note.subtitle-note {
       font-family: var(--mono);
-      font-size: .72rem;
-      transform: rotate(-0.3deg);
+      font-size: .62rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-mid);
     }
 
     .intro-note.body-note {
-      max-width: 300px;
-      transform: rotate(-0.4deg);
-      padding: .4rem .65rem .45rem;
-      font-size: .68rem;
+      max-width: 520px;
     }
 
     /* ── CARD GRID ── */
     .card-grid {
       position: relative;
-      width: 1400px;
-      min-width: 1400px;
-      margin: 10px 0 0;
-      height: 620px;
+      width: 1200px;
+      min-width: 1200px;
+      margin: 1rem auto 0;
+      height: 720px;
     }
 
     .string-layer {
@@ -208,7 +205,6 @@
       min-height: 200px;
       position: relative;
       background: var(--card-bg);
-      /* organic blob shape via clip-path */
       border-radius: 16px 20px 18px 22px / 20px 16px 22px 18px;
       box-shadow:
         0 2px 8px rgba(17,17,17,0.12),
@@ -217,10 +213,11 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 2.2rem 1.6rem 1.6rem;
+      padding: 1.6rem;
     }
 
-    /* no pins on category cards */
+    /* pin removed */
+    .card-paper::before { display: none; }
 
     .card-content {
       text-align: center;
@@ -230,7 +227,7 @@
     .card-category {
       font-family: var(--mono);
       font-size: .6rem;
-      font-weight: 700;
+      font-weight: 400;
       letter-spacing: .1em;
       text-transform: uppercase;
       color: var(--text-faint);
@@ -238,10 +235,10 @@
     }
 
     .card-title {
-      font-family: var(--mono);
-      font-size: .78rem;
-      font-weight: 700;
-      line-height: 1.55;
+      font-family: var(--serif);
+      font-size: .8rem;
+      font-weight: 400;
+      line-height: 1.6;
       color: var(--text);
       letter-spacing: .01em;
     }
@@ -272,18 +269,7 @@
       filter: grayscale(1) contrast(1.2) brightness(0.95);
     }
 
-    .pin {
-      position: absolute;
-      top: -5px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 16px;
-      height: 20px;
-      background: var(--pin);
-      border-radius: 50% 50% 48% 48% / 60% 60% 40% 40%;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-      z-index: 3;
-    }
+    .pin { display: none; }
 
     /* ── SECTION PAGES ── */
     .section-page {
@@ -307,6 +293,7 @@
       z-index: 0;
       pointer-events: none;
       mix-blend-mode: multiply;
+      filter: grayscale(1);
     }
 
     .section-page.active { display: block; }
@@ -416,7 +403,6 @@
     .section-post-tag:first-of-type { margin-left: auto; }
     .section-post-tag + .section-post-tag { margin-left: .4rem; }
 
-    /* mood badges — warm caramel accent to match pins */
     .section-post-tag.mood-proud,
     .section-post-tag.mood-raw,
     .section-post-tag.mood-spill,
@@ -463,21 +449,34 @@
 
     /* ── MOBILE ── */
     @media (max-width: 768px) {
+      .board-intro-cards { margin: 0 0 1.2rem .1rem; max-width: 100%; }
+      .intro-note p { font-size: .82rem; }
       .card-grid {
-        height: 2400px;
-        width: 100%;
-        min-width: 0;
-        margin: 1.5rem 0 0;
+        width: 100% !important;
+        min-width: 0 !important;
+        height: auto !important;
+        margin: .5rem 0 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1.5rem !important;
+        padding-bottom: 3rem;
       }
-      .card-paper { width: 220px !important; min-height: 155px !important; }
-      #photo-1510       { top: 20px !important;    left: 50% !important; margin-left: -45px; }
-      #card-notes       { top: 180px;   left: 6%;   z-index: 4; }
-      #card-ongoing     { top: 500px;   left: 40%;  z-index: 3; }
-      #card-reflections { top: 820px;   left: 6%;   z-index: 2; }
-      #card-writings    { top: 1240px;  left: 36%;  z-index: 3; }
-      #photo-1549       { top: 1620px !important;  left: 50% !important; margin-left: -45px; }
-      .card.photo-card { width: 90px; }
-      .card-paper-photo { width: 90px !important; }
+      .card {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        width: 86vw !important;
+        max-width: 340px !important;
+      }
+      .card-paper {
+        width: 100% !important;
+        min-height: 140px !important;
+      }
+      #card-notes       { transform: rotate(-1.2deg) !important; }
+      #card-ongoing     { transform: rotate(1.4deg)  !important; }
+      #card-reflections { transform: rotate(-0.8deg) !important; }
+      #card-writings    { transform: rotate(1deg)    !important; }
       .site-header { padding: 1rem 1.25rem; }
       .section-page { padding: 1.5rem 1.25rem 4rem; }
       .section-post-row { flex-wrap: wrap; }
@@ -508,8 +507,8 @@
     <div class="board-intro-cards">
       <div class="intro-note subtitle-note">some reflections, writings, and rough notes</div>
       <div class="intro-note body-note">
-        <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world —thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
-        <p>most of my thoughts are rather mundane. i only recently read about having a digital garden, and this is mine, it's how the corkboard in my room looks sometimes. i write sometimes, among many other things, only sometimes.</p>
+        <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world — thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
+        <p>i write about things that are rather prosaic, sometimes, turning into poetry. i only recently read about a digital garden, and this is mine, at least for some time. i write sometimes, among many other things, only sometimes.</p>
       </div>
     </div>
 
@@ -545,7 +544,7 @@
       {% for p in all_writings %}{% if p.mood %}{% assign mlist = p.mood %}{% if mlist.first == null %}{% assign mlist = p.mood | split: "," %}{% endif %}{% for m in mlist %}{% assign writings_moods = writings_moods | append: m | strip | append: "," %}{% endfor %}{% endif %}{% endfor %}
 
       <a class="card" id="card-notes" data-moods="{{ notes_moods }}"
-         style="top: 30px; left: 26%; transform: rotate(-2.5deg); z-index: 4"
+         style="top: 30px; left: 36%; transform: rotate(-2.5deg); z-index: 4"
          onclick="showSection('notes'); return false;" href="#">
         <div class="card-paper">
           <div class="card-content">
@@ -557,7 +556,7 @@
       </a>
 
       <a class="card" id="card-ongoing" data-moods="{{ ongoing_moods }}"
-         style="top: 20px; left: 58%; transform: rotate(2.8deg); z-index: 3"
+         style="top: 280px; left: 60%; transform: rotate(2.8deg); z-index: 3"
          onclick="showSection('ongoing'); return false;" href="#">
         <div class="card-paper">
           <div class="card-content">
@@ -569,7 +568,7 @@
       </a>
 
       <a class="card" id="card-reflections" data-moods="{{ ref_moods }}"
-         style="top: 300px; left: 12%; transform: rotate(-1.8deg); z-index: 2"
+         style="top: 430px; left: 18%; transform: rotate(-1.8deg); z-index: 2"
          onclick="showSection('reflections'); return false;" href="#">
         <div class="card-paper" style="border-radius: 22px 16px 20px 18px / 18px 22px 16px 20px;">
           <div class="card-content">
@@ -581,7 +580,7 @@
       </a>
 
       <a class="card" id="card-writings" data-moods="{{ writings_moods }}"
-         style="top: 310px; left: 42%; transform: rotate(1.5deg); z-index: 3"
+         style="top: 450px; left: 47%; transform: rotate(1.5deg); z-index: 3"
          onclick="showSection('writings'); return false;" href="#">
         <div class="card-paper" style="border-radius: 18px 22px 14px 20px / 20px 14px 22px 16px;">
           <div class="card-content">
@@ -591,26 +590,6 @@
           </div>
         </div>
       </a>
-
-      <div class="card pinned-img photo-card" style="top: 290px; left: 70%; transform: rotate(-2.2deg); z-index: 5">
-        <div class="card-paper-photo">
-          <img class="board-photo" src="{{ '/Ideation_Iteration6.jpg' | relative_url }}" alt="geometric print" />
-        </div>
-      </div>
-
-      <div class="card pinned-img photo-card" id="photo-1510" style="top: 20px; left: 86%; transform: rotate(3.2deg); z-index: 4">
-        <div class="card-paper-photo">
-          
-          <img class="board-photo" src="{{ '/IMG_1510.jpg' | relative_url }}" alt="illustration" />
-        </div>
-      </div>
-
-      <div class="card pinned-img photo-card" id="photo-1549" style="top: 260px; left: 3%; transform: rotate(-3deg); z-index: 4">
-        <div class="card-paper-photo">
-          
-          <img class="board-photo" src="{{ '/IMG_1549.jpg' | relative_url }}" alt="illustration" />
-        </div>
-      </div>
 
     </div>
   </div>
@@ -730,7 +709,7 @@
     </div>
   </div>
 
-  <!-- FINISHED WRITINGS -->
+  <!-- FINISHED WRITINGS — grouped by form -->
   <div class="section-page" id="section-writings">
     <button class="section-back" onclick="hideSection()">← back to board</button>
     <div class="section-header"><h2>things i wrote</h2></div>
@@ -738,7 +717,6 @@
       {% assign seen_w = "" %}
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      {% comment %} collect all unique form values {% endcomment %}
       {% assign poetry_posts   = all_writings | where_exp: "p", "p.form == 'poetry'" %}
       {% assign essay_posts    = all_writings | where_exp: "p", "p.form == 'essay'" %}
       {% assign fiction_posts  = all_writings | where_exp: "p", "p.form == 'fiction'" %}
@@ -836,7 +814,6 @@
     var homeNav = document.getElementById('home-nav');
     if (homeNav) homeNav.addEventListener('click', handleHomeClick);
 
-    // ── corkboard strings ──
     var STRING_COLOR  = 'rgba(38,36,33,0.42)';
     var STRING_COLOR2 = 'rgba(38,36,33,0.28)';
 
@@ -911,9 +888,10 @@
       Object.keys(usedPins).forEach(function(id){ knot(svg, usedPins[id]); });
     }
 
-    window.addEventListener('load', drawStrings);
-    window.addEventListener('resize', drawStrings);
-    setTimeout(drawStrings, 400);
+    // strings disabled for now
+    // window.addEventListener('load', drawStrings);
+    // window.addEventListener('resize', drawStrings);
+    // setTimeout(drawStrings, 400);
   </script>
 
 </body>
