@@ -205,7 +205,6 @@
       min-height: 200px;
       position: relative;
       background: var(--card-bg);
-      /* organic blob shape via clip-path */
       border-radius: 16px 20px 18px 22px / 20px 16px 22px 18px;
       box-shadow:
         0 2px 8px rgba(17,17,17,0.12),
@@ -404,7 +403,6 @@
     .section-post-tag:first-of-type { margin-left: auto; }
     .section-post-tag + .section-post-tag { margin-left: .4rem; }
 
-    /* mood badges — warm caramel accent to match pins */
     .section-post-tag.mood-proud,
     .section-post-tag.mood-raw,
     .section-post-tag.mood-spill,
@@ -453,7 +451,6 @@
     @media (max-width: 768px) {
       .board-intro-cards { margin: 0 0 1.2rem .1rem; max-width: 100%; }
       .intro-note p { font-size: .82rem; }
-      /* switch card-grid to flex column — no more absolute positioning fights */
       .card-grid {
         width: 100% !important;
         min-width: 0 !important;
@@ -476,7 +473,6 @@
         width: 100% !important;
         min-height: 140px !important;
       }
-      /* alternate slight tilts for the scattered feel */
       #card-notes       { transform: rotate(-1.2deg) !important; }
       #card-ongoing     { transform: rotate(1.4deg)  !important; }
       #card-reflections { transform: rotate(-0.8deg) !important; }
@@ -512,7 +508,7 @@
       <div class="intro-note subtitle-note">some reflections, writings, and rough notes</div>
       <div class="intro-note body-note">
         <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world — thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
-        <p>i write about things that are rather prosaic, sometimes, turning into poetry. i only recently read about a digital garden, and this is mine, at least for some time. i write sometimes, among many other things, only sometimes. and sometimes these writings are stories in layers. you’d find it in everything, and as a reader, keep in mind that these writings control the narratives from my perspective and aren’t the objective truth. it’s what I feel-felt sometimes. </p>
+        <p>i write about things that are rather prosaic, sometimes, turning into poetry. i only recently read about a digital garden, and this is mine, at least for some time. i write sometimes, among many other things, only sometimes.</p>
       </div>
     </div>
 
@@ -594,7 +590,6 @@
           </div>
         </div>
       </a>
-
 
     </div>
   </div>
@@ -714,48 +709,74 @@
     </div>
   </div>
 
-  <!-- FINISHED WRITINGS -->
+  <!-- FINISHED WRITINGS — grouped by form -->
   <div class="section-page" id="section-writings">
     <button class="section-back" onclick="hideSection()">← back to board</button>
     <div class="section-header"><h2>things i wrote</h2></div>
     <div class="section-posts">
       {% assign seen_w = "" %}
-      {% assign proud_posts  = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'proud'" %}
-      {% assign raw_posts    = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'raw'" %}
-      {% assign spill_posts  = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'spill'" %}
-      {% assign unsure_posts = site.posts | where_exp: "p", "p.tags contains 'writings'" | where_exp: "p", "p.mood contains 'unsure'" %}
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      {% if proud_posts.size > 0 %}
-      <div class="subtag-group"><div class="subtag-group-label">proud of these</div>
-        <ul class="section-post-list">{% for post in proud_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+      {% assign poetry_posts   = all_writings | where_exp: "p", "p.form == 'poetry'" %}
+      {% assign essay_posts    = all_writings | where_exp: "p", "p.form == 'essay'" %}
+      {% assign fiction_posts  = all_writings | where_exp: "p", "p.form == 'fiction'" %}
+      {% assign academic_posts = all_writings | where_exp: "p", "p.form == 'academic'" %}
+      {% assign personal_posts = all_writings | where_exp: "p", "p.form == 'personal'" %}
+      {% assign prose_posts    = all_writings | where_exp: "p", "p.form == 'prose'" %}
+      {% assign other_posts    = all_writings | where_exp: "p", "p.form == 'other'" %}
+
+      {% if poetry_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">poetry</div>
+        <ul class="section-post-list">{% for post in poetry_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
-      {% if raw_posts.size > 0 %}
-      <div class="subtag-group"><div class="subtag-group-label">published anyway — too vulnerable</div>
-        <ul class="section-post-list">{% for post in raw_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+      {% if essay_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">essays</div>
+        <ul class="section-post-list">{% for post in essay_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
-      {% if spill_posts.size > 0 %}
-      <div class="subtag-group"><div class="subtag-group-label">spill — unfiltered, hurried</div>
-        <ul class="section-post-list">{% for post in spill_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+      {% if fiction_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">fiction</div>
+        <ul class="section-post-list">{% for post in fiction_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
-      {% if unsure_posts.size > 0 %}
-      <div class="subtag-group"><div class="subtag-group-label">not proud of but it exists</div>
-        <ul class="section-post-list">{% for post in unsure_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li>
+      {% if academic_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">academic</div>
+        <ul class="section-post-list">{% for post in academic_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
 
+      {% if personal_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">personal</div>
+        <ul class="section-post-list">{% for post in personal_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li>
+        {% endunless %}{% endfor %}</ul></div>
+      {% endif %}
+
+      {% if prose_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">prose</div>
+        <ul class="section-post-list">{% for post in prose_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li>
+        {% endunless %}{% endfor %}</ul></div>
+      {% endif %}
+
+      {% if other_posts.size > 0 %}
+      <div class="subtag-group"><div class="subtag-group-label">other</div>
+        <ul class="section-post-list">{% for post in other_posts %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
+          <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li>
+        {% endunless %}{% endfor %}</ul></div>
+      {% endif %}
+
+      {% comment %} catch anything with no form set {% endcomment %}
       {% for post in all_writings %}{% unless seen_w contains post.url %}{% assign seen_w = seen_w | append: post.url | append: "," %}
-      <ul class="section-post-list"><li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.form %}<span class="section-post-tag">{{ post.form }}</span>{% endif %}</a></li></ul>
+      <ul class="section-post-list"><li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}</a></li></ul>
       {% endunless %}{% endfor %}
 
       {% if all_writings.size == 0 %}<p style="font-family:var(--mono);font-size:.7rem;color:rgba(17,17,17,0.4);padding:.6rem 0">nothing here yet</p>{% endif %}
@@ -793,7 +814,6 @@
     var homeNav = document.getElementById('home-nav');
     if (homeNav) homeNav.addEventListener('click', handleHomeClick);
 
-    // ── corkboard strings ──
     var STRING_COLOR  = 'rgba(38,36,33,0.42)';
     var STRING_COLOR2 = 'rgba(38,36,33,0.28)';
 
