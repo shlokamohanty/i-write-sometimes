@@ -12,7 +12,7 @@ tags: work-ongoing
 
 [https://medium.com/adi-insights-innovations-collective/your-memories-are-not-recordings-they-are-reconstructions-bc65602e0db9](https://medium.com/adi-insights-innovations-collective/your-memories-are-not-recordings-they-are-reconstructions-bc65602e0db9)
 
-I kind of like the idea from the undergrad funny film I was making. And I think I want to start writing with that. The scientist going to different timelines to find happiness. But this is more about time travel to find greater certainty?
+I kind of like the idea from the undergrad funny film I was making. And I think I want to start writing with that idea. The scientist going to different timelines to find happiness. But this is more about time travel to find some greater certainty?
 
 I kind of like the idea from the undergrad funny film I was making. And I think I want to start writing with that. The scientist going to different timelines to find happiness. But this is more in the context of time travel to find greater certainty?
 

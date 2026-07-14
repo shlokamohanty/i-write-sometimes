@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ebc61d2ff4b1eada",
+            "id": "400908fb60739839",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "400908fb60739839",
+            "id": "f833611e31bf53fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-07-12-reality.md",
+                "file": "2026-07-11-thesis-story.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-07-12-reality"
+              "title": "2026-07-11-thesis-story"
             }
           }
         ],
@@ -198,15 +198,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "400908fb60739839",
+  "active": "f833611e31bf53fd",
   "lastOpenFiles": [
-    "2026-07-09-summer-is-being-good-to-me.md",
     "2026-07-03-stochastic-parrot.md",
-    "2026-06-24-the-framework.md",
+    "2026-07-09-summer-is-being-good-to-me.md",
     "2026-06-29-looking-at-my-personal-statements.md",
     "2026-06-25-my-days.md",
     "2026-07-11-thesis-story.md",
     "2026-07-12-reality.md",
+    "2026-07-14-chaos.md",
+    "2026-06-24-the-framework.md",
     "2021-03-08-blog-post-title-from-file-name.md",
     "2025-10-06-goals.md",
     "2026-06-24-sentimental-work.md",
@@ -225,7 +226,6 @@
     "2026-03-18-on-junoon-and-fitoor.md",
     "2026-03-06-computational-poetry.md",
     "2026-03-20-letter.md",
-    "2026-03-24-100-days-of-making.md",
     "Untitled.canvas",
     "Untitled.base",
     "Untitled 1.base",
