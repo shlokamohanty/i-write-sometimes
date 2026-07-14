@@ -45,4 +45,3 @@ To Do:
 **28th August** - film due
 
 
-![](/i-write-sometimes/assets/images/Untitled_Artwork_56.jpg)
