@@ -46,7 +46,11 @@ memory is a material in neuroscience that builds identity
 - 98% of a person's atoms are replaced every year
 - basic biology property: molecular components are replaced over time
 
-brain as a ~~city?~~ ~~database~~ ~~data center with a database?~~ time machine
+~~My brain as is a city? database data center with a database? time machine. A hyperobject of anxiety and grief.~~
+
+I learnt about what an hyperobject is because of this song, https://open.spotify.com/track/3QJ98mNw1jFACNOdziPwoa
+
+The brain is a time-machine (mechanism). My memories are hyperobjects (material) of anxiety and grief (what the hyperobjects are made up of).
 
 time in conjunction to neuroscience and physics
 
@@ -96,7 +100,7 @@ So, I'm not going to make an interpretation of the line, just yet.
 
 Raviya pointed out that I occasionally have a tendency to hide my feelings, which made me think that what we show to the world outside vs what we keep to ourselves is shaped by how we choose to transcribe it, which goes back to 'Politics of Transcription'. I thought this was interesting, in the context of where my thesis is headed.
 
-> I wonder if I can combine data and animation? Definitely possible, in the manner that I did my rewiring connections, but what would that look like~~, pandas dataframe-wise~~?
+> ~~I wonder if I can combine data and animation? Definitely possible, in the manner that I did my rewiring connections, but what would that look like, pandas dataframe-wise?~~ 
 
 > Initially, much of my thesis stemmed from wanting to understand myself, and maybe hoping others would, too. But that's an insane thing. No one can really understand you. That's a very deep-seated need for validation. The funny thing is, I came into ITP knowing that, no one can really understand you. And, a year later, I wanted to be understood. Is understanding actually exhaustive and complete? Then, I wonder if I can even truly understand myself. Because I am a dynamic system.
 
@@ -129,7 +133,7 @@ uncertainty -> lack of control -> desire for control [+/- fear] -> action
 the lack of control may or may not result in fear 
 ```
 
-It's 1:47am and, wait, omg. the uncertainty principle. I just remembered. I fully forgot about that, and now I remembered yayyaya.
+It's 1:47am and, wait, omg. The uncertainty principle. I just remembered. I fully forgot about that, and now I remembered yayyaya.
 
 Science is deeply rooted in control. Makes sense, how in undergrad, the structure and control helped. Need to structure my thoughts here more. there's a lot of concepts here.
 
@@ -145,7 +149,7 @@ There's something about the genre of cosmic horror that ends up in a form of cos
 
 I need to lean more into how to make this a playful object.
 
-Ideas I’m toying with are the need for control and anxiety. So the time machine had control, but it doesn't actually work. Time machine is cool.
+Ideas I’m toying with are the need for control and anxiety. So the time machine had control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
 
 I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
 
