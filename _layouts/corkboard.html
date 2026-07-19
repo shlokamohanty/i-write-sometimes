@@ -508,7 +508,7 @@
       <div class="intro-note subtitle-note">some reflections, writings, and rough notes</div>
       <div class="intro-note body-note">
         <p>if you've stumbled upon this, you follow me on Substack, I sent you this link, or you just happened to stalk my GitHub and land here. but, regardless of who you are, i'm glad you made it here, my inner world — thoughts, rambles, reflections, the mess that i am sometimes, and that i write about sometimes.</p>
-        <p>i write about things that are rather prosaic, sometimes, turning into poetry. i only recently read about a digital garden, and this is mine, at least for some time. i write sometimes, among many other things, only sometimes.</p>
+        <p>i write about things that are rather prosaic, sometimes, turning into poetry. i only recently read about a digital garden, and this is mine, at least for some time. i write sometimes, among many other things, only sometimes. and sometimes these writings are stories in layers. you'd find it in everything, and as a reader, keep in mind that these writings control the narratives from my perspective and aren't the objective truth. it's what I feel-felt sometimes.</p>
       </div>
     </div>
 
@@ -717,7 +717,10 @@
       {% assign seen_w = "" %}
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
 
-      {% assign poetry_posts   = all_writings | where_exp: "p", "p.form == 'poetry' or p.form == 'poem' or p.form == 'poems'" %}
+      {% assign poetry_a = all_writings | where_exp: "p", "p.form == 'poetry'" %}
+      {% assign poetry_b = all_writings | where_exp: "p", "p.form == 'poem'" %}
+      {% assign poetry_c = all_writings | where_exp: "p", "p.form == 'poems'" %}
+      {% assign poetry_posts = poetry_a | concat: poetry_b | concat: poetry_c | uniq %}
       {% assign essay_posts    = all_writings | where_exp: "p", "p.form == 'essay'" %}
       {% assign fiction_posts  = all_writings | where_exp: "p", "p.form == 'fiction'" %}
       {% assign academic_posts = all_writings | where_exp: "p", "p.form == 'academic'" %}
