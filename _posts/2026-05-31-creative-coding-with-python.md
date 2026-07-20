@@ -70,3 +70,79 @@ Even though this wasn't really challenging, it was still really fun. And, mathem
 The thing with Python is that I can actually use datasets and pandas, hehe, yay. This is so exciting. I understand why people like creative coding.
 
 ## randomness
+
+```
+# Create a random walker that has a greater tendency to move down and to the right. (A partial solution follows in the next section.)
+
+class Walker:
+    def __init__(self):
+        self.x = py5.width / 2
+        self.y = py5.height / 2
+    
+    def show(self):
+        py5.stroke(0)
+        py5.point(self.x, self.y)
+    
+    def step(self):
+        choice = int(py5.random(4))
+        if choice == 0:
+            self.x += 2
+        elif choice == 1:
+            self.x -= 1
+        elif choice == 2:
+            self.y += 2 
+        else:
+            self.y -= 1
+
+walker = None
+
+def setup():
+    py5.size(640, 240, py5.JAVA2D)
+    global walker
+    walker = Walker()
+    py5.background(255)
+
+def draw():
+    walker.step()
+    walker.show()
+
+py5.run_sketch()
+```
+
+
+I initially did this:
+```
+self.y -= 2 # but this made the random walker move up instead of down. 
+```
+
+It turns out I had forgotten how digital images work. It's very different from the cartesian plane. I understand now.
+
+A digital image -> a grid of pixels stored in memory
+the memory gets filled in **row by row, top row first**
+
+- "row 0" = the very first row of pixels drawn = the top of the screen
+- "row 1" = the next row down
+
+so y = 0 is the top, and y increases downward
+
+(0,0) ─────────────► x increases →
+  │
+  │
+  │
+  ▼
+y increases
+
+In fact, NumPy image arrays work this way too.
+
+More on mathematical intervals
+
+```
+# `[a, b)` — includes `a`, excludes `b`
+if r < 0.4: # [0, 0.4)
+            self.x += 1
+        elif r < 0.6: # [0.4, 0.6)
+            self.x -= 1
+        elif r < 0.8: # [0.6, 0.8)
+            self.y += 1
+        else: [0.8, 1)
+```

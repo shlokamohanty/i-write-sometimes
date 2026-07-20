@@ -29,8 +29,30 @@ The synopsis of the story:
 
 ---
 
-I felt jealous today. A feeling I don’t have often. But I did. My roommate was making something for the person she is seeing. I thought to myself, I wish I had someone in my life to make things for romantically. My roommates are like, "It’s different when you make things for someone you’re with." It comes from a different place. And then my other roommate says, "You get it." A shared feeling. I felt jealous, maybe because I haven’t ever been in a romantic relationship serious enough, because I haven’t felt for them enough. And the times when I’ve felt things, a deadline is marked. So, an immediate unflattering thought runs through my head that maybe I’m incapable of forming deep romantic relationships. But then I think of my friendships. They have this depth. I can’t particularly put to words, but a lot of times, it comes with this innateness. 
+stable present + answered + love → capacity for imagined future
 
-I felt extremely low yesterday because my brother asked me to help my parents understand his point of view. I said words. They didn’t understand. I wanted to give up. My grandmom tells me the same thing. Tells me, “Try convincing them. I can’t do it. Only you can”. I left home for good. I grieve. I can’t go back for years now. I miss my brother a lot. Then there are words he texted me that broke my heart: “In four years, I’ll leave home anyway. It doesn’t matter”. How can they make the same mistakes again? I could feel what my brother feels. I told him, I wish we could live in the same city in the future. He said he wants to be in Boston, and so do I. We have an age gap of ten years, yet even before there were words we both could speak to articulate what we feel for the other, we were and will be close. 
+My brother asked me to help my parents understand his point of view. I said words. They didn’t understand. I wanted to give up. My grandmom tells me the same thing. Tells me, “Try convincing them. I can’t do it. Only you can”. I left home for good. I grieve. I can’t go back for years now. I miss my brother a lot. Then there are words he texted me that broke my heart: “In four years, I’ll leave home anyway. It doesn’t matter”. How can they make the same mistakes again? I could feel what my brother feels. I told him, I wish we could live in the same city in the future. He said he wants to be in Boston, and so do I. We have an age gap of ten years, yet even before there were words we both could speak to articulate what we feel for the other, we were and will be close.
 
-So I sat on my rooftop and texted Amisha, an airplane flying in the sky. I called it a shooting star. A joke we made, because two weeks ago when I was on my rooftop, I was convinced it was a shooting star. I told Amisha that when I was visiting them. Amisha is like there’s no way you saw a shooting star in New York. We laughed. We were swimming in the pond. I remember looking at my hands through the water, and the refraction caustics on my hands. And then I look at them. I think about a rock that I picked up for them when I was seventeen. I don’t know what we named the rock, but we had a name. Feels like something is missing whenever I say bye to them. It’s always a quick hug, but the feeling lingers. There’s something
+So I sat on my rooftop and texted Amisha, an airplane flying in the sky. I called it a shooting star. A joke we made, because two weeks ago when I was on my rooftop, I was convinced it was a shooting star. I told Amisha that when I was visiting them. Amisha is like, there’s no way you saw a shooting star in New York. We laughed. We were swimming in the pond. I remember looking at my hands through the water, and the refraction caustics on my hands. And then I look at them. I think about a rock that I picked up for them when I was seventeen. I don’t know what we named the rock, but we had a name. Feels like something is missing whenever I say bye to them. It’s always a quick hug, but the feeling lingers. I’ve always had to take a bus to reach Amisha. I remember missing them whenever I’m on those long bus rides after meeting them. We talk about a future where we live in the same city, in the same apartment together, at least one time in our lives.
+
+
+
+unstable present + answered + love → no capacity for imagined future
+
+With Aananya, I wanted to make an effort and get into a relationship even through the distance. But he didn’t want that. He just wanted to still talk to me, in a romantic manner. So I stopped talking, and that broke my heart. Well, the relationship had started off with a deadline.
+
+
+
+stable present + answered - love → no capacity for imagined future
+
+Apoorv asked me if I would move to the UK with him, hypothetically. That scared me. I wouldn’t want to move for Apoorv. I didn’t want to move for someone in a city I don’t know, because I didn’t love him. The same happened vaguely with one of my friends, when we were casually seeing each other freshman year of undergrad. He talked about wanting to move back to Mumbai, and in that moment, I had to end it with him, because I couldn’t see myself move for him. 
+
+
+
+unstable present + unanswered + love → capacity for imagined future 
+
+A relationship, like the one with Aananya after things ended with him, there was no stability in the present, so I imagined what could have been, as that felt safer. The sweet-potato feeling.
+
+
+
+present + unanswered + love?
