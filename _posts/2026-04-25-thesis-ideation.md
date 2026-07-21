@@ -139,23 +139,9 @@ Science is deeply rooted in control. Makes sense, how in undergrad, the structur
 
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
-I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
-
-I think I need to do simultaneous thinking, going back to what I learnt from the feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique because I want to try new things. That's where the story falls short.
-
-What's the story/stories here that I want to say? I work well with conveying deep concepts with sentimentality, I think. That's why puppet hands work well, and what I wrote today.
+~~What's the story/stories here that I want to say? I work well with conveying deep concepts with sentimentality, I think. That's why puppet hands work well, and what I wrote today.~~ This was before I understood the meaning of sentimentality.
 
 There's something about the genre of cosmic horror that ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
-
-I need to lean more into how to make this a playful object.
-
-Ideas I’m toying with are the need for control and anxiety. So the time machine had control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
-
-I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
-
-Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
-
-Slowly start writing the story/stories.
 
 ## mechanics
 
@@ -178,7 +164,19 @@ physical mechanisms:
 
 > I think my initial form factor of 'Rewiring Connections' and NIME idea was interesting. Although now, looking at where my thesis is headed and at my NIME idea being a version of the brain idea, maybe I don't want to do NIME. I should incorporate things from that idea here.
 
+> I need to lean more into how to make this a playful object.
+
+> Ideas I’m toying with are the need for control and anxiety. So the time machine had control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
+
+> I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
+
 > I thought I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It’s rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off.
+
+> While starting writing the stories, I thought to myself, about how I said I wouldn't be able to pull off a writing thesis. But, I'm thinking back to when I started writing response letters to the 'Kiara' letters. From Luna to Sun. And I wanted to use Markov chains to show how the memories become similar eventually. I do like that as a text-based technique here.
+
+> I think there is something here, that I could do with the methodology I used for memory n-grams.
+
+> While making the poetry generator, there was something that I thought of. My initial coding attempts were failing because there wasn't enough memory. So I had to make the loop work in a manner so it doesn't store the memory. It is fresh each time, which made me think of doing a project that is a commentary on memory and data. But it ties in heavily with data degradation.
 
 ## to do and questions
 
@@ -188,7 +186,9 @@ physical mechanisms:
 - I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues. Read about both over summer, and, see what sits well.
 - What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up? Cornell anxiety-log?
 - I want to learn more about chaos theory.
+- I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
 - But, why do I want to do this? What about analysing my brain is important? What do I want to show? ~~Is it for people to understand me?~~ Do I want to understand myself? What is understanding? This is a crazy thing though. 
+- I think I need to do simultaneous thinking, going back to what I learnt from the feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique because I want to try new things. That's where the story falls short. Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
 - ~~Is the brain just calm chaos?~~
 
 ## readings and quotes
@@ -214,3 +214,4 @@ While reading Jan Westerhoff's 'Reality', some quotes stood out:
 
 Find people to talk to in neuroscience - ground this with more empirical science.
 - Sarah, Raviya's friend
+- I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
