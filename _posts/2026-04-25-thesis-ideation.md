@@ -178,6 +178,8 @@ physical mechanisms:
 
 > While making the poetry generator, there was something that I thought of. My initial coding attempts were failing because there wasn't enough memory. So I had to make the loop work in a manner so it doesn't store the memory. It is fresh each time, which made me think of doing a project that is a commentary on memory and data. But it ties in heavily with data degradation.
 
+I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex. 
+
 ## to do and questions
 
 - more to think on in terms of drawings and language
