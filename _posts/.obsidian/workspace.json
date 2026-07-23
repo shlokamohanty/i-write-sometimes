@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e06f88d42011a59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-07-14-chaos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-14-chaos"
-            }
-          },
-          {
             "id": "1e5148c471509d7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-07-22-social-energy.md",
+                "file": "2026-07-11-thesis-story.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-07-22-social-energy"
+              "title": "2026-07-11-thesis-story"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,11 +185,11 @@
   },
   "active": "1e5148c471509d7c",
   "lastOpenFiles": [
-    "2026-07-11-thesis-story.md",
-    "2026-07-22-social-energy.md",
+    "2026-07-14-chaos.md",
     "2026-07-12-reality.md",
     "2026-07-14-agency.md",
-    "2026-07-14-chaos.md",
+    "2026-07-22-social-energy.md",
+    "2026-07-11-thesis-story.md",
     "2026-06-21-storyteller-and-readers.md",
     "2026-04-25-thesis-ideation.md",
     "2026-06-25-my-days.md",

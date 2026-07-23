@@ -13,4 +13,4 @@ I realised it takes up a lot of my social energy in group settings. I struggle i
 
 In one-on-one or super small group settings, I thrive. It's easier to be more myself. I feel this missing feeling after I say bye to some of my friends temporarily. Especially after hanging out with them one-on-one, not in group settings. I feel sad when they leave temporarily. Maybe I'm meant to have smaller social circles. I don’t have as much energy anymore.
 
-I feel much more regulated than I did during the last semester. I don't feel too anxious, excited, or too sad, just a regular flow of emotions. So I can actually understand a lot of these behaviours of mine.
+I feel much more regulated than I did during the last semester, or I've ever in a bit. I don't feel too anxious, excited, or too sad, just a regular flow of emotions. So I can actually understand a lot of these behaviours of mine.
