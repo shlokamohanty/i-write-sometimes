@@ -55,3 +55,7 @@ The machine is essentially a form of escapism. It becomes a way to come to resol
 ~~Used to sleep over at Akira's too on Wednesdays that year. Again, she had an extra bed too, because I had moved out. Again, left early in the morning to go for classes before she'd fully wake up. It was like that before I moved out.~~
 
 ~~But I remember waking up after the first time I experienced daylight saving time ending. The week before, I asked Reiyan if he wanted to try long distance. He said no. *I always say things too late? Would he have said yes if I had asked him earlier?* This was never meant to last. We started the relationship with a deadline. I couldn't wake up. I was heartbroken. So I'd wake up, and then close my eyes. I wanted the day to be over. Till I couldn't sleep anymore. *So I'd sleep in till 4 pm.*~~
+
+I need to take time and build characters. This is a long-form writing project. I can't write directly from memory, then abstract minute parts of it.
+
+---
