@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5e51d8aa3cca9272",
+        "id": "783c512c8ccb35ae",
         "type": "tabs",
         "children": [
           {
-            "id": "e311d207e503ef35",
+            "id": "97d9be661903fa62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-06-22-how-i-understand-the-world.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-06-22-how-i-understand-the-world"
+              "title": "New tab"
             }
           }
         ]
@@ -183,30 +179,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "e311d207e503ef35",
+  "active": "97d9be661903fa62",
   "lastOpenFiles": [
-    "2026-06-24-sentimental-work.md",
-    "2026-07-03-stochastic-parrot.md",
-    "2026-07-22-social-energy.md",
-    "2026-06-22-thinking-more-on-storyteller-and-readers.md",
-    "2026-06-23-naming-it-down-further.md",
-    "2026-06-24-skybone-studios.md",
     "2026-06-24-the-framework.md",
     "2026-06-25-my-days.md",
     "2026-06-29-looking-at-my-personal-statements.md",
+    "2026-07-03-stochastic-parrot.md",
     "2026-07-09-summer-is-being-good-to-me.md",
     "2026-07-11-thesis-story.md",
     "2026-07-12-reality.md",
     "2026-07-14-agency.md",
     "2026-07-14-chaos.md",
+    "2026-07-22-social-energy.md",
+    "2026-06-24-sentimental-work.md",
+    "2026-06-20-on-making-a-meaning-of-suffering.md",
+    "2026-06-22-how-i-understand-the-world.md",
+    "2026-06-23-naming-it-down-further.md",
+    "2026-06-22-thinking-more-on-storyteller-and-readers.md",
+    "2026-06-24-skybone-studios.md",
     "2026-04-25-thesis-ideation.md",
     "2026-03-28-xenon.md",
     "2026-03-20-letter.md",
     "2026-03-24-100-days-of-making.md",
     "2026-05-06-facial-hair.md",
     "2026-06-21-storyteller-and-readers.md",
-    "2026-06-20-on-making-a-meaning-of-suffering.md",
-    "2026-06-22-how-i-understand-the-world.md",
     "2026-05-02-pain-of-my-phantom-limb.md",
     "2026-06-15-forming-a-framework.md",
     "2026-04-13-memory-n-grams.md",
