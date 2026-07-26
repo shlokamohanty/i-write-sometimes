@@ -50,7 +50,7 @@ memory is a material in neuroscience that builds identity
 
 I learnt about what an hyperobject is because of this song, https://open.spotify.com/track/3QJ98mNw1jFACNOdziPwoa
 
-The brain is a time-machine (mechanism). My memories are hyperobjects (material) of anxiety and grief (what the hyperobjects are made up of).
+The brain is a time-machine (mechanism). My memories are hyperobjects (material) of anxiety and grief (what the hyperobjects are made up of). Maybe, anxiety is a hyperobject of grief too.
 
 time in conjunction to neuroscience and physics
 

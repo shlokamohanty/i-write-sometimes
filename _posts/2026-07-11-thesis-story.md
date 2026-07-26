@@ -56,6 +56,7 @@ The machine is essentially a form of escapism. It becomes a way to come to resol
 
 ~~But I remember waking up after the first time I experienced daylight saving time ending. The week before, I asked Reiyan if he wanted to try long distance. He said no. *I always say things too late? Would he have said yes if I had asked him earlier?* This was never meant to last. We started the relationship with a deadline. I couldn't wake up. I was heartbroken. So I'd wake up, and then close my eyes. I wanted the day to be over. Till I couldn't sleep anymore. *So I'd sleep in till 4 pm.*~~
 
-I need to take time and build characters. This is a long-form writing project. I can't write directly from memory, then abstract minute parts of it.
+I need to take time and build characters. This is a long-form writing project. I can't write directly from memory, then abstract minute parts of it. My true, most authentic, vulnerable storytelling comes out through letters. I wonder if I start writing in the letter form and then take it from there. Nah, that takes away from this. I feel a little overwhelmed by vulnerability. I'm kind of unable to write. Maybe, I just need to start writing.
 
 ---
+
