@@ -56,7 +56,14 @@ The machine is essentially a form of escapism. It becomes a way to come to resol
 
 ~~But I remember waking up after the first time I experienced daylight saving time ending. The week before, I asked Reiyan if he wanted to try long distance. He said no. *I always say things too late? Would he have said yes if I had asked him earlier?* This was never meant to last. We started the relationship with a deadline. I couldn't wake up. I was heartbroken. So I'd wake up, and then close my eyes. I wanted the day to be over. Till I couldn't sleep anymore. *So I'd sleep in till 4 pm.*~~
 
-I need to take time and build characters. This is a long-form writing project. I can't write directly from memory, then abstract minute parts of it. My true, most authentic, vulnerable storytelling comes out through letters. I wonder if I start writing in the letter form and then take it from there. Nah, that takes away from this. I feel a little overwhelmed by vulnerability. I'm kind of unable to write. Maybe, I just need to start writing.
+I need to take time and build characters. This is a long-form writing project. ~~I can't write directly from memory, then abstract minute parts of it. My true, most authentic, vulnerable storytelling comes out through letters. I wonder if I start writing in the letter form and then take it from there. Nah, that takes away from this.~~ I feel a little overwhelmed by vulnerability. I'm kind of unable to write. Maybe, I just need to start writing.
 
 ---
 
+Hi, I’m Tara. My name means a star, in Sanskrit. My mom and dad were on the terrace. She usually went up there when she was sad to smoke a sneaky cigarette when she felt really upset, and dad would hold out the ashtray for her. As they did so one night, they saw a shooting star, and Mom decided then that if they gave birth to a daughter, her name would be Tara. So, I’m Tara. I’ve a gaping black hole that opened up in my chest. The people that come close to me go through a slow process of spaghettification. The time is warped, so they don’t feel it initially, but their bodies are stretched thin, and they are being sucked in.
+
+I’ve reached for the gaping black hole in multiple instances, around my chest. I sometimes wonder what it would be like putting my head through it. Would it suck me in? I fear the unknown and uncertain. 
+
+So I built a machine that doesn’t stretch into a string of atoms around the event horizon, spiralling into nothingness. To venture into this black hole, it’ll show me the future and the past. I placed the machine quickly in my chest, and put my head through my chest into the black hole. I’m inside, and step into the machine, before I spagettify. 
+
+I did spagettify, to the slightest. I’m stretched thinner, a couple meters taller, inside the machine. Back in time. I had a dream that the time machine was hovering over something that looked like a zero. It sucked me in, gravity, and it was empty. Maybe because I had read yesterday that zeros can be reduced to empty sets. 

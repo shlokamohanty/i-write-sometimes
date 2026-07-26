@@ -189,8 +189,9 @@ I wonder, if I can use markov chains for images. I'm better with visuals than wr
 - What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up? Cornell anxiety-log?
 - I want to learn more about chaos theory.
 - I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
-- But, why do I want to do this? What about analysing my brain is important? What do I want to show? ~~Is it for people to understand me?~~ Do I want to understand myself? What is understanding? This is a crazy thing though. 
+- But, why do I want to do this? What about analysing my brain is important? What do I want to show? ~~Is it for people to understand me? Do I want to understand myself? What is understanding? This is a crazy thing though.~~ 
 - I think I need to do simultaneous thinking, going back to what I learnt from the feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique because I want to try new things. That's where the story falls short. Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
+- https://www.instagram.com/kinetichorizons/
 - ~~Is the brain just calm chaos?~~
 
 ## readings and quotes
