@@ -34,4 +34,6 @@ I’ve reached for the gaping black hole in multiple instances, around my chest.
 
 So I built a machine that doesn’t stretch into a string of atoms around the event horizon, spiralling into nothingness. To venture into this black hole, it’ll show me the future and the past. I placed the machine quickly in my chest, and put my head through my chest into the black hole. I’m inside, and step into the machine, before I spagettify. 
 
-I did spagettify, to the slightest. I’m stretched thinner, a couple meters taller, inside the machine. Back in time. I had a dream that the time machine was hovering over something that looked like a zero. It sucked me in, gravity, and it was empty. Maybe because I had read yesterday that zeros can be reduced to empty sets. 
+I did spagettify, to the slightest. I’m stretched thinner, a couple meters taller, inside the machine. Back in time. 
+
+I had a dream that the time machine was hovering over something that looked like a zero. It sucked me in, gravity, and it was empty. Maybe because I had read yesterday that zeros can be reduced to empty sets. 
