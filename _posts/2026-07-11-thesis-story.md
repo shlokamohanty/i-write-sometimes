@@ -60,7 +60,7 @@ I need to take time and build characters. This is a long-form writing project. ~
 
 ---
 
-Hi, I’m Tara. My name means a star, in Sanskrit. My mom and dad were on the terrace. She usually went up there when she was sad to smoke a sneaky cigarette when she felt really upset, and dad would hold out the ashtray for her. As they did so one night, they saw a shooting star, and Mom decided then that if they gave birth to a daughter, her name would be Tara. So, I’m Tara. I’ve a gaping black hole that opened up in my chest. The people that come close to me go through a slow process of spaghettification. The time is warped, so they don’t feel it initially, but their bodies are stretched thin, and they are being sucked in.
+Hi, I’m Tara. My name means a star, in Sanskrit. My mom and dad were on the terrace. She usually went up there to smoke a cheeky cigarette when she felt really upset, and dad would hold out the ashtray for her. As they did so one night, they saw a shooting star, and Mom decided then that if they gave birth to a daughter, her name would be Tara. So, I’m Tara. I’ve a gaping black hole that opened up in my chest. The people that come close to me go through a slow process of spaghettification. The time is warped, so they don’t feel it initially, but their bodies are stretched thin, and they are being sucked in.
 
 I’ve reached for the gaping black hole in multiple instances, around my chest. I sometimes wonder what it would be like putting my head through it. Would it suck me in? I fear the unknown and uncertain. 
 
