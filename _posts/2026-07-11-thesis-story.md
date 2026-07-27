@@ -46,7 +46,7 @@ I did spagettify, to the slightest. I’m stretched thinner, a couple meters tal
 
 *Chapter one, zero, an empty set.*
 
-Mom was scared of uncertainty. She told me stories of the material world breaking down to this third realm. I don’t quite understand. I can see her reading to me, and I fall asleep. I had a dream that the time machine was hovering over something that looked like a zero. It sucked me in with gravity, and it was empty. Maybe because she told me zeros can be reduced to empty sets.
+Mom was scared of uncertainty. She told me stories of the material world breaking down to this third realm. I don’t quite understand. I can see her reading to me, and I fall asleep. I had a dream that the time machine was hovering over something that looked like a zero. It sucked me in with gravity, and I was in a set. Maybe because she told me zeros can be reduced to empty sets.
 
 There, my sweet Oli. We are young. I score well. We can spend all our time together when I don’t study. What is so bad? Oh, Tara.
 
