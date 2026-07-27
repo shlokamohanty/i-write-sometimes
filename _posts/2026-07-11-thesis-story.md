@@ -62,5 +62,4 @@ I laugh as I see Tara tell Oli, four years later, what he wore three years back 
 
 Myna came to visit me the day before. Mom told her to check in on me. She expressed her concern about the black hole. She and Myna have found some weird anti-gravity wigs to cover up the black hole when outside. Myna is on the couch as I bring her tea. Myna is curious about the black hole. She thinks I’m sad and lonely. She thinks it’s empty inside. I tell her I’m not sad, nor am I lonely.
 
----
-Note to myself - STOP EDITING while writing. 
+
