@@ -223,3 +223,5 @@ Studying the data: I think I should redraw the electrocuted memory. It's in firs
 Notes: I need to be more disciplined. Of course, this wasn't a continuous 100 days process, so I can't actually evaluate on how it'll make me feel, but it'll give me good data to go along. Even for my thesis and multiple data collection aspects, I need to be more disciplined.
 Observations: 
 </div>
+
+Felt like I was being observed too much because of this. Felt uncomfortable. Felt almost fetishised for having trauma. Reading some of these reflections from last semester, I was going through it. I was talking to Kezia about how I don't really want to put this in my portfolio. She asked me what the purpose of a portfolio is, and it is for jobs. I think I'm pretty settled that, at least until I figure out a PhD, I kind of would like a position as a research assistant and do projects on the side. So maybe portfolio isn't as important. But the drawings are distinctive. They say something about who I am as a person. She encouraged me to keep doing it. So I think I'll get back to it today. Make this more of a living project.

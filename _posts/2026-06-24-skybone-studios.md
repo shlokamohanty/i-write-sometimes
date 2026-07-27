@@ -32,16 +32,6 @@ To Do:
 
 ![](/i-write-sometimes/assets/images/Untitled_Artwork-54.jpg)
 
-**Schedule:**
-**8th July** - animatic and test shots/test animations
-**15th July** - filming
-**22nd July** - keys 1st pass/ music due
-**29th July** - keys 2nd pass due
-**31st July** - optional check-in day
-**10th August** - in-betweens due
-**14th August** - clean-up first pass due
-**24th August** - final animation/ comp test due
-**26th August** - optional check-in day
-**28th August** - film due
+
 
 
