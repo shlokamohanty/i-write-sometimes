@@ -36,7 +36,7 @@ I have a gaping black hole that opened up in the centre of my head. The people t
 
 I’ve reached for the gaping black hole in multiple instances, around my head. I sometimes wonder what it would be like putting my head through it. Would it suck me in? 
 
-So I built a machine that doesn’t stretch into a string of atoms around the event horizon, spiralling into nothingness. Nothingness implies a void. Colloquially, it seems like a void because light can't escape, but in fact, it is not. There's too much in it, to the extremities. I like to think of it as a hyperobject.
+So I built a machine that doesn’t stretch into a string of atoms around the event horizon, spiralling into nothingness. Nothingness implies a vacuum. Colloquially, per physics slang, it seems like a vacuum because light can't escape, but in fact, it is not. There's too much in it, to the extremities. I like to think of it as a hyperobject.
 
 Venturing into this black hole, it’ll show me the future and the past. I placed the machine quickly in my head and somersaulted into the black hole. I’m inside, and step into the machine, before I spagettify.
 
@@ -60,6 +60,6 @@ I laugh as I see Tara tell Oli, four years later, what he wore three years back 
 
 “Oli, I’m told I don’t have it in me to make it as a violinist. I’m not creative. I can’t tell notes apart. I’m too analytical. I’m more likely to make it as a physicist.” So Oli takes up my space. It gets dark at 5 pm. I’ll help Oli find a job. I’ll help Oli through his depression. I’ll help Oli. As long as he needs me, I don't.
 
-Myna came to visit me the day before. Mom told her to check in on me. She expressed her concern about the black hole. She and Myna have found some weird anti-gravity wigs to cover up the black hole when outside. Myna is on the couch as I bring her tea. Myna is curious about the black hole. She thinks I’m sad and lonely. She thinks it’s empty inside. I tell her I’m not sad, nor am I lonely.
+Myna came to visit me the day before. Mom told her to check in on me. She expressed her concern about the black hole. She and Myna have found some weird anti-gravity wigs to cover up the black hole when outside. Myna is on the couch as I bring her tea. Myna is curious about the black hole. She thinks I’m sad and lonely. I tell her I’m not sad, nor am I lonely.
 
 
