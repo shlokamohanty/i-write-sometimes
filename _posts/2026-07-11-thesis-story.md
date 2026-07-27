@@ -36,7 +36,7 @@ I have a gaping black hole that opened up in the centre of my head. The people t
 
 I’ve reached for the gaping black hole in multiple instances, around my head. I sometimes wonder what it would be like putting my head through it. Would it suck me in? 
 
-So I built a machine that doesn’t stretch into a string of atoms around the event horizon, spiralling into nothingness. Nothingness implies a vacuum. Colloquially, per physics slang, it seems like a vacuum because light can't escape, but in fact, it is not. There's too much in it, to the extremities. I like to think of it as a hyperobject.
+So I built a machine that doesn’t stretch into a string of atoms around the event horizon, spiralling into nothingness. Nothingness implies a vacuum. Colloquially, it seems like a vacuum because light can't escape, but in fact, it is not. There's too much in it, to the extremities. I like to think of it as a hyperobject.
 
 Venturing into this black hole, it’ll show me the future and the past. I placed the machine quickly in my head and somersaulted into the black hole. I’m inside, and step into the machine, before I spagettify.
 
