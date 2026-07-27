@@ -58,7 +58,7 @@ Tara can’t even remember a four-digit code, nor a phone number. Numbers are sc
 
 I laugh as I see Tara tell Oli, four years later, what he wore three years back on their first date.
 
-“Oli, I’m told I don’t have it in me to make it as a violinist. I’m not creative. I can’t tell notes apart. I’m too logical. I’m more likely to make it as a physicist.” So Oli takes up my space. It gets dark at 5 pm. I’ll help Oli find a job. I’ll help Oli through his depression. I’ll help Oli. As long as he needs me, I don't.
+“Oli, I’m told I don’t have it in me to make it as a violinist. I’m not creative. I can’t tell notes apart. I’m too analytical. I’m more likely to make it as a physicist.” So Oli takes up my space. It gets dark at 5 pm. I’ll help Oli find a job. I’ll help Oli through his depression. I’ll help Oli. As long as he needs me, I don't.
 
 Myna came to visit me the day before. Mom told her to check in on me. She expressed her concern about the black hole. She and Myna have found some weird anti-gravity wigs to cover up the black hole when outside. Myna is on the couch as I bring her tea. Myna is curious about the black hole. She thinks I’m sad and lonely. She thinks it’s empty inside. I tell her I’m not sad, nor am I lonely.
 
