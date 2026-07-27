@@ -33,5 +33,7 @@ To Do:
 ![](/i-write-sometimes/assets/images/Untitled_Artwork-54.jpg)
 
 
+Had to scrap the project. I didn't like the story enough. Didn't like the output of the experiment. I realised there is a lot about drawing that I don't know, and animation in 2D. So decided to work towards a storyboard. Now, working on character design and learning more techniques. Changed the focus to learning more about drawing.
 
+Need to update everything here.
 
