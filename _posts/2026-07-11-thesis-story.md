@@ -33,7 +33,7 @@ I do take it that this take is slightly controversial. Fatema got defensive read
 
 ---
 
-semi-autobiography of my experiences before moving to New York.
+semi-autobiography of my experiences before moving to New York. or is it auto-fiction?
 
 ---
 
