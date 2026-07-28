@@ -51,7 +51,7 @@ Mom was scared of uncertainty. She told me stories of the material world breakin
 
 There, my sweet Oli. We are young. I score well. We can spend all our time together when I’m not studying.
 
-She left Rysa. She never tells her why.
+Tara left Rysa. She never tells her why.
 
 Rysa was talking about moving back to Chennai, but Tara wanted to stay here.
 
@@ -122,3 +122,5 @@ A younger Tara is looking out the bus window. There's flooding. She hates a new 
 Myna asked me the day before, is that when the star started dying?
 
 ---
+
+Rysa, I’m going to show you something. Do not go poking at it. 
