@@ -32,13 +32,9 @@ I do take it that this take is slightly controversial. Fatema got defensive read
 
 ---
 
-I find it funny that I would use Sun as a character, and now it's a person with a black hole. Funny, stars collapsing into black holes as a metaphor.
+I have a gaping black hole that opened up in the centre of my head. The people who come close to me go through a slow process of spaghettification. The time is warped, so they don’t feel it at first, but their bodies are stretched thin, and they are being sucked in.
 
----
-
-I have a gaping black hole that opened up in the centre of my head. The people that come close to me go through a slow process of spaghettification. The time is warped, so they don’t feel it at first, but their bodies are stretched thin, and they are being sucked in.
-
-I’ve reached for the gaping black hole in multiple instances, around my head. I sometimes wonder what it would be like putting my head through it. Would it suck me in? 
+I’ve reached for the gaping black hole in multiple instances, around my head. I sometimes wonder what it would be like putting my head through it. Would it suck me in?
 
 So I built a machine that doesn’t stretch into a string of atoms around the event horizon, spiralling into nothingness. Nothingness implies a vacuum. Colloquially, it seems like a vacuum because light can't escape, but in fact, it is not. There's too much in it, to the extremities. I like to think of it as a hyperobject.
 
@@ -46,24 +42,66 @@ Venturing into this black hole, it’ll show me the future and the past. I place
 
 I did spagettify, to the slightest. I’m stretched thinner, a couple meters taller, inside the machine. Back in time. I’m in a black hole. But I’m whole. I feel my head. I have control.
 
-
-
 *Chapter one, zero, an empty set.*
 
 Mom was scared of uncertainty. She told me stories of the material world breaking down to this third realm. I don’t quite understand. I can see her reading to me, and I fall asleep. I had a dream that the time machine was hovering over something that looked like a zero. It sucked me in with gravity, and I was in a set. Maybe because she told me zeros can be reduced to empty sets.
 
-There, my sweet Oli. We are young. I score well. We can spend all our time together when I don’t study. What is so bad? Oh, Tara.
+There, my sweet Oli. We are young. I score well. We can spend all our time together when I’m not studying.
+
+She left Rysa. She never tells her why.
+
+Rysa was talking about moving back to Chennai, but Tara wanted to stay here. 
+
+Tara’s research was finally picking up. Rysa could picture them in love and having kids, owning a truck. 
 
 A young Tara tells Oli she misses the violin, but she can’t pick up the violin. It’s too hard for her. It was a dream. She let go of it for the telescope, for good. She has to make it as a physicist. Oh, she is terrible at mathematics. Her linear algebra scores are to be laughed at. And she scored a B in mechanics. There goes a physics PhD at the top schools.
 
+Rysa never said she’s scared. But by the lake, her legs weren’t facing Tara’s. Her eyebrows tightened. She’s not being real with me. Is she? I replay. She's smiling. The tone of her voice sounds different now. Maybe she was being real. And Tara says bye, after wishing her well. Nothing else.
+
+Aliyah left. Oli is upset. He tells me he’s going to miss his best friend, and cries to me. I’ve watched Oli and Aliyah fight, but they make up.
+
+Rysa is talking about labs in Chennai. Tara never asks if Rysa wanted to stay here too.
+
 A younger Tara is crying because she scored 9/10. The threes in the paper turned to sixes. Error, carried forward. She didn’t come first.
 
-Tara can’t even remember a four-digit code, nor a phone number. Numbers are scary.
+Rysa doesn’t share anything with me anymore. She holds back. She used to ask me for help with psych statistics.
+
+Tara always tries to calculate the timeline and, more often than not, accurately predicts the relationship in her head. At least she thinks she does. I laugh. I see the moment: Tara is calculating on their third date. Tara looks at Rysa's agitated face. She can't calculate. She’ll slip away, Tara knows. Tara must prepare for grieving. But in that moment, Tara doesn't want this to just slip away.
+
+Rysa doesn’t surprise me by covering my eyes from the back. 
+
+Aliyah knows his mom. Aliyah knows his favorite cake. I’m watching Oli cut his birthday cake, and Aliyah is dressed so much better than I am. They both are holding the knife together and cutting the cake. I planned his surprise.
+
+Rysa is opening up about losing her uncle from Minneapolis. She said it was sudden death. She says, I understand loss better than others. She's talking about her girlfriend. Her girlfriend once left home and stayed at her place. We are kids. This is the first time she brings up seeing birds with her dad.
+
+Tara can’t even remember a four-digit code, nor a phone number.
+
+Rysa is sleeping next to me. I’m scared to tell her I’m in love. Just holding onto her.
 
 I laugh as I see Tara tell Oli, four years later, what he wore three years back on their first date.
 
-“Oli, I’m told I don’t have it in me to make it as a violinist. I’m not creative. I can’t tell notes apart. I’m too analytical. I’m more likely to make it as a physicist.” So Oli takes up my space. It gets dark at 5 pm. I’ll help Oli find a job. I’ll help Oli through his depression. I’ll help Oli. As long as he needs me, I don't.
+Oli can’t be there for me. He is scared of my black hole. He’s seen Aliyah’s. I can’t breathe. I’m counting my heartbeat. Oli doesn’t have time.
 
-Myna came to visit me the day before. Mom told her to check in on me. She expressed her concern about the black hole. She and Myna have found some weird anti-gravity wigs to cover up the black hole when outside. Myna is on the couch as I bring her tea. Myna is curious about the black hole. She thinks I’m sad and lonely. I tell her I’m not sad, nor am I lonely.
+Tara wanted it slow. Rysa is impatient. Rysa is between the lines. Rysa is oblivious. Tara is a lunatic.
 
+“Oli, I’m told I don’t have it in me to make it as a violinist. I’m not creative. I can’t tell notes apart. I’m too analytical. I’m more likely to make it as a physicist.” So Oli takes up my space. I’ll help Oli find a job. I’ll help Oli through his depression. I’ll help Oli. As long as he needs me, I don't.
 
+I laugh as I see the memory. Rysa is doing well. She has found someone. Tara wanted to hug her tight. Tara can’t tell her that, nor can Tara hug her. Rysa and Oli are the only ones who have seen the black hole.
+
+Rysa and Tara, one night, tell each other they miss the other. They don’t bring it up the next day.
+
+Oli will never be there for me. But I lean on him too much. I need him. I don’t want him.
+
+Rysa, I’m here. I'm on call. Don't cut the call on me. I'm here.
+
+Myna tells her to get over it. Myna tells her it’s okay to be angry. Myna is talking about Pokémon. 
+
+I try to calibrate the machine. The machine fails. I go back to the conversation. Instead of the coffee, Tara is holding Rysa’s hands. It’ll work out — their way back. The machine still doesn’t show a future.
+
+I see Rysa by the lake. I know she goes there whenever she’s sad. The timeline in her head shifts. Rysa is the one or whatever. Tara wants to fight for her, but she's scared of her own heart breaking. She'd rather grieve. Tara doesn't know what Rysa is thinking. By the lake, Tara is wondering if she should ask Rysa if she's alright.
+
+Oli doesn’t know my favorite cake.
+
+Myna came to visit me the day before. Mom told her to check in on me. She expressed her concern about the black hole. She and Myna have found some new wigs to cover up the black hole when outside. It’s better coverage than the ones before. Myna is on the couch as I bring her tea. Myna is curious about the black hole. She thinks I’m sad and lonely. I tell her I’m not sad, nor am I lonely. Myna says I should go on a date. I don’t want to. The wig will only keep it covered for so long. The black hole makes me ugly.
+
+A younger Myna and a younger Tara are talking. Tara is dancing. She says, I can picture a future with Rysa. I’ll be a professor. We’ll raise kids in Boston. The machine still fails to see a future there.
