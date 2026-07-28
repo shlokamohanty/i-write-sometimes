@@ -101,7 +101,7 @@ Oli will never be there for me. But I lean on him too much. I need him. I don’
 
 Rysa, I’m here. I'm on call. Don't cut the call on me. I'm here.
 
-A younger Tara is told that she speaks English well. Her friend thinks she's raised in a Christian household.
+A younger Tara is told that she speaks English well. 
 
 Myna tells her to get over it. Myna tells her it’s okay to be angry. Myna is talking about Pokémon.
 
@@ -124,3 +124,4 @@ Myna asked me the day before, is that when the star started dying?
 ---
 
 Rysa, I’m going to show you something. Do not go poking at it. 
+
