@@ -72,7 +72,7 @@ Rysa doesn’t surprise me by covering my eyes from the back.
 
 Aliyah knows his mom. Aliyah knows his favorite cake. I’m watching Oli cut his birthday cake, and Aliyah is dressed so much better than I am. They both are holding the knife together and cutting the cake. I planned his surprise.
 
-Rysa is opening up about losing her uncle from Minneapolis. She said it was sudden death. She says, I understand loss better than others. She's talking about her girlfriend. Her girlfriend once left home and stayed at her place. We are kids. This is the first time she brings up seeing birds with her dad.
+Rysa is opening up about losing her uncle from Minneapolis. She said it was sudden death. She says, I understand loss better than others. She's talking about her girlfriend. Her girlfriend once left home and stayed at her place. We are kids. This is the first time she brings up seeing birds with her mom.
 
 Tara can’t even remember a four-digit code, nor a phone number.
 
