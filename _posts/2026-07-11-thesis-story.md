@@ -125,3 +125,4 @@ Myna asked me the day before, is that when the star started dying?
 
 Rysa, I’m going to show you something. Do not go poking at it. 
 
+Rysa is shaking my shoulders, and telling me to snap out of it. Snap out of it. 
