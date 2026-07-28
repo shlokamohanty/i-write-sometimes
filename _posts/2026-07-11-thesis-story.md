@@ -4,7 +4,7 @@ title: thesis story/stories
 subtitle: i want to slowly start writing the story/stories, that i want to say
 date: 2026-07-11
 tags: work-ongoing
-published:
+published: true
 ---
 
 I kind of like the idea from the undergrad funny film I was making. And I think I want to start writing with that idea. The scientist going to different timelines to find happiness. But this is more about time travel to find some greater certainty?
@@ -43,6 +43,8 @@ Venturing into this black hole, it’ll show me the future and the past. I place
 
 I did spagettify, to the slightest. I’m stretched thinner, a couple meters taller, inside the machine. Back in time. I’m in a black hole. But I’m whole. I feel my head. I have control.
 
+---
+
 *Chapter one, zero, an empty set.*
 
 Mom was scared of uncertainty. She told me stories of the material world breaking down to this third realm. I don’t quite understand. I can see her reading to me, and I fall asleep. I had a dream that the time machine was hovering over something that looked like a zero. It sucked me in with gravity, and I was in a set. Maybe because she told me zeros can be reduced to empty sets.
@@ -51,9 +53,9 @@ There, my sweet Oli. We are young. I score well. We can spend all our time toget
 
 She left Rysa. She never tells her why.
 
-Rysa was talking about moving back to Chennai, but Tara wanted to stay here. 
+Rysa was talking about moving back to Chennai, but Tara wanted to stay here.
 
-Tara’s research was finally picking up. Rysa could picture them in love and having kids, owning a truck. 
+Tara’s research was finally picking up. Rysa could picture them in love and having kids, owning a truck.
 
 A young Tara tells Oli she misses the violin, but she can’t pick up the violin. It’s too hard for her. It was a dream. She let go of it for the telescope, for good. She has to make it as a physicist. Oh, she is terrible at mathematics. Her linear algebra scores are to be laughed at. And she scored a B in mechanics. There goes a physics PhD at the top schools.
 
@@ -69,19 +71,21 @@ Rysa doesn’t share anything with me anymore. She holds back. She used to ask m
 
 Tara always tries to calculate the timeline and, more often than not, accurately predicts the relationship in her head. At least she thinks she does. I laugh. I see the moment: Tara is calculating on their third date. Tara looks at Rysa's agitated face. She can't calculate. She’ll slip away, Tara knows. Tara must prepare for grieving. But in that moment, Tara doesn't want this to just slip away.
 
-Rysa doesn’t surprise me by covering my eyes from the back. 
+Rysa doesn’t surprise me by covering my eyes from the back.
 
 Aliyah knows his mom. Aliyah knows his favorite cake. I’m watching Oli cut his birthday cake, and Aliyah is dressed so much better than I am. They both are holding the knife together and cutting the cake. I planned his surprise.
 
-Tara doesn't know what she wants in life. So, she spend a lot of time thinking about death. Each bite, seems like life or death to her. Rysa, would have called me out. Oli, let's me think. 
+Tara doesn't know what she wants in life. So, she spends a lot of time thinking about death and Oli. Each bite seems like life or death. Rysa would have called me out.
 
 Rysa is opening up about losing her uncle from Minneapolis. She said it was sudden death. She says, I understand loss better than others. She's talking about her girlfriend. Her girlfriend once left home and stayed at her place. We are kids. This is the first time she brings up seeing birds with her mom.
 
 Tara can’t even remember a four-digit code, nor a phone number.
 
-Rysa is sleeping next to me. I’m scared to tell her I’m in love. Just holding onto her.
+Rysa is sleeping next to me. I’m scared to tell her I’m in love. Just holding onto her. We both are moving away from the other.
 
 I laugh as I see Tara tell Oli, four years later, what he wore three years back on their first date.
+
+A younger Tara and Rysa are assigned a group project. Does Rysa know that I like physics?
 
 Oli can’t be there for me. He is scared of my black hole. He’s seen Aliyah’s. I can’t breathe. I’m counting the beats. Oli doesn’t have time.
 
@@ -97,7 +101,9 @@ Oli will never be there for me. But I lean on him too much. I need him. I don’
 
 Rysa, I’m here. I'm on call. Don't cut the call on me. I'm here.
 
-Myna tells her to get over it. Myna tells her it’s okay to be angry. Myna is talking about Pokémon. 
+A younger Tara is told that she speaks English well. Her friend thinks she's raised in a Christian household.
+
+Myna tells her to get over it. Myna tells her it’s okay to be angry. Myna is talking about Pokémon.
 
 I try to calibrate the machine. The machine fails. I go back to the conversation. Instead of the coffee, Tara is holding Rysa’s hands. It’ll work out — their way back. The machine still doesn’t show a future.
 
@@ -105,6 +111,14 @@ I see Rysa by the lake. I know she goes there whenever she’s sad. The timeline
 
 Oli doesn’t know my favorite cake.
 
+A younger Tara likes playing a game, seeing how many steps she can climb and jump from.
+
 Myna came to visit me the day before. Mom told her to check in on me. She expressed her concern about the black hole. She and Myna have found some new wigs to cover up the black hole when outside. It’s better coverage than the ones before. Myna is on the couch as I bring her tea. Myna is curious about the black hole. She thinks I’m sad and lonely. I tell her I’m not sad, nor am I lonely. Myna says I should go on a date. I don’t want to. The wig will only keep it covered for so long. The black hole makes me ugly.
 
 A younger Myna and a younger Tara are talking. Tara is dancing. She says, I can picture a future with Rysa. I’ll be a professor. We’ll raise kids in Boston. The machine still fails to see a future there.
+
+A younger Tara is looking out the bus window. There's flooding. She hates a new year. It means new people, new friends, new teachers. Her stomach hurts every time the bus picks her up. She hates going to school, at least for the first month.
+
+Myna asked me the day before, is that when the star started dying?
+
+---
