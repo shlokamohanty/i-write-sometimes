@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "thesis story/stories"
-subtitle: "i want to slowly start writing the story/stories, that i want to say"
+title: thesis story/stories
+subtitle: i want to slowly start writing the story/stories, that i want to say
 date: 2026-07-11
 tags: work-ongoing
+published:
 ---
 
 I kind of like the idea from the undergrad funny film I was making. And I think I want to start writing with that idea. The scientist going to different timelines to find happiness. But this is more about time travel to find some greater certainty?
@@ -72,6 +73,8 @@ Rysa doesn’t surprise me by covering my eyes from the back.
 
 Aliyah knows his mom. Aliyah knows his favorite cake. I’m watching Oli cut his birthday cake, and Aliyah is dressed so much better than I am. They both are holding the knife together and cutting the cake. I planned his surprise.
 
+Tara doesn't know what she wants in life. So, she spend a lot of time thinking about death. Each bite, seems like life or death to her. Rysa, would have called me out. Oli, let's me think. 
+
 Rysa is opening up about losing her uncle from Minneapolis. She said it was sudden death. She says, I understand loss better than others. She's talking about her girlfriend. Her girlfriend once left home and stayed at her place. We are kids. This is the first time she brings up seeing birds with her mom.
 
 Tara can’t even remember a four-digit code, nor a phone number.
@@ -80,7 +83,7 @@ Rysa is sleeping next to me. I’m scared to tell her I’m in love. Just holdin
 
 I laugh as I see Tara tell Oli, four years later, what he wore three years back on their first date.
 
-Oli can’t be there for me. He is scared of my black hole. He’s seen Aliyah’s. I can’t breathe. I’m counting my heartbeat. Oli doesn’t have time.
+Oli can’t be there for me. He is scared of my black hole. He’s seen Aliyah’s. I can’t breathe. I’m counting the beats. Oli doesn’t have time.
 
 Tara wanted it slow. Rysa is impatient. Rysa is between the lines. Rysa is oblivious. Tara is a lunatic.
 
