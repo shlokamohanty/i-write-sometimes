@@ -33,6 +33,10 @@ I do take it that this take is slightly controversial. Fatema got defensive read
 
 ---
 
+semi-autobiography of my experiences before moving to New York.
+
+---
+
 I have a gaping black hole that opened up in the centre of my head. The people who come close to me go through a slow process of spaghettification. The time is warped, so they don’t feel it at first, but their bodies are stretched thin, and they are being sucked in.
 
 I’ve reached for the gaping black hole in multiple instances, around my head. I sometimes wonder what it would be like putting my head through it. Would it suck me in?
@@ -126,3 +130,6 @@ Myna asked me the day before, is that when the star started dying?
 Rysa, I’m going to show you something. Do not go poking at it. 
 
 Rysa is shaking my shoulders, and telling me to snap out of it. Snap out of it. 
+
+---
+Correct the tense to differentiate between the Tara that's observing and the Tara that's in the past.
