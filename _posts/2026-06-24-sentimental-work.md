@@ -4,7 +4,7 @@ title: sentimental work
 subtitle: ""
 date: 2026-06-24
 tags:
-  - work-ongoing
+  - work-reflection
   - practice
 ---
 

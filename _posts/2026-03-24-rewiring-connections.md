@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "100 days of making"
+title: "rewiring connections"
 subtitle: "after 100 days of pondering about what to make"
 date: 2026-03-24
 tags: work-ongoing
 ---
 
+*A living project.*
 
 So I came up with multiple ideas for 100 days of making, but I ended up sticking to illustrating for 100 days. Every day, I will illustrate a teenage memory. I'll use this space to log my feelings and thoughts.
 
@@ -224,4 +225,6 @@ Notes: I need to be more disciplined. Of course, this wasn't a continuous 100 da
 Observations: 
 </div>
 
-Felt like I was being observed too much because of this. Felt uncomfortable. Felt almost fetishised for having trauma. Reading some of these reflections from last semester, I was going through it. I was talking to Kezia about how I don't really want to put this in my portfolio. She asked me what the purpose of a portfolio is, and it is for jobs. I think I'm pretty settled that, at least until I figure out a PhD, I kind of would like a position as a research assistant and do projects on the side. So maybe portfolio isn't as important. But the drawings are distinctive. They say something about who I am as a person. She encouraged me to keep doing it. So I think I'll get back to it today. Make this more of a living project.
+Felt like I was being observed too much because of this. Felt uncomfortable. Felt almost fetishised for having trauma. Reading some of these reflections from last semester, I was going through it. I was talking to Kezia about how I don't really want to put this in my portfolio. Also, because, I used AI for the front-end of the page. She asked me what the purpose of a portfolio is, and it is for jobs. I think I'm pretty settled that, at least until I figure out a PhD, I kind of would like a position as a research assistant and do projects on the side. So maybe portfolio isn't as important. But the drawings are distinctive. They say something about who I am as a person. She encouraged me to keep doing it. ~~So I think I'll get back to it today.~~ Make this more of a living project. 
+
+It's been hard getting back to this. Especially looking at these reflections, I was going through something. It’s hard to put that into words. What I was going through, I don’t quite understand. I think that’s the most neurotic I’ve been, strange. I’d like to put it more as years of neuroticism, coming to a crash over summer. A long-needed nervous breakdown.

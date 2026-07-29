@@ -6,6 +6,7 @@ date: 2026-05-12
 tags: personal-reflection
 mood: raw
 ---
+
 ![notes](/i-write-sometimes/assets/images/notes.jpg)
 
 I’m a complex human being. Messy, even, and perhaps crazy (let's say outlandish). I forgive easily, and I see where I go wrong, even my flaws. Because, oh hell, let me start somewhere. Aren’t we all figuring it out? All that this semester has done is made me realise that, time and time again. My new favorite word, ‘nuance’, I see it in myself, I see it in people around me. Complex creatures, with their own stories, only a few can see and accept that. So from now on, I’ll let people see this mess and carry it. There’s a rumble inside of me. The Sun, it burns every day. 
