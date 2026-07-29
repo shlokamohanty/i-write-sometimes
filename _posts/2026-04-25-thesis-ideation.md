@@ -180,6 +180,8 @@ physical mechanisms:
 
 I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex. 
 
+I've been trying to adapt from my past experiences, before moving to New York, and write, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are. I should lean into it, maybe. Or finish writing. Then maybe change the voice. I’m feeling shy about publishing it even on this blog, as an ongoing thing.
+
 ## to do and questions
 
 - more to think on in terms of drawings and language

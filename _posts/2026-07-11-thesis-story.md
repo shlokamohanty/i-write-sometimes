@@ -129,52 +129,6 @@ Myna asked me the day before, is that when the star started dying?
 
 *Chapter two, snap out of it*
 
-Rysa is shaking my shoulders and telling me to snap out of it.
 
-Rysa, I’m going to show you something. Do not go poking at it.
-
-“Tara, Krish is horrible for you.”
-
-Rysa and I go on a walk. She tells me I’m a figure of comfort at times of uncertainty.
-
-“I hate how high-pitched your voice is.”
-
-They go biking in a group. An insect flies into Tara’s eye. Tara only lets Rysa hold her face and remove the insect from her eye.
-
-“Snap out of it.”
-
-I have an incessant fear of losing you. Snap out of it.
-
-Rysa and Tara met at kindergarten. Didn’t know who the other was. The machine cannot reach.
-
-Rysa is scolding Tara for acting dumb. Tara is trying to push Rysa away.
-
-Tara doesn’t want Rysa close to her. She’s scared of Rysa spagettifying. Tara is nervous around her. Snap out of it. She’s trying to impress her.
-
-“I care about you so much. It angers me to watch you get hurt.”
-
-Tara and Rysa are older and now in a relationship.
-
-“Stop playing dumb.”
-
-A teenage Tara is sad because Rysa told her she likes how Tara makes her feel as opposed to Tara herself.
-
-Rysa is getting annoyed at Tara for being with Oli. She doesn’t understand why Tara is being self-destructive. “He is not good for you”. “What is wrong with you?”
-
-Rysa and Tara meet again when they are ten. They go to school together now.
-
-An older Rysa admits to Tara that she is high-strung, sensitive, and anxious. Rysa looks for Tara when she’s anxious. Snap out of it.
-
-Tara breaks up with Oli and calls Rysa. Rysa, I am and have always been in love with you.
-
-I have a black hole. It formed when I was really young. My mom, Oli, and Myna have seen it. I want you to see it. Are you scared of it?
-
-“No. What happens when you go close to it?”
-
-You spaggetify.
-
-“Do you know what’s inside?”
-
-Nothing.
 
 ---
