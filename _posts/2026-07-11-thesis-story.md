@@ -29,7 +29,7 @@ The machine is essentially a form of escapism. It becomes a way to come to resol
 
 ---
 
-Semi-autobiography of my experiences before moving to New York. Or is it auto-fiction? This isn't sounding like a semi-autobiography at all anymore. It's fictional. Is this writing rather intense? I think I'll settle on autofiction for now, since fragments are true but mostly all fictional.
+Semi-autobiography of my experiences before moving to New York. Or is it auto-fiction? This isn't sounding like a semi-autobiography at all anymore. It's extremely fictional. Is this writing rather intense? I think I'll settle on autofiction for now, since fragments are true but mostly all fictional.
 
 ---
 
