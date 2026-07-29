@@ -29,7 +29,7 @@ The machine is essentially a form of escapism. It becomes a way to come to resol
 
 ---
 
-Semi-autobiography of my experiences before moving to New York. Or is it auto-fiction? This isn't sounding like a semi-autobiography at all anymore. It's extremely fictional. Is this writing rather intense? I think I'll settle on autofiction for now, since fragments are true but mostly all fictional.
+~~Semi-autobiography of my experiences before moving to New York. Or is it auto-fiction? This isn't sounding like a semi-autobiography at all anymore. It's extremely fictional. Is this writing rather intense? I think I'll settle on autofiction for now, since fragments are true but mostly all fictional.~~  ~~Autofiction would mean that the character uses my name.~~ **It's fiction.** 
 
 ---
 
@@ -151,7 +151,7 @@ Tara doesn’t want Rysa close to her. She’s scared of Rysa spagettifying. Tar
 
 Why is Rysa sniffing my hair?
 
-Tara and Rysa are older and now in a relationship.
+Tara and Rysa are older and now in a relationship. Finally.
 
 “Stop playing dumb.”
 
