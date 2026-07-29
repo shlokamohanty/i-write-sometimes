@@ -4,7 +4,7 @@ title: thesis story/stories
 subtitle: i want to slowly start writing the story/stories, that i want to say
 date: 2026-07-11
 tags: work-ongoing
-published: true
+published: false
 ---
 
 I kind of like the idea from the undergrad funny film I was making. And I think I want to start writing with that idea. The scientist going to different timelines to find happiness. But this is more about time travel to find some greater certainty?
@@ -127,9 +127,9 @@ Myna asked me the day before, is that when the star started dying?
 
 ---
 
-Rysa, I’m going to show you something. Do not go poking at it. 
+*Chapter two, snap out of it*
 
-Rysa is shaking my shoulders, and telling me to snap out of it. Snap out of it. 
+
 
 ---
 Correct the tense to differentiate between the Tara that's observing and the Tara that's in the past.
