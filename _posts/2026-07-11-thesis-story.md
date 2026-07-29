@@ -33,7 +33,7 @@ I do take it that this take is slightly controversial. Fatema got defensive read
 
 ---
 
-semi-autobiography of my experiences before moving to New York. or is it auto-fiction?
+semi-autobiography of my experiences before moving to New York. or is it auto-fiction? this isn't sounding like a semi-autobiography anymore. This writing is rather intense?
 
 ---
 
@@ -61,7 +61,7 @@ Rysa was talking about moving back to Chennai, but Tara wanted to stay here.
 
 Tara’s research was finally picking up. Rysa could picture them in love and having kids, owning a truck.
 
-A young Tara tells Oli she misses the violin, but she can’t pick up the violin. It’s too hard for her. It was a dream. She let go of it for the telescope, for good. She has to make it as a physicist. Oh, she is terrible at mathematics. Her linear algebra scores are to be laughed at. And she scored a B in mechanics. There goes a physics PhD at the top schools.
+A young Tara tells Oli she misses the violin, but she can’t pick up the violin. It’s too hard for her. It was a dream. She let go of it for the telescope, for good. She has to make it as a physicist. Oh, she is terrible at mathematics. Her linear algebra scores are to be laughed at. And she scored a B in mechanics and relativity. There goes a physics PhD at the top schools.
 
 Rysa never said she’s scared. But by the lake, her legs weren’t facing Tara’s. Her eyebrows tightened. She’s not being real with me. Is she? I replay. She's smiling. The tone of her voice sounds different now. Maybe she was being real. And Tara says bye, after wishing her well. Nothing else.
 
@@ -79,7 +79,7 @@ Rysa doesn’t surprise me by covering my eyes from the back.
 
 Aliyah knows his mom. Aliyah knows his favorite cake. I’m watching Oli cut his birthday cake, and Aliyah is dressed so much better than I am. They both are holding the knife together and cutting the cake. I planned his surprise.
 
-Tara doesn't know what she wants in life. So, she spends a lot of time thinking about death and Oli. Each bite seems like life or death. Rysa would have called me out.
+Tara doesn't know what she wants in life. So, she spends a lot of time thinking about death and Oli. Each bite seems like life or death. Rysa would have called me out on it.
 
 Rysa is opening up about losing her uncle from Minneapolis. She said it was sudden death. She says, I understand loss better than others. She's talking about her girlfriend. Her girlfriend once left home and stayed at her place. We are kids. This is the first time she brings up seeing birds with her mom.
 
@@ -129,7 +129,52 @@ Myna asked me the day before, is that when the star started dying?
 
 *Chapter two, snap out of it*
 
+Rysa is shaking my shoulders and telling me to snap out of it.
 
+Rysa, I’m going to show you something. Do not go poking at it.
+
+“Tara, Krish is horrible for you.”
+
+Rysa and I go on a walk. She tells me I’m a figure of comfort at times of uncertainty.
+
+“I hate how high-pitched your voice is.”
+
+They go biking in a group. An insect flies into Tara’s eye. Tara only lets Rysa hold her face and remove the insect from her eye.
+
+“Snap out of it.”
+
+I have an incessant fear of losing you. Snap out of it.
+
+Rysa and Tara met at kindergarten. Didn’t know who the other was. The machine cannot reach.
+
+Rysa is scolding Tara for acting dumb. Tara is trying to push Rysa away.
+
+Tara doesn’t want Rysa close to her. She’s scared of Rysa spagettifying. Tara is nervous around her. Snap out of it. She’s trying to impress her.
+
+“I care about you so much. It angers me to watch you get hurt.”
+
+Tara and Rysa are older and now in a relationship.
+
+“Stop playing dumb.”
+
+A teenage Tara is sad because Rysa told her she likes how Tara makes her feel as opposed to Tara herself.
+
+Rysa is getting annoyed at Tara for being with Oli. She doesn’t understand why Tara is being self-destructive. “He is not good for you”. “What is wrong with you?”
+
+Rysa and Tara meet again when they are ten. They go to school together now.
+
+An older Rysa admits to Tara that she is high-strung, sensitive, and anxious. Rysa looks for Tara when she’s anxious. Snap out of it.
+
+Tara breaks up with Oli and calls Rysa. Rysa, I am and have always been in love with you.
+
+I have a black hole. It formed when I was really young. My mom, Oli, and Myna have seen it. I want you to see it. Are you scared of it?
+
+“No. What happens when you go close to it?”
+
+You spaggetify.
+
+“Do you know what’s inside?”
+
+Nothing.
 
 ---
-Correct the tense to differentiate between the Tara that's observing and the Tara that's in the past.
