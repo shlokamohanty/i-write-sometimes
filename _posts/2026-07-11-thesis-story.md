@@ -4,7 +4,7 @@ title: thesis story/stories
 subtitle: i want to slowly start writing the story/stories, that i want to say
 date: 2026-07-11
 tags: work-ongoing
-published: false
+published: true
 ---
 
 I kind of like the idea from the undergrad funny film I was making. And I think I want to start writing with that idea. The scientist going to different timelines to find happiness. But this is more about time travel to find some greater certainty?
@@ -21,7 +21,7 @@ Maybe it goes through moments throughout the day?
 
 The synopsis of the story: 
 
-*So this time-machine, is symbolic of an anxious brain of a scientist who overthinks everything. The machine lets them go back in time (replaying memories, as a way of going back in time) to find certainty so they stop worrying. But every time you recall a memory, or in this case go back in time, the memory alters. So the more one overthinks to get certainty, the less reliable the thing that they are certain about is. Essentially, certainty was actually never available, and not because the person isn't trying hard enough to find certainty, but essentially trying to get certainty is what is destroying and altering their experiences - the consequences of anxiety.*
+*So this time-machine, is symbolic of an anxious brain of a scientist who overthinks everything. The machine lets them go inside a black-hole, and thus, back in time (replaying memories, as a way of going back in time) to find certainty so they stop worrying. But every time you recall a memory, or in this case go back in time, the memory alters. So the more one overthinks to get certainty, the less reliable the thing that they are certain about is. Essentially, certainty was actually never available, and not because the person isn't trying hard enough to find certainty, but essentially trying to get certainty is what is destroying and altering their experiences - the consequences of anxiety.*
 
 ---
 
@@ -29,11 +29,7 @@ The machine is essentially a form of escapism. It becomes a way to come to resol
 
 ---
 
-I do take it that this take is slightly controversial. Fatema got defensive reading this initially, but I explained my concept to her. I should keep that in mind as I’m writing, that people might not actually agree to this. But I have a point. It's not that people are a burden, but it's about finding comfort in your suffering that you stop being there for yourself.
-
----
-
-semi-autobiography of my experiences before moving to New York. or is it auto-fiction? this isn't sounding like a semi-autobiography anymore. This writing is rather intense?
+Semi-autobiography of my experiences before moving to New York. Or is it auto-fiction? This isn't sounding like a semi-autobiography at all anymore. It's fictional. Is this writing rather intense? I think I'll settle on autofiction for now, since fragments are true but mostly all fictional.
 
 ---
 
@@ -69,7 +65,7 @@ Aliyah left. Oli is upset. He tells me he’s going to miss his best friend, and
 
 Rysa is talking about labs in Chennai. Tara never asks if Rysa wanted to stay here too.
 
-A younger Tara is crying because she scored 9/10. The threes in the paper turned to sixes. Error, carried forward. She didn’t come first.
+A younger Tara is crying because she scored 9/10. The threes in the paper turned to sixes. Error, carried forward. She didn’t come first. Rysa came first.
 
 Rysa doesn’t share anything with me anymore. She holds back. She used to ask me for help with psych statistics.
 
@@ -97,15 +93,13 @@ Tara wanted it slow. Rysa is impatient. Rysa is between the lines. Rysa is obliv
 
 “Oli, I’m told I don’t have it in me to make it as a violinist. I’m not creative. I can’t tell notes apart. I’m too analytical. I’m more likely to make it as a physicist.” So Oli takes up my space. I’ll help Oli find a job. I’ll help Oli through his depression. I’ll help Oli. As long as he needs me, I don't.
 
-I laugh as I see the memory. Rysa is doing well. She has found someone. Tara wanted to hug her tight. Tara can’t tell her that, nor can Tara hug her. Rysa and Oli are the only ones who have seen the black hole.
+I laugh as I see the memory. Rysa is doing well. She has found someone. Tara wanted to hug her tight. Tara can’t tell her that, nor can Tara hug her. 
 
 Rysa and Tara, one night, tell each other they miss the other. They don’t bring it up the next day.
 
 Oli will never be there for me. But I lean on him too much. I need him. I don’t want him.
 
 Rysa, I’m here. I'm on call. Don't cut the call on me. I'm here.
-
-A younger Tara is told that she speaks English well. 
 
 Myna tells her to get over it. Myna tells her it’s okay to be angry. Myna is talking about Pokémon.
 
@@ -129,14 +123,13 @@ Myna asked me the day before, is that when the star started dying?
 
 *Chapter two, snap out of it*
 
-
 Rysa is shaking my shoulders and telling me to snap out of it.
 
-Rysa, I’m going to show you something. Do not go poking at it.
+Rysa, I’m going to show you something. Rysa is laughing as the wig is coming off. Do not go poking at it.
 
-“Tara, Krish is horrible for you.”
+“Tara, Krish is horrible for you.” "He's—"
 
-Rysa and I go on a walk. She tells me I’m a figure of comfort at times of uncertainty.
+Rysa and I go on a walk. She tells me I’m a figure of her comfort at times of uncertainty. The conversation is blurry.
 
 “I hate how high-pitched your voice is.”
 
@@ -144,17 +137,19 @@ They go biking in a group. An insect flies into Tara’s eye. Tara only lets Rys
 
 “Snap out of it.”
 
-"I have an incessant fear of losing you." 
+Tara, a little tipsy, sends Rysa voice notes during her first year of undergrad, and Rysa does the same. 
 
-Snap out of it.
+Rysa and Tara met in kindergarten. Didn’t know who the other was. The machine cannot reach.
 
-Rysa and Tara met at kindergarten. Didn’t know who the other was. The machine cannot reach.
+“I have an incessant fear of losing you.” 
 
 Rysa is scolding Tara for acting dumb. Tara is trying to push Rysa away.
 
-Tara doesn’t want Rysa close to her. She’s scared of Rysa spagettifying. Tara is nervous around her. Snap out of it. She’s trying to impress her.
-
 “I care about you so much. It angers me to watch you get hurt.”
+
+Tara doesn’t want Rysa close to her. She’s scared of Rysa spagettifying. Tara is nervous around her. Snap out of it. Tara is trying to impress her. 
+
+Why is Rysa sniffing my hair?
 
 Tara and Rysa are older and now in a relationship.
 
@@ -162,11 +157,15 @@ Tara and Rysa are older and now in a relationship.
 
 A teenage Tara is sad because Rysa told her she likes how Tara makes her feel as opposed to Tara herself.
 
-Rysa is getting annoyed at Tara for being with Oli. She doesn’t understand why Tara is being self-destructive. “He is not good for you”. “What is wrong with you?”
+Teenage Rysa and Tara stop talking for a year. 
+
+Rysa is getting annoyed at Tara for being with Oli. She doesn’t understand why Tara is being self-destructive. “He is not good for you”. “What is wrong with you?” 
 
 Rysa and Tara meet again when they are ten. They go to school together now.
 
-An older Rysa admits to Tara that she is high-strung, sensitive, and anxious. Rysa looks for Tara when she’s anxious. Snap out of it.
+An older Rysa admits to Tara that she is high-strung, sensitive, and anxious. Rysa looks for Tara when she’s anxious. 
+
+"Snap out of it."
 
 Tara breaks up with Oli and calls Rysa. Rysa, I am and have always been in love with you.
 
@@ -179,3 +178,7 @@ You spaggetify.
 “Do you know what’s inside?”
 
 ---
+
+*Chapter three, Rysa, the Aristotelian*
+
+Myna, Rysa is gone. She will never come back. 
