@@ -45,9 +45,5 @@ But I remember waking up after the first time I experienced daylight saving time
 ---
 ---
 
-Talking to myself
-
-I need to take time and build characters. This is a long-form writing project. I can't write directly from memory, then abstract minute parts of it. My true, most authentic, vulnerable storytelling comes out through letters. I wonder if I start writing in the letter form and then take it from there. Nah, that takes away from this. I feel a little overwhelmed by vulnerability. I'm kind of unable to write. Maybe I just need to start writing.
-
 
 

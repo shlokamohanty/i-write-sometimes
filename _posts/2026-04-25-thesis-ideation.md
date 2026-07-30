@@ -186,6 +186,10 @@ I wonder, if I can use markov chains for images. I'm better with visuals than wr
 
 ~~I've been trying to adapt from my past experiences, before moving to New York, and write it, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are: a cosmic wonder and a cosmic horror. I should maybe lean into it and finish writing, slowly. Then maybe change the voice. I’m feeling shy about publishing it even on this blog, as an ongoing thing. It's okay. Keeping it published. It's my thesis. I can keep rewriting. But the important thing is to write, so I know what visuals I want to show, and what it is thematically developing into, and the concept, once it's done.~~ 
 
+Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time. Kind of like love. Observation from a distance ties a lot with the whole concept of understanding.
+
+Signal being separated from noise. The beauty of talking, and listening to another person.
+
 ## to do and questions
 
 Reminder to keep writing. Cody and I wrote ‘Baryon Asymmetry’ more than twelve times. You’ve rewritten ‘Together’ so many times. This is your thesis. You can keep writing. And Rewriting.
