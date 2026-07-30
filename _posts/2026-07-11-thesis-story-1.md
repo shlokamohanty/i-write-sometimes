@@ -222,7 +222,7 @@ Maybe it’s a good thing to stop here. I won't be able to pull off the story.
 
 Snap out of it. 
 
-So the truths, and deeper feelings: I’m 23. I haven’t experienced a relationship that I consider to be serious. Why? Because I’ve failed. Why? Because, sometimes, unconsciously, they end up playing a supporting role in my life, rather than their own person. Sweet and caretaking. But I want more. Perhaps that’s why Rysa is neurotic too. A neurotic person would take up space, would refuse to dissolve into just a supporting role in a relationship in someone’s life. So it's easier to build off that, because I want someone who would take up space in my head and in my life, very explicitly. I haven’t had a serious relationship because it’s either they don’t choose me or I don’t choose them. But the more important factor is that I write through romantic relationships, because I’ve experienced a lot of life through those unserious romantic relationships. People bring me comfort. so that’s why I write through that lens.
+So the truths, and deeper feelings: I’m 23. I haven’t experienced a relationship that I consider to be serious. Why? Because I’ve failed. Why? Because, sometimes, unconsciously, they end up playing a supporting role in my life, rather than their own person. Sweet and caretaking. But I want more. Perhaps that’s why Rysa is neurotic too. A neurotic person would take up space, would refuse to dissolve into just a supporting role in a relationship in someone’s life. So it's easier to build off that, because I want someone who would take up space in my head and in my life, very explicitly. I haven’t had a serious relationship because it’s either they don’t choose me or I don’t choose them. But the more important factor is that I write through romantic relationships, because I’ve experienced a lot of my life through those unserious romantic relationships. People bring me comfort. so that’s why I write through that lens.
 
 Now, because finally, after years of unserious romantic relationships. I want something serious. Something with the capacity for the future. Something real. Something with substance. I could potentially write what this would look like. But me writing this is, again, fantasy. Repeating the same mistakes, as I did with my letters, using fantasy as a substitute for future capacity. But future capacity with someone is by being with another person in realtime. But, now, also for once, I am not really with anyone. So I don't know what that would look like.
 
@@ -232,7 +232,7 @@ A line I wrote in chapter one. About how I understand loss better than others. I
 
 Write what you know.
 
-It's your thesis. write. and rewrite.
+It's your thesis. Write. And, rewrite.
 
 Learn to sit with grief, rather than escapism.
 
