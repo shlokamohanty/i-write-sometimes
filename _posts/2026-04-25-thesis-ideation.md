@@ -180,9 +180,11 @@ physical mechanisms:
 
 I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex. 
 
-I've been trying to adapt from my past experiences, before moving to New York, and write it, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are: a cosmic wonder and a cosmic horror. I should maybe lean into it and finish writing, slowly. Then maybe change the voice. I’m feeling shy about publishing it even on this blog, as an ongoing thing. It's okay. Keeping it published. It's my thesis. I can keep rewriting. But the important thing is to write, so I know what visuals I want to show, and what it is thematically developing into, and the concept, once it's done. Reminder to keep writing.
+~~I've been trying to adapt from my past experiences, before moving to New York, and write it, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are: a cosmic wonder and a cosmic horror. I should maybe lean into it and finish writing, slowly. Then maybe change the voice. I’m feeling shy about publishing it even on this blog, as an ongoing thing. It's okay. Keeping it published. It's my thesis. I can keep rewriting. But the important thing is to write, so I know what visuals I want to show, and what it is thematically developing into, and the concept, once it's done.~~ 
 
 ## to do and questions
+
+Reminder to keep writing. Cody and I wrote ‘Baryon Asymmetry’ more than twelve times. You’ve rewritten ‘Together’ so many times. This is your thesis. You can keep writing. And Rewriting.
 
 - more to think on in terms of drawings and language
 - Read more on **Predictive Processing Framework**.

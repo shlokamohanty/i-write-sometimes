@@ -204,7 +204,7 @@ I like the concept. For now, I'm going to lean into this and see where it goes.
 
 Could I write multiple versions to show and then decide? 
 
-I need to stop being so critical and lean into this. keep writing. Snap out of it.
+I need to stop being so critical and lean into this. Keep writing. Snap out of it.
 
 There’s something about this that isn’t sitting well. I’m going to trust my intuition and stop continuing this.
 
@@ -222,11 +222,11 @@ Maybe it’s a good thing to stop here. I won't be able to pull off the story.
 
 Snap out of it. 
 
-So the truths, and deeper feelings: I’m 23. I haven’t experienced a relationship that I consider to be serious. why? Because I’ve failed. why? because, sometimes, unconsciously, they end up playing a supporting role in my life, rather than their own person. Sweet and caretaking. But I want more. Perhaps that’s why Rysa is neurotic too. A neurotic person would take up space, would refuse to dissolve into just a supporting role in a relationship in someone’s life. So it's easier to build off that, because I want someone who would take up space in my head and in my life, very explicitly. I haven’t had a serious relationship because it’s either they don’t choose me or I don’t choose them. But the more important factor is that I write through romantic relationships, because I’ve experienced a lot of life through those unserious romantic relationships. People bring me comfort. so that’s why I write through that lens.
+So the truths, and deeper feelings: I’m 23. I haven’t experienced a relationship that I consider to be serious. Why? Because I’ve failed. Why? Because, sometimes, unconsciously, they end up playing a supporting role in my life, rather than their own person. Sweet and caretaking. But I want more. Perhaps that’s why Rysa is neurotic too. A neurotic person would take up space, would refuse to dissolve into just a supporting role in a relationship in someone’s life. So it's easier to build off that, because I want someone who would take up space in my head and in my life, very explicitly. I haven’t had a serious relationship because it’s either they don’t choose me or I don’t choose them. But the more important factor is that I write through romantic relationships, because I’ve experienced a lot of life through those unserious romantic relationships. People bring me comfort. so that’s why I write through that lens.
 
-Now, because finally, after years of unserious romantic relationships. I want something serious. Something with the capacity for the future. Something real. something with substance. I could potentially write what this would look like. But me writing this is, again, fantasy. Repeating the same mistakes, as I did with my letters, using fantasy as a substitute for future capacity. but future capacity with someone is by being with another person in realtime. but, now, also for once, I am not really with anyone. So I don't know what that would look like.
+Now, because finally, after years of unserious romantic relationships. I want something serious. Something with the capacity for the future. Something real. Something with substance. I could potentially write what this would look like. But me writing this is, again, fantasy. Repeating the same mistakes, as I did with my letters, using fantasy as a substitute for future capacity. But future capacity with someone is by being with another person in realtime. But, now, also for once, I am not really with anyone. So I don't know what that would look like.
 
-What chapter 3 would look like would be an ideal choice-case scenario, because I’m neurotic. how me and this neurotic character would choose each other. but that isn't real. it’s imaginative. Exactly falling for the trope of my thesis calls out. 
+What chapter 3 would look like would be an ideal choice-case scenario, because I’m neurotic. How me and this neurotic character would choose each other. But that isn't real. It’s imaginative. Exactly falling for the trope of my thesis calls out. 
 
 A line I wrote in chapter one. About how I understand loss better than others. I like that. From there, I know I have the emotional depth backing, but I know it through loss rather than love, especially romantically.
 
@@ -240,6 +240,6 @@ Snap out of it.
 
 ---
 
-Going to write down the gist of that, so I can come back to it.
+Going to write down the gist of that, so I can come back to it, if I want to (or if I find my neurotic other half ;P and use them as a plot device).
 
 After Chapter 2. When Rysa and Tara are in a relationship. Rysa is an Aristotelian. Doesn't believe that the vacuum is empty. Aristotle argued that a true vacuum cannot exist. Tara is a physicist and is aware that there is no 'Theory of Everything'. Tara knows that the black hole can end up in singularity and nothingness, or that the interior of a black hole is filled with a dense, chaotic structure of quantum states. So Rysa looks at Tara for certainty, goes missing, perhaps inside the black hole. Then Tara tries to go find her. It ends with ambiguity, of not knowing whether they find each other.
