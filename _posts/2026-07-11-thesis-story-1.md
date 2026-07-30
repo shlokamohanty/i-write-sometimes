@@ -1,7 +1,7 @@
 ---
 layout: post
-title: thesis story/stories
-subtitle: i want to slowly start writing the story/stories, that i want to say
+title: thesis story - the first one
+subtitle: i might come back to it, later
 date: 2026-07-11
 tags: work-ongoing
 published: true
@@ -14,8 +14,6 @@ I kind of like the idea from the undergrad funny film I was making. And I think 
 Where in my life have I previously wanted certainty, and how has that anxiety impacted other people in my life? And what sacrifices have I made in the past or am making for certainty in the future? But, in reality, there is no certainty, so are the sacrifices even worth it? Or maybe the story of a scientist who overthinks a lot, so the time machine as a brain, is just symbolic of the person going back in time, and replaying conversations and scenarios, to find out what else they could have done, in situations, as if that would give some certainty, but in reality that still doesn't give certainty. That certainty was never actually available.
 
 That’s the thing with memory also: every time you recall it, it quietly changes how you remember it. This could be the concept of the whole story behind this machine.
-
-Maybe it goes through moments throughout the day?
 
 ---
 
@@ -31,6 +29,7 @@ The machine is essentially a form of escapism. It becomes a way to come to resol
 
 ~~Semi-autobiography of my experiences before moving to New York. Or is it auto-fiction? This isn't sounding like a semi-autobiography at all anymore. It's extremely fictional. Is this writing rather intense? I think I'll settle on autofiction for now, since fragments are true but mostly all fictional.~~  ~~Autofiction would mean that the character uses my name.~~ **It's fiction.** 
 
+---
 ---
 
 I have a gaping black hole that opened up in the centre of my head. The people who come close to me go through a slow process of spaghettification. The time is warped, so they don’t feel it at first, but their bodies are stretched thin, and they are being sucked in.
@@ -182,3 +181,65 @@ You spaggetify.
 *Chapter three, Rysa, the Aristotelian*
 
 Myna, Rysa is gone. She will never come back. 
+
+---
+
+---
+
+Talking to myself
+
+Something about this is sounding very teenage. Especially chapter 2, because it is based on a neurotic teenage friendship of mine. Of course, it is going to sound teenage. 
+
+Now do I lean into this or rewrite differently? Chapter 3 onwards, it’s more concept based, less based on lived experiences, more leaning into ideal scenarios now. 
+
+I don’t have to use the relationship trope. It's easy to write with that though. Stories with just me in it are harder to write. 
+
+The thing about working with memories and this concept is that it goes into the cheesy side of things. 
+
+Truth is, I am only 23, never even had a serious relationship, and I like telling stories. Of course they will be based on my lived experiences. 
+
+I am only 23, but I have strong conceptual backing even if I may not have the emotional depth backing.
+
+I like the concept. For now, I'm going to lean into this and see where it goes.
+
+Could I write multiple versions to show and then decide? 
+
+I need to stop being so critical and lean into this. keep writing. Snap out of it.
+
+There’s something about this that isn’t sitting well. I’m going to trust my intuition and stop continuing this.
+
+I won’t be able to make it work chapter 3 onwards. 
+
+I haven’t had a serious relationship to build off of for a romantic relationship trope. I haven’t had a relationship where I’ve felt chosen despite my neuroticism. And the teenage friendship that I’m abstracting from- some parts feel real, but towards the end it doesn’t because I made it up.
+
+I was never even in love with this guy from my teenage years, who I’m building this off. I’ve just known him for a very long time, so it’s easy. But I can't make up the feeling of love. I can only make up what I think my love would look like for him, if I had responded to him back then.
+
+I won't be able to pull off chapter 3, because I don't know what choosing one another looks like. 
+
+So much of it is made up, never even had the feeling of him being the one for me. 
+
+Maybe it’s a good thing to stop here. I won't be able to pull off the story.
+
+Snap out of it. 
+
+So the truths, and deeper feelings: I’m 23. I haven’t experienced a relationship that I consider to be serious. why? Because I’ve failed. why? because, sometimes, unconsciously, they end up playing a supporting role in my life, rather than their own person. Sweet and caretaking. But I want more. Perhaps that’s why Rysa is neurotic too. A neurotic person would take up space, would refuse to dissolve into just a supporting role in a relationship in someone’s life. So it's easier to build off that, because I want someone who would take up space in my head and in my life, very explicitly. I haven’t had a serious relationship because it’s either they don’t choose me or I don’t choose them. But the more important factor is that I write through romantic relationships, because I’ve experienced a lot of life through those unserious romantic relationships. People bring me comfort. so that’s why I write through that lens.
+
+Now, because finally, after years of unserious romantic relationships. I want something serious. Something with the capacity for the future. Something real. something with substance. I could potentially write what this would look like. But me writing this is, again, fantasy. Repeating the same mistakes, as I did with my letters, using fantasy as a substitute for future capacity. but future capacity with someone is by being with another person in realtime. but, now, also for once, I am not really with anyone. So I don't know what that would look like.
+
+What chapter 3 would look like would be an ideal choice-case scenario, because I’m neurotic. how me and this neurotic character would choose each other. but that isn't real. it’s imaginative. Exactly falling for the trope of my thesis calls out. 
+
+A line I wrote in chapter one. About how I understand loss better than others. I like that. From there, I know I have the emotional depth backing, but I know it through loss rather than love, especially romantically.
+
+Write what you know.
+
+It's your thesis. write. and rewrite.
+
+Learn to sit with grief, rather than escapism.
+
+Snap out of it. 
+
+---
+
+Going to write down the gist of that, so I can come back to it.
+
+After Chapter 2. When Rysa and Tara are in a relationship. Rysa is an Aristotelian. Doesn't believe that the vacuum is empty. Aristotle argued that a true vacuum cannot exist. Tara is a physicist and is aware that there is no 'Theory of Everything'. Tara knows that the black hole can end up in singularity and nothingness, or that the interior of a black hole is filled with a dense, chaotic structure of quantum states. So Rysa looks at Tara for certainty, goes missing, perhaps inside the black hole. Then Tara tries to go find her. It ends with ambiguity, of not knowing whether they find each other.
