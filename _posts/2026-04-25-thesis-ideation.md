@@ -143,6 +143,10 @@ I thought exactly what direction my thesis is going into, and now I'm unclear as
 
 There's something about the genre of cosmic horror that ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
 
+Blackhole information loss paradox.
+
+Aristotle's vacuum.
+
 ## mechanics
 
 learning more about neuroscience and computation using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration.
