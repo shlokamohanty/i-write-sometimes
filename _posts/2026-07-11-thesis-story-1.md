@@ -236,6 +236,8 @@ It's your thesis. Write. And, rewrite.
 
 Learn to sit with grief, rather than escapism.
 
+Also, I think I have neurotic tendencies. I'm not always neurotic.
+
 Snap out of it. 
 
 ---
