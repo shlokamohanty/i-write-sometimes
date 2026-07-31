@@ -3,7 +3,7 @@ layout: post
 title: "on making a meaning of suffering"
 subtitle: ""
 date: 2026-06-20
-tags: practice
+tags: practice-past
 ---
 
 I got into this trap, that I have only two years to produce meaningful work. That all of my suffering is for a reason, in some ways, is the whole trope of ‘good damage’. But I’ve rather come to the acceptance that damage is just damage. There’s no deeper meaning to it. Making something out of it wouldn’t necessarily make me feel better. It sucked. I didn’t need to go through it. That’s it. My childhood was bad, uncomfortable, and painful. Trauma doesn’t amount to something. The brokenness is what makes people, people. It is what it is. I don’t need to audit my suffering.

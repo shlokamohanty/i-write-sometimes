@@ -4,8 +4,7 @@ title: pratt research
 subtitle: artist's eye
 date: 2026-04-30
 tags:
-  - academic
-  - work-ongoing
+  - academic-ongoing
 ---
 
 Formulating a research question: researching how illustrators make choices about what to emphasize, omit, and preserve.

@@ -3,7 +3,7 @@ layout: post
 title: "forming a framework"
 subtitle: ""
 date: 2026-06-15
-tags: practice
+tags: practice-ongoing
 ---
 
 Thinking about using processes I learnt over undergrad, as a framework for how to approach projects next semester. Going about how I worked undergrad, maybe a good step to move forward with, since I didn't come from an arts background, and it may be more helpful to create a methodology based on my STEM experiences.

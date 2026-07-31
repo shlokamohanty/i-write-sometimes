@@ -2,7 +2,7 @@
 layout: post
 title: "thoughts i had after the discussion in energy today"
 date: 2026-03-24
-tags: practice
+tags: practice-past
 ---
 The discussion on energy made me think about my own creative practice in a broader sense, and how I want to change or start looking at it. These are some points that particularly resonated with me during the discussion. 
 

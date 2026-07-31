@@ -3,7 +3,7 @@ layout: post
 title: thesis story - the second one
 subtitle: i might come back to it, later
 date: 2026-07-29
-tags: work-ongoing
+tags: thesis-past
 published: true
 ---
 

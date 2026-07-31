@@ -3,9 +3,7 @@ layout: post
 title: thesis ideation 
 subtitle: 
 date: 2026-04-25 
-tags:
-  - academic
-  - work-ongoing
+tags: thesis-ongoing
 ---
 very rough - from using 100 days of making as my basis
 

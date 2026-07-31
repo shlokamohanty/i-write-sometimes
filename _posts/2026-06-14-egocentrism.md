@@ -3,7 +3,7 @@ layout: post
 title: "egocentrism, anxiety, and art"
 subtitle: ""
 date: 2026-06-14
-tags: work-reflection
+tags: practice-past
 ---
 
 I was thinking about the nature of my writings today. Thinking that perhaps they are egoistic. Then I realised the difference between egoistic, egotistic, and egocentric. A lot of my work is definitely egocentric. Auto-ethnography research as a practice to create art is egocentric. And my anxiety is a fuel for this egocentricism. But, I think this egocentricism does affect my relationships, while it is something of a necessity for my arts practice, because my perspective matters there. This is where the creative framework comes in, where I need to create containers for this egocentricism, anxiety, which becomes a fuel for my artwork. I need to learn to separate from my relationships.

@@ -4,8 +4,7 @@ title: the framework
 subtitle: ""
 date: 2026-06-24
 tags:
-  - practice
-  - work-ongoing
+  - practice-ongoing
 ---
 
 ![](/i-write-sometimes/assets/images/IMG_2557.jpg)
