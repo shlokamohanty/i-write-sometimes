@@ -123,3 +123,7 @@ Abstract line drawings on paper by Pahadi Korwa
 
 ## Archeology is Scientific Drawing
 https://archeology.uark.edu/archeology-is/archeology-is-scientific-drawing/
+
+What makes a drawing scientific
+- specific details and identifying markers that bring visual representation into the real world
+- diagnostic artifacts

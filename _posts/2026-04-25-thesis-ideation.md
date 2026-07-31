@@ -137,8 +137,6 @@ It's 1:47am and, wait, omg. The uncertainty principle. I just remembered. I full
 
 Science is deeply rooted in control. Makes sense, how in undergrad, the structure and control helped. Need to structure my thoughts here more. there's a lot of concepts here.
 
-I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
-
 ~~What's the story/stories here that I want to say? I work well with conveying deep concepts with sentimentality, I think. That's why puppet hands work well, and what I wrote today.~~ This was before I understood the meaning of sentimentality.
 
 There's something about the genre of cosmic horror that ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
@@ -147,11 +145,15 @@ Blackhole information loss paradox.
 
 Aristotle's vacuum.
 
+How can you approach anxiety with awe and wonder?
+
 ## mechanics
 
 learning more about neuroscience and computation using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration.
 
 putting another marker on the memories to note when I was on amitriptyline and when I wasn't for 100 days.
+
+I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
 It has to be solar, because, the 'Sun'.
 
@@ -204,6 +206,7 @@ Reminder to keep writing. Cody and I wrote ‘Baryon Asymmetry’ more than twel
 - But, why do I want to do this? What about analysing my brain is important? What do I want to show? ~~Is it for people to understand me? Do I want to understand myself? What is understanding? This is a crazy thing though.~~ 
 - I think I need to do simultaneous thinking, going back to what I learnt from the feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique because I want to try new things. That's where the story falls short. Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
 - https://www.instagram.com/kinetichorizons/
+- https://www.mdpub.com/scopeworks/cookie.html
 - ~~Is the brain just calm chaos?~~
 
 ## readings and quotes
