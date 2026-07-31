@@ -3,7 +3,7 @@ layout: post
 title: "rewiring connections"
 subtitle: "after 100 days of pondering about what to make"
 date: 2026-03-24
-tags: academic-ongoing
+tags: work-ongoing
 ---
 
 *A living project.*
