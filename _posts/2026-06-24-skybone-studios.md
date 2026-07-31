@@ -41,7 +41,7 @@ Had to scrap the project. Got too caught up in the technique. I didn't like the 
 
 The storyboard ties a lot in with my larger thesis story. I still need to make changes to the start and refine it further. 
 
-![](/i-write-sometimes/assets/videos/storyboard.jpg)
+![](/i-write-sometimes/assets/images/storyboard.jpg)
 
 I like my drawing style while making storyboards.
 
@@ -49,7 +49,7 @@ I like my drawing style while making storyboards.
 
 *It’s raining heavily, and there’s an anxious physicist who creates a Time Machine. The Time Machine works in a way by stretching the person to strings. The Time Machine glitches between the present and past. And on doing so, the anxious physicist ends up on a date. It's a park date. The park keeps switching between two parks. The date is with a person, a zoologist, who, during the date, puts fireflies into a jar. The physicist starts talking about how firefly larvae eat other animals and are hedonistic. The zoologist explains how humans are like too. The zoologist looks at their hand and notices the glitch. The zoologist keeps glitching between two people as he walks the physicist to the Time Machine. The timeline merges, and the zoologist turns to strings. Resembling the light left by the firefly. The garden is empty. The physicist turns back and the Time Machine disappears. And then the sun sets on the horizon*
 
-![](/i-write-sometimes/assets/videos/character-design.jpg)
+![](/i-write-sometimes/assets/images/character-design.jpg)
 
 Now, I thought character design would not take me much time. But I've been struggling with character design. I started drawing in 3D, which I haven't really done before. The thing about characters in 2D, while turning the character around: they become 2.5D, which looks kind of ugly. So learning to draw the characters in this manner has been helpful. A good technique to start character design is drawing by using shapes.
 
