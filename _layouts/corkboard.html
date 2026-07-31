@@ -759,7 +759,7 @@
 
       {% if personal_ref_posts.size > 0 %}
       <div class="subtag-group"><div class="subtag-group-label">personal</div>
-        <ul class="section-post-list">{% for post in work_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
+        <ul class="section-post-list">{% for post in personal_ref_posts %}{% unless seen3 contains post.url %}{% assign seen3 = seen3 | append: post.url | append: "," %}
           <li><a href="{{ post.url | relative_url }}" class="section-post-row"><span class="section-post-date">{{ post.date | date: "%b %d, %Y" }}</span><div class="section-post-body"><div class="section-post-title">{{ post.title }}</div>{% if post.subtitle %}<div class="section-post-subtitle">{{ post.subtitle }}</div>{% endif %}</div>{% if post.mood %}{% if post.mood contains 'proud' %}<span class="section-post-tag mood-proud">proud</span>{% endif %}{% if post.mood contains 'raw' %}<span class="section-post-tag mood-raw">raw</span>{% endif %}{% if post.mood contains 'spill' %}<span class="section-post-tag mood-spill">spill</span>{% endif %}{% if post.mood contains 'unsure' %}<span class="section-post-tag mood-unsure">unsure</span>{% endif %}{% endif %}{% if post.tags.size > 0 %}<span class="section-post-tag">{{ post.tags.last | downcase }}</span>{% endif %}</a></li>
         {% endunless %}{% endfor %}</ul></div>
       {% endif %}
