@@ -4,8 +4,7 @@ title: skybone studios
 subtitle: ""
 date: 2026-06-24
 tags:
-  - academic
-  - work-ongoing
+  - academic-ongoing
 ---
 
 **Pitch 1**
