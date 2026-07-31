@@ -5,6 +5,7 @@ subtitle: "optional — shows as italic line under the title"
 date: 2000-01-01 
 tags: [personal-ongoing-notes]
 published: false
+---
 
 
 # ── NOTES ──────────────────────────────────────────────────────
