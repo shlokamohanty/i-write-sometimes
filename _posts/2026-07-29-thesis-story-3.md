@@ -1,6 +1,6 @@
 ---
 layout: post
-title: thesis story - the third one
+title: thesis story - black holes
 subtitle: 
 date: 2026-07-29
 tags: thesis-ongoing

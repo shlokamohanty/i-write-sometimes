@@ -24,6 +24,9 @@ things that become important in memories:
 - mundane anchors
 - understanding: shared human context in the micro-moments (empathy). tie it all together with my conceptions on 'the politics of transcription', (or as I say, the paper that changed my life).
 
+---
+### cycles
+
 My stories revolve around breaking cycles, especially the way I made my migraine chronic by overusing analgesics. Perhaps the stress from my abuse triggered the migraines, and the repeated overuse created a chronic pattern. I find that I keep repeating and growing these cycles. ~~But doesn't everyone repeat and ruminate on certain things? The patterns we I choose or allow tend to prevail.~~ *Well, my chronic migraine was triggered, and then compounded. I didn't really choose it.*
 
 When things go well, a positive cycle develops. Then, anxiety or something else takes over, shifting the pattern. It all connects back to how our brains work.
@@ -37,6 +40,8 @@ The assumption that people are broken generally implies that they were whole bef
 
 Structurally maybe it's a brain and runs on neuroscience principles, but the cycles are still related to stories in the memories.
 
+---
+
 Perhaps this leads me to conclude that I want my art practice to be rooted in autoethnographic research. This is the word I was looking for that ties arts and sciences together for me.
 
 memory is a material in neuroscience that builds identity
@@ -48,7 +53,9 @@ memory is a material in neuroscience that builds identity
 
 I learnt about what an hyperobject is because of this song, https://open.spotify.com/track/3QJ98mNw1jFACNOdziPwoa
 
-The brain is a time-machine (mechanism). My memories are hyperobjects (material) of anxiety and grief (what the hyperobjects are made up of). Maybe, anxiety is a hyperobject of grief too.
+~~The brain is a time-machine (mechanism). My memories are hyperobjects (material) of anxiety and grief (what the hyperobjects are made up of). Maybe, anxiety is a hyperobject of grief too.~~
+
+Control as hyperobject.
 
 time in conjunction to neuroscience and physics
 
@@ -58,6 +65,10 @@ time in conjunction to neuroscience and physics
 - without memory your perception of linear time will begin to collapse
 
 Fear memory is the learned content (what's dangerous), and anxiety is what it looks like when that threat-prediction system runs chronically, even without a trigger.
+
+---
+
+### Understanding & semantic isolation
 
 There is so much about people and communication. The histories of two people can be so different that, even though they are in the same room and use the exact same words, they are talking about different things. One can use the same word, but the cause of the idea of that word is unique to their past. 
 
@@ -73,6 +84,9 @@ The brain creates a simulation of how other people are and feel based on their w
 
 Now, when it comes to anxiety. Anxious people turn people into puzzles, as do I, because this isolation feels uncomfortable. The simulation of the people in anxious minds is "over-fitted," so the brain essentially fails to handle the randomness that makes people human.
 
+---
+### Schrödinger's cat
+
 My withdrawal makes sense. I'm burnt out from constantly analysing. The way each brain is is not predictable. It's a wild, chaotic system. No one can predict mine, as I can't predict theirs. Objectively, I need to treat ~~the simulations of~~ 
 
 > my observations of people like Schrödinger's cat. I am hyper-observant. There's no way to change that. **I can't predict outcomes based on observations.** It could be the worst case, or it could be a neutral case. Both stay unproven, unless I confirm. Schrödinger's cat. And is this confirmation, vulnerability?
@@ -82,6 +96,8 @@ My withdrawal makes sense. I'm burnt out from constantly analysing. The way each
 > The paradox here is that if uncertainty is a virtue, I want to live by, I don't know if I'm acting out of wisdom or fear? And, wanting to know the answer is rejecting that. Funny. The paradox of my Schrödinger's cat mantra.
 
 > Concluding that, I'm overthinking about how to not overthink. Wow. This is awesome.
+
+---
 
 Another thing, the brain is structurally isolated. The sensory signals are what make up the reality.
 
@@ -102,6 +118,9 @@ Raviya pointed out that I occasionally have a tendency to hide my feelings, whic
 
 > Initially, much of my thesis stemmed from wanting to understand myself, and maybe hoping others would, too. But that's an insane thing. No one can really understand you. That's a very deep-seated need for validation. The funny thing is, I came into ITP knowing that, no one can really understand you. And, a year later, I wanted to be understood. Is understanding actually exhaustive and complete? Then, I wonder if I can even truly understand myself. Because I am a dynamic system.
 
+---
+### Want vs choice
+
 > It made me think about the difference between a want and a choice. Because I used to use them interchangeably, I didn't think much. But want is more internal, vs choice is external. Want is something you can't control, but choice is something you can control. Want is something that happens to you. There's more intentionality with choice.
 
 **Now, I thought about this more, and realised I have a deep-rooted desire to be chosen for. This is a want.** In reality, you don't choose to be chosen. I only have choice over my actions.
@@ -109,6 +128,8 @@ Raviya pointed out that I occasionally have a tendency to hide my feelings, whic
 So, being chosen for is not in your control. Something I've tried to control, perhaps, tied into what Raviya said about how I have a tendency to hide my feels, and how I show myself to the world. This want to be chosen.
 
 > Even when it comes to self-love, or whatever, the feeling of want can fade. Thus, self-love can fade, but the choices you make are deliberate. Choice is something you make, even after the want disappears. Even after the self-love disappears. Ah-but then again, here I claim, love is a feeling. If it's a practice, then it's a choice. **Words as a feeling vs. a practice**. And part of suffering comes from expecting words-as-feeling to be words-as-practice.
+
+---
 
 So maybe this thesis stemmed from wanting to understand myself, but I think as I'm going forward, I want to be more intentional and choose to understand myself. Perhaps, not in a complete, exhaustive manner, because that's actually impossible. Again what does it mean?
 
@@ -120,9 +141,14 @@ I need to be conscious about my word choices when writing. Sometimes, I say word
 
 Thinking about that more. I started rereading my letters made me realise how I've used the same metaphors and symbolism in different contexts of my work. Like, shadows, sun, moon, all the same language but extremely different meanings. There is so much nuance in the same semantic world. Coming back to the fact that I need to be more careful with my word choices when writing, but then sometimes it's so quick. It's hard to be careful. I can't beat myself over the words that I use all the time. That's exhausting, and I can't always come up with unique words and new metaphors. How do you carry conversations then? Which makes me think about how context matters so much in the same semantics. Like, in the letters, shadows are used positively, vs. the metaphor in "Shadows by the blue light" is so different, and was used to portray abuse. **The surrounding vocabulary and the emotional framing of the pieces create this context. This, in linguistics, is known as polysemy, something that I apply very frequently.**
 
+--- 
+### Grief as escapism
+
 ~~The dark side of grief is escapism. I don't know how I came up with that line. Do I even want to explore this, though?~~ Another generalisation. My experience of grief came with escapism, and that was dark. The experience of grief is such a complex emotion. I present the experience of grief as something here with a dichotomy of escapism and sadness, but grief also has more forms of experiences than just that. Part of this feeling stems from not acting like ‘myself’ for the entirety of last year. Well, there was a lot of identity shift throughout the year. Hence, I say ‘myself’, but I know I was acting rather strange. Amisha had told me in December that after a breakup, it takes a while for people to find themselves, granted now, when we were talking, they had forgotten that they said that to me. But I was explaining to Amisha that I did feel some grief about ending things with Apoorv. That even though, I didn't like him romantically, or was in love with him, we were close friends and spent a lot of time with each other, and that relationship, had moments which were rather traumatic for me, that I couldn't actually reflect on or deal with over the semester because I was too busy, so the feelings from unprocessed trauma spilled over into everything, my work, and other relationships lending me to act in strange ways, and spiral. My trauma caused me to start pedestalizing people rather than seeing them for their complexities and appreciating that, which is what I mean by escapism. Only looking at realities that I wanted to see, rather than people as a whole. I was trying to hold it together for so long that instead of deeply empathizing with people, which I can quite often, I think, I wasn’t trying to be empathetic last semester. Summer gave me the space to break down safely, which helped. The breakdown helped, as it came with immense sadness. I was talking to Megan yesterday and explaining how sadness is grounding. All other feelings can feel quite overwhelming for me, but sadness is grounding. I don't actually get angry. I just end up feeling sad, so I realised, I just end up processing the anger quite quickly through sadness. So the profound sadness that comes with grief is more helpful than escapism, because those consequences can be harmful, but that's hard to deal with too. I say sadness is more helpful here, because the consequences of escapism are costlier. But is this thought something that I want to explore in my thesis? Maybe? There is something here in exploring escapism and wanting certainty, I think. Escapism, maybe, becomes a means to buy certainty for a short period of time. Sadness, on the other hand, is uncertain, because it doesn't grant a fix. So escapism is what grief looks like when someone can't handle uncertainty, restating the premise that I mentioned.
 
 I watched this, [https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2](https://youtu.be/WY9CTDM3l4M?si=4cXCpzkdECATqdz2), and it was beautiful, ties back to my ideas on uncertainty.
+
+--- 
 
 from https://philosophy.stackexchange.com/questions/1624/which-philosophers-have-written-about-fear
 
@@ -137,13 +163,15 @@ Science is deeply rooted in control. Makes sense, how in undergrad, the structur
 
 ~~What's the story/stories here that I want to say? I work well with conveying deep concepts with sentimentality, I think. That's why puppet hands work well, and what I wrote today.~~ This was before I understood the meaning of sentimentality.
 
+---
+### Black holes
 There's something about the genre of cosmic horror that ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
 
 Blackhole information loss paradox.
 
 Aristotle's vacuum.
 
-How can you approach anxiety with awe and wonder?
+How can you approach anxiety with awe?
 
 ## mechanics
 
@@ -188,7 +216,12 @@ I wonder, if I can use markov chains for images. I'm better with visuals than wr
 
 Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time. Kind of like love. Observation from a distance ties a lot with the whole concept of understanding. Signal being separated from noise. The beauty of talking, and listening to another person.
 
-Should it be different story devices? Then, can I incorporate the animation internship work as well? But are they thematically similar? And explain different things? I like the animation story. I wonder what it would be like if a video glitch device were such an interesting method to show that. Like a potentiometer, but it is the clock hand. Time machine. Actually, I could fit it into some class, or just do it as a project as is. I would have considered it in my thesis, but it's too abstract. I like the idea of story devices, but I want to use more real physics phenomena to convey and then make the devices.
+Should it be different story devices? Then, can I incorporate the animation internship work as well? But are they thematically similar? And explain different things? I like the animation story. I wonder what it would be like if a video glitch device were such an interesting method to show that. Like a potentiometer, but it is the clock hand. Time machine. Actually, I could fit it into some class, or just do it as a project as is. I would have considered it in my thesis, but it's too abstract. I like the idea of story devices, but I want to use more real physics phenomena to convey and then make the devices. 
+
+###  story devices
+
+https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
+https://en.wikipedia.org/wiki/View-Master
 
 ## to do and questions
 

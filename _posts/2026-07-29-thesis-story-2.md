@@ -1,6 +1,6 @@
 ---
 layout: post
-title: thesis story - the second one
+title: thesis story - the second one (discarded)
 subtitle: i might come back to it, later
 date: 2026-07-29
 tags: thesis-past
