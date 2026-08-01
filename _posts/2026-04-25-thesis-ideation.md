@@ -218,6 +218,7 @@ Something about telescopes and projectors. This is a technology program after al
 
 Should it be different story devices? Then, can I incorporate the animation internship work as well? But are they thematically similar? And explain different things? I like the animation story. I wonder what it would be like if a video glitch device were such an interesting method to show that. Like a potentiometer, but it is the clock hand. Time machine. Actually, I could fit it into some class, or just do it as a project as is. I would have considered it in my thesis, but it's too abstract. I like the idea of story devices, but I want to use more real physics phenomena to convey and then make the devices. 
 
+How do you design something that is purposely broken by function?
 ###  story devices
 
 https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
