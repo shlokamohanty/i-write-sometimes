@@ -44,10 +44,14 @@ Structurally maybe it's a brain and runs on neuroscience principles, but the cyc
 
 Perhaps this leads me to conclude that I want my art practice to be rooted in autoethnographic research. This is the word I was looking for that ties arts and sciences together for me.
 
+---
+### ship of theseus
+
 memory is a material in neuroscience that builds identity
 
 - 98% of a person's atoms are replaced every year
 - basic biology property: molecular components are replaced over time
+---
 
 ~~My brain as is a city? database data center with a database? time machine. A hyperobject of anxiety and grief.~~
 
@@ -85,7 +89,7 @@ The brain creates a simulation of how other people are and feel based on their w
 Now, when it comes to anxiety. Anxious people turn people into puzzles, as do I, because this isolation feels uncomfortable. The simulation of the people in anxious minds is "over-fitted," so the brain essentially fails to handle the randomness that makes people human.
 
 ---
-### Schrödinger's cat
+### schrödinger's cat
 
 My withdrawal makes sense. I'm burnt out from constantly analysing. The way each brain is is not predictable. It's a wild, chaotic system. No one can predict mine, as I can't predict theirs. Objectively, I need to treat ~~the simulations of~~ 
 
@@ -119,7 +123,7 @@ Raviya pointed out that I occasionally have a tendency to hide my feelings, whic
 > Initially, much of my thesis stemmed from wanting to understand myself, and maybe hoping others would, too. But that's an insane thing. No one can really understand you. That's a very deep-seated need for validation. The funny thing is, I came into ITP knowing that, no one can really understand you. And, a year later, I wanted to be understood. Is understanding actually exhaustive and complete? Then, I wonder if I can even truly understand myself. Because I am a dynamic system.
 
 ---
-### Want vs choice
+### want vs choice
 
 > It made me think about the difference between a want and a choice. Because I used to use them interchangeably, I didn't think much. But want is more internal, vs choice is external. Want is something you can't control, but choice is something you can control. Want is something that happens to you. There's more intentionality with choice.
 
@@ -142,7 +146,7 @@ I need to be conscious about my word choices when writing. Sometimes, I say word
 Thinking about that more. I started rereading my letters made me realise how I've used the same metaphors and symbolism in different contexts of my work. Like, shadows, sun, moon, all the same language but extremely different meanings. There is so much nuance in the same semantic world. Coming back to the fact that I need to be more careful with my word choices when writing, but then sometimes it's so quick. It's hard to be careful. I can't beat myself over the words that I use all the time. That's exhausting, and I can't always come up with unique words and new metaphors. How do you carry conversations then? Which makes me think about how context matters so much in the same semantics. Like, in the letters, shadows are used positively, vs. the metaphor in "Shadows by the blue light" is so different, and was used to portray abuse. **The surrounding vocabulary and the emotional framing of the pieces create this context. This, in linguistics, is known as polysemy, something that I apply very frequently.**
 
 --- 
-### Grief as escapism
+### grief as escapism
 
 ~~The dark side of grief is escapism. I don't know how I came up with that line. Do I even want to explore this, though?~~ Another generalisation. My experience of grief came with escapism, and that was dark. The experience of grief is such a complex emotion. I present the experience of grief as something here with a dichotomy of escapism and sadness, but grief also has more forms of experiences than just that. Part of this feeling stems from not acting like ‘myself’ for the entirety of last year. Well, there was a lot of identity shift throughout the year. Hence, I say ‘myself’, but I know I was acting rather strange. Amisha had told me in December that after a breakup, it takes a while for people to find themselves, granted now, when we were talking, they had forgotten that they said that to me. But I was explaining to Amisha that I did feel some grief about ending things with Apoorv. That even though, I didn't like him romantically, or was in love with him, we were close friends and spent a lot of time with each other, and that relationship, had moments which were rather traumatic for me, that I couldn't actually reflect on or deal with over the semester because I was too busy, so the feelings from unprocessed trauma spilled over into everything, my work, and other relationships lending me to act in strange ways, and spiral. My trauma caused me to start pedestalizing people rather than seeing them for their complexities and appreciating that, which is what I mean by escapism. Only looking at realities that I wanted to see, rather than people as a whole. I was trying to hold it together for so long that instead of deeply empathizing with people, which I can quite often, I think, I wasn’t trying to be empathetic last semester. Summer gave me the space to break down safely, which helped. The breakdown helped, as it came with immense sadness. I was talking to Megan yesterday and explaining how sadness is grounding. All other feelings can feel quite overwhelming for me, but sadness is grounding. I don't actually get angry. I just end up feeling sad, so I realised, I just end up processing the anger quite quickly through sadness. So the profound sadness that comes with grief is more helpful than escapism, because those consequences can be harmful, but that's hard to deal with too. I say sadness is more helpful here, because the consequences of escapism are costlier. But is this thought something that I want to explore in my thesis? Maybe? There is something here in exploring escapism and wanting certainty, I think. Escapism, maybe, becomes a means to buy certainty for a short period of time. Sadness, on the other hand, is uncertain, because it doesn't grant a fix. So escapism is what grief looks like when someone can't handle uncertainty, restating the premise that I mentioned.
 
@@ -164,7 +168,7 @@ Science is deeply rooted in control. Makes sense, how in undergrad, the structur
 ~~What's the story/stories here that I want to say? I work well with conveying deep concepts with sentimentality, I think. That's why puppet hands work well, and what I wrote today.~~ This was before I understood the meaning of sentimentality.
 
 ---
-### Black holes
+### black holes
 There's something about the genre of cosmic horror that ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
 
 Blackhole information loss paradox.
