@@ -1,11 +1,10 @@
 ---
 layout: post
-title: skybone studios and thesis story - chaos
+title: skybone studios
 subtitle: ""
 date: 2026-06-24
 tags:
   - academic-ongoing
-  -
 ---
 
 **Pitch 1**
@@ -69,3 +68,6 @@ More references from Animator's Survival Kit
 **Edit 2**
 *It’s raining heavily, and there’s an anxious physicist who creates a Time Machine out of a deterministic impulse. The Time Machine works in a way by subdividing the person to fractals. The Time Machine glitches between the present and past. While the physicist is in the past. They shift an object while visiting the past, resulting in a butterfly effect. And on doing so, the anxious physicist ends up on a date. It's a park date. The park keeps switching between two parks. The date is with a person, a zoologist, who, during the date, puts fireflies into a jar. The physicist starts talking about how firefly larvae eat other animals and are hedonistic/insatiable. The zoologist explains how humans are like too. The zoologist looks at their hand and notices the glitch. The zoologist keeps glitching between two people as he walks the physicist to the Time Machine, a bifurcation point. The zoologist turns to fractals. Resembling the light left by the firefly. The garden is empty. The physicist turns back and the Time Machine disappears. And then the sun sets on the horizon, as the physicist watches fireflies.*
 
+---
+
+*Okay. I will continue working on the storyboard. But I will not be using this as one of the thesis stories. It is eerily similar to the plot of Travis Scott's 'I Know' music video—a funny realization. Okay, I'm banning myself from writing romantic stories, or remotely that. ‘Puppet Hands’ is not a romantic story. That's why it works. It's about an ending. ‘Puppet Hands’ Shloka is back, not in a dissociative way, but in an ideational manner.*
