@@ -7,6 +7,10 @@ tags: thesis-ongoing
 published: true
 ---
 
+*Is this vastness going to destroy me? But I'm rather astonished at its existence. And it being within me.*
+
+---
+
 I was walking to the station yesterday with a friend. I looked at the trees around me. I felt infinitesimally small. She was talking about cats, but I’m bigger relative to a cat. 
 
 I think about the universe a lot, and about how strange humans are. So consumed by our own worries, I call it the black hole syndrome, yet we are infinitesimal, ephemeral beings, as are black holes.
@@ -31,7 +35,7 @@ I hated my Hindi teacher. I was scared of her. So I came up with a lie. I lied, 
 
 ---
 
-For a month while my dad was away, I was sleeping next to my mom in her room. Every night, I wanted to confess, but I didn't. Couldn't sleep. Kept thinking about the lie. I thought about confessing to my teacher, as well, but she was scary. One night, my mom went to the restroom. It's pretty late. I should be asleep, but instead, I call out, saying 'Mumma'. She asks, 'What happened?' I don't say, and go to sleep instead.
+For a month while my dad was away, I was sleeping next to my mom in her room. Every night, I wanted to confess, but I didn't. I couldn't sleep. Kept thinking about the lie. I thought about confessing to my teacher, as well, but she was scary. One night, my mom went to the restroom. It's pretty late. I should be asleep, but instead, I call out, saying 'Mumma'. She asks, 'What happened?' I don't say, and go to sleep instead.
 
 Another friend says she always feels so guilty, all the time. I don't understand. She said, growing up, she was taught to fear god more than to love god.
 
@@ -47,4 +51,4 @@ I had a bully when I was six. She was mean to me. She took my arm and twisted it
 
 The whole day after, I thought I was going to be called into the coordinator’s office. My chest was racing. She didn't complain. She stopped twisting my arm. She even came for my birthday.
 
-I apologise a lot. But there are four that I know that don't. I respect them the most.
+I apologise a lot. 
