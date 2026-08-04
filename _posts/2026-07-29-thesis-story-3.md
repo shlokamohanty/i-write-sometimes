@@ -39,7 +39,7 @@ For a month while my dad was away, I was sleeping next to my mom in her room. Ev
 
 Another friend says she always feels so guilty, all the time. I don't understand. She said, growing up, she was taught to fear god more than to love god.
 
-Mumbai pollutions, and blackholes, do not go hand in hand. Every day, I stare out the bus. I like the rain. I like keeping the bus window slightly open, so the rain sprinkles on my face. I like the vibration, as my face is against the window railing. And so the black hole grows.
+Mumbai pollution, and blackholes, do not go hand in hand. Every day, I stare out the bus. I like the rain. I like keeping the bus window slightly open, so the rain sprinkles on my face. I like the vibration, as my face is against the window railing. And so the black hole grows.
 
 I turn ten. I have a headache, for weeks now. It doesn't go. Will it ever go? The doctor can't see the black hole. He talks about these special telescopes. In astronomy, radio-telescopes, are used to get stellar images. There are some in the deep corners of Mumbai. They'll be able to take an image of the black hole, if there's any even.
 
@@ -51,4 +51,6 @@ I had a bully when I was six. She was mean to me. She took my arm and twisted it
 
 The whole day after, I thought I was going to be called into the coordinator’s office. My chest was racing. She didn't complain. She stopped twisting my arm. She even came for my birthday.
 
-I apologise a lot. 
+---
+
+My mom woke me up at 5 am to catch the bus at 8 am. She plays 91.1 Radio in the morning. She thinks, I take a while to poop, but, I'm just sleeping on the toilet. I'm sitting on the toilet, slouched, there's a laundry basket in front of my, it's a comfortable pillow. The radio plays the same old songs.
