@@ -6,11 +6,11 @@ date: 2026-04-25
 tags: thesis-ongoing
 ---
 
-Very rough - from using 100 days of making as my basis. 'Puppet Hands' Shloka is back. Not in a dissociative way. in an ideation way. I can only think with space (the irony here), and less pressure. Next semester, I need to focus on learning rather than on finishing projects. So, I have space for this.
+Very rough - from using 100 days of making as my basis. 'Puppet Hands' Shloka is back. Not in a dissociative way, but in an ideation way. I can only think with space (the irony here), and less pressure. Next semester, I need to focus on learning rather than on finishing projects. So, I have space for this.
 
 ## funny names
-~~lobotomy of my brain~~
-~~nervous system~~
+- ~~lobotomy of my brain~~
+- ~~nervous system~~
 
 ## thoughts
 
@@ -57,11 +57,11 @@ memory is a material in neuroscience that builds identity
 
 ~~My brain as is a city? database data center with a database? time machine. A hyperobject of anxiety and grief.~~
 
-I learnt about what an hyperobject is because of this song, https://open.spotify.com/track/3QJ98mNw1jFACNOdziPwoa
+I learnt about what an hyperobject is because of this song, ['grief as hyperobject'](https://open.spotify.com/track/3QJ98mNw1jFACNOdziPwoa)
 
 ~~The brain is a time-machine (mechanism). My memories are hyperobjects (material) of anxiety and grief (what the hyperobjects are made up of). Maybe, anxiety is a hyperobject of grief too.~~
 
-~~Control as hyperobject.~~ This depends on after the stories are done. First, I need to write. I'm just fascinated by the word hyperobjects right now.
+~~Control as hyperobject.~~ This depends on after the stories are done. First, I need to write. I'm just fascinated by the word 'hyperobjects' right now.
 
 time in conjunction to neuroscience and physics
 
@@ -237,9 +237,9 @@ I want to come back to the 'analysis' part. Something about this has data writte
 
 ###  story devices and early animation devices (?)
 
-https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
-https://en.wikipedia.org/wiki/View-Master
-Mutoscope
+- https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
+- https://en.wikipedia.org/wiki/View-Master
+- Mutoscope
 
 ## to do and questions
 
