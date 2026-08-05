@@ -53,4 +53,14 @@ The whole day after, I thought I was going to be called into the coordinator’s
 
 ---
 
-My mom woke me up at 5 am to catch the bus at 8 am. She plays 91.1 Radio in the morning. She thinks, I take a while to poop, but, I'm just sleeping on the toilet. I'm sitting on the toilet, slouched, there's a laundry basket in front of my, it's a comfortable pillow. The radio plays the same old songs.
+My mom wakes me up at 5 am to catch the bus at 8 am. She plays 91.1 Radio in the mornings. She thinks I take a while to poop every day, but I'm just sleeping on the toilet. I'm sitting on the toilet, slouched. There's a laundry basket in front of me. It looks like a comfortable pillow. It is a comfortable pillow. The radio plays the same old songs. And at 6 am, “*Ajib dastan hai yeh, kahan shuru kahan khatam*”, translates to “What a strange story this is, where it begins and where it ends is unknown."
+
+And one day, as I wake up from this sleep. Everything goes dark. For several minutes. I scream, “I can’t see.” I’m crying. I lost my eyesight, I think. Maybe the black hole moved to my eye.
+
+At event horizons, black holes sometimes, when massive enough, send out pressure waves that create ripples in the surrounding hot gas. So they check my stomach with ultrasonic sound waves to detect the pressure. They don’t see it. So they say it’s nothing. Maybe it’s hidden. You can’t access it.
+
+So they take me to the school counsellor, who makes me play with some toys. She refers me to a psychologist. Maybe she can see the black hole, but she just makes me draw. My friend was a ‘naughty’ kid. He was sent to the counsellor. Only the ‘naughty’ kids get sent to the school counsellor. Why am I?
+
+I hated the counsellor at school. I went to a tiny kindergarten near my apartment before they moved me to a school. The counsellor used to be the homeroom teacher. She doesn’t remember me, but I do. The same curly hair. She seemed evil. Or maybe I just thought people with curly hair were evil.
+
+I had a dream that my parents were hovering over something that looked like a zero. It sucked them in, and it was empty. I cried in my sleep. Maybe because I had read yesterday that zeros can be reduced to empty sets. The world looks strange when you wake up. Everything is blurry, the lights shifting shapes, a silhouette. 

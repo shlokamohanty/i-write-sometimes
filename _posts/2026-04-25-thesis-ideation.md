@@ -5,11 +5,12 @@ subtitle:
 date: 2026-04-25 
 tags: thesis-ongoing
 ---
-very rough - from using 100 days of making as my basis
+
+Very rough - from using 100 days of making as my basis. 'Puppet Hands' Shloka is back. Not in a dissociative way. in an ideation way. I can only think with space (the irony here), and less pressure. Next semester, I need to focus on learning rather than on finishing projects. So, I have space for this.
 
 ## funny names
-lobotomy of my brain
-nervous system
+~~lobotomy of my brain~~
+~~nervous system~~
 
 ## thoughts
 
@@ -45,12 +46,13 @@ Structurally maybe it's a brain and runs on neuroscience principles, but the cyc
 Perhaps this leads me to conclude that I want my art practice to be rooted in autoethnographic research. This is the word I was looking for that ties arts and sciences together for me.
 
 ---
-### ship of theseus
+### ship of theseus 
 
 memory is a material in neuroscience that builds identity
 
 - 98% of a person's atoms are replaced every year
 - basic biology property: molecular components are replaced over time
+
 ---
 
 ~~My brain as is a city? database data center with a database? time machine. A hyperobject of anxiety and grief.~~
@@ -59,20 +61,20 @@ I learnt about what an hyperobject is because of this song, https://open.spotify
 
 ~~The brain is a time-machine (mechanism). My memories are hyperobjects (material) of anxiety and grief (what the hyperobjects are made up of). Maybe, anxiety is a hyperobject of grief too.~~
 
-Control as hyperobject.
+~~Control as hyperobject.~~ This depends on after the stories are done. First, I need to write. I'm just fascinated by the word hyperobjects right now.
 
 time in conjunction to neuroscience and physics
 
 - past, present and future, exist at once in neuroscience
 - organises reality through memories
-- sequences life experiences into narratives create the illusion or the sensation of continuity
+- **sequencing life experiences into narratives create the illusion or the sensation of continuity**
 - without memory your perception of linear time will begin to collapse
 
 Fear memory is the learned content (what's dangerous), and anxiety is what it looks like when that threat-prediction system runs chronically, even without a trigger.
 
 ---
 
-### Understanding & semantic isolation
+### understanding & semantic isolation
 
 There is so much about people and communication. The histories of two people can be so different that, even though they are in the same room and use the exact same words, they are talking about different things. One can use the same word, but the cause of the idea of that word is unique to their past. 
 
@@ -123,9 +125,9 @@ Raviya pointed out that I occasionally have a tendency to hide my feelings, whic
 > Initially, much of my thesis stemmed from wanting to understand myself, and maybe hoping others would, too. But that's an insane thing. No one can really understand you. That's a very deep-seated need for validation. The funny thing is, I came into ITP knowing that, no one can really understand you. And, a year later, I wanted to be understood. Is understanding actually exhaustive and complete? Then, I wonder if I can even truly understand myself. Because I am a dynamic system.
 
 ---
-### want vs choice
+### want vs choice 
 
-> It made me think about the difference between a want and a choice. Because I used to use them interchangeably, I didn't think much. But want is more internal, vs choice is external. Want is something you can't control, but choice is something you can control. Want is something that happens to you. There's more intentionality with choice.
+> ~~It made me think about the difference between a want and a choice. Because I used to use them interchangeably, I didn't think much. But want is more internal, vs choice is external. Want is something you can't control, but choice is something you can control. Want is something that happens to you. There's more intentionality with choice.~~ They could happen together. It's not a dichotomy. However, wants can shape the choices.
 
 **Now, I thought about this more, and realised I have a deep-rooted desire to be chosen for. This is a want.** In reality, you don't choose to be chosen. I only have choice over my actions.
 
@@ -169,6 +171,7 @@ Science is deeply rooted in control. Makes sense, how in undergrad, the structur
 
 ---
 ### black holes
+
 There's something about the genre of cosmic horror that ends up in a form of cosmic wonder, and uncertainty, and my interests in arts and sciences.
 
 Blackhole information loss paradox.
@@ -181,20 +184,20 @@ How can you approach anxiety with awe?
 
 learning more about neuroscience and computation using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration.
 
-putting another marker on the memories to note when I was on amitriptyline and when I wasn't for 100 days.
+~~putting another marker on the memories to note when I was on amitriptyline and when I wasn't for 100 days.~~
 
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
-It has to be solar, because, the 'Sun'.
+~~It has to be solar, because, the 'Sun'.~~
 
-> 'The Sun, it burns every day.' - more so, the circadian rhythm 
+> ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~ 
 
 physical mechanisms:
 
 - airport departure board flipping mechanism
 - [https://www.newschool.edu/parsons/profile/lucia-daniel/](https://www.newschool.edu/parsons/profile/lucia-daniel/)
 
-> It has to be a dynamic system.
+> **It has to be a dynamic system.**
 
 > When I went to MoMa last December, I really liked https://www.moma.org/calendar/exhibitions/5768. It was also inspired by drawings.
 
@@ -212,35 +215,47 @@ physical mechanisms:
 
 > I think there is something here, that I could do with the methodology I used for memory n-grams.
 
-> While making the poetry generator, there was something that I thought of. My initial coding attempts were failing because there wasn't enough memory. So I had to make the loop work in a manner so it doesn't store the memory. It is fresh each time, which made me think of doing a project that is a commentary on memory and data. But it ties in heavily with data degradation.
+> **While making the poetry generator, there was something that I thought of. My initial coding attempts were failing because there wasn't enough memory. So I had to make the loop work in a manner so it doesn't store the memory. It is fresh each time, which made me think of doing a project that is a commentary on memory and data. But it ties in heavily with data degradation.**
 
 I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex. 
 
 ~~I've been trying to adapt from my past experiences, before moving to New York, and write it, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are: a cosmic wonder and a cosmic horror. I should maybe lean into it and finish writing, slowly. Then maybe change the voice. I’m feeling shy about publishing it even on this blog, as an ongoing thing. It's okay. Keeping it published. It's my thesis. I can keep rewriting. But the important thing is to write, so I know what visuals I want to show, and what it is thematically developing into, and the concept, once it's done.~~ 
 
-Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time. Kind of like love. Observation from a distance ties a lot with the whole concept of understanding. Signal being separated from noise. The beauty of talking, and listening to another person.
+Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. Observation from a distance ties a lot with the whole concept of understanding. Signal being separated from noise. The beauty of talking, and listening to another person.
 
-Should it be different story devices? Then, can I incorporate the animation internship work as well? But are they thematically similar? And explain different things? I like the animation story. I wonder what it would be like if a video glitch device were such an interesting method to show that. Like a potentiometer, but it is the clock hand. Time machine. Actually, I could fit it into some class, or just do it as a project as is. I would have considered it in my thesis, but it's too abstract. I like the idea of story devices, but I want to use more real physics phenomena to convey and then make the devices. 
+~~Should it be different story devices?~~ ~~Then, can I incorporate the animation internship work as well? But are they thematically similar? And explain different things? I like the animation story. I wonder what it would be like if a video glitch device were such an interesting method to show that. Like a potentiometer, but it is the clock hand. Time machine. Actually, I could fit it into some class, or just do it as a project as is. I would have considered it in my thesis, but it's too abstract. I like the idea of story devices, but I want to use more real physics phenomena to convey and then make the devices.~~ 
 
-How do you design something that is purposely broken by function?
-###  story devices
+~~How do you design something that is purposely broken by function?~~
+
+There's not much point in form if I don't have stories to tell yet. I have concepts that I want to explore. But I don't have stories yet, or an idea of how they sound. I can't gauge otherwise. But, there is something about radio-telescope as a form? Because, these are cosmic stories, right? There is something there, I think. The form. The distance.
+
+https://public.nrao.edu/telescopes/radio-telescopes/
+
+'radio telescopes collect weak radio light waves, bring it to a focus, amplify it and make it available for analysis.'
+
+I want to come back to the 'analysis' part. Something about this has data written all over. There’s a play possible with story structures. 
+
+###  story devices and early animation devices (?)
 
 https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
 https://en.wikipedia.org/wiki/View-Master
+Mutoscope
 
 ## to do and questions
+
+- **Write long-form sci-fi stories!!!!! Only from there now you can actually see what fits**
 
 Reminder to keep writing. Cody and I wrote ‘Baryon Asymmetry’ more than twelve times. You’ve rewritten ‘Together’ so many times. This is your thesis. You can keep writing. And Rewriting.
 
 - more to think on in terms of drawings and language
-- Read more on **Predictive Processing Framework**.
-- Figure out whole anatomy of brain by broad regions — picking out most important for chronic pain, depression, anxiety
+- ~~Read more on Predictive Processing Framework.~~
+- ~~Figure out whole anatomy of brain by broad regions — picking out most important for chronic pain, depression, anxiety~~
 - I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues. Read about both over summer, and, see what sits well.
-- What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up? Cornell anxiety-log?
+- ~~What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up? Cornell anxiety-log?~~
 - I want to learn more about chaos theory.
 - I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
-- But, why do I want to do this? What about analysing my brain is important? What do I want to show? ~~Is it for people to understand me? Do I want to understand myself? What is understanding? This is a crazy thing though.~~ 
-- I think I need to do simultaneous thinking, going back to what I learnt from the feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. I have a problem I discovered recently with animation, is that, I get caught up in technique because I want to try new things. That's where the story falls short. Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
+- But, why do I want to do this? ~~What about analysing my brain is important?~~ What do I want to show? ~~Is it for people to understand me? Do I want to understand myself? What is understanding? This is a crazy thing though.~~ 
+- I think I need to do simultaneous thinking, going back to what I learnt from the feedback collective from the 'Trash!' project. I need to think of technique, research concepts, and what is the story or stories. **I have a problem I discovered recently with animation, is that, I get caught up in technique because I want to try new things. That's where the story falls short.** Maybe instead of trying to create new experimental techniques (this is something I can always try later in life and why I want to get into research), look at existing ones and develop from it.
 - https://www.instagram.com/kinetichorizons/
 - https://www.mdpub.com/scopeworks/cookie.html
 - ~~Is the brain just calm chaos?~~
@@ -266,6 +281,7 @@ While reading Jan Westerhoff's 'Reality', some quotes stood out:
 
 ## people and resources
 
-Find people to talk to in neuroscience - ground this with more empirical science.
-- Sarah, Raviya's friend
+~~Find people to talk to in neuroscience - ground this with more empirical science.~~
+- ~~Sarah, Raviya's friend~~
+- ground this with more empirical astronomy 
 - I have to take a moment and acknowledge the fact that RWET became a very much the class that helped me think so much about my thesis.
