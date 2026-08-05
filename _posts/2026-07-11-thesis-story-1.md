@@ -1,7 +1,7 @@
 ---
 layout: post
 title: thesis story - the first one (discarded)
-subtitle: i might come back to it, later
+subtitle: 
 date: 2026-07-11
 tags: thesis-past
 published: true
