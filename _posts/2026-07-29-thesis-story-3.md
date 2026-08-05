@@ -7,7 +7,7 @@ tags: thesis-ongoing
 published: true
 ---
 
-*Is this vastness going to destroy me? But I'm rather astonished at its existence. And it being within me.*
+*Can I look at anxiety with awe?*
 
 ---
 
