@@ -6,6 +6,7 @@ date: 2026-03-01
 tags: personal-reflection
 mood: spill
 ---
+
 ![](/i-write-sometimes/assets/images/image-relationship1.jpg)
 
 The photo is unrelated, or perhaps shows the whimsy, or maybe it’s not as deep, and it’s just a selfie. But I love when people describe me as silly and sweet. Trying to be my silliest and sweetest version of myself.

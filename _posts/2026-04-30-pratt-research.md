@@ -125,4 +125,22 @@ https://archeology.uark.edu/archeology-is/archeology-is-scientific-drawing/
 
 What makes a drawing scientific
 - specific details and identifying markers that bring visual representation into the real world
-- diagnostic artifacts
+- diagnostic artifacts beyond basic identification
+- a photo shows color, flake scars, and weathering that would not be visible in most drawings
+- a drawing can show heat damage, grinding, and fractures that would go unnoticed or overlooked in a photograph
+- manner of project inception to public presentation
+
+## Drawing the Greek Vase
+
+- illustrations, themselves become active producers of knowledge
+
+line -> hand -> senses -> person
+
+- drawing as a method of communication
+
+## Theories and Practice in Museums of Pakistan
+
+https://www.aasaar.org/wp-content/uploads/2020/09/Theories-and-Practice-in-Museums-of-Pakistanthe-Past-Present-and-Futureof-Museo-Movement.pdf
+
+## South Asia Collections at The Met: A Preliminary Computational Look
+https://rrchnm.org/blog/exploring-south-asia-at-the-met-through-data/

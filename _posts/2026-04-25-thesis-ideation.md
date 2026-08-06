@@ -235,6 +235,12 @@ https://public.nrao.edu/telescopes/radio-telescopes/
 
 I want to come back to the 'analysis' part. Something about this has data written all over. There’s a play possible with story structures. 
 
+> this was interesting to me: https://rachaelnee.art/art-projects/coincidence/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaATg5H1wZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp7xg0YBRmqDeN4xlpqh-Tw6dXnbd33quxO1J6Lfh8SPldI2BZOj1Jizyu_Bx_aem_pmneXaeGXrrlp23Q5gBh-A
+
+> Looking into CMBR data
+
+> https://muonsortes.com/
+
 ###  story devices and early animation devices (?)
 
 - https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
