@@ -64,3 +64,25 @@ So they take me to the school counsellor, who makes me play with some toys. She 
 I hated the counsellor at school. I went to a tiny kindergarten near my apartment before they moved me to a school. The counsellor used to be the homeroom teacher. She doesn’t remember me, but I do. The same curly hair. She seemed evil. Or maybe I just thought people with curly hair were evil.
 
 I had a dream that my parents were hovering over something that looked like a zero. It sucked them in, and it was empty. I cried in my sleep. Maybe because I had read yesterday that zeros can be reduced to empty sets. The world looks strange when you wake up. Everything is blurry, the lights shifting shapes, a silhouette. 
+
+---
+
+My dad showed me the double-slit experiment when I was really young. He taught me who Nietzsche was. He sometimes thought I was a prodigy child, and sometimes thought otherwise.
+
+I sometimes wonder: was my blackhole made by collapsed matter or anti-matter? And does that even matter? It all looks the same.
+
+I was fixing my hair. My teachers were mimicking each other on how I was fixing my hair before the photo for our yearly calendar was taken. Their hands were gesturing at my bangs. I could feel it around my forehead. I was just trying to cover up. But, I guess, they couldn't see it either.
+
+I was struggling with mathematics in school. The teacher comes and shows me how to solve the problem. I understand the solution, and I erase her work. She gets angry. I don't understand.
+
+Anyways, I can still see the pencil engraving on the paper whenever I erase. So I start using a whitener instead.
+
+My mom thinks I should go to boarding school. I overheard, and I cried. My dad comforts me by telling me to stop being overwhelmed by emotions. It was just a conversation.
+
+I sometimes think he saw the black hole.
+
+I struggle at mathematics, so I sit on the floor, with my back slouched for hours. I'm fixated. My legs folded. I do algebra for the first time. It's easier, I think, there are alphabets. My back hurts.
+
+My back hurts for weeks. I stop going to school for weeks. I miss my first 'Sport's Day'. I quit gymnastics, running, and badminton. It's 2011, I need to focus on studying. 
+
+The time has come to stand in front of the radio telescope and be observed.
