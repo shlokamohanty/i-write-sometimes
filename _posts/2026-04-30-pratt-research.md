@@ -10,7 +10,9 @@ tags:
 Formulating a research question: researching how illustrators make choices about what to emphasize, omit, and preserve.
 
 More Notes:
-Uzma said that the drawings in the museum accession cards, can be made by another person, while someone is dictating. so there is a power dynamic there
+Uzma said that the drawings in the museum accession cards, can be made by another person, while someone is dictating. So there is a power dynamic there
+CNN for image processing for signature and image analysis for more quantitative analysis 
+A coding protocol for qualitative analysis
 
 i found this class: https://artandarchaeology.princeton.edu/whats/news/students-art-407-explore-archaeology-through-drawing
 
@@ -143,4 +145,17 @@ line -> hand -> senses -> person
 https://www.aasaar.org/wp-content/uploads/2020/09/Theories-and-Practice-in-Museums-of-Pakistanthe-Past-Present-and-Futureof-Museo-Movement.pdf
 
 ## South Asia Collections at The Met: A Preliminary Computational Look
+
 https://rrchnm.org/blog/exploring-south-asia-at-the-met-through-data/
+
+## Drawn to See: Drawing as an Ethnographic Method by Andrew Causey
+
+https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/view/161/242
+
+
+- every representation is an act of interpretation, there's no neutral transcription
+- the illustrator may not be the same person as the source, and this gap in itself is a form of a power dynamic
+- "scientific" and "objective" drawings have their own conventions and blind spots
+- gestural drawings, as a form, embrace subjectivity as a source of knowledge than trying to escape it
+- a coding scheme can try to formalise what illustrators do intuitively
+- 
