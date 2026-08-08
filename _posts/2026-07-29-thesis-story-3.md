@@ -95,20 +95,22 @@ My back still hurts. My back stopped hurting. The machine was scarier. Or I stop
 
 ---
 
-I used to be scared of sleeping alone. And then I loved it.
+I am scared of sleeping alone. And I love it now.
 
-I’d wait for hours to pass and often stare at the drawings my friend made on the wall. My walls were olive green. The window was behind me. I could see the moonlight coming in through the sheer curtains. 
+I wait for hours to pass and often stare at the drawings my friend made on the wall. My walls are olive green. The window is behind me. I can see the moonlight coming in through the sheer curtains.
 
-My mom would come check in to see if I was asleep. I’m not. I’m pretending to be. She would whisper, ‘Shloka,’ to check if I was up. 
+My mom comes to check in to see if I am asleep. I’m not. I’m pretending to be. She whispers, ‘Shloka,’ to check if I am up.
 
-And then, I used to practice handstands. 
+Sometimes, I try to look at the sky. I see planes go by. I look often to find exactly three stars. I hate looking at the sky on cloudy days, but I look hard enough and find three anyway. I like to see the clouds go over the moon.
 
-I could really feel the black hole as I was upside down. There were particles rushing in from my head to the event horizon. There were particles evaporating out.
+And then, I practice handstands.
 
-And one day, I twisted my arm while practicing handstands.
+I can really feel the black hole as I am upside down. There are particles rushing in from my head to the event horizon. There are particles evaporating out.
 
-Maybe the black hole grew larger then. 
+And one day, I twist my arm while practicing handstands.
 
-Will my bones break or not? 
+Maybe the black hole grows larger.
+
+Will my bones break or not?
 
 ---
