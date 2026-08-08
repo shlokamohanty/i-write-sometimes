@@ -5,6 +5,7 @@ subtitle:
 date: 2026-07-29
 tags: thesis-ongoing
 published: true
+mood: vulnerable
 ---
 
 *Can I look at anxiety with awe?*
