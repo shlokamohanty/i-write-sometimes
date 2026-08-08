@@ -5,6 +5,7 @@ subtitle: ""
 date: 2026-03-06
 tags: work-reflection
 ---
+
 For one of my larger projects, “A letter to you, from the sun”, I started by writing four epistolary poems. Then, for a class assignment, I experimented with grammar-based rules, word choice and synonyms to generate these poems, which was really fun to play with. Letters have become an easy way for me to be more authentic, and vulnerable, so I chose to work with epistolary poems.
 
 ![](/i-write-sometimes/assets/images/image-computational-poetry1.jpg)

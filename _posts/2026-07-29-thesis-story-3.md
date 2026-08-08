@@ -21,7 +21,7 @@ I have a gaping black hole that opened up in the centre of my head. The people w
 
 I’ve reached for the gaping black hole in multiple instances, around my head. I sometimes wonder what it would be like putting my head through it. Would it suck me in?
 
-I can’t remember when this gaping hole formed. I remember the monsoons in Mumbai. I’m in the bus, watching outside as the water is logging. It’s the middle of June. 
+I was born in 2002. I can’t remember when this gaping hole formed. I remember the monsoons in Mumbai. I’m in the bus, watching outside as the water is logging. It’s the middle of June. 
 
 My stomach hurts whenever I see the bus. Or at least my head tells me so. Maybe in 2010, one of those unstable microscopic black holes from the atmosphere stabilised in my head. It fell with/through rain and stayed in my head. Happens to many of us.
 
@@ -41,11 +41,13 @@ Another friend says she always feels so guilty, all the time. I don't understand
 
 Mumbai pollution, and blackholes, do not go hand in hand. Every day, I stare out the bus. I like the rain. I like keeping the bus window slightly open, so the rain sprinkles on my face. I like the vibration, as my face is against the window railing. And so the black hole grows.
 
-I turn ten. I have a headache, for weeks now. It doesn't go. Will it ever go? The doctor can't see the black hole. He talks about these special telescopes. In astronomy, radio-telescopes, are used to get stellar images. There are some in the deep corners of Mumbai. They'll be able to take an image of the black hole, if there's any even.
+I turn eight. I have a headache, for weeks now. It doesn't go. Will it ever go? The doctor can't see the black hole. He talks about these special telescopes. In astronomy, radio-telescopes, are used to get stellar images. There are some in the deep corners of Mumbai. They'll be able to take an image of the black hole, if there's any even.
+
+---
 
 I have evil tendencies, I realise. My brother is maybe one. I'm asleep deeply, and my mom sends him to my room to keep trying to wake me up. I get annoyed in my sleep. So much so, I accidentally push him off my bed. I didn't realise it in my sleep. I hurt him. I feel bad.
 
-When I was ten, my mom gave birth to my brother. I was her favourite kid in the house, but now, it's my brother. He's really small. I remember him squinting his eyes. He was born with very little hair. But there was a patch on his head. Only I could see the spiral galaxy. It was beautiful.
+When I was nine, my mom gave birth to my brother. I was her favourite kid in the house, but now, it's my brother. He's really small. I remember him squinting his eyes. He was born with very little hair. But there was a patch on his head. Only I could see the spiral galaxy. It was beautiful.
 
 I had a bully when I was six. She was mean to me. She took my arm and twisted it. I sat in the front of the bus one day. Waiting for her to walk in. And, as she did, I hit her with my umbrella on her head. I have evil tendencies. I imagined the feeling of the hit of that umbrella plummeting to singularity.
 
@@ -69,7 +71,7 @@ I had a dream that my parents were hovering over something that looked like a ze
 
 My dad showed me the double-slit experiment when I was really young. He taught me who Nietzsche was. He sometimes thought I was a prodigy child, and sometimes thought otherwise.
 
-I sometimes wonder: was my blackhole made by collapsed matter or anti-matter? And does that even matter? It all looks the same.
+I sometimes wonder: was my blackhole made by collapsed matter or anti-matter? It all looks the same.
 
 I was fixing my hair. My teachers were mimicking each other on how I was fixing my hair before the photo for our yearly calendar was taken. Their hands were gesturing at my bangs. I could feel it around my forehead. I was just trying to cover up. But, I guess, they couldn't see it either.
 
@@ -83,6 +85,32 @@ I sometimes think he saw the black hole.
 
 I struggle at mathematics, so I sit on the floor, with my back slouched for hours. I'm fixated. My legs folded. I do algebra for the first time. It's easier, I think, there are alphabets. My back hurts.
 
-My back hurts for weeks. I stop going to school for weeks. I miss my first 'Sport's Day'. I quit gymnastics, running, and badminton. It's 2011, I need to focus on studying. 
+My back hurts for weeks. I stop going to school for weeks. I miss my first 'Sport's Day'. I quit gymnastics, running, and badminton. It's 2012, I need to focus on studying. 
 
-The time has come to stand in front of the radio telescope and be observed.
+The time has come to stand in front of the radio telescope and be observed. 
+
+Well, I guess, I was lying in front of the machine. The sound. It's loud. I hear the sound in cycles. I wonder if this is the sound of cosmos. I feel the walls coming in closer, I need to get out, I need to. So I scream, and I'm out. I laugh.
+
+My back still hurts. My back stopped hurting. The machine was scarier. Or I stopped sleeping next to my baby brother who used to kick me in his sleep. 
+
+---
+
+I had a best friend growing up. He had a crush on me. But I only saw him as a friend.
+
+I had known him since I was three, when I was being raised in Bangalore. Eventually, he moved to Mumbai too.
+
+My hair used to be straight. I wanted curly hair. So I curled my hair on my birthday. He hated my curly hair that day. But he gave me a letter saying we'll get married, and a ring that he made for me out of clay. I don't remember answering.
+
+We did like to role-play a lot, especially at restaurants. I was the chef, and he was the co-chef. We got so carried away once that we broke the window of a restaurant.
+
+Sometimes in parks, we pretended to be in space. We'd use the roots of the Banyan Trees and hang around. I'd usually fall into the soil that resembled an event horizon in my head, and he'd escape to the concrete floor by swinging across.
+
+We went to watch a movie with our families. It's a bollywood love story. He cried at the end of the movie. I was laughing.
+
+My aunt gave birth to my cousin. The house in Rourkela had three rooms: pink, blue, and green. I like the blue room the most, so we are sleeping there. My mom tells me something is wrong with aunty and uncle.
+
+I overhear whispers. That uncle is really sad. My dad is concerned.
+
+I see the uncle, but, I didn't see my best friend after. I was seven.
+
+---
