@@ -107,7 +107,7 @@ I could really feel the black hole as I was upside down. There were particles ru
 
 And one day, I twisted my arm while practicing handstands.
 
-Maybe the black hole grew larger/smaller then. 
+Maybe the black hole grew larger then. 
 
 Will my bones break or not? 
 
