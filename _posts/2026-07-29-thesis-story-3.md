@@ -95,22 +95,20 @@ My back still hurts. My back stopped hurting. The machine was scarier. Or I stop
 
 ---
 
-I had a best friend growing up. He had a crush on me. But I only saw him as a friend.
+I used to be scared of sleeping alone. And then I loved it.
 
-I had known him since I was three, when I was being raised in Bangalore. Eventually, he moved to Mumbai too.
+I’d wait for hours to pass and often stare at the drawings my friend made on the wall. My walls were olive green. The window was behind me. I could see the moonlight coming in through the sheer curtains. 
 
-My hair used to be straight. I wanted curly hair. So I curled my hair on my birthday. He hated my curly hair that day. But he gave me a letter saying we'll get married, and a ring that he made for me out of clay. I don't remember answering.
+My mom would come check in to see if I was asleep. I’m not. I’m pretending to be. She would whisper, ‘Shloka,’ to check if I was up. 
 
-We did like to role-play a lot, especially at restaurants. I was the chef, and he was the co-chef. We got so carried away once that we broke the window of a restaurant.
+And then, I used to practice handstands. 
 
-Sometimes in parks, we pretended to be in space. We'd use the roots of the Banyan Trees and hang around. I'd usually fall into the soil that resembled an event horizon in my head, and he'd escape to the concrete floor by swinging across.
+I could really feel the black hole as I was upside down. There were particles rushing in from my head to the event horizon. There were particles evaporating out.
 
-We went to watch a movie with our families. It's a bollywood love story. He cried at the end of the movie. I was laughing.
+And one day, I twisted my arm while practicing handstands.
 
-My aunt gave birth to my cousin. The house in Rourkela had three rooms: pink, blue, and green. I like the blue room the most, so we are sleeping there. My mom tells me something is wrong with aunty and uncle.
+Maybe the black hole grew larger then. 
 
-I overhear whispers. That uncle is really sad. My dad is concerned.
-
-I see the uncle, but, I didn't see my best friend after. I was seven.
+Will my bones break or not? 
 
 ---

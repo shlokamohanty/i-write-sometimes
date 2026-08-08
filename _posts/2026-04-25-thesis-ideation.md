@@ -240,6 +240,9 @@ I want to come back to the 'analysis' part. Something about this has data writte
 > Looking into CMBR data
 
 > https://muonsortes.com/
+> it’s so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
+
+> Note to myself - Don’t go down this crazy path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
 
 ###  story devices and early animation devices (?)
 
