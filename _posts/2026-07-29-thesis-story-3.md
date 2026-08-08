@@ -57,11 +57,11 @@ The whole day after, I thought I was going to be called into the coordinator’s
 
 My mom wakes me up at 5 am to catch the bus at 8 am. She plays 91.1 Radio in the mornings. She thinks I take a while to poop every day, but I'm just sleeping on the toilet. I'm sitting on the toilet, slouched. There's a laundry basket in front of me. It looks like a comfortable pillow. It is a comfortable pillow. The radio plays the same old songs. And at 6 am, “*Ajib dastan hai yeh, kahan shuru kahan khatam*”, translates to “What a strange story this is, where it begins and where it ends is unknown."
 
-And one day, as I wake up from this sleep. Everything goes dark. For several minutes. I scream, “I can’t see.” I’m crying. I lost my eyesight, I think. Maybe the black hole moved to my eye.
+And one day, as I wake up from this sleep. Everything goes dark. For several minutes. I scream, "I can’t see." I’m crying. I lost my eyesight, I think. Maybe the black hole moved to my eye.
 
 At event horizons, black holes sometimes, when massive enough, send out pressure waves that create ripples in the surrounding hot gas. So they check my stomach with ultrasonic sound waves to detect the pressure. They don’t see it. So they say it’s nothing. Maybe it’s hidden. You can’t access it.
 
-So they take me to the school counsellor, who makes me play with some toys. She refers me to a psychologist. Maybe she can see the black hole, but she just makes me draw. My friend was a ‘naughty’ kid. He was sent to the counsellor. Only the ‘naughty’ kids get sent to the school counsellor. Why am I?
+So they take me to the school counsellor, who makes me play with some toys. She refers me to a psychologist. Maybe she can see the black hole, but she just makes me draw. My friend was a "naughty" kid. He was sent to the counsellor. Only the ‘naughty’ kids get sent to the school counsellor. Why am I?
 
 I hated the counsellor at school. I went to a tiny kindergarten near my apartment before they moved me to a school. The counsellor used to be the homeroom teacher. She doesn’t remember me, but I do. The same curly hair. She seemed evil. Or maybe I just thought people with curly hair were evil.
 
@@ -99,7 +99,7 @@ I am scared of sleeping alone. And I love it now.
 
 I wait for hours to pass and often stare at the drawings my friend made on the wall. My walls are olive green. The window is behind me. I can see the moonlight coming in through the sheer curtains.
 
-My mom comes to check in to see if I am asleep. I’m not. I’m pretending to be. She whispers, ‘Shloka,’ to check if I am up.
+My mom comes to check in to see if I am asleep. I’m not. I’m pretending to be. She whispers, ‘Shloka,’ to check if I am up. (Maybe I shouldn’t use my name. But I don't know. Except for the black hole metaphors, it's all true. I need to think through this. It feels like it should be there)
 
 Sometimes, I try to look at the sky. I see planes go by. I look often to find exactly three stars. I hate looking at the sky on cloudy days, but I look hard enough and find three anyway. I like to see the clouds go over the moon.
 
