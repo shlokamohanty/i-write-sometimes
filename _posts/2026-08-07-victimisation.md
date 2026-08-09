@@ -14,5 +14,4 @@ Everyone goes through different things in their lives. It's the narrative of vic
 
 Simultaneously hold things.
 
-I refuse to let my pain be my identity. But I’m neither going to say I’m fine nor I’m not broken.  
-So maybe I do feel broken sometimes, but the truth is I'm immensely resilient. I've always been. It’s always been a narrative of resilience.
+I refuse to let my pain be my identity. But I’m neither going to say I’m fine nor I’m not broken. So maybe I do feel broken sometimes, but the truth is I'm immensely resilient. I've always been. It’s always been a narrative of resilience.
