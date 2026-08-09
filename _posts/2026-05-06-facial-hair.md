@@ -4,7 +4,7 @@ title: "facial hair"
 subtitle: making hair poetic
 date: 2026-05-06
 tags: writings
-form: poem
+form: prose
 mood: [spill, proud, raw]
 ---
 
