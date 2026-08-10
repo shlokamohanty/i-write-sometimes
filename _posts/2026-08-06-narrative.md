@@ -3,8 +3,7 @@ layout: post
 title: the narrative of control and uncertainty
 subtitle: ""
 date: 2026-08-06
-tags:
-  - personal-ongoing-notes
+tags: personal-ongoing
 ---
 
 My last year of undergrad was very anxiety-ridden because of the question of what’s next and wanting to stay. Next year is coming soon. I can anticipate some anxiety ~~in regards with the uncertainty that it will bring~~ with what’s next. I need to change the narratives in my brain.
@@ -28,3 +27,5 @@ Awe comes from curiosity. *I need to pause and ask myself, what is this about?*
 ---
 
 And, I had this feeling today. Watching the water. Control and uncertainty. That I forgive my abuser. He never really asked for any forgiveness, but I do. The truth is, he was a kid, as was I. He had a difficult relationship with his parents. He took it out in ways that were incredibly harmful. And whatever it was, the pain, all of it, was unfair, I know. I shouldn’t have had to deal with it so early on. But I forgive him for not knowing any better. And I forgive myself today for wanting control, feeling unsafe from uncertainty, and preventing myself from getting hurt.
+
+---
