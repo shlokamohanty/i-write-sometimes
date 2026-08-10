@@ -3,7 +3,7 @@ layout: post
 title: the narrative of control and uncertainty
 subtitle: ""
 date: 2026-08-06
-tags: personal-ongoing
+tags: personal-reflection
 ---
 
 My last year of undergrad was very anxiety-ridden because of the question of what’s next and wanting to stay. Next year is coming soon. I can anticipate some anxiety ~~in regards with the uncertainty that it will bring~~ with what’s next. I need to change the narratives in my brain.
@@ -29,3 +29,29 @@ Awe comes from curiosity. *I need to pause and ask myself, what is this about?*
 And, I had this feeling today. Watching the water. Control and uncertainty. That I forgive my abuser. He never really asked for any forgiveness, but I do. The truth is, he was a kid, as was I. He had a difficult relationship with his parents. He took it out in ways that were incredibly harmful. And whatever it was, the pain, all of it, was unfair, I know. I shouldn’t have had to deal with it so early on. But I forgive him for not knowing any better. And I forgive myself today for wanting control, feeling unsafe from uncertainty, and preventing myself from getting hurt.
 
 ---
+
+This isn't making enough sense to me. Time to root it in physics and philosophy for a girl to just understand her own means of control and uncertainty.
+
+---
+
+There's a better way to approach this. Looking at it from determinism and prediction. I was under the impression that life is deterministic. True, it is. The structure of thoughts and methodologies thus helps. But I'm merely an observer. Maybe my future is determined, but as an observer, I can't make predictions. ~~Even the most~~ Some deterministic systems cannot be predicted. Chaos isn't randomness. It is a deterministic system being unpredictable.
+
+On reading further, there are two things: Epistemic uncertainty and ontological uncertainty. Referring https://dictionary.helmholtz-uq.de/content/types_of_uncertainty.html
+
+> Epistemic uncertainty arises from a lack of knowledge about the system or phenomenon of interest.
+
+> Ontological uncertainty is unrecognized and unquantifiable
+
+`Future is epistemic. The gap will be answered with time. What I know about people is ontological.` 
+
+Narrowing the words. Referring https://www.merriam-webster.com/dictionary/contingent
+
+> Contingent means dependent on or conditioned by something else
+
+`My past was contingent.`
+
+Lack of control equates to helplessness, but that doesn't equate to uncertainty. Thus, there is, in fact, no dichotomy there.
+
+Mental methodologies and structures give me agency. Agency means I can author my choices. Control means that I can author the outcomes. ~~But, in fact, I have no control over outcomes.~~ I have no guaranteed control over outcomes. The future is epistemic, and what I know about people is ontological.
+
+Love as a feeling is present in work, in people, in everything. I think there is a correlation between love and awe. To understand awe, I need to look with love. And, thus, I can now appreciate the wise words from Peter Cat Recording Co., 'to love is to let go control'.
