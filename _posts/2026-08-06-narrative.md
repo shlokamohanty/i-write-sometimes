@@ -30,7 +30,7 @@ And, I had this feeling today. Watching the water. Control and uncertainty. That
 
 ---
 
-This isn't making enough sense to me. Time to root it in physics and philosophy for a girl to just understand her own means of control and uncertainty.
+This isn't making enough sense to me. Time to root it in physics and philosophy for a girl to just understand their own means of control and uncertainty.
 
 ---
 
