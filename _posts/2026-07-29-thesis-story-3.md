@@ -115,3 +115,27 @@ Maybe the black hole grows larger.
 Will my bones break or not?
 
 ---
+
+I’m at the beach. Digging up a hole. And as the hole gets bigger, some sand always falls in. The hole shrinks. I try to dig deeper, and the sand keeps falling in.
+
+The ligament in my right foot is spaghettifying because I fell during badminton.
+
+I don’t feel the black hole in the water.
+
+I’m in the cosmic funnel of the Bay of Bengal. A huge wave takes me in. I tumble inside my black hole. I catch a glimpse of another universe, a white hole.
+
+The waves carry me back to the shore. 
+
+---
+
+I always had tests, but the stakes were much higher now that I’m in 3rd grade.
+
+My Hindi teacher is scary. She puts a lot of *kajal* and wears a huge black bindi. Her hair is short and wavy.
+
+She said no washroom during the test. Why can’t we go to the washroom whenever we want?
+
+Standing in line waiting to submit my paper. I dance to a beat. No one can tell. I couldn’t hold it in. The ripples.
+
+The closest they’ve been to identifying the black hole. But by the time it reaches, it’s unfathomably small.
+
+---
