@@ -47,3 +47,7 @@ Things that didn't work in 2023:
 Things that I need to incorporate now:
 - my schrödinger's cat mantra (people are unpredictable unless you ask)
 - direct communication
+
+---
+
+I hate that sometimes people assume I have no feelings. Mostly my friends from Madison. But I have feelings! I'm not cold, I think. I guess, in Madison, I hated people hugging me or anything. People hug so much here. I like hugs, I think. Well, I do know how to hide my feelings well. Sometimes writings show my feelings more than words. Maybe because I'm quiet.
