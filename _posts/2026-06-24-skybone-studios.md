@@ -76,7 +76,7 @@ Okay. I will continue working on the storyboard. But I will not be using this as
 
 **Edit 3 (but more so what would be on the screen and dialogue)**
 
-Time is strange. Your past determines your future. And, if my future is fixed. 
+Time is strange. Your past determines your future. And, if my future is fixed...
 
 ‘Uhhhhh hi, I built this time machine on a deterministic impulse. Every time I press this button, I’m subdivided into fractals.’ - Sounds like a telephone message
 
