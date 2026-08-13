@@ -50,4 +50,4 @@ Things that I need to incorporate now:
 
 ---
 
-I hate that sometimes people assume I have no feelings. Mostly my friends from Madison. But I have feelings! I'm not cold, I think. I guess, in Madison, I hated people hugging me or anything. People hug so much here. I like hugs, I think. Well, I do know how to hide my feelings well. Sometimes writings show my feelings more than words. Maybe because I'm quiet.
+I hate that sometimes people assume I have no feelings. Mostly my friends from Madison. But I have feelings! I'm not cold, I think. I guess, in Madison, I hated people hugging me or anything. People hug so much here. I like hugs, I think. Well, I do know how to hide my feelings well. Sometimes writings show my feelings more than how I actually show them. Well, most people in New York think I'm sweet, I think. Maybe because I'm quieter. I waste so much energy on my uncontrollable social analysis.
