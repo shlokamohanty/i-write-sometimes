@@ -33,3 +33,17 @@ I think the thing about undergrad and doing only STEM, there was a structure han
 I guess it came from being more sure of myself now. But how do I frame all this? What did kid Shloka do, who wanted to study astrophysics and filmmaking? What are the changes? A rant of questions, I suppose. What’s my system?
 
 ---
+
+Things that worked in 2023:
+- libraries
+- cooking twice a week on Sundays and Wednesdays
+
+Things that didn't work in 2023:
+- sleep deprivation 
+- no time for myself
+- reliance on alcohol in social situations like at bars, parties, etc
+- reliance on an external structure 
+
+Things that I need to incorporate now:
+- my schrödinger's cat mantra (people are unpredictable unless you ask)
+- direct communication
