@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bringing back the discipline I had back in 2023 and figuring out my style of social navigation"
+title: "bringing back the discipline I had back in 2023 and figuring out my style of structure, and social navigation"
 subtitle: ""
 date: 2026-08-11
 tags: personal-ongoing
