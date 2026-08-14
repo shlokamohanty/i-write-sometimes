@@ -250,6 +250,8 @@ I want to come back to the 'analysis' part. Something about this has data writte
 
 > Kid Shloka wanted to study astrophysics and filmmaking. I like filmmaking, clearly. But something about it within ITP actually ruined it for me. I don't like the motion capture stuff, or the new-media filmmaking technology, projection mapping, VR, and all of that. I made 'Puppet Hands' on my phone. Then, I just used Procreate to do the mixed-media part. And I think that is still one of my best works. I just got thread and some fake flowers from Michaels. I barely spent anything. I also think it was easy to push Apoorv to act in it. But he did actually get scared of me because I was being too bossy, but it was fine because we were close. I fear I can’t be that level of bossy. I’m *sweet*.
 
+> Thematically, these forms show some aspects of decay, degradation, and repetition with variation. Most of my projects from last semester actually circled around the same theme. This is a good thing to latch onto, with the question of interaction.
+
 ###  story devices and early animation devices (?)
 
 - https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
