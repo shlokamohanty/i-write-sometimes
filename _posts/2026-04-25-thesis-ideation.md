@@ -188,7 +188,7 @@ learning more about neuroscience and computation using the flower that i made in
 
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
-~~It has to be solar, because, the 'Sun'.~~
+> I think, this still has poetic potential, because the 'Sun' is a star, and the blackhole is made from the death of a massive star. 
 
 > ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~ 
 
@@ -243,6 +243,8 @@ I want to come back to the 'analysis' part. Something about this has data writte
 > it’s so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
 
 > Note to myself - Don’t go down this crazy path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
+
+> Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. 
 
 ###  story devices and early animation devices (?)
 
