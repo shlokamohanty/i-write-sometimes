@@ -14,7 +14,7 @@ Been thinking a lot about how I used to be in Madison. ITP has been really overs
 
 ITP is a pretty new environment for me. And something about it is hard. Everyone is closer, but I feel like, on the floor, I memorise a lot of people’s schedules, other daily things, and expressions. Maybe I should learn to lie and be less creepy. But then I get stressed while lying. So, lying isn't an option. I suppose. And because I’m not dissociated, it’s hard to tune out. It’s overstimulating. Amisha says I don’t understand social cues well, but I think I do, though. But I sometimes take words too literally. Which is funny for someone who writes in metaphors. Or maybe, used to. I’ve noticed my writing has become more direct nowadays. Maybe that’s a lie. The essay on black holes is built on metaphors. My communication skills are paradoxical, maybe: I write in metaphors, and I understand more literally. And sometimes, thus, I overthink. But Raviya doesn’t like it when I’m direct sometimes. I can sound mean without realising. But I’m sweet. Abhiraam also used to say I can be mean sometimes. Amisha says it’s okay if I’m mean. I’m paradoxical. Sometimes, I don’t speak when I can’t be direct.
 
-I’m a little scared of falling. Amisha said that if I keep meeting and hanging out with the same people, of course I won’t understand social cues, and that I should meet and interact with more new people. But what if I'm over-reading into social cues? That people are actually unpredictable, and I don’t know unless I ask. My Schrödinger's cat mantra.
+Amisha said that if I keep meeting and hanging out with the same people, of course I won’t understand social cues, and that I should meet and interact with more new people. But what if I'm over-reading into social cues? That people are actually unpredictable, and I don’t know unless I ask. My Schrödinger's cat mantra.
 
 In Madison, at bars and outside social situations, sometimes drinks did help me tune out. But I hardly drink anymore. It’s rather rare.
 
@@ -46,7 +46,7 @@ Things that didn't work in 2023:
 
 Things that I need to incorporate now:
 - my schrödinger's cat mantra (people are unpredictable unless you ask)
-- direct communication
+- direct communication? 
 
 ---
 
