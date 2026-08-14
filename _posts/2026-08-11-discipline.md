@@ -56,3 +56,24 @@ Raviya said I'm not cold. Megan said, sometimes the way I leave people is cold. 
 
 ---
 
+While talking to Raviya, I realised I should stop forcing eye contact with people while talking, so I’m more relaxed. Talking while doing activities with people would help. No point in going to TNOs. I don’t really enjoy those, and also feels like a waste of social energy. 
+
+---
+
+Another goal for next semester is focusing on learning, rather than finishing projects. Push myself to do projects that are very technically challenging, without needing to finish them. So, I'll practice more of my skills. I need to build skills before the thesis, because I want to make a physical thesis. 
+
+So maybe, Sundays and Wednesdays would remain my cooking days. Wednesdays/Thursdays are also Pratt days, most likely. I have to GA on Wednesdays. And Wednesdays could also be forced break nights, maybe?
+
+Most likely dropping 'On Becoming' and 'Medium of Memory'. I'll know that better during the 'Add/Drop' period.
+
+Hopefully, I can get myself into the waitlist for ‘Computational Approaches to Narrative’. That’s the most important one.
+
+Got on the waitlist for 'Prototyping Electronic Devices' and ‘Time’. It ties in better with my thesis. Dropped out of the 'NIME' waitlist. I don't want to put so much energy into building an instrument. Especially now that my thesis idea has evolved so much. I also need to set aside writing time.
+
+I do want to take a music class once during my time at ITP, though, more for personal reasons - getting over trauma, or ‘healing’, I suppose. It will be during spring. Do not want to do ‘Code of Music’, though. 
+
+The question of USL next semester, and whether it will be for credits, lingers. I’d rather do it for credits than as a job, or else it’s a lot of work. Because I’m also slower than most people in my cohort, I need to work with more patience. Focus on learning for the thesis. USL days could also be studying at Bobst days, as I do during the summer.
+
+I need to work on electronics and fabrication.
+
+I work in a maniacal manner, but more slowness and, more iterative work, building onto something larger, is stronger. Maniacal work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself more why questions.
