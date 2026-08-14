@@ -188,7 +188,7 @@ learning more about neuroscience and computation using the flower that i made in
 
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
-> I think, this still has poetic potential, because the 'Sun' is a star, and the blackhole is made from the death of a massive star. Wait, this is actually so sad. 
+> I think this still has poetic potential because the 'Sun' is a star, and the blackhole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness?
 
 > ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~ 
 
