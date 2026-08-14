@@ -242,7 +242,7 @@ I want to come back to the 'analysis' part. Something about this has data writte
 > https://muonsortes.com/
 > it’s so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
 
-> Note to myself - Don’t go down this crazy path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
+> Note to myself - Don’t go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
 
 > Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. 
 
