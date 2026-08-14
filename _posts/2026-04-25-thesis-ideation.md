@@ -205,7 +205,7 @@ physical mechanisms:
 
 > I need to lean more into how to make this a playful object.
 
-> Ideas I’m toying with are the need for control and anxiety. So the time machine had control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
+> Ideas I’m toying with are the need for control and anxiety. So the time machine has control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
 
 > I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
 
@@ -246,6 +246,10 @@ I want to come back to the 'analysis' part. Something about this has data writte
 
 > Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. 
 
+> What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?
+
+> Kid Shloka wanted to study astrophysics and filmmaking. I like filmmaking, clearly. But something about it within ITP actually ruined it for me. I don't like the motion capture stuff, or the new-media filmmaking technology, projection mapping, VR, and all of that. I made 'Puppet Hands' on my phone. Then, I just used Procreate to do the mixed-media part. And I think that is still one of my best works. I just got thread and some fake flowers from Michaels. I barely spent anything. I also think it was easy to push Apoorv to act in it. But he did actually get scared of me because I was being too bossy, but it was fine because we were close. I fear I can’t be that level of bossy. I’m *sweet*.
+
 ###  story devices and early animation devices (?)
 
 - https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
@@ -261,7 +265,7 @@ Reminder to keep writing. Cody and I wrote ‘Baryon Asymmetry’ more than twel
 - more to think on in terms of drawings and language
 - ~~Read more on Predictive Processing Framework.~~
 - ~~Figure out whole anatomy of brain by broad regions — picking out most important for chronic pain, depression, anxiety~~
-- I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues. Read about both over summer, and, see what sits well.
+- ~~I can explore either, fear memory as a concept or depression and anxiety. Both are vast and separate avenues. Read about both over summer, and, see what sits well.~~
 - ~~What if I start an anxiety-log, so I can find patterns in observation, then see if a memory comes up? Cornell anxiety-log?~~
 - I want to learn more about chaos theory.
 - I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
