@@ -32,7 +32,9 @@ Nervous system. So I need a framework for this. What did I do as a kid that work
 
 I think the thing about undergrad and doing only STEM, there was a structure handed out. Easy to follow. But with ITP, it’s like I need to try different things. Amisha said that a lot of people in STEM discredit how difficult art is specifically. Being in an art school, doing this, isn’t easy. Initially, I was trying to learn and follow other people around me and the way they work in ITP. Thinking about it, from my cohort, I picked up a lot from Cody and arjun over the first year in ITP. Maybe I do look up to them and their work, without realising it, because I liken them to be the Nasif and Nikolai of our cohort. But I’m just a kid. And they are opposites, and I picked up exactly opposite things. Actually, I look up a lot to Kezia too, and the way she knows what kind of art she wants to make. But now, I’m realising that how I do things is so different from them, and most others, and who I am. So I can’t follow or do what others do in the program.
 
-I guess it came from being more sure of myself now. But how do I frame all this? What did kid Shloka do, who wanted to study astrophysics and filmmaking? What are the changes? A rant of questions, I suppose. What’s my system?
+I guess it came from being more sure of myself now. But how do I frame all this? 
+
+> What did kid Shloka do, who wanted to study astrophysics and filmmaking? What are the changes? A rant of questions, I suppose. What’s my system?
 
 ---
 
