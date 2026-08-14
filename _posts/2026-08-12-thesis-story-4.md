@@ -12,7 +12,7 @@ I moved into this house with a lot of allergies. We are moving out soon. Every t
 
 Raviya pointed out that I act like I don’t care about food, but sometimes I do appreciate food. For someone who doesn’t really like food. I do like cooking, and I do show affection by sharing food sometimes. 
 
-I have an idea. In fact, one of my favorite movies is ‘Chef,’ but I like the Hindi version. I never really watched the English version. 
+One of my favorite movies is ‘Chef,’ but I like the Hindi version. I never really watched the English version. 
 
 I think my next thesis story is going to be about this.
 
