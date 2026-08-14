@@ -14,6 +14,6 @@ Raviya pointed out that I act like I don’t care about food, but sometimes I do
 
 One of my favorite movies is ‘Chef,’ but I like the Hindi version. I never really watched the English version. 
 
-I think my next thesis story is going to be about this.
+I think my next thesis story is going to be about this. I guess, similar to the 'oranges' essay, but written with a lot more awe.
 
 ---
