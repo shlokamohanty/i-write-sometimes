@@ -46,11 +46,15 @@ Cody and arjun taught me better soldering practices, although, again, there’s 
 
 Nikolai and Alanna taught me how to use the laser cutter.
 
-Nasif taught me not to solder wires directly onto batteries. Nasif also taught me how to refer to documentation about different sensors.
+Nasif taught me not to solder wires directly onto batteries. Nasif also taught me how to refer to documentation about different sensors. 
+
+Cody and Nasif taught me when to use pliers.
 
 Nikolai taught me how to read serial output. Nikolai taught me about Raspberry Pico.
 
 James taught me cosine similarity.
+
+Amelia taught me that 'Professor' is the best 3-D printer.
 
 Another conundrum that comes up for me is that I look up to arjun and Cody and their process of work, but both of them employ code and circuitry so differently. Sometimes with arjun’s work, the way the circuit looks, the variables in the line of code itself evoke something, whereas for Cody, circuitry and code are tools for a larger thing. Those are hidden. But then again, Cody’s expertise is fabrication, and it’s the thing that I don’t understand that well, currently. But I guess fabrication as a medium automatically implies a more explicit exposure. It isn’t something on the backend. So maybe in that case, they both work similarly, just have different mediums? Maybe, I guess, I'm just exploring different mediums right now.
 
