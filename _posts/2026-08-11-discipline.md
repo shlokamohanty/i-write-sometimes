@@ -86,4 +86,4 @@ I work in a maniacal manner, but more slowness and, more iterative work, buildin
 
 ---
 
-Group projects are good, and I did a lot of them last year, but to write a good thesis, I need to do more projects on my own, so that should be my focus next semester.
+Group projects are good, and I did a lot of them last year, but to make a good thesis, I need to do more projects on my own, so that should be my focus next semester.
