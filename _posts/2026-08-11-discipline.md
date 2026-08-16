@@ -62,6 +62,8 @@ Raviya said I'm not cold. Megan said, sometimes the way I leave people is cold. 
 
 While talking to Raviya, I realised I should stop forcing eye contact with people while talking, so I’m more relaxed. Talking while doing activities with people would help. No point in going to TNOs. I don’t really enjoy those, and also feels like a waste of social energy. 
 
+Also, start wearing my noise-cancelling headphones in school when feeling overwhelmed or needing to focus. I stopped wearing those after I realised I get too tuned out on the commute and need to be more attentive.
+
 ---
 
 Another goal for next semester is focusing on learning, rather than finishing projects. Push myself to do projects that are very technically challenging, without needing to finish them. So, I'll practice more of my skills. I need to build skills before the thesis, because I want to make a physical thesis. 
@@ -81,3 +83,7 @@ The question of USL next semester, and whether it will be for credits, lingers. 
 I need to work on electronics and fabrication. (What is this need to make things physical? Why do I want to do it?)
 
 I work in a maniacal manner, but more slowness and, more iterative work, building onto something larger, is stronger. Maniacal work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself more why questions.
+
+---
+
+Group projects are good, and I did a lot of them last year, but to write a good thesis, I need to do more projects on my own, so that should be my focus next semester.
