@@ -44,7 +44,7 @@ Aram taught me that while fabricating, I should refer to things that are already
 
 Cody and arjun taught me better soldering practices, although, again, there’s a conundrum there with the use of flux. 
 
-Cody and Kezia taught me to have fun.
+Cody and Kezia taught me to have fun. Cody did so by pushing me to ride the scooter, and Kezia did so at MoMath by pushing me to ride a tricycle.
 
 Nikolai and Alanna taught me how to use the laser cutter.
 
