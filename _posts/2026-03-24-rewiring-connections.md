@@ -229,4 +229,4 @@ Felt like I was being observed too much because of this. Felt uncomfortable. Fel
 
 It's been hard getting back to this. Especially looking at these reflections, I was going through something. It’s hard to put that into words. What I was going through, I don’t quite understand. I think that’s the most neurotic I’ve been, strange. I’d like to put it more as years of neuroticism, coming to a crash over summer. A long-needed nervous breakdown.
 
-Will I actually continue this?
+Will I actually continue this? I will continue this. But this is not a portfolio piece, just something I do on the side when I feel like it. And it's clear from this document that I was going through something last semester. 

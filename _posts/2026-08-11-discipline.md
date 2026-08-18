@@ -66,6 +66,10 @@ Also, start wearing my noise-cancelling headphones in school when feeling overwh
 
 ---
 
+Try calling people once a week, at least. 
+
+---
+
 Another goal for next semester is focusing on learning, rather than finishing projects. Push myself to do projects that are very technically challenging, without needing to finish them. So, I'll practice more of my skills. I need to build skills before the thesis, because I want to make a physical thesis. 
 
 So maybe, Sundays and Wednesdays would remain my cooking days. Wednesdays/Thursdays are also Pratt days, most likely. I have to GA on Wednesdays. And Wednesdays could also be forced break nights, maybe?
@@ -80,9 +84,9 @@ I do want to take a music class once during my time at ITP, though, more for per
 
 The question of USL next semester, and whether it will be for credits, lingers. I’d rather do it for credits than as a job, or else it’s a lot of work. Because I’m also slower than most people in my cohort, I need to work with more patience. Focus on learning for the thesis. USL days could also be studying at Bobst days, as I do during the summer.
 
-I need to work on electronics and fabrication. (What is this need to make things physical? Why do I want to do it?)
+I need to work on electronics and fabrication. (What is this ~~need~~want to make things physical? Why do I want to do it?)
 
-I work in a maniacal manner, but more slowness and, more iterative work, building onto something larger, is stronger. Maniacal work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself more why questions.
+I work in a maniacal manner, but more slowness and, more iterative work, building onto something larger, is stronger. Maniacal work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself and others more why questions. Listen more intently.
 
 ---
 

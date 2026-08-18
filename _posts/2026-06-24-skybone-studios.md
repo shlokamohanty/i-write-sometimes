@@ -86,7 +86,7 @@ Time is strange. Your past determines your future. And, if my future is fixed...
 
 A bifurcation point
 
-Even the most deterministic systems cannot be predicted.
+Sometimes, even the most deterministic systems cannot be predicted.
 
 ---
 
