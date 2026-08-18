@@ -10,7 +10,7 @@ The New York vs the Madison Shloka conundrum, I say. The confrontation of the tw
 
 She reminded me of how I used to be in Madison. Now, I don’t have to run from my house at 4:50 pm to drop off my physics homework at the mailbox at Chamberlin Hall by 5 pm. I don’t have to give an exam that starts from Fridays and goes on to Mondays.
 
-Some days, I miss that structure that was given to me. I could be on autopilot. But then, I think, for the first time, I'm actually immersed. When I write now, I think, I feel this warmth in my chest, something flowing from within. 
+Some days, I miss that structure that was given to me. I could be on autopilot. But then, I think, for the first time, I'm actually absorbed. When I write now, I think, I feel this warmth in my chest, something flowing from within. 
 
 And so, I think I feel different.
 
