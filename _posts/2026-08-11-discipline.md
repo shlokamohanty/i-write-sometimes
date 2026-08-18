@@ -70,7 +70,7 @@ Try calling people once a week, at least.
 
 ---
 
-Another goal for next semester is focusing on learning, rather than finishing projects. Push myself to do projects that are very technically challenging, without needing to finish them. So, I'll practice more of my skills. I need to build skills before the thesis, because I want to make a physical thesis. 
+Another goal for next semester is focusing on learning, rather than finishing projects. Push myself to do projects that are very technically challenging, without needing to finish them. So, I'll practice more of my skills. 
 
 So maybe, Sundays and Wednesdays would remain my cooking days. Wednesdays/Thursdays are also Pratt days, most likely. I have to GA on Wednesdays. And Wednesdays could also be forced break nights, maybe?
 
@@ -80,13 +80,18 @@ Hopefully, I can get myself into the waitlist for ‘Computational Approaches to
 
 Got on the waitlist for 'Prototyping Electronic Devices' and ‘Time’. It ties in better with my thesis. Dropped out of the 'NIME' waitlist. I don't want to put so much energy into building an instrument. Especially now that my thesis idea has evolved so much. I also need to set aside writing time.
 
-I do want to take a music class once during my time at ITP, though, more for personal reasons - getting over trauma, or ‘healing’, I suppose. It will be during spring. Do not want to do ‘Code of Music’, though. 
+I do want to take a music class once during my time at ITP, though, more for personal reasons - getting over trauma, or ‘healing’, I suppose. It will be during spring. Do not want to do ‘Code of Music’, though. Maybe 'Sound Studio', since it matches the number of credits that I need to do then, but it's too technical.
 
-The question of USL next semester, and whether it will be for credits, lingers. I’d rather do it for credits than as a job, or else it’s a lot of work. Because I’m also slower than most people in my cohort, I need to work with more patience. Focus on learning for the thesis. USL days could also be studying at Bobst days, as I do during the summer.
+~~The question of USL next semester, and whether it will be for credits, lingers. I’d rather do it for credits than as a job, or else it’s a lot of work.~~ 
+Unfortunately, I can't do it for credits, but it's okay. I will make time for it. There are a lot of pros to it. And it’s good that, with the grant right now, the summer money that I’ve earned and will also earn in the fall, as well as the scholarship, it’ll help reduce the costs of the thesis. 
+
+So, I’m also slower at learning than most people in my cohort. But, I also I need to work with more patience. Focus on learning for the thesis, and in general, I'll never have the opportunity to learn this much or access these resources, so I might as well make the most of it. USL days could also be reading-studying at Bobst days, as I do during the summer. 
+
+I’m getting a better conceptual grasp of things, and with more slowness, thought, and frameworks, I think I can do better than I did last semester if I don’t get caught up in how quickly and the 'bigness' of the projects others are making around me. Tom was onto something with his advice in the first semester: that it’s okay not to have finished projects. Last semester, I got too caught up in trying to measure up to others, maybe because, in undergrad, I did so well, which surprises me now that I'm not doing as well as I used to. Sometimes I’m not as good as my peers, and I felt jealous of them. I’ve to let go of that insecurity. I do think it’s a natural feeling, though. Everyone has it from time to time, comparing themselves. I had forgotten the feeling of jealousy, and it’s not a good color on me. It surfaced years later. At least now, I know how to sit with it and talk myself through it. Accepting that my path is truly so different.
 
 I need to work on electronics and fabrication. (What is this ~~need~~want to make things physical? Why do I want to do it?)
 
-I work in a maniacal manner, but more slowness and, more iterative work, building onto something larger, is stronger. Maniacal work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself and others more why questions. Listen more intently to others.
+I work in a maniacal manner, but more slowness and more iterative work, building onto something larger, is stronger. By maniacal, I don’t mean, of course, spending late nights on the floor. Late nights on the floor for a person like me are a given. By that I mean rushing through projects and not sitting with ideas longer. Not to jump the gun, essentially. Manic work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself and others more 'why', and 'how' questions. Listen more intently to others.
 
 ---
 
