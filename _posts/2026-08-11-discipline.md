@@ -86,8 +86,12 @@ The question of USL next semester, and whether it will be for credits, lingers. 
 
 I need to work on electronics and fabrication. (What is this ~~need~~want to make things physical? Why do I want to do it?)
 
-I work in a maniacal manner, but more slowness and, more iterative work, building onto something larger, is stronger. Maniacal work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself and others more why questions. Listen more intently.
+I work in a maniacal manner, but more slowness and, more iterative work, building onto something larger, is stronger. Maniacal work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself and others more why questions. Listen more intently to others.
 
 ---
 
-Group projects are good, and I did a lot of them last year, but to make a good thesis, I need to do more projects on my own, so that should be my focus next semester.
+Group projects are good, and I did a lot of them last year, but to make a good thesis, I need to do more projects on my own, so that should be my focus next semester. And solo projects would be better because I can work with my own methodologies and processes and figure out things by myself.
+
+---
+
+I don’t know if I want to do the winter show next semester. I’m starting to see very little point in the shows.

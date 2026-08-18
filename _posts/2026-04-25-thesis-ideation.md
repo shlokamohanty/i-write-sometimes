@@ -178,7 +178,7 @@ Blackhole information loss paradox.
 
 Aristotle's vacuum.
 
-How can you approach anxiety with awe?
+**How can you approach anxiety with awe?**
 
 ## mechanics
 
@@ -245,6 +245,8 @@ I want to come back to the 'analysis' part. Something about this has data writte
 > Note to myself - Don’t go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
 
 > Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. 
+
+> With the black holes essay that I'm working on, I think the interaction could be tied to distance. If my thesis is about sensory experiences, then the interaction should be tied to that.
 
 > What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?
 
