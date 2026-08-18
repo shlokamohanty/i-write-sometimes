@@ -6,7 +6,7 @@ date: 2026-08-16
 tags: practice-ongoing
 ---
 
-I took an 'Introduction to art' class in undergrad, and I forgot a lot about that class, but Megan reminded me of it. We both took the class at different times. realised over the weekend that I should go over my notes for that class.
+I took an 'Introduction to Art' class in undergrad, and I forgot a lot about that class, but Megan reminded me of it. We both took the class at different times. realised over the weekend that I should go over my notes for that class.
 
 I’ve been thinking a lot about what my medium might be. I do think it’s primarily filming, drawing and writing. But I have a keen interest in making it physical. But I still don't get why, and where this want is stemming from. I enjoy making films without using the crazy equipment, working with circuitry a whole lot, as well as code. I haven’t been exposed to fabrication enough to make a call.
 
