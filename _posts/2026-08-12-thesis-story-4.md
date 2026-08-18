@@ -16,4 +16,5 @@ One of my favorite movies is ‘Chef,’ but I like the Hindi version. I never r
 
 I think my next thesis story is going to be about this. I guess, similar to the 'oranges' essay, but written with a lot more awe and more focused on my bodily feelings rather than relational dynamics. I don't write those well. I think I'm quite a sensory-sensitive person, actually, so stories focused on that work.
 
+
 ---
