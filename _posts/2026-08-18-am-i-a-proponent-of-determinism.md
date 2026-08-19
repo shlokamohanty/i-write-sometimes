@@ -18,7 +18,7 @@ As per indeterminism, the future is not fixed by the past. That, maybe, there is
 
 Einstein was a determinist. He bridged classical and relativistic physics.
 
-From what I've learnt in undergrad, I think I like quantum mechanics over classical physics and relativistic physics. I don't know why, in undergrad, I scored a B in my class that covered classical and relativistic physics, whereas in the class that covered quantum mechanics, I scored an A. I never enjoyed the classical and relativistic physics problems. I also didn’t enjoy when I was tutoring mechanics in undergrad. ~~I don't know why physicality didn't really resonate with me.~~ However, it was easier to imagine the quantum world, the subatomic particles, and their interactions. Funny that I don't like working with objects that can be seen, entirely available, no inference, but things that can only be known indirectly, through measurement — almost like a feeling that's thought about, what I do. Maybe I was onto something with my energy class [reflection](https://shlokamohanty.github.io/i-write-sometimes/2026/03/24/thoughts-from-energy-discussion.html). I think, I like abstraction over concretization. I like letters over numbers. I like algebra.
+From what I've learnt in undergrad, I think I like quantum mechanics over classical physics and relativistic physics. I don't know why, in undergrad, I scored a B in my class that covered classical and relativistic physics, whereas in the class that covered quantum mechanics, I scored an A. I never enjoyed the classical and relativistic physics problems. I also didn’t enjoy when I was tutoring mechanics in undergrad. ~~I don't know why physicality didn't really resonate with me.~~ However, it was easier to imagine the quantum world, the subatomic particles, and their interactions. Funny that I don't like working with objects that can be seen, entirely available, no inference, but things that can only be known indirectly, through measurement — almost like a feeling that's thought about, what I do, right now. Maybe I was onto something with my energy class [reflection](https://shlokamohanty.github.io/i-write-sometimes/2026/03/24/thoughts-from-energy-discussion.html). I think, I like abstraction over concretization. I like letters over numbers. I like algebra.
 
 Well, if I look at things, based on my limited ~~understanding~~ comprehension of the 'Uncertainty Principle' and ~~the limited understanding of~~ indeterminism, then
 
@@ -31,3 +31,11 @@ I end this by accepting that I don't know enough about either to pick a stance. 
 There’s something here. I sometimes like the superposition of things, which is what quantum mechanics is based on. I like when people can hold multiple truths — the [nuance](https://shlokamohanty.github.io/i-write-sometimes/2026/05/12/complexity-for-complexity-sake.html).
 
 I think I'm drawn to things where multiple interpretations stay open-ended. So maybe that's why I like words? Maybe that's why I like research, because you sometimes end up with more questions? I think I like depth and openness. Like, black holes? I like the word 'sometimes', I think.
+
+Sometimes, this open-endedness is what is scary. Thus, anxiety. It comes back to:
+
+Can I practice letting myself feel things, **open-endedly**, without immediately structuring it? Can I let myself feel the emotions that are hidden and masked as anxiety? Can I look at that with awe rather than anxiety?
+
+How do I let myself just feel? Can I trust my gut?
+
+I can be uncertain with thinking, but not with feeling, I think.

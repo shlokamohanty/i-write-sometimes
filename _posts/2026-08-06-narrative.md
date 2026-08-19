@@ -34,7 +34,7 @@ This isn't making enough sense to me. Time to root it in physics and philosophy 
 
 ---
 
-There's a better way to approach this. Looking at it from determinism and prediction. I was under the impression that, maybe, life is deterministic. ~~True~~Maybe, it is. The structure of thoughts and methodologies thus helps. But I'm merely an observer. Maybe my future is determined, but as an observer, I can't make predictions. ~~Even the most~~ Some deterministic systems cannot be predicted. Chaos isn't randomness. It is a deterministic system being unpredictable.
+There's a better way to approach this. Looking at it from determinism and prediction. I was under the impression that, maybe, life is deterministic. ~~True~~ Maybe, it is. The structure of thoughts and methodologies thus helps. But I'm merely an observer. Maybe my future is determined, but as an observer, I can't make predictions. ~~Even the most~~ Some deterministic systems cannot be predicted. Chaos isn't randomness. It is a deterministic system being unpredictable.
 
 On reading further, there are two things: Epistemic uncertainty and ontological uncertainty. Referring https://dictionary.helmholtz-uq.de/content/types_of_uncertainty.html
 
