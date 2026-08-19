@@ -6,27 +6,25 @@ date: 2026-08-18
 tags: personal-reflection
 ---
 
-When Megan visited me, I was explaining to her what determinism is. She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'why' questions.
+When Megan visited me, I was explaining to her what determinism is. I started learning about determinism more so, when I was working on ['Baryon Asymmetry'](https://shlokamohanty.github.io/i-write-sometimes/2026/03/18/on-junoon-and-fitoor.html). She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'how' and 'why' questions.
 
 > _1. [Definition](https://inters.org/determinism-indeterminism)._ "Determinism" is commonly understood as the thesis that «the laws which govern the universe (or a subsystem), together with the appropriate initial conditions, uniquely determine the entire time evolution of the universe (or subsystem)». "Indeterminism" is the negation of this thesis.
 
-And I realised that, because of my lack of knowledge, I assumed physics works on determinism, when in fact, only certain parts of physics do. I'm just a silly girl who keeps making these one-to-many-assumptions.
+And I realised that, because of my lack of knowledge, I assumed most of physics is built on determinism, when in fact only certain parts of physics are, like classical physics and mechanics, which I don't really enjoy. I'm just a silly girl who keeps making these one-to-many-assumptions.
 
 Quantum mechanics is rooted in indeterminism. It is probabilistic.
 
-As per indeterminism, the future is not fixed by the past. That there is true randomness.
+As per indeterminism, the future is not fixed by the past. That, maybe, there is true randomness.
 
 Einstein was a determinist. He bridged classical and relativistic physics.
 
-From what I've learnt in undergrad, I think, I like quantum mechanics over classical physics and relativistic physics.
-
-> [Aleatoric uncertainty](https://en.wikipedia.org/wiki/Uncertainty_quantification#Aleatoric_and_epistemic_uncertainty) is also known as stochastic uncertainty, and is representative of unknowns that differ each time we run the same experiment. For example, a single arrow shot with a mechanical bow that exactly duplicates each launch (the same acceleration, altitude, direction and final velocity) will not all impact the same point on the target due to random and complicated vibrations of the arrow shaft, the knowledge of which cannot be determined sufficiently to eliminate the resulting scatter of impact points.
+From what I've learnt in undergrad, I think I like quantum mechanics over classical physics and relativistic physics. I don't know why, in undergrad, I scored a B in my class that covered classical and relativistic physics, whereas in the class that covered quantum mechanics, I scored an A. I never enjoyed the classical and relativistic physics problems. I don't know why physicality didn't really resonate with me. However, it was easier to imagine the quantum world, the subatomic particles, and their interactions. Funny that I don't like working with things at scale, but things that cannot be seen, really. Maybe I was onto something with my energy class [reflection](https://shlokamohanty.github.io/i-write-sometimes/2026/03/24/thoughts-from-energy-discussion.html).
 
 Well, if I look at things, based on my understanding of the 'Uncertainty Principle' and the limited understanding of indeterminism, then
 
-> The future is aleatoric. 
+> Is the future epistemic? Maybe, I don't know, if time closes the gap.
 
 So, I don't know if I'm a proponent of determinism or not, truly. But indeterminism accepts that maybe the universe at its core is uncertain.
 
-I end this by accepting that I don't know enough about either to pick a stance. I want to read more. The irony of ending this in uncertainty.
+I end this by accepting that I don't know enough about either to pick a stance. I want to read more. The irony of ending this in [uncertainty](https://shlokamohanty.github.io/i-write-sometimes/2026/08/06/narrative.html).
 

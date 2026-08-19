@@ -40,6 +40,8 @@ On reading further, there are two things: Epistemic uncertainty and ontological 
 
 > Epistemic uncertainty arises from a lack of knowledge about the system or phenomenon of interest.
 
+> [Ontology](https://en.wikipedia.org/wiki/Ontology) is the study of being.
+
 > Ontological uncertainty is unrecognized and unquantifiable — I don't know what I don't know.
 
 `Future is epistemic. The gap will be answered with time. What I know about people is ontological.` 
