@@ -29,3 +29,5 @@ So, I don't know if I'm a proponent of determinism or not, truly. But indetermin
 I end this by accepting that I don't know enough about either to pick a stance. I want to read more. The irony of ending this in [uncertainty](https://shlokamohanty.github.io/i-write-sometimes/2026/08/06/narrative.html).
 
 There’s something here. I sometimes like the superposition of things, which is what quantum mechanics is based on. I like when people can hold multiple truths — the [nuance](https://shlokamohanty.github.io/i-write-sometimes/2026/05/12/complexity-for-complexity-sake.html).
+
+I think I'm drawn to things where multiple interpretations stay open-ended.
