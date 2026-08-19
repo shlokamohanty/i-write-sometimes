@@ -30,4 +30,4 @@ I end this by accepting that I don't know enough about either to pick a stance. 
 
 There’s something here. I sometimes like the superposition of things, which is what quantum mechanics is based on. I like when people can hold multiple truths — the [nuance](https://shlokamohanty.github.io/i-write-sometimes/2026/05/12/complexity-for-complexity-sake.html).
 
-I think I'm drawn to things where multiple interpretations stay open-ended. So maybe that's why I like poetry and the meaning behind words? Maybe that's why I like research, because you sometimes end up with more questions? I think I like depth and openness. Like, black holes?
+I think I'm drawn to things where multiple interpretations stay open-ended. So maybe that's why I like words? Maybe that's why I like research, because you sometimes end up with more questions? I think I like depth and openness. Like, black holes?
