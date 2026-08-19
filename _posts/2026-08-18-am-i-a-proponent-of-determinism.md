@@ -3,7 +3,7 @@ layout: post
 title: "am i a proponent of determinism, really?"
 subtitle: ""
 date: 2026-08-18
-tags: personal-ongoing
+tags: personal-reflection
 ---
 
 When Megan visited me, I was explaining to her what determinism is. She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'why' questions.
