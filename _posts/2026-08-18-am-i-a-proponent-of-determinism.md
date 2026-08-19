@@ -10,7 +10,7 @@ When Megan visited me, I was explaining to her what determinism is. She asked me
 
 > _1. [Definition](https://inters.org/determinism-indeterminism)._ "Determinism" is commonly understood as the thesis that «the laws which govern the universe (or a subsystem), together with the appropriate initial conditions, uniquely determine the entire time evolution of the universe (or subsystem)». "Indeterminism" is the negation of this thesis.
 
-And, I realised, because of my lack of knowledge, I assumed physics works on determinism, when in fact, it is only certain parts of physics. I'm just a silly girl who keeps making these one-is-to-many-assumptions.
+And I realised that, because of my lack of knowledge, I assumed physics works on determinism, when in fact, only certain parts of physics do. I'm just a silly girl who keeps making these one-to-many-assumptions.
 
 Quantum mechanics is rooted in indeterminism. It is probabilistic.
 
