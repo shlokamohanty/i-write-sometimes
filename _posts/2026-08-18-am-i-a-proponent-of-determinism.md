@@ -6,7 +6,7 @@ date: 2026-08-18
 tags: personal-reflection
 ---
 
-When Megan visited me, I was explaining to her what determinism is. I started learning about determinism more so, when I was working on ['Baryon Asymmetry'](https://shlokamohanty.github.io/i-write-sometimes/2026/03/18/on-junoon-and-fitoor.html). She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'how' and 'why' questions.
+When Megan visited me, I was explaining to her what determinism is. I started learning about determinism more so, when I was working on ['Baryon Asymmetry'](https://shlokamohanty.github.io/i-write-sometimes/2026/03/18/on-junoon-and-fitoor.html). I read about it a bunch before too, but for some reason, I didn’t think about it. Before coming into ITP, I think that when I used to read and learn, sometimes, I absorbed things at the surface without really trying to get them. Like, I’m reading words, but I’m not thinking about them, and I’m sometimes speaking words without really knowing the meaning truly. She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'how' and 'why' questions. 
 
 > _1. [Definition](https://inters.org/determinism-indeterminism)._ "Determinism" is commonly understood as the thesis that «the laws which govern the universe (or a subsystem), together with the appropriate initial conditions, uniquely determine the entire time evolution of the universe (or subsystem)». "Indeterminism" is the negation of this thesis.
 
@@ -28,14 +28,14 @@ So, I don't know if I'm a proponent of determinism or not, truly. But indetermin
 
 I end this by accepting that I don't know enough about either to pick a stance. I want to read more. The irony of ending this in [uncertainty](https://shlokamohanty.github.io/i-write-sometimes/2026/08/06/narrative.html). Even physicists remain split about determinism and indeterminism. The solution, funny enough, then would be 'Theory of Everything'.
 
-There’s something here. I sometimes like the superposition of things, which is what quantum mechanics is based on. I like when people can hold multiple truths — the [nuance](https://shlokamohanty.github.io/i-write-sometimes/2026/05/12/complexity-for-complexity-sake.html).
+There’s something here. I sometimes like the superposition of things, which is what quantum mechanics is based on. I like when people can hold multiple truths — the [nuance](https://shlokamohanty.github.io/i-write-sometimes/2026/05/12/complexity-for-complexity-sake.html). 
 
-I think I'm drawn to things where multiple interpretations stay open-ended. So maybe that's why I like words? Maybe that's why I like research, because you sometimes end up with more questions? I think I like depth and openness. Like, black holes? I like the word 'sometimes', I think.
+I think I'm drawn to things where multiple interpretations stay open-ended. So maybe that's why I like words? Maybe that's why I like research, because you sometimes end up with more questions? I think I like depth and openness. Like, black holes? I like the word 'sometimes', I think. I wonder.
 
-Sometimes, this open-endedness is what is scary. Thus, anxiety. It comes back to:
+Sometimes, this open-endedness is what is scary. I like vastness when it's outward, but when it's inward with my feelings, it leads to anxiety. It comes back to:
 
-Can I practice letting myself feel things, **open-endedly**, without immediately structuring it? Can I let myself feel the emotions that are hidden and masked as anxiety? Can I look at that with awe rather than anxiety?
+Can I practice letting myself feel things, **open-endedly**, without immediately structuring it? Can I let myself feel what's ~~the emotions that are~~ hidden and masked as anxiety? Can I look at that with awe rather than anxiety?
 
-How do I let myself just feel? Can I trust my gut?
+How do I let myself just feel? Can I trust my gut, it is a measurement device after all.
 
 I can be uncertain with thinking, but not with feeling, I think.
