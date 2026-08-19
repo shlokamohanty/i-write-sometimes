@@ -12,13 +12,13 @@ When Megan visited me, I was explaining to her what determinism is. I started le
 
 And I realised that, because of my lack of knowledge, I assumed most of physics is built on determinism, when in fact only certain parts of physics are, like classical physics and mechanics, which I don't really enjoy. I'm just a silly girl who keeps making these one-to-many-assumptions.
 
-Quantum mechanics is rooted in indeterminism. It is probabilistic.
+Quantum mechanics is usually rooted in indeterminism. It is probabilistic.
 
 As per indeterminism, the future is not fixed by the past. That, maybe, there is true randomness.
 
 Einstein was a determinist. He bridged classical and relativistic physics.
 
-From what I've learnt in undergrad, I think I like quantum mechanics over classical physics and relativistic physics. I don't know why, in undergrad, I scored a B in my class that covered classical and relativistic physics, whereas in the class that covered quantum mechanics, I scored an A. I never enjoyed the classical and relativistic physics problems. I don't know why physicality didn't really resonate with me. However, it was easier to imagine the quantum world, the subatomic particles, and their interactions. Funny that I don't like working with things at scale, but things that cannot be seen, really. Maybe I was onto something with my energy class [reflection](https://shlokamohanty.github.io/i-write-sometimes/2026/03/24/thoughts-from-energy-discussion.html).
+From what I've learnt in undergrad, I think I like quantum mechanics over classical physics and relativistic physics. I don't know why, in undergrad, I scored a B in my class that covered classical and relativistic physics, whereas in the class that covered quantum mechanics, I scored an A. I never enjoyed the classical and relativistic physics problems. I also didn’t enjoy when I was tutoring mechanics in undergrad. I don't know why physicality didn't really resonate with me. However, it was easier to imagine the quantum world, the subatomic particles, and their interactions. Funny that I don't like working with things at scale, but things that cannot be seen, really. Maybe I was onto something with my energy class [reflection](https://shlokamohanty.github.io/i-write-sometimes/2026/03/24/thoughts-from-energy-discussion.html).
 
 Well, if I look at things, based on my understanding of the 'Uncertainty Principle' and the limited understanding of indeterminism, then
 
@@ -28,3 +28,4 @@ So, I don't know if I'm a proponent of determinism or not, truly. But indetermin
 
 I end this by accepting that I don't know enough about either to pick a stance. I want to read more. The irony of ending this in [uncertainty](https://shlokamohanty.github.io/i-write-sometimes/2026/08/06/narrative.html).
 
+There’s something here. I sometimes like the superposition of things, which is what quantum mechanics is based on. I like when people can hold multiple truths — the [nuance](https://shlokamohanty.github.io/i-write-sometimes/2026/05/12/complexity-for-complexity-sake.html).
