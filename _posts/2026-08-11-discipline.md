@@ -74,16 +74,20 @@ Another goal for next semester is focusing on learning, rather than finishing pr
 
 So maybe, Sundays and Wednesdays would remain my cooking days. Wednesdays/Thursdays are also Pratt days, most likely. I have to GA on Wednesdays. And Wednesdays could also be forced break nights, maybe?
 
+**GA is 4 hours a week.**
+
 Most likely dropping 'On Becoming' and 'Medium of Memory'. I'll know that better during the 'Add/Drop' period.
 
 Hopefully, I can get myself into the waitlist for ‘Computational Approaches to Narrative’. That’s the most important one.
 
 Got on the waitlist for 'Prototyping Electronic Devices' and ‘Time’. It ties in better with my thesis. Dropped out of the 'NIME' waitlist. I don't want to put so much energy into building an instrument. Especially now that my thesis idea has evolved so much. I also need to set aside writing time.
 
-I do want to take a music class once during my time at ITP, though, more for personal reasons - getting over trauma, or ‘healing’, I suppose. It will be during spring. Do not want to do ‘Code of Music’, though. Maybe 'Sound Studio', since it matches the number of credits that I need to do then, but it's too technical.
+~~I do want to take a music class once during my time at ITP, though, more for personal reasons - getting over trauma, or ‘healing’, I suppose. It will be during spring. Do not want to do ‘Code of Music’, though. Maybe 'Sound Studio', since it matches the number of credits that I need to do then, but it's too technical. This doesn't need to be thought through right now.~~
 
 ~~The question of USL next semester, and whether it will be for credits, lingers. I’d rather do it for credits than as a job, or else it’s a lot of work.~~ 
 Unfortunately, I can't do it for credits, but it's okay. I will make time for it. There are a lot of pros to it. And it’s good that, with the grant right now, the summer money that I’ve earned and will also earn in the fall, as well as the scholarship, it’ll help reduce the costs of the thesis. 
+
+**USL is 5-10 hours a week.**
 
 So, I’m also slower at learning than most people in my cohort. But, I also I need to work with more patience. Focus on learning for the thesis, and in general, I'll never have the opportunity to learn this much or access these resources, so I might as well make the most of it. USL days could also be reading-studying at Bobst days, as I do during the summer. 
 
