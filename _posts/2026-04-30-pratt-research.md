@@ -9,6 +9,8 @@ tags:
 
 Formulating a research question: researching how illustrators make choices about what to emphasize, omit, and preserve.
 
+https://colab.research.google.com/github/BreakoutMentors/Data-Science-and-Machine-Learning/blob/main/machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_CNNs.ipynb
+
 More Notes:
 Uzma said that the drawings in the museum accession cards, can be made by another person, while someone is dictating. So there is a power dynamic there
 CNN for image processing for signature and image analysis for more quantitative analysis 
