@@ -16,7 +16,7 @@ Uzma said that the drawings in the museum accession cards, can be made by anothe
 CNN for image processing for signature and image analysis for more quantitative analysis 
 A coding protocol for qualitative analysis
 
-i found this class: https://artandarchaeology.princeton.edu/whats/news/students-art-407-explore-archaeology-through-drawing
+I found this class: https://artandarchaeology.princeton.edu/whats/news/students-art-407-explore-archaeology-through-drawing
 
 reading list from the class:
 - C. Renfrew and P. Bahn, Archaeology: Theories, Methods, Practices
@@ -160,4 +160,6 @@ https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/view/161/242
 - "scientific" and "objective" drawings have their own conventions and blind spots
 - gestural drawings, as a form, embrace subjectivity as a source of knowledge than trying to escape it
 - a coding scheme can try to formalise what illustrators do intuitively
-- 
+
+
+## Possible Methodology 
