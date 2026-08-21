@@ -6,7 +6,7 @@ date: 2026-08-18
 tags: personal-reflection
 ---
 
-When Megan visited me, I was explaining to her what determinism is. I started learning about determinism more so, when I was working on ['Baryon Asymmetry'](https://shlokamohanty.github.io/i-write-sometimes/2026/03/18/on-junoon-and-fitoor.html). I read about it a bunch before too, but for some reason, I didn’t think about it. Before coming into ITP, I think that when I used to read and learn, sometimes, I absorbed things at the surface without really trying to get them. Like, I’m reading words, but I’m not thinking about them, and I’m sometimes speaking words without really knowing the meaning truly. She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'how' and 'why' questions. 
+When Megan visited me, I was explaining to her what determinism is. I started learning about determinism more when I was working on ['Baryon Asymmetry'](https://shlokamohanty.github.io/i-write-sometimes/2026/03/18/on-junoon-and-fitoor.html). I read about it a bunch before too, but for some reason, I didn’t think about it. Before coming into ITP, when I used to read and learn, sometimes I absorbed things at a surface-level without really trying to get them, I think. I’m reading words, but I’m not thinking about them, and sometimes, I’m speaking words without really knowing the meaning truly. Maybe that’s the difference between information and knowledge. She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'how' and 'why' questions.
 
 > _1. [Definition](https://inters.org/determinism-indeterminism)._ "Determinism" is commonly understood as the thesis that «the laws which govern the universe (or a subsystem), together with the appropriate initial conditions, uniquely determine the entire time evolution of the universe (or subsystem)». "Indeterminism" is the negation of this thesis.
 
@@ -14,7 +14,7 @@ And I realised that, because of my lack of knowledge, I assumed most of physics 
 
 Quantum mechanics is usually rooted in indeterminism. It is probabilistic.
 
-As per indeterminism, the future is not fixed by the past. That, maybe, there is true randomness.
+As per indeterminism, the future is not fixed by the past. That, maybe, there is true randomness. That, in my opinion, is rather optimistic. I don’t think I’m as much of an optimist, maybe, well, it is neutrality, but I’m just looking astounded by the optimism, being an option, in this case. 
 
 Einstein was a determinist. He bridged classical and relativistic physics.
 
