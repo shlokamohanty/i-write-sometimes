@@ -3,7 +3,7 @@ layout: post
 title: "form and subject"
 subtitle: ""
 date: 2026-08-16
-tags: practice-ongoing
+tags: interests-ongoing
 ---
 
 I took an 'Introduction to Art' class in undergrad, and I forgot a lot about that class, but Megan reminded me of it. We both took the class at different times. realised over the weekend that I should go over my notes for that class.

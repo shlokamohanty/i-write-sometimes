@@ -178,7 +178,9 @@ Blackhole information loss paradox.
 
 Aristotle's vacuum.
 
-**How can you approach anxiety with awe?**
+---
+
+I think for my thesis, I want to work on the feeling of awe. In fact, the edge of it. Anxiety and awe are quite interlinked.
 
 ## mechanics
 
@@ -188,7 +190,7 @@ learning more about neuroscience and computation using the flower that i made in
 
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
-> I think this still has poetic potential because the 'Sun' is a star, and the blackhole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness?
+> I think this still has poetic potential because the 'Sun' is a star, and the black hole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness? Actually, after thinking through yesterday, working with solar power makes a lot of sense for me.
 
 > ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~ 
 
@@ -201,7 +203,7 @@ physical mechanisms:
 
 > When I went to MoMa last December, I really liked https://www.moma.org/calendar/exhibitions/5768. It was also inspired by drawings.
 
-> I think my initial form factor of 'Rewiring Connections' and NIME idea was interesting. Although now, looking at where my thesis is headed and at my NIME idea being a version of the brain idea, maybe I don't want to do NIME. I should incorporate things from that idea here.
+> I think my initial form factor of 'Rewiring Connections' and NIME idea was interesting. ~~Although now, looking at where my thesis is headed and at my NIME idea being a version of the brain idea, maybe I don't want to do NIME.~~ I should incorporate things from that idea here.
 
 > I need to lean more into how to make this a playful object.
 
@@ -209,7 +211,7 @@ physical mechanisms:
 
 > I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
 
-> I thought I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It’s rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off.
+> I thought I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It’s rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off. Or maybe I do?
 
 > While starting writing the stories, I thought to myself, about how I said I wouldn't be able to pull off a writing thesis. But, I'm thinking back to when I started writing response letters to the 'Kiara' letters. From Luna to Sun. And I wanted to use Markov chains to show how the memories become similar eventually. I do like that as a text-based technique here.
 
@@ -244,15 +246,17 @@ I want to come back to the 'analysis' part. Something about this has data writte
 
 > Note to myself - Don’t go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
 
-> Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. 
+> Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. At least now, I understand what it means for me, I think.
 
-> With the black holes essay that I'm working on, I think the interaction could be tied to distance. If my thesis is about sensory experiences, then the interaction should be tied to that.
+> ~~With the black holes essay that I'm working on, I think the interaction could be tied to distance. If my thesis is about sensory experiences, then the interaction should be tied to that.~~
 
-> What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?
+> ~~What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?~~
 
 > Kid Shloka wanted to study astrophysics and filmmaking. I like filmmaking, clearly. But something about it within ITP actually ruined it for me. I don't like the motion capture stuff, or the new-media filmmaking technology, projection mapping, VR, and all of that. I made 'Puppet Hands' on my phone. Then, I just used Procreate to do the mixed-media part. And I think that is still one of my best works. I just got thread and some fake flowers from Michaels. I barely spent anything. 
 
 > Thematically, these forms show some aspects of decay, degradation, and repetition with variation. Most of my projects from last semester actually circled around the same theme. This is a good thing to latch onto, with the question of interaction.
+
+> I really like Rohini Devasher's [work](https://www.rohinidevasher.com/).
 
 ###  story devices and early animation devices (?)
 
