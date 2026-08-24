@@ -14,7 +14,7 @@ Raviya pointed out that I act like I don’t care about food, but sometimes I do
 
 One of my favorite movies is ‘Chef,’ but I like the Hindi version. I never really watched the English version. 
 
-I think my next thesis story is going to be about this. I guess, similar to the 'oranges' essay, but written with a lot more awe and more focused on my bodily feelings rather than relational dynamics. I don't write those well. I think I'm quite a sensory-sensitive person, actually, so stories focused on that work. I found the concept! It'll be Schrödinger's cat. Purposely, write this with a lot of hedging, ahhh — that's going to be so annoying to read. Nowadays, I deeply thoroughly enjoy hedging on purpose.
+I think my next thesis story is going to be about this. I guess, similar to the 'oranges' essay, but written with a lot more awe and more focused on my bodily feelings rather than relational dynamics. I don't write those well. I think I'm quite a sensory-sensitive person, actually, so stories focused on that work. I found the concept! It'll be Schrödinger's cat. Purposely, write this with a lot of hedging, ahhh — that's going to be so annoying to read. Nowadays, I thoroughly enjoy hedging on purpose.
 
 ---
 
