@@ -14,7 +14,7 @@ And I realised that, because of my lack of knowledge, I assumed most of physics 
 
 Quantum mechanics is usually rooted in indeterminism. It is probabilistic.
 
-As per indeterminism, the future is not fixed by the past. That, maybe, there is true randomness. That, in my opinion, is rather optimistic. I don’t think I’m as much of an optimist, maybe, well, it is neutrality, but I’m just looking astounded by the optimism, being an option, in this case. 
+As per indeterminism, the future is not fixed by the past. That, maybe, there is true randomness. That, in my opinion, is rather optimistic. I don’t think I’m much of an optimist; actually, it's neutrality, rather, I think, but I’m just astounded by the optimist option in this case.
 
 Einstein was a determinist. He bridged classical and relativistic physics.
 
