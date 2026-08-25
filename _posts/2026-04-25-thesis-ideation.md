@@ -184,15 +184,33 @@ I think for my thesis, I want to work on the feeling of awe. In fact, the edge o
 
 ## mechanics
 
+### miscellaneous
+
 learning more about neuroscience and computation using the flower that i made in 'Energy' as a way to connect my interests in physical computing and illustration.
 
 ~~putting another marker on the memories to note when I was on amitriptyline and when I wasn't for 100 days.~~
 
+---
+
+### doubts
+
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
-> I think this still has poetic potential because the 'Sun' is a star, and the black hole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness? Actually, after thinking through yesterday, working with solar power makes a lot of sense for me.
+> I think I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It's rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off. Or maybe I do?
 
-> ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~ 
+There's not much point in form if I don't have stories to tell yet. I have concepts that I want to explore. But I don't have stories yet, or an idea of how they sound. I can't gauge otherwise. But, there is something about radio-telescope as a form? Because, these are cosmic stories, right? There is something there, I think. The form. The distance.
+
+> Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. At least now, I understand what it means for me, I think.
+
+> ~~With the black holes essay that I'm working on, I think the interaction could be tied to distance. If my thesis is about sensory experiences, then the interaction should be tied to that.~~
+
+> ~~What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?~~
+
+> Note to myself - Don't go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
+
+---
+
+### physical mechanisms & form
 
 physical mechanisms:
 
@@ -207,11 +225,25 @@ physical mechanisms:
 
 > I need to lean more into how to make this a playful object.
 
-> Ideas I’m toying with are the need for control and anxiety. So the time machine has control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
+I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex.
 
-> I think back to my undergrad projects. think back to the movies that I’ve been mesmerised by. They are all sci-fi like ‘Omni Loop’, ‘Everything Everywhere All At Once’, ‘Spiderman’. I should lean into that form of storytelling.
+#### story devices and early animation devices (?)
 
-> I thought I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It’s rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off. Or maybe I do?
+- https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
+- https://en.wikipedia.org/wiki/View-Master
+- Mutoscope
+
+---
+
+### themes: anxiety, storytelling
+
+> Ideas I'm toying with are the need for control and anxiety. So the time machine has control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
+
+> I think back to my undergrad projects. think back to the movies that I've been mesmerised by. They are all sci-fi like 'Omni Loop', 'Everything Everywhere All At Once', 'Spiderman'. I should lean into that form of storytelling.
+
+---
+
+### writing & text-based techniques
 
 > While starting writing the stories, I thought to myself, about how I said I wouldn't be able to pull off a writing thesis. But, I'm thinking back to when I started writing response letters to the 'Kiara' letters. From Luna to Sun. And I wanted to use Markov chains to show how the memories become similar eventually. I do like that as a text-based technique here.
 
@@ -219,50 +251,56 @@ physical mechanisms:
 
 > **While making the poetry generator, there was something that I thought of. My initial coding attempts were failing because there wasn't enough memory. So I had to make the loop work in a manner so it doesn't store the memory. It is fresh each time, which made me think of doing a project that is a commentary on memory and data. But it ties in heavily with data degradation.**
 
-I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex. 
+~~I've been trying to adapt from my past experiences, before moving to New York, and write it, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are: a cosmic wonder and a cosmic horror. I should maybe lean into it and finish writing, slowly. Then maybe change the voice. I'm feeling shy about publishing it even on this blog, as an ongoing thing. It's okay. Keeping it published. It's my thesis. I can keep rewriting. But the important thing is to write, so I know what visuals I want to show, and what it is thematically developing into, and the concept, once it's done.~~
 
-~~I've been trying to adapt from my past experiences, before moving to New York, and write it, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are: a cosmic wonder and a cosmic horror. I should maybe lean into it and finish writing, slowly. Then maybe change the voice. I’m feeling shy about publishing it even on this blog, as an ongoing thing. It's okay. Keeping it published. It's my thesis. I can keep rewriting. But the important thing is to write, so I know what visuals I want to show, and what it is thematically developing into, and the concept, once it's done.~~ 
-
-Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. Observation from a distance ties a lot with the whole concept of understanding. Signal being separated from noise. The beauty of talking, and listening to another person.
-
-~~Should it be different story devices?~~ ~~Then, can I incorporate the animation internship work as well? But are they thematically similar? And explain different things? I like the animation story. I wonder what it would be like if a video glitch device were such an interesting method to show that. Like a potentiometer, but it is the clock hand. Time machine. Actually, I could fit it into some class, or just do it as a project as is. I would have considered it in my thesis, but it's too abstract. I like the idea of story devices, but I want to use more real physics phenomena to convey and then make the devices.~~ 
+~~Should it be different story devices?~~ ~~Then, can I incorporate the animation internship work as well? But are they thematically similar? And explain different things? I like the animation story. I wonder what it would be like if a video glitch device were such an interesting method to show that. Like a potentiometer, but it is the clock hand. Time machine. Actually, I could fit it into some class, or just do it as a project as is. I would have considered it in my thesis, but it's too abstract. I like the idea of story devices, but I want to use more real physics phenomena to convey and then make the devices.~~
 
 ~~How do you design something that is purposely broken by function?~~
 
-There's not much point in form if I don't have stories to tell yet. I have concepts that I want to explore. But I don't have stories yet, or an idea of how they sound. I can't gauge otherwise. But, there is something about radio-telescope as a form? Because, these are cosmic stories, right? There is something there, I think. The form. The distance.
+---
+
+### astronomy inspiration & research
+
+> I think this still has poetic potential because the 'Sun' is a star, and the black hole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness? Actually, after thinking through yesterday, working with solar power makes a lot of sense for me.
+
+> ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~
+
+Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. Observation from a distance ties a lot with the whole concept of understanding. Signal being separated from noise. The beauty of talking, and listening to another person.
 
 https://public.nrao.edu/telescopes/radio-telescopes/
 
 'radio telescopes collect weak radio light waves, bring it to a focus, amplify it and make it available for analysis.'
 
-I want to come back to the 'analysis' part. Something about this has data written all over. There’s a play possible with story structures. 
-
-> this was interesting to me: https://rachaelnee.art/art-projects/coincidence/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaATg5H1wZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp7xg0YBRmqDeN4xlpqh-Tw6dXnbd33quxO1J6Lfh8SPldI2BZOj1Jizyu_Bx_aem_pmneXaeGXrrlp23Q5gBh-A
+I want to come back to the 'analysis' part. Something about this has data written all over. There's a play possible with story structures.
 
 > Looking into CMBR data
 
-> https://muonsortes.com/
-> it’s so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
+> https://muonsortes.com/ it's so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
 
-> Note to myself - Don’t go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
+---
 
-> Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. At least now, I understand what it means for me, I think.
+### personal / ITP reflections
 
-> ~~With the black holes essay that I'm working on, I think the interaction could be tied to distance. If my thesis is about sensory experiences, then the interaction should be tied to that.~~
-
-> ~~What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?~~
-
-> Kid Shloka wanted to study astrophysics and filmmaking. I like filmmaking, clearly. But something about it within ITP actually ruined it for me. I don't like the motion capture stuff, or the new-media filmmaking technology, projection mapping, VR, and all of that. I made 'Puppet Hands' on my phone. Then, I just used Procreate to do the mixed-media part. And I think that is still one of my best works. I just got thread and some fake flowers from Michaels. I barely spent anything. 
+> Kid Shloka wanted to study astrophysics and filmmaking. I like filmmaking, clearly. But something about it within ITP actually ruined it for me. I don't like the motion capture stuff, or the new-media filmmaking technology, projection mapping, VR, and all of that. I made 'Puppet Hands' on my phone. Then, I just used Procreate to do the mixed-media part. And I think that is still one of my best works. I just got thread and some fake flowers from Michaels. I barely spent anything.
 
 > Thematically, these forms show some aspects of decay, degradation, and repetition with variation. Most of my projects from last semester actually circled around the same theme. This is a good thing to latch onto, with the question of interaction.
 
-> I really like Rohini Devasher's [work](https://www.rohinidevasher.com/).
+---
 
-###  story devices and early animation devices (?)
+## references & precedents
 
+- https://www.newschool.edu/parsons/profile/lucia-daniel/ (physical mechanisms)
+- https://www.moma.org/calendar/exhibitions/5768 (MoMa, December)
+
+> this was interesting to me: https://rachaelnee.art/art-projects/coincidence/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaATg5H1wZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp7xg0YBRmqDeN4xlpqh-Tw6dXnbd33quxO1J6Lfh8SPldI2BZOj1Jizyu_Bx_aem_pmneXaeGXrrlp23Q5gBh-A
+
+- https://www.rohinidevasher.com/ (Rohini Devasher)
 - https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
 - https://en.wikipedia.org/wiki/View-Master
 - Mutoscope
+- https://public.nrao.edu/telescopes/radio-telescopes/
+- https://muonsortes.com/
+- https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf
 
 ## to do and questions
 

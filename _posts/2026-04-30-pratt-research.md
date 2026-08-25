@@ -9,9 +9,7 @@ tags:
 
 Formulating a research question: researching how illustrators make choices about what to emphasize, omit, and preserve.
 
-https://colab.research.google.com/github/BreakoutMentors/Data-Science-and-Machine-Learning/blob/main/machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_CNNs.ipynb
-
-More Notes:
+## General Notes:
 Uzma said that the drawings in the museum accession cards, can be made by another person, while someone is dictating. So there is a power dynamic there
 CNN for image processing for signature and image analysis for more quantitative analysis 
 A coding protocol for qualitative analysis
@@ -21,10 +19,13 @@ I found this class: https://artandarchaeology.princeton.edu/whats/news/students-
 reading list from the class:
 - C. Renfrew and P. Bahn, Archaeology: Theories, Methods, Practices
 - B. L. Molyneaux, The Cultural Life of Images: Visual Representation in Arch.
-- C. Meyer and A. Petsalis-Diomidis, Drawing the Greek Vase: Visual Conversations in Art and Arch
+- ==C. Meyer and A. Petsalis-Diomidis, Drawing the Greek Vase: Visual Conversations in Art and Arch==
 - J. Papadopoulos, The Art of Antiquity: Piet de Jong and the Athenian Agora
 - Massimo Scholari, Oblique Drawing: A History of Antiperspective
-- Stuart Piggott, Antiquity Depicted: Aspects of Archaeological Illustration
+- ==Stuart Piggott, Antiquity Depicted: Aspects of Archaeological Illustration==
+
+## CNN
+https://colab.research.google.com/github/BreakoutMentors/Data-Science-and-Machine-Learning/blob/main/machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_CNNs.ipynb
 
 ## More from the Princeton Course Article
 - "Drawing as a tool of observation that requires you to pause and really look at an object"
@@ -143,17 +144,21 @@ line -> hand -> senses -> person
 - drawing as a method of communication
 
 ## Theories and Practice in Museums of Pakistan
-
 https://www.aasaar.org/wp-content/uploads/2020/09/Theories-and-Practice-in-Museums-of-Pakistanthe-Past-Present-and-Futureof-Museo-Movement.pdf
 
+- Indian munshies(writers) to anthropological, archaeological, geographical, topographical, and survey
+- followed a European model of museums as state institutions 
+- museum like models in the subcontinent
+    - manuscripts, mosques, monasteries, Chitrasala (house of paintings), Chitravanthi (religious tourism), Sarawatibhandar (literature), house of Karkahana (skills/products), etc.
+- museums are now non-profit
 ## South Asia Collections at The Met: A Preliminary Computational Look
-
 https://rrchnm.org/blog/exploring-south-asia-at-the-met-through-data/
 
+- its a form of metadata
+- record of how an institution decided what South Asia was, who got to decide that, and when those decisions were made
+- record of decisions about what to accept, and from whom
 ## Drawn to See: Drawing as an Ethnographic Method by Andrew Causey
-
 https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/view/161/242
-
 
 - every representation is an act of interpretation, there's no neutral transcription
 - the illustrator may not be the same person as the source, and this gap in itself is a form of a power dynamic
@@ -161,5 +166,10 @@ https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/view/161/242
 - gestural drawings, as a form, embrace subjectivity as a source of knowledge than trying to escape it
 - a coding scheme can try to formalise what illustrators do intuitively
 
+## Notes from call with Samuel Holzman
+
 
 ## Possible Methodology 
+- formulate a research question and a coding protocol
+- go over the museum accession cards following the coding protocol for qualitative analysis
+- come up with a CNN algorithm for image processing for signature and image analysis for qualitative analysis
