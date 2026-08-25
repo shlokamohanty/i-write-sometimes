@@ -4,7 +4,7 @@ title: personal statements
 subtitle: ""
 date: 2026-06-29
 tags:
-  - work-ongoing
+published: false
 ---
 
 ~~AHHHH! So annoyed. What am I, a stupid kid or what? I do like some of my ITP projects. But, like, what even, feel like I've just become dumber. I didn't even know that was possible. What happened to me this year? I lost it. Ugh, I acted ridiculously this whole year. Became delusional, honestly. I'm a mature, direct, and a clear person. How did I behave the way I did? What even. AGHHH! I'm embarrassed, ashamed, upset, disappointed at myself. Brother. What did I do?~~
