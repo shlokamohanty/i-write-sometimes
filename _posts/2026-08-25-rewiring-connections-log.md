@@ -6,7 +6,7 @@ date: 2026-08-25
 tags: personal-reflection
 ---
 
-I decided to archive my ‘Rewiring Connections’ log. This blog is quite personal, and I suppose only a few people are actually reading it. I use it for myself. I didn’t like the fact that on Substack I could look at the viewership, and I developed a weird relationship with it. It became a feedback loop. I probably gave myself the views every time I opened the log. Felt like a performance.
+I decided to archive my ‘Rewiring Connections’ log. I suppose it became my microblog. I prefer long-form writing over short-form. Even though, this blog is quite personal, and I suppose only a few people are actually reading it. I use it for myself. I didn’t like the fact that on Substack I could look at the viewership, and I developed a weird relationship with it. It became a feedback loop. I probably gave myself the views every time I opened the log. Felt like a performance.
 
 But writing here is more honest. Lower stakes, because I can’t really see the traffic. But it is still public. It’s, in some manner, holding myself accountable. 
 
