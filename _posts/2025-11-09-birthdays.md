@@ -5,7 +5,10 @@ subtitle: "existential crisis of birthdays."
 date: 2025-11-09
 tags: personal-reflection
 published: true
-mood: [raw, proud, vulnerable]
+mood: mood:
+  - proud
+  - raw
+  - vulnerable
 ---
 
 

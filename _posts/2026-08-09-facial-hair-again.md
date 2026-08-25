@@ -5,7 +5,11 @@ subtitle: wiser
 date: 2026-08-09
 tags: writings
 form: prose
-mood: [spill, proud, raw, vulnerable]
+mood:
+  - spill
+  - proud
+  - raw
+  - vulnerable
 ---
 
 Shloka, it’s time to shave again.
