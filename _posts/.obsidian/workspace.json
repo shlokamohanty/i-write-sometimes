@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-03-24-rewiring-connections.md",
+                "file": "2026-08-25-do-i-make-for-myself-or-others.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-03-24-rewiring-connections"
+              "title": "2026-08-25-do-i-make-for-myself-or-others"
+            }
+          },
+          {
+            "id": "1e274308019f4725",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-08-25-rewiring-connections-log.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-08-25-rewiring-connections-log"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,8 +200,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "9dcd877a8e9782b3",
+  "active": "1e274308019f4725",
   "lastOpenFiles": [
+    "2026-08-25-do-i-make-for-myself-or-others.md",
+    "2026-08-25-rewiring-connections-log.md",
+    "2026-03-24-rewiring-connections.md",
+    "2026-02-16-what-do-you-do-alone-in-your-room.md",
+    "2026-02-15-what-i-want-to-do.md",
+    "2026-02-11-and-they-were-roommates..md",
+    "2026-02-10-you-me-and-them.md",
+    "2026-01-12-eyrah-lua.md",
+    "2026-01-09-man-friday.md",
+    "2026-08-25-autoethnography.md",
+    "2026-08-24-curiosity-and-wonder.md",
     "2026-05-30-a-letter-to-you-from-the-sun.md",
     "2026-05-02-pain-of-my-phantom-limb.md",
     "2026-03-06-computational-poetry.md",
@@ -194,25 +220,14 @@
     "2026-04-13-memory-n-grams.md",
     "2026-03-28-xenon.md",
     "2026-03-20-letter.md",
-    "2026-03-24-rewiring-connections.md",
     "2026-03-18-on-junoon-and-fitoor.md",
     "2026-03-01-relationships.md",
-    "2026-02-11-and-they-were-roommates..md",
     "2026-01-03-subway.md",
-    "2026-08-25-autoethnography.md",
-    "2026-08-25-do-i-make-for-myself-or-others.md",
     "2026-08-18-am-i-a-proponent-of-determinism.md",
     "2026-08-16-first-day-as-a-human-syndrome.md",
     "2026-08-12-thesis-story-4.md",
     "2026-08-11-discipline.md",
     "2026-08-09-facial-hair-again.md",
-    "2026-08-07-victimisation.md",
-    "2026-08-06-narrative.md",
-    "2026-08-05-knowledge.md",
-    "2026-07-29-thesis-story-3.md",
-    "2026-07-22-social-energy.md",
-    "2026-07-29-thesis-story-2.md",
-    "2026-06-01-circuits.md",
     "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.base",
