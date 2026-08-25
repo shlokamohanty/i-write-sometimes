@@ -2,7 +2,7 @@
 layout: post
 title: "qualms with curiosity, wonder, organization systems, anxiety, and python"
 subtitle: ""
-date: 2026-08-21
+date: 2026-08-24
 tags: personal-reflection
 ---
 
