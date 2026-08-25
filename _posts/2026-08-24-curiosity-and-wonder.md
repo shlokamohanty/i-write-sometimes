@@ -30,6 +30,10 @@ Strangely enough, I learnt earlier that epistemic uncertainty also arises from a
 
 ---
 
-All of this stems from a shower thought. As I was showering, I was thinking about the nature of anxiety in general. 
+I’ve been much less anxious than I’ve ever been. But I’m currently going through a pretty hefty depression spell that started yesterday, after finding out my mom is in the ICU. A situation like this would have maybe made me extremely anxious, but now I’m letting myself sit in sadness, I think. Doing this helps. And as I was showering, I was thinking about the nature of anxiety in general. I thought about my need to make backup plans. Sometimes, I think backup plans are just like if/else loops.
 
-I’ve been thinking extensively about Python as a coding language, like my recurring thoughts about words. 
+And then I thought of indentation in Python and how I like it. But a contradictory thought simultaneously comes up, which is that it forces a structure, and Jupyter Notebook, as an environment, also indents automatically after using ‘:’. The environment itself anticipates. I suppose Madison, as an environment, is quite anticipatory too, a bubble. Python, as a language itself, makes a lot of decisions for you. Which is interesting to think about because if the structure of the language is determined, then sometimes you don’t spend time thinking about the language itself. You use language as a tool for problem-solving only. And the rigidity takes away room for unnecessary error.
+
+Maybe that’s why the structure handed out to me in undergrad made me just go along with things easily, but coming into ITP, there was no structure, more room for error, mess, and play. I began questioning my own structure more. And I write a lot about my compartmentalising feelings, a learnt way - a script, a thought process - that I followed for years, cracked open here. Maybe art does that, or maybe at the ripe age of 23, I developed a first crush. So now I question those structures and my ‘thinking’. Maybe thinking is like a language, and words are feelings. I realise the importance of syntax now.
+
+I still like Python quite a lot, I think. It has so many libraries for complex data analysis.
