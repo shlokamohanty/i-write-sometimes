@@ -20,7 +20,7 @@ So, I’ve realised that the manner in which I write - the more similarly I talk
 
 There’s something very keen about sitting with wonder rather than curiosity, I think. From what I’ve been reading lately, there is an astounding similarity between the feeling of awe and anxiety. These are mostly in opinion pieces. Why does curiosity feel rather anxious to me?
 
-These late realizations. I wish I wrote more in undergrad. Rather than passing through information, I could have absorbed it and formulated it as my own means of formulating a meaning: knowledge. 
+These late realizations. I wish I wrote more in undergrad. Rather than passing through information, I could have absorbed it and formulated it as my own means of knowledge. 
 
 Keep writing, even embarrassingly so.
 
