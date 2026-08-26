@@ -3,7 +3,8 @@ layout: post
 title: "madison vs new york shloka conundrum"
 subtitle: ""
 date: 2026-08-17
-tags: personal-ongoing
+tags: 
+  - personal-reflection
 ---
 
 The New York vs the Madison Shloka conundrum, I say. The confrontation of the twos I met with when Megan visited me. 
