@@ -1,9 +1,11 @@
 ---
 layout: post
 title: thesis story - black holes
-subtitle: 
+subtitle:
 date: 2026-07-29
-tags: thesis-ongoing
+tags:
+  - thesis-ongoing
+  - writings-ongoing
 published: true
 mood: vulnerable
 ---

@@ -3,7 +3,7 @@ layout: post
 title: the narrative of control and uncertainty
 subtitle: ""
 date: 2026-08-06
-tags: personal-reflection
+tags: personal-ongoing
 ---
 
 My last year of undergrad was very anxiety-ridden because of the question of what’s next and wanting to stay. Next year is coming soon. I can anticipate some anxiety ~~in regards with the uncertainty that it will bring~~ with what’s next. I need to change the narratives in my brain.

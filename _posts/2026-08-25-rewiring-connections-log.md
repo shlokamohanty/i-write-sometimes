@@ -3,14 +3,14 @@ layout: post
 title: "reflecting on my 'rewiring-connections' daily log"
 subtitle: ""
 date: 2026-08-25
-tags: personal-reflection
+tags: personal-ongoing
 ---
 
-I decided to archive my ‘Rewiring Connections’ log. I suppose it became my microblog. I prefer long-form writing over short-form. Even though, this blog is quite personal, and I suppose only a few people are actually reading it. I use it for myself. I didn’t like the fact that on Substack I could look at the viewership, and I developed a weird relationship with it. It became a feedback loop. I probably gave myself the views every time I opened the log. Felt like a performance.
+I decided to archive my ‘Rewiring Connections’ log. I suppose it became my microblog at one point. I prefer long-form writing over short-form. Even though this blog is quite personal, and I suppose only a few people are actually reading it - my imagined audience. I use it mainly for myself. I didn’t like the fact that on Substack I could look at the viewership, and I developed a weird relationship with it. It became a feedback loop. I probably gave myself the views every time I opened the log. Felt like a performance.
 
-But writing here is more honest. Lower stakes, because I can’t really see the traffic. But it is still public. It’s, in some manner, holding myself accountable. 
+Hence, writing here is more honest. Lower stakes, because I can’t really see the traffic. But it is still public. In a way, I'm holding myself accountable to an imagined audience.
 
-On day 7, from my log, I discovered the extent of my dissociation. I was drawing myself into my memories. I was looking at myself from the perspective of an observer. In reading more, I realised that trauma and dissociation can make people watch themselves from outside.
+On day 7, from my log, I discovered the extent of my dissociation in the past. I was drawing myself into my memories. I was looking at myself from the perspective of an observer. In reading more, I realised that trauma and dissociation can make people watch themselves from the outside.
 
 There’s something about publicity and processing. That’s what I learnt from the whole project. I didn’t quite realise that because I had a tendency of jumping from one romantic relationship to another, I didn’t grieve any of them thoroughly. And a pattern-seeking mind like mine, of course, would then compare a previous romantic relationship to another, without realising the differences that each person holds. It became a means of building contingency plans to avoid heartbreak. Often, spilling over as anxiety. I realised from this that friendships can be with entirely different people, but because of my trauma from romantic relationships, I make comparisons. One relationship is so different to another, because what is shared is inherently different. I realise now that comparison as such is quite an unfair thing. 
 

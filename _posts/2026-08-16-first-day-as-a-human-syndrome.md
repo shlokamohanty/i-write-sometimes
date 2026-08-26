@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "first day as a human syndrome"
+title: first day as a human syndrome
 subtitle: ""
 date: 2026-08-16
-tags: personal-reflection
+tags:
+  - personal-reflection
 ---
 
 I talked with Amisha, as usual, and now Megan is visiting me. Two people who have seen me grow and change over the years. 

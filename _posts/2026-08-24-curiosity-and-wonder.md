@@ -3,7 +3,7 @@ layout: post
 title: "qualms with my organization systems, and curiosity, wonder, anxiety, and python"
 subtitle: ""
 date: 2026-08-24
-tags: personal-reflection
+tags: personal-ongoing
 ---
 
 Sometimes, I’m in a hurry to write. Well, being in a hurry to write is alright because, in this case, it’s my personal blog, and if there are mistakes, that’s alright, because I can fix them as I see, I think. Sometimes, I’m in a hurry to push to Git often. But I should be slower and more careful, I think. 

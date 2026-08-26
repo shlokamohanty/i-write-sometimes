@@ -3,7 +3,7 @@ layout: post
 title: "am i a proponent of determinism, really?"
 subtitle: ""
 date: 2026-08-18
-tags: personal-reflection
+tags: personal-ongoing
 ---
 
 When Megan visited me, I was explaining to her what determinism is. I started learning about determinism more when I was working on ['Baryon Asymmetry'](https://shlokamohanty.github.io/i-write-sometimes/2026/03/18/on-junoon-and-fitoor.html). I read about it a bunch before too, but for some reason, I didn’t think about it. Before coming into ITP, when I used to read and learn, sometimes I absorbed things at a surface-level without really trying to get them, I think. I’m reading words, but I’m not thinking about them, and sometimes, I’m speaking words without really knowing the meaning truly. Maybe that’s the difference between information and knowledge. She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'how' and 'why' questions.
