@@ -561,7 +561,7 @@
         <div class="card-paper">
           <div class="card-content">
             <div class="card-category">notes</div>
-            <div class="card-title">information, observations, concepts, drafts</div>
+            <div class="card-title">information, methodologies, concepts, writing drafts</div>
             <div class="card-count">{{ all_notes.size }} entries</div>
           </div>
         </div>
@@ -573,7 +573,7 @@
         <div class="card-paper">
           <div class="card-content">
             <div class="card-category">near thoughts</div>
-            <div class="card-title">thoughts i'm still figuring out</div>
+            <div class="card-title">reflective thoughts i'm still figuring out</div>
             <div class="card-count">{{ all_ongoing.size }} entries</div>
           </div>
         </div>
@@ -585,7 +585,7 @@
         <div class="card-paper" style="border-radius: 22px 16px 20px 18px / 18px 22px 16px 20px;">
           <div class="card-content">
             <div class="card-category">far thoughts</div>
-            <div class="card-title">thoughts i'd figured out, i think</div>
+            <div class="card-title">reflective thoughts i'd figured out, i think</div>
             <div class="card-count">{{ all_ref.size }} entries</div>
           </div>
         </div>
@@ -719,7 +719,7 @@
   <!-- ONGOING REFLECTIONS -->
   <div class="section-page" id="section-ongoing">
     <button class="section-back" onclick="hideSection()">← back to board</button>
-    <div class="section-header"><h2>ongoing reflections</h2></div>
+    <div class="section-header"><h2>near thoughts</h2></div>
     <div class="section-posts">
       {% assign seen2 = "" %}
       {% assign personal_ongoing_posts = site.posts | where_exp: "p", "p.tags contains 'personal-ongoing'" %}
@@ -753,7 +753,7 @@
   <!-- PAST REFLECTIONS -->
   <div class="section-page" id="section-reflections">
     <button class="section-back" onclick="hideSection()">← back to board</button>
-    <div class="section-header"><h2>past reflections</h2></div>
+    <div class="section-header"><h2>far thoughts</h2></div>
     <div class="section-posts">
       {% assign seen3 = "" %}
       {% assign personal_ref_posts = site.posts | where_exp: "p", "p.tags contains 'personal-reflection'" %}
@@ -786,7 +786,7 @@
   <!-- FINISHED WRITINGS — grouped by form -->
   <div class="section-page" id="section-writings">
     <button class="section-back" onclick="hideSection()">← back to board</button>
-    <div class="section-header"><h2>things i wrote</h2></div>
+    <div class="section-header"><h2>things i wrote, so far</h2></div>
     <div class="section-posts">
       {% assign seen_w = "" %}
       {% assign all_writings = site.posts | where_exp: "p", "p.tags contains 'writings'" %}
