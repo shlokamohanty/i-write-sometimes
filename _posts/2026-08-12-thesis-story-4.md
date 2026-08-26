@@ -3,7 +3,9 @@ layout: post
 title: "thesis story - allergies"
 subtitle: ""
 date: 2026-08-12
-tags: thesis-ongoing
+tags:
+  - thesis-ongoing
+  - writings-ongoing
 ---
 
 ![allergies](/i-write-sometimes/assets/images/allergies.jpg)
