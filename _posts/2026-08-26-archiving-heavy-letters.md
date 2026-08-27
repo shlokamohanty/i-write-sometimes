@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "on archiving some of the letters that were heavy on processing and my personal statements, and do i make things for myself or for others?"
+title: on archiving some of the letters that were heavy on processing and my personal statements, and do i make things for myself or for others?
 subtitle: ""
 date: 2026-08-26
-tags: work-ongoing
+tags:
+  - work-ongoing
+  - practice-ongoing
 ---
 
 I’m thinking a lot about the inherent nature of my work till now. I thought a lot of my work was made for other people, but I’m questioning that aspect now. Do I really make things for other people, or do I just say I’m making them for other people? I think it sounds more noble when I say I’m making it for other people, but is it really? Does anyone really truly make things for other people? 
