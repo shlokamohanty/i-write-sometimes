@@ -6,7 +6,7 @@ date: 2026-01-09
 tags: writings
 form: prose
 mood: proud
-published: false
+published: true
 ---
 
 ![man-friday-illustration](/i-write-sometimes/assets/images/image (9) copy 9.jpg)
