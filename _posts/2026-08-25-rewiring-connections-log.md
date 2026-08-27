@@ -3,10 +3,10 @@ layout: post
 title: "reflecting on my 'rewiring-connections' daily log"
 subtitle: ""
 date: 2026-08-25
-tags: personal-ongoing
+tags: personal-reflection
 ---
 
-I decided to archive my ‘Rewiring Connections’ log. I suppose it became my microblog at one point. I prefer long-form writing over short-form. Even though this blog is quite personal, and I suppose only a few people are actually reading it - my imagined audience. I use it mainly for myself. I didn’t like the fact that on Substack I could look at the viewership, and I developed a weird relationship with it. It became a feedback loop. I probably gave myself the views every time I opened the log. Felt like a performance.
+I decided to archive my ‘Rewiring Connections’ log. I suppose it became my microblog at one point. I prefer long-form writing over short-form. Even though this blog is quite personal, and I suppose only a few people are actually reading it - heh my imagined audience. I use it mainly for myself. I didn’t like the fact that on Substack I could look at the viewership, and I developed a weird relationship with it. It became a feedback loop. I probably gave myself the views every time I opened the log. Felt like a performance.
 
 Hence, writing here is more honest. Lower stakes, because I can’t really see the traffic. But it is still public. In a way, I'm holding myself accountable to an imagined audience.
 
@@ -18,6 +18,6 @@ And so while romantic relationships aren’t the only kind of relationships, it 
 
 I think I did feel too vulnerable, though. It was a public record that, simultaneously, I was going through something; hence, my decision to archive. I realised now that the turmoil of a strange 3-year relationship ending was a lot for me to deal with. It’s strange, because I was quite apathetic. During that time, I was uncomfortable being entirely alone with my thoughts, uneasy with my body, so the relationship, while hurtful, simultaneously became rather co-dependent. Being alone felt unsafe. I didn’t know what to make of it or see the nuance of it. I was hurting. 
 
-I held it together, for a bit, so it wouldn’t spill over, but the hurt and need for contingency spilled over as anxiety, as I wasn’t letting myself sit with the feeling of what’s beneath, and I didn’t have the capacity to during the program. So, I realised that if I keep holding onto how I was hurt, it would keep spilling over in other relationships too, and so, this project became a means to process that and appreciate the nature of relationships in my life. In doing this project, the whole meaning of what a romantic relationship would hold in my life has changed. I’m growing quite comfortable with solitude, and with an astute awareness of my flaws. I approach a friendship not as a means of filling a gap, but with awe - now I’d approach a romantic relationship the same way. And, unrestricted to romantic relationships - but to all of them, completely refrain from reducing people to patterns that my brain makes of them to others. Appreciate the individuality.
+I held it together, for a bit, so it wouldn’t spill over, but the hurt and need for contingency spilled over as anxiety, as I wasn’t letting myself sit with the feeling of what’s beneath, and I didn’t have the capacity to during the program. So, I realised that if I keep holding onto how I was hurt, it would keep spilling over in other relationships too, and so, this project became a means to process that and appreciate the nature of relationships in my life. In doing this project, the whole meaning of what a romantic relationship would hold in my life has changed. I’m growing quite comfortable with solitude, and I have developed an astute awareness of my flaws. I approach a friendship not as a means of filling a gap, but with awe - now I’d approach a romantic relationship the same way. And, unrestricted to romantic relationships - but to all of them, completely refrain from reducing people to patterns that my brain makes of them to others. Appreciate the individuality.
 
 So ‘Rewiring Connections’ would continue as a living project, but the log is archived.
