@@ -8,11 +8,11 @@ tags:
   - practice-ongoing
 ---
 
-I’m thinking a lot about the inherent nature of my work till now. I thought a lot of my work was made for other people, but I’m questioning that aspect now. Do I really make things for other people, or do I just say I’m making them for other people? I think it sounds more noble when I say I’m making it for other people, but is it really? Does anyone really truly make things for other people? 
+I’ve been thinking a lot about the inherent nature of my work till now. I thought a lot of my work was made for other people, but I’m questioning that aspect now. Do I really make things for other people, or do I just say I’m making them for other people? I think it sounds more noble when I say I’m making it for other people, but is it really? Does anyone really truly make things for other people? 
 
 I realised that when I say I’m making it for someone else, the weight of another person’s reception shapes how much it matters to me. Thus, maybe the saying itself, ‘making things for other people,’ makes reception the purpose of the project - rather than when someone says they are making things for themselves, I think.
 
-So, now, I think about my ‘letter-writing’ game idea, and in retrospect the idea was always inherently unachievable. It came from a silly place: that one boy didn’t make me feel seen through his letters, years ago, so I’ll write letters to make others feel seen. It was supposed to be a game where writing changes over time in a manner that makes other people feel seen. But I didn’t question that: how do other people feel seen? Writing makes me feel seen. 
+So, now, I think about my ‘letter-writing’ game idea, and in retrospect the idea was always inherently unachievable. It came from a silly place: that one boy didn’t make me feel seen through his letters, years ago, so I’ll write letters to make others feel seen. It was supposed to be a game where writing changes over time in a manner that makes other people feel seen. But I didn’t question: how do other people feel seen? Writing makes _me_ feel seen. 
 
 Anyway, so the scope of the game was too big, wasn’t well thought off, and in all honesty, I’m grateful I didn’t end up making the project. I guess I didn’t question my ideas, then. A year ago, I just went forward with ideas on a whim because there was a strong feeling toward it: “I have to make it”, not questioning whether I’d even processed it, and “why do I want to make it?” and “why do I feel this way about it?”
 

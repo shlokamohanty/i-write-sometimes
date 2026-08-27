@@ -20,4 +20,3 @@ I think my next thesis story is going to be about this. I guess, similar to the 
 
 ---
 
-My mom used to force me to eat bananas and almonds every morning. I hated the smell of bananas. I told her the fumes were poisonous. I hated the texture of bananas. It's so mushy. Bananas have veins. 6 am in the morning the vein being stuck in between my teeth. Now, the whole day, I'll spend trying to take it out of my teeth.

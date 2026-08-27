@@ -130,7 +130,7 @@ The waves carry me back to the shore.
 
 ---
 
-I always had tests, but the stakes were much higher now that I’m in 3rd grade.
+I always had tests, but the stakes are much higher now that I’m in 3rd grade.
 
 My Hindi teacher is scary. She puts a lot of *kajal* and wears a huge black bindi. Her hair is short and wavy.
 
@@ -139,5 +139,17 @@ She said no washroom during the test. Why can’t we go to the washroom whenever
 Standing in line waiting to submit my paper. I dance to a beat. No one can tell. I couldn’t hold it in. The ripples.
 
 The closest they’ve been to identifying the black hole. But by the time it reaches, it’s unfathomably small.
+
+---
+
+I'm in the elevator. Waiting. I pass the 9th floor. My friend lives there. Her mom puts chilli in  fried eggs.
+
+I'm holding onto my bike. I'm alone
+
+The lights go off. I can feel the inertia. I drop my bike.
+
+I reach for the elevator doors. I can feel us merging. I open the door.
+
+My bike is sucked in.
 
 ---
