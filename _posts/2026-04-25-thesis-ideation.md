@@ -196,9 +196,9 @@ learning more about neuroscience and computation using the flower that i made in
 
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
-> I think I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It's rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off. Or maybe I do?
+> I think I knew exactly which direction my thesis was going, but now I'm unclear as I research. I'm really not the best writer. It's rather mediocre. I don't want to make a physical-writing based thesis. I won't be able to pull that off. Or maybe I do? **My medium is drawing and writing.**
 
-There's not much point in form if I don't have stories to tell yet. I have concepts that I want to explore. But I don't have stories yet, or an idea of how they sound. I can't gauge otherwise. But, there is something about radio-telescope as a form? Because, these are cosmic stories, right? There is something there, I think. The form. The distance.
+There's not much point in form if I don't have stories to tell yet. I have concepts that I want to explore. But I don't have stories yet, or an idea of how they sound. I can't gauge otherwise. **But, there is something about radio-telescope as a form? Because, these are cosmic stories, right? There is something there, I think. The form. The distance.**
 
 > Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. At least now, I understand what it means for me, I think.
 
@@ -208,7 +208,7 @@ There's not much point in form if I don't have stories to tell yet. I have conce
 
 > Note to myself - Don't go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
 
-> Should I just focus on the astrophysics realm, rather than others? I think there is something there.
+> **Should I just focus on the astrophysics realm, rather than others? I think there is something there. I should.**
 ---
 
 ### physical mechanisms & form
@@ -226,9 +226,16 @@ physical mechanisms:
 
 > I need to lean more into how to make this a playful object.
 
-I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex.
+**I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex.**
 
 > https://www.youtube.com/watch?v=gTnRGkkFJj0
+> [Radiofax - Wikipedia](https://en.wikipedia.org/wiki/Radiofax)
+
+> [https://youtu.be/Uv7wJE6MSm8?is=fkVedxqHmtOp5dIg](https://youtu.be/Uv7wJE6MSm8?is=fkVedxqHmtOp5dIg)
+
+> SSTV
+
+> [https://youtu.be/1EqCQrVEEVs?is=x_SxOwCZtZcJZxG1](https://youtu.be/1EqCQrVEEVs?is=x_SxOwCZtZcJZxG1)
 
 #### devices (?)
 
@@ -237,6 +244,7 @@ I wonder, if I can use markov chains for images. I'm better with visuals than wr
 - Mutoscope
 - https://www.ruchikanambiar.com/work/record-withheld
 - https://spectrum.ieee.org/write-without-distraction-with-this-diy-eink-typewriter
+- https://www.thekellyluu.com/drawing-machine-the-game-sketch
 
 ---
 
@@ -266,23 +274,23 @@ I wonder, if I can use markov chains for images. I'm better with visuals than wr
 
 ### astronomy inspiration & research
 
-> I think this still has poetic potential because the 'Sun' is a star, and the black hole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness? Actually, after thinking through yesterday, working with solar power makes a lot of sense for me.
+> **I think this still has poetic potential because the 'Sun' is a star, and the black hole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness? Actually, after thinking through yesterday, working with solar power makes a lot of sense for me.**
 
 > ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~
 
-Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. Observation from a distance ties a lot with the whole concept of understanding. Signal being separated from noise. The beauty of talking, and listening to another person.
+Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. **Observation from a distance ties a lot with the whole concept of understanding.** Signal being separated from noise. The beauty of talking, and listening to another person.
 
 https://public.nrao.edu/telescopes/radio-telescopes/
 
-'radio telescopes collect weak radio light waves, bring it to a focus, amplify it and make it available for analysis.'
+**'radio telescopes collect weak radio light waves, bring it to a focus, amplify it and make it available for analysis.'**
 
-I want to come back to the 'analysis' part. Something about this has data written all over. There's a play possible with story structures.
+**I want to come back to the 'analysis' part. Something about this has data written all over. There's a play possible with story structures.**
 
 > Looking into CMBR data
 
 > https://muonsortes.com/ it's so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
 
-> **https://www.reddit.com/r/spaceporn/comments/s5bapd/the_first_simulated_image_of_a_black_hole/**
+> **https://www.reddit.com/r/spaceporn/comments/s5bapd/the_first_simulated_image_of_a_black_hole/** (this is key)
 ---
 
 ### personal / ITP reflections
@@ -309,12 +317,13 @@ I want to come back to the 'analysis' part. Something about this has data writte
 - https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf
 - https://radiojove.gsfc.nasa.gov/radio_telescope/data_analysis.php
 - https://iram-institute.org/observatories/understanding-radio-telescopes/
+- [https://www.pablogarcia.org/a-brief-history-of-drawing-machines](https://www.pablogarcia.org/a-brief-history-of-drawing-machines)
 
 ## to do and questions
 
 - Write long-form sci-fi stories!!!!! Only from there now you can actually see what fits
 
-- **I'm starting to realise that black holes, as a concept, already fit the concepts I want to explore. Should I even write many long-form stories? Or just one, and focus on that, and re-edit it. I like the black holes essay as it is now. Then I can explore how to make it more data-oriented and form-focused.**
+- **I'm starting to realise that black holes, as a concept, already fit all the concepts I want to explore. Should I even write many long-form stories? Or just one, and focus on that, and re-edit it. I like the black holes essay as it is now. Then I can explore how to make it more data-oriented and form-focused.**
 
 Reminder to keep writing. Cody and I wrote ‘Baryon Asymmetry’ more than twelve times. You’ve rewritten ‘Together’ so many times. This is your thesis. You can keep writing. And Rewriting.
 
@@ -347,7 +356,7 @@ While reading Jan Westerhoff's 'Reality', some quotes stood out:
 
 ### to explore
 
-- https://atlas.brain-map.org/
+- ~~https://atlas.brain-map.org/~~
 - https://drawingcenter.org/exhibitions/rashid-johnson-anxious-men
 
 ## people and resources

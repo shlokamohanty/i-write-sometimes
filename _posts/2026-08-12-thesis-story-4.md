@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "thesis story - allergies"
-subtitle: ""
+subtitle: "i'll add parts of this into the black hole essay, so discarding"
 date: 2026-08-12
 tags:
-  - thesis-ongoing
-  - writings-ongoing
+  - thesis-past
 ---
 
 ![allergies](/i-write-sometimes/assets/images/allergies.jpg)
