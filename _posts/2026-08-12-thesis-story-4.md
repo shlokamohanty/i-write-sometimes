@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "thesis story - allergies (discarding)"
+title: "thesis story - allergies (discarded)"
 subtitle: "i'll add parts of this into the black hole essay"
 date: 2026-08-12
 tags:

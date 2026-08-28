@@ -193,7 +193,7 @@ learning more about neuroscience and computation using the flower that i made in
 
 ---
 
-### doubts
+### doubts and talking to myself
 
 I thought exactly what direction my thesis is going into, and now I'm unclear as I'm researching. I'm really not the best writer. I don't want to make a ‘writing’ thesis. I won't be able to pull that off.
 
@@ -203,13 +203,13 @@ There's not much point in form if I don't have stories to tell yet. I have conce
 
 > Sometimes, I question, the purpose of interaction. What is the point of interaction here, if I can just draw, and write and tell the story. It should have a purpose. This is why, I sometimes, question my position in this program. At least now, I understand what it means for me, I think.
 
-> ~~With the black holes essay that I'm working on, I think the interaction could be tied to distance. If my thesis is about sensory experiences, then the interaction should be tied to that.~~
+ ~~With the black holes essay that I'm working on, I think the interaction could be tied to distance. If my thesis is about sensory experiences, then the interaction should be tied to that.~~
 
-> ~~What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?~~
+ ~~What is this need and interest that I have in making it physical? Or is it the herd mentality effect of what most people in our cohort like doing?~~
 
-> Note to myself - Don't go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
+ Note to myself - Don't go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
 
-> **Should I just focus on the astrophysics realm, rather than others? I think there is something there. I should.**
+> Should I just focus on the astrophysics realm, rather than others? I think there is something there. I should.
 ---
 
 ### physical mechanisms & form
@@ -219,24 +219,24 @@ physical mechanisms:
 - airport departure board flipping mechanism
 - [https://www.newschool.edu/parsons/profile/lucia-daniel/](https://www.newschool.edu/parsons/profile/lucia-daniel/)
 
-> **It has to be a dynamic system.**
+> It has to be a dynamic system.
 
 > When I went to MoMa last December, I really liked https://www.moma.org/calendar/exhibitions/5768. It was also inspired by drawings.
 
-> I think my initial form factor of 'Rewiring Connections' and NIME idea was interesting. ~~Although now, looking at where my thesis is headed and at my NIME idea being a version of the brain idea, maybe I don't want to do NIME.~~ I should incorporate things from that idea here.
+ I think my initial form factor of 'Rewiring Connections' and NIME idea was interesting. ~~Although now, looking at where my thesis is headed and at my NIME idea being a version of the brain idea, maybe I don't want to do NIME.~~ I should incorporate things from that idea here.
 
 > I need to lean more into how to make this a playful object.
 
 **I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex.**
 
 > https://www.youtube.com/watch?v=gTnRGkkFJj0
-> [Radiofax - Wikipedia](https://en.wikipedia.org/wiki/Radiofax)
+ [Radiofax - Wikipedia](https://en.wikipedia.org/wiki/Radiofax)
 
-> [https://youtu.be/Uv7wJE6MSm8?is=fkVedxqHmtOp5dIg](https://youtu.be/Uv7wJE6MSm8?is=fkVedxqHmtOp5dIg)
+ [https://youtu.be/Uv7wJE6MSm8?is=fkVedxqHmtOp5dIg](https://youtu.be/Uv7wJE6MSm8?is=fkVedxqHmtOp5dIg)
 
-> SSTV
+ SSTV
 
-> [https://youtu.be/1EqCQrVEEVs?is=x_SxOwCZtZcJZxG1](https://youtu.be/1EqCQrVEEVs?is=x_SxOwCZtZcJZxG1)
+ [https://youtu.be/1EqCQrVEEVs?is=x_SxOwCZtZcJZxG1](https://youtu.be/1EqCQrVEEVs?is=x_SxOwCZtZcJZxG1)
 
 #### devices (?)
 
@@ -251,9 +251,9 @@ physical mechanisms:
 
 ### themes: anxiety, storytelling
 
-> Ideas I'm toying with are the need for control and anxiety. So the time machine has control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
+ Ideas I'm toying with are the need for control and anxiety. So the time machine has control, but it doesn't actually work. Time machine is cool. The ultimate control fantasy.
 
-> I think back to my undergrad projects. think back to the movies that I've been mesmerised by. They are all sci-fi like 'Omni Loop', 'Everything Everywhere All At Once', 'Spiderman'. I should lean into that form of storytelling.
+ I think back to my undergrad projects. think back to the movies that I've been mesmerised by. They are all sci-fi like 'Omni Loop', 'Everything Everywhere All At Once', 'Spiderman'. I should lean into that form of storytelling.
 
 ---
 
@@ -263,7 +263,7 @@ physical mechanisms:
 
 > I think there is something here, that I could do with the methodology I used for memory n-grams.
 
-> **While making the poetry generator, there was something that I thought of. My initial coding attempts were failing because there wasn't enough memory. So I had to make the loop work in a manner so it doesn't store the memory. It is fresh each time, which made me think of doing a project that is a commentary on memory and data. But it ties in heavily with data degradation.**
+> While making the poetry generator, there was something that I thought of. My initial coding attempts were failing because there wasn't enough memory. So I had to make the loop work in a manner so it doesn't store the memory. It is fresh each time, which made me think of doing a project that is a commentary on memory and data. But it ties in heavily with data degradation.
 
 ~~I've been trying to adapt from my past experiences, before moving to New York, and write it, make it fictional. But my writing voice has become rather intense. I need to tone it down, I think. I found the premise of the story, and it dabbles with what black holes are: a cosmic wonder and a cosmic horror. I should maybe lean into it and finish writing, slowly. Then maybe change the voice. I'm feeling shy about publishing it even on this blog, as an ongoing thing. It's okay. Keeping it published. It's my thesis. I can keep rewriting. But the important thing is to write, so I know what visuals I want to show, and what it is thematically developing into, and the concept, once it's done.~~
 
@@ -275,9 +275,9 @@ physical mechanisms:
 
 ### astronomy inspiration & research
 
-> **I think this still has poetic potential because the 'Sun' is a star, and the black hole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness? Actually, after thinking through yesterday, working with solar power makes a lot of sense for me.**
+> I think this still has poetic potential because the 'Sun' is a star, and the black hole is made from the death of a massive star. Wait, this is actually so sad. Now, how do I make this into a feeling of awe rather than sadness? Actually, after thinking through yesterday, working with solar power makes a lot of sense for me.
 
-> ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~
+ ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~
 
 Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. **Observation from a distance ties a lot with the whole concept of understanding.** Signal being separated from noise. The beauty of talking, and listening to another person.
 
@@ -287,11 +287,12 @@ https://public.nrao.edu/telescopes/radio-telescopes/
 
 **I want to come back to the 'analysis' part. Something about this has data written all over. There's a play possible with story structures.**
 
-> Looking into CMBR data
+Looking into CMBR data
 
-> https://muonsortes.com/ it's so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
+https://muonsortes.com/ it's so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
 
-> **https://www.reddit.com/r/spaceporn/comments/s5bapd/the_first_simulated_image_of_a_black_hole/** (this is key)
+> [first image of blackhole](https://www.reddit.com/r/spaceporn/comments/s5bapd/the_first_simulated_image_of_a_black_hole/) (this is key)
+> [luminet's website](https://luth.obspm.fr/~luminet/chap10.html)
 ---
 
 ### personal / ITP reflections
