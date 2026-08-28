@@ -11,6 +11,7 @@ Very rough - from using 100 days of making as my basis. 'Puppet Hands' Shloka is
 ## funny names
 - ~~lobotomy of my brain~~
 - ~~nervous system~~
+- search for the theory of everything?
 
 ## thoughts
 
