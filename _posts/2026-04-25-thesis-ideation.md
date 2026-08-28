@@ -208,6 +208,7 @@ There's not much point in form if I don't have stories to tell yet. I have conce
 
 > Note to myself - Don't go down this crazy, 'Muon detector', path for thesis. Calm down. Be realistic. Know your capabilities, please. Scope!!!
 
+> Should I just focus on the astrophysics realm, rather than others? I think there is something there.
 ---
 
 ### physical mechanisms & form
@@ -227,11 +228,14 @@ physical mechanisms:
 
 I wonder, if I can use markov chains for images. I'm better with visuals than writing. That in terms of code would play with colors, maybe? What aspects of a digital image, I can play with that explore data degradation. Also image memory would be so much complex.
 
+> https://www.youtube.com/watch?v=gTnRGkkFJj0
+
 #### story devices and early animation devices (?)
 
 - https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
 - https://en.wikipedia.org/wiki/View-Master
 - Mutoscope
+- https://www.ruchikanambiar.com/work/record-withheld
 
 ---
 
@@ -277,6 +281,7 @@ I want to come back to the 'analysis' part. Something about this has data writte
 
 > https://muonsortes.com/ it's so crazy to me that people are building these [CosmicWatch-Desktop-Muon-Detector-v2/Instructions.pdf at master · spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2 · GitHub](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf)
 
+> **https://www.reddit.com/r/spaceporn/comments/s5bapd/the_first_simulated_image_of_a_black_hole/**
 ---
 
 ### personal / ITP reflections
@@ -301,10 +306,14 @@ I want to come back to the 'analysis' part. Something about this has data writte
 - https://public.nrao.edu/telescopes/radio-telescopes/
 - https://muonsortes.com/
 - https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/Instructions.pdf
+- https://radiojove.gsfc.nasa.gov/radio_telescope/data_analysis.php
+- https://iram-institute.org/observatories/understanding-radio-telescopes/
 
 ## to do and questions
 
-- **Write long-form sci-fi stories!!!!! Only from there now you can actually see what fits**
+- Write long-form sci-fi stories!!!!! Only from there now you can actually see what fits
+
+- **I'm starting to realise that black holes, as a concept, already fit the concepts I want to explore. Should I even write many long-form stories? Or just one, and focus on that, and re-edit it. I like the black holes essay as it is now. Then I can explore how to make it more data-oriented and form-focused.**
 
 Reminder to keep writing. Cody and I wrote ‘Baryon Asymmetry’ more than twelve times. You’ve rewritten ‘Together’ so many times. This is your thesis. You can keep writing. And Rewriting.
 

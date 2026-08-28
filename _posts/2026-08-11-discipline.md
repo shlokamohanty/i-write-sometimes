@@ -76,11 +76,14 @@ So maybe, Sundays and Wednesdays would remain my cooking days. Wednesdays/Thursd
 
 **GA is 4 hours a week.**
 
-Most likely dropping 'On Becoming' and 'Medium of Memory'. I'll know that better during the 'Add/Drop' period.
+Most likely dropping 'On Becoming' ~~and 'Medium of Memory'~~. I'll know that better during the 'Add/Drop' period.
 
 Hopefully, I can get myself into the waitlist for ‘Computational Approaches to Narrative’. That’s the most important one.
 
 Got on the waitlist for 'Prototyping Electronic Devices' and ‘Time’. It ties in better with my thesis. Dropped out of the 'NIME' waitlist. I don't want to put so much energy into building an instrument. Especially now that my thesis idea has evolved so much. I also need to set aside writing time.
+
+Got into 'Time'.
+Dropped 'Medium of Memory'
 
 ~~I do want to take a music class once during my time at ITP, though, more for personal reasons - getting over trauma, or ‘healing’, I suppose. It will be during spring. Do not want to do ‘Code of Music’, though. Maybe 'Sound Studio', since it matches the number of credits that I need to do then, but it's too technical. This doesn't need to be thought through right now.~~
 
