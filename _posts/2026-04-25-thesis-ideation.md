@@ -230,12 +230,13 @@ I wonder, if I can use markov chains for images. I'm better with visuals than wr
 
 > https://www.youtube.com/watch?v=gTnRGkkFJj0
 
-#### story devices and early animation devices (?)
+#### devices (?)
 
 - https://nymag.com/strategist/article/little-tikes-story-dream-machine-review.html
 - https://en.wikipedia.org/wiki/View-Master
 - Mutoscope
 - https://www.ruchikanambiar.com/work/record-withheld
+- https://spectrum.ieee.org/write-without-distraction-with-this-diy-eink-typewriter
 
 ---
 
