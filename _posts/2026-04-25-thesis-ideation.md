@@ -293,6 +293,8 @@ https://muonsortes.com/ it's so crazy to me that people are building these [Cosm
 
 > [first image of blackhole](https://www.reddit.com/r/spaceporn/comments/s5bapd/the_first_simulated_image_of_a_black_hole/) (this is key)
 > [luminet's website](https://luth.obspm.fr/~luminet/chap10.html)
+
+> Carbon comes from dying stars. We are made up of dying stars.
 ---
 
 ### personal / ITP reflections
