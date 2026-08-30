@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: drawing out the physical form of my thesis
+title: drawing/planning out the physical form of my thesis
 subtitle: 
 date: 2026-08-28
 tags: thesis-ongoing
@@ -16,6 +16,22 @@ So I drew it out. The drawing shows the gaps, which I will learn and fill with t
 
 ![drawing-out-second](/i-write-sometimes/assets/images/thesis-form2.jpg)
 
-At this moment, I am doubting myself, but I wouldn’t know without even trying, so I think I need to repeatedly talk myself out of it. I do have a realistic judgment of my capabilities. At this point, of course, I don’t have the skills that it takes to pull this off, but it is a year long process, and I will learn a lot over this semester. Slowly, I’ll scope. But limiting right now, based on self-doubt, isn’t the move, I think. I should try to reach, at least while figuring it out.
+Right now, I doubt myself, but I wouldn’t know without trying, so I think I need to keep talking myself out of it. I do have a realistic judgment of my capabilities. At this point, of course, I don’t have the skills that it takes to pull this off, but it is a year long process, and I will learn a lot over this semester. Slowly, I’ll scope. But limiting right now, based on self-doubt, isn’t the move, I think. I should try to reach out, at least while I figure it out.
 
-What is the interaction here? 
+I think there is something about self-doubt here. Maybe it's less about self-doubt and more about being unsure about the concept, I think. The form isn't clicking for me.
+
+> What is the interaction here? 
+
+I personally don't know if I'm fascinated enough by a plotter. I was introduced to the idea of a plotter by Kezia, which I thought could be interesting here because it is a drawing and writing machine. But I don't think I'm as intrigued by a pen as a tool. I was thinking about a pen being my tool. But that isn't true. I type more than I write on paper. I draw using an Apple Pencil. I don't know if I'm interested in fabrication.
+
+Kezia introduced me to [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), which I think I can work with here.
+
+Read - Read
+Write - Create, Update, Delete
+Write and Draw - Create, Update, Delete?
+
+From Korwa Drawings, there have been questions about the distinction of script and image. 
+
+> https://cll.decontextualize.com/public/decks/digital-writing-as-action.pdf
+
+Should the medium be a computational asemic script that tells the story? What an insane challenge. But I'm feeling intrigued. I'm interested in language, and that being the material seems really interesting itself. The script tells the story.
