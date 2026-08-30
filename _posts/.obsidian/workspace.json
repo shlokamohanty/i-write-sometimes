@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "2026-08-28-thesis-drawings"
             }
-          },
-          {
-            "id": "2be905cf31c325cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-06-24-skybone-studios.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-24-skybone-studios"
-            }
           }
         ]
       }
@@ -201,12 +187,12 @@
   },
   "active": "76b9d1541c279f1c",
   "lastOpenFiles": [
-    "2026-08-29-inward-outward.md",
+    "2026-06-24-skybone-studios.md",
     "2026-08-28-thesis-drawings.md",
+    "2026-08-29-inward-outward.md",
     "2026-07-29-thesis-story-3.md",
     "2026-07-29-thesis-story-2.md",
     "2026-08-12-thesis-story-4.md",
-    "2026-06-24-skybone-studios.md",
     "2026-07-11-thesis-story-1.md",
     "2026-07-14-agency.md",
     "2026-07-22-social-energy.md",
