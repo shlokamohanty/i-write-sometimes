@@ -6,7 +6,7 @@ date: 2026-04-25
 tags: thesis-ongoing
 ---
 
-**My medium is drawing and writing.** Can I use black holes as a model for computational language? For my thesis, I want to explore computational letterforms and a keyboard around black hole principles. A keyboard that looks at the paradox of asemic writing. 
+**My medium is drawing and writing.** Can I use black holes as a model for computational language? For my thesis, I want to explore computational letterforms and make a keyboard around black hole principles. A keyboard that looks at the paradox of asemic writing.
 
 ## Verbatim lines from the ideation document that I want to explore through this:
 
