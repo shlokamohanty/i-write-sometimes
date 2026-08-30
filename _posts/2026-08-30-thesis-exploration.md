@@ -21,7 +21,7 @@ tags: thesis-ongoing
 - **The surrounding vocabulary and the emotional framing of the pieces create this context. This, in linguistics, is known as polysemy, something that I apply very frequently.**
 - There is so much nuance in the same semantic world.
 
-### Schrödinger's cat
+### schrödinger's cat
 
 - I can't predict outcomes based on observations.
 - **Both stay unproven, unless I confirm. Schrödinger's cat. And is this confirmation, vulnerability?**
