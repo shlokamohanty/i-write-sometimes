@@ -1,8 +1,8 @@
 ---
 layout: post 
-title: thesis exploration 
+title: thesis broader process
 subtitle: 
-date: 2026-04-25 
+date: 2026-08-30 
 tags: thesis-ongoing
 ---
 
@@ -21,7 +21,7 @@ tags: thesis-ongoing
 - **The surrounding vocabulary and the emotional framing of the pieces create this context. This, in linguistics, is known as polysemy, something that I apply very frequently.**
 - There is so much nuance in the same semantic world.
 
-### schrödinger's cat
+### Schrödinger's cat
 
 - I can't predict outcomes based on observations.
 - **Both stay unproven, unless I confirm. Schrödinger's cat. And is this confirmation, vulnerability?**
@@ -42,3 +42,10 @@ tags: thesis-ongoing
 
 - "We are social beings, but, tragically, the richest part of our inner lives are forever trapped inside ourselves, the only place that no one else can ever be. For me, poetry, music, art, etc. are attempts to reach across not just time and space, but to breach this ultimately inescapable solitude." - from [theluddite.org](theluddite.org)
 
+---
+
+- Well, I don't even know much about the basics in terms of form when it comes to drawing and script. So, first, I'll be exploring that. Kezia mentioned the term 'glyph'. I should look into it.
+
+- Simultaneous explorations of black hole concepts.
+
+- Readings and maybe exercises from [computational letterforms and layout](https://cll.decontextualize.com/schedule/)
