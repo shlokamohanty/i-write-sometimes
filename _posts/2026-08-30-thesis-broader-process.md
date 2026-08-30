@@ -49,3 +49,5 @@ tags: thesis-ongoing
 - Simultaneous explorations of black hole concepts.
 
 - Readings and maybe exercises from [computational letterforms and layout](https://cll.decontextualize.com/schedule/)
+
+- Keyboard as a technology.
