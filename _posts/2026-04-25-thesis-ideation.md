@@ -3,7 +3,7 @@ layout: post
 title: thesis ideation 
 subtitle: 
 date: 2026-04-25 
-tags: thesis-ongoing
+tags: thesis-past
 ---
 
 Very rough - from using 100 days of making as my basis. 'Puppet Hands' Shloka is back. Not in a dissociative way, but in an ideation way. I can only think with space (the irony here), and less pressure. Next semester, I need to focus on learning rather than on finishing projects. So, I have space for this.
@@ -279,7 +279,7 @@ physical mechanisms:
 
  ~~'The Sun, it burns every day.' - more so, the circadian rhythm~~
 
-Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. **Observation from a distance ties a lot with the whole concept of understanding.** Signal being separated from noise. The beauty of talking, and listening to another person.
+Something about telescopes and projectors. This is a technology program after all. Something is fascinating about astronomy research. The mechanism. **The scientists must have felt the discovery, even if it's in front of the laptop. This feeling of something horrific and mesmerizing at the same time.** Kind of like love. **Observation from a distance ties a lot with the whole concept of understanding.** **Signal being separated from noise.** The beauty of talking, and listening to another person.
 
 https://public.nrao.edu/telescopes/radio-telescopes/
 

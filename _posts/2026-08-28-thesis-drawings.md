@@ -6,7 +6,7 @@ date: 2026-08-28
 tags: thesis-ongoing
 ---
 
-I think I’m starting to like the content of the black hole essay. The writing is quite rough, though. I love black holes as a concept. Learning that the first image of a black hole was hand-drawn gave me clear direction, as my medium is writing and drawing, I think.
+I think I’m starting to like the content of the black hole essay. The writing is quite rough, though. I love black holes as a concept. **Learning that the first image of a black hole was hand-drawn gave me clear direction, as my medium is writing and drawing, I think.**
 
 The system that I’m devising is, of course, quite complex. Things here are out of my current capabilities. Maybe I’ll be a better judge of it by the end of this semester. I think I’m going to stick with this idea and incorporate all the concepts that I want to touch upon into my writing from here on, slowly. Now, I can start researching more, since the idea and the form are more solidified.
 
@@ -28,12 +28,16 @@ Kezia introduced me to [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update
 
 Read - Read
 Write - Create, Update, Delete
-Write and Draw - Create, Update, Delete?
+**Write and Draw - Create, Update, Delete?**
 
 From Korwa Drawings, there have been questions about the distinction of script and image. 
 
 > https://cll.decontextualize.com/public/decks/digital-writing-as-action.pdf
 
-Should the medium be a computational asemic script that tells the story? What an insane challenge. But I'm feeling intrigued. I'm quite interested in language, and that being the material seems really interesting itself. The script tells the story.
+**Should the medium be a computational asemic script that tells the story?** What an insane challenge. But I'm feeling intrigued. I'm quite interested in language, and that being the material seems really interesting itself. The script tells the story.
 
 Maybe this is a good place to start research more and experiment.
+
+![drawing-out-third](/i-write-sometimes/assets/images/form-keyboard.jpg)
+
+I think maybe what I was feeling is not self-doubt, but not feeling solid enough about the concept. Same feeling I had when I was writing my silly Rysa and Tara story. But I think I like this concept and the exploration of/and making asemic text based on principles of black holes. I think I’ll still write my black holes story on the side. But maybe my thesis doesn’t necessarily use it. I’m now thoroughly excited, yay. I think this might be my first ITP project/exploration that I feel quite excited about. I have my thesis, now more questions, and explorations. 
