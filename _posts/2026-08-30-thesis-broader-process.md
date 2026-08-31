@@ -45,3 +45,9 @@ tags: thesis-ongoing
 - Readings and maybe exercises from [computational letterforms and layout](https://cll.decontextualize.com/schedule/)
 
 - Keyboard and drawing with an Apple Pencil as a technology, and how does it differ from using a pen or a pencil on paper?
+
+---
+
+## Existing Work 
+
+Luigi Serafini's Codex Seraphinianus
