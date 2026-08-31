@@ -36,7 +36,7 @@ From Korwa Drawings, there have been questions about the distinction of script a
 
 > https://cll.decontextualize.com/public/decks/digital-writing-as-action.pdf
 
-**Should the medium be a computational asemic script that tells the story?** What an insane challenge. But I'm feeling intrigued. I'm quite interested in language, and that being the material seems really interesting itself. The script tells the story.
+Should the medium be a computational ~~asemic~~ script that tells the story, where it's indistinguishable whether it is a drawing or a letter? What an insane challenge. But I'm feeling intrigued. I'm quite interested in language, and that being the material seems really interesting itself. The script tells the story.
 
 Maybe this is a good place to start research more and experiment.
 
