@@ -1,16 +1,16 @@
 ---
 layout: post
 title: on archiving some of the letters that were heavy on processing and my personal statements, and do i make things for myself or for others?
-subtitle: ""
+subtitle: "thinking through"
 date: 2026-08-26
 tags:
-  - work-reflection
-  - practice-past
+  - work-ongoing
+  - practice-ongoing
 ---
 
 I’ve been thinking a lot about the inherent nature of my work till now. I thought a lot of my work was made for other people, but I’m questioning that aspect now. Do I really make things for other people, or do I just say I’m making them for other people? I think it sounds more noble when I say I’m making it for other people, but is it really? Does anyone really truly make things for other people? 
 
-I realised that when I say I’m making it for someone else, the weight of another person’s reception shapes how much it matters to me. Thus, maybe the saying itself, ‘making things for other people,’ makes reception the purpose of the project - rather than when someone says they are making things for themselves, I think.
+I realised that when I say I’m making it for someone else, the weight of another person’s reception shapes how much it matters to me. Thus, maybe the saying itself, ‘making things for other people,’ makes reception the purpose of the project - rather than when someone says they are making things for themselves, I think. 
 
 So, now, I think about my ‘letter-writing’ game idea, and in retrospect the idea was always inherently unachievable. It came from a silly place: that one boy didn’t make me feel seen through his letters, years ago, so I’ll write letters to make others feel seen. It was supposed to be a game where writing changes over time in a manner that makes other people feel seen. But I didn’t question: how do other people feel seen? Writing makes _me_ feel seen. 
 
@@ -21,3 +21,5 @@ So, I’ve realised. I struggle to emote. So, when I started writing for the fir
 So, I’m writing letters again, for myself now, because I like the practice of writing letters. It’s a way of saying what you feel, what you remember. I guess the format of a letter is that it doesn’t demand reception in the same manner as a message or a call would, I think, because it can just exist. Letting my writing, like feelings, just be.
 
 So, I decided to archive some letters that were heavy on processing and my personal statements from here. Two very different reasons. The letters that were heavy on processing, I archived them. They were quite vulnerable. Some even wistful. I suppose I just want to keep those for myself, completely, similar to the reasoning in my [rewiring-connections-log](https://shlokamohanty.github.io/i-write-sometimes/2026/08/25/rewiring-connections-log.html). My personal statements, I didn’t realise, are primarily filled with ideas, most of them not executable. Some I wouldn’t even want to make anymore. I guess it’s like the ‘letter-writing’ game idea.
+
+But there is more to saying that it is meant for someone else. It creates a boundary that shapes the project. Letters inherently are made for someone else, but I think there is more to this by that I mean: the address. Structurally, letters can be addressed to someone, which creates a boundary and distance that I think is helpful for processing. But an audience, real vs imagined, changes it slightly. A real audience would mean the reception shapes it too. The imagined audience is thus then just for myself, as a means of processing tool. The address makes the processing possible in nuance, because I imagine a receiver.
