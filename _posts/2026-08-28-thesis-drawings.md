@@ -27,7 +27,9 @@ I personally don't know if I'm fascinated enough by a plotter. I was introduced 
 Kezia introduced me to [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), which I think I can work with here.
 
 Read - Read
+
 Write - Create, Update, Delete
+
 **Write and Draw - Create, Update, Delete?**
 
 From Korwa Drawings, there have been questions about the distinction of script and image. 

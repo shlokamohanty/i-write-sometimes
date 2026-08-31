@@ -6,7 +6,7 @@ date: 2026-08-30
 tags: thesis-ongoing
 ---
 
-**My medium is drawing and writing.** Can I use black holes as a model for computational language? For my thesis, I want to explore computational letterforms and make a keyboard around black hole principles. A keyboard that looks at the paradox of asemic writing.
+**My medium is drawing and writing.** Can I use black holes as a model for computational language? For my thesis, I want to explore computational letterforms and make a keyboard around black hole principles. ~~A keyboard that looks at the paradox of asemic writing.~~ I suppose it's not entirely asemic but explores the boundaries between drawing and a legible script.
 
 ## Verbatim lines from the ideation document that I want to explore through this:
 
@@ -20,12 +20,6 @@ tags: thesis-ongoing
 
 - **The surrounding vocabulary and the emotional framing of the pieces create this context. This, in linguistics, is known as polysemy, something that I apply very frequently.**
 - There is so much nuance in the same semantic world.
-
-### Schrödinger's cat
-
-- I can't predict outcomes based on observations.
-- **Both stay unproven, unless I confirm. Schrödinger's cat. And is this confirmation, vulnerability?**
-- The paradox here is that if uncertainty is a virtue, I want to live by, I don't know if I'm acting out of wisdom or fear? And, wanting to know the answer is rejecting that.
 
 ### black holes
 
@@ -50,4 +44,4 @@ tags: thesis-ongoing
 
 - Readings and maybe exercises from [computational letterforms and layout](https://cll.decontextualize.com/schedule/)
 
-- Keyboard as a technology.
+- Keyboard and drawing with an Apple Pencil as a technology, and how does it differ from using a pen or a pencil on paper?
