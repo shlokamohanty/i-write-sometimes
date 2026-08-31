@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-24-the-framework-expression.md",
+                "file": "2026-08-30-thesis-broader-process.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-06-24-the-framework-expression"
+              "title": "2026-08-30-thesis-broader-process"
+            }
+          },
+          {
+            "id": "9e00df15bf16790b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-08-31-thesis-readings.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-08-31-thesis-readings"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,18 +200,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "1e0d3439b7e81357",
+  "active": "9e00df15bf16790b",
   "lastOpenFiles": [
+    "2026-08-30-thesis-broader-process.md",
+    "2026-08-29-inward-outward.md",
+    "2026-08-28-thesis-drawings.md",
+    "2026-08-26-archiving-heavy-letters.md",
+    "2026-08-26-all-letters.md",
+    "2026-08-25-rewiring-connections-log.md",
+    "2026-08-25-autoethnography.md",
+    "2026-08-24-curiosity-and-wonder.md",
+    "2026-08-21-hedging.md",
+    "2026-08-20-why-do-i-want-to-make-physical-things.md",
+    "2026-08-31-thesis-readings.md",
+    "2026-04-30-pratt-research.md",
+    "2026-08-12-thesis-story-4.md",
+    "2026-06-24-the-framework-expression.md",
     "2026-06-15-forming-a-framework.md",
     "2026-02-15-what-i-want-to-do.md",
     "2026-04-19-readings.md",
     "2026-08-16-form-and-subject.md",
-    "2026-08-26-all-letters.md",
-    "2026-08-25-rewiring-connections-log.md",
-    "2026-08-26-archiving-heavy-letters.md",
-    "2026-08-28-thesis-drawings.md",
-    "2026-08-30-thesis-broader-process.md",
-    "2026-08-20-why-do-i-want-to-make-physical-things.md",
     "2026-08-16-first-day-as-a-human-syndrome.md",
     "2026-08-14-learnings-and-conundrums.md",
     "2026-08-11-discipline.md",
@@ -205,14 +228,6 @@
     "2026-06-14-egocentrism.md",
     "2026-04-13-thoughts-from-energy-discussion.md",
     "2026-03-24-rewiring-connections.md",
-    "2026-03-20-letter.md",
-    "2026-01-12-eyrah-lua.md",
-    "2025-12-17-first-semester.md",
-    "2025-11-09-birthdays.md",
-    "2025-10-20-spectrometry.md",
-    "2026-06-24-the-framework-expression.md",
-    "2026-06-20-on-making-a-meaning-of-suffering.md",
-    "2026-08-29-inward-outward.md",
     "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.base",
