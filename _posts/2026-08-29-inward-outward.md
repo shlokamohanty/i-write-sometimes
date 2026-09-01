@@ -41,3 +41,5 @@ In the end, maybe social cues and life itself are probabilistic. Irony: Kurt Gö
 I feel incredibly stupid at 23. 
 
 Maybe others feel this way too. And I guess humans are so cute to mix with all this.
+
+![](/i-write-sometimes/assets/images/inward-outward.jpg)
