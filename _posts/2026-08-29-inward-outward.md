@@ -27,3 +27,11 @@ A completely opposing situation. My other roommate was upset at me, and I couldn
 Now, my other roommates, Amisha and Kezia, all agreed that I cannot really read social cues well; I overthink and guess most of them wrong.
 
 Funny and strange, do I trust people's words and pick up on and try to understand what they mean? And I notice expressions; *if I'm uncertain, I think I should vocalise the fact - their expression without assuming where the feeling might be stemming from and why, because of a previously learnt script.*
+
+I was socially blind until moving to New York. I was too focused on the internal state of my body, in fear of what's happening within, that I didn't look what's happening outward.
+
+It's not all that simple. People lie too. 
+
+I think it is trust is a measurable device.
+
+In the end, social cues and life of it all is probabilistic. I feel incredibly stupid at 23.
