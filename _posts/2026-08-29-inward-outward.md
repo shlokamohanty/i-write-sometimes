@@ -22,13 +22,13 @@ Schrödinger's cat. Someone's true emotional state is actually uncertain. I want
 
 I think 'I can empathise to an extent' is better than 'I'm sorry'.
 
-A completely opposing situation. My other roommate was upset at me, and I couldn't tell why. She was really quiet with me, answering in one syllable. She expected that I would know why she's upset, and later that day she noticed that I have no clue; we solved it quickly after, though.
+A completely opposing situation. My other roommate was upset at me, and I couldn't tell why. She was really quiet with me, answering in one syllable words. She expected that I would know why she's upset, and later that day she noticed that I have no clue; we solved it quickly after, though.
 
-Now, my roommates, Amisha and Kezia, all agreed that I cannot really read social cues well; I overthink and guess most of them wrong.
+Now, my roommates, Amisha and Kezia, all agree that I cannot really read social cues well; I overthink and guess most of them wrong.
 
 Funny and strange, do I trust people's words and pick up on and try to understand what they mean? And I notice expressions; *if I'm uncertain, I think I should vocalise the fact - their expression without assuming where the feeling might be stemming from and why, because of a previously learnt script.*
 
-I was socially blind until moving to New York. I was too focused on the internal state of my body, in fear of what's happening within, that I didn't look what's happening outward. Took it from my grandpa and Kurt Gödel, I suppose. At least now, I'm a lot more comfortable with my body; by that, I mean a lot.
+I was socially blind until moving to New York. I was too focused on the internal state of my body, in fear of what's happening within, that I didn't look what's happening outward. Took it after my grandpa and Kurt Gödel, I suppose. At least now, I'm a lot more comfortable with my body; by that, I mean a lot.
 
 It's not all that simple. People lie too. 
 
