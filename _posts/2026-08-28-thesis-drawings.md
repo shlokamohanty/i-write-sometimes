@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: drawing/planning out the physical form of my thesis
+title: "drawing/planning out the physical form of my thesis"
 subtitle: 
 date: 2026-08-28
 tags: thesis-ongoing

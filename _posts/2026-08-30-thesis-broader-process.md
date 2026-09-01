@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: thesis broader process
+title: "thesis broader process"
 subtitle: 
 date: 2026-08-30 
 tags: thesis-ongoing
