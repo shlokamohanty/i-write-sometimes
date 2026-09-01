@@ -16,7 +16,7 @@ Because I was thinking about how I would feel in that situation if someone did t
 
 It comes back to the reality that I'd never truly understand someone; thus, I don't think I can empathise entirely; I can only empathise partially. Respecting their reality might not be my reality.
 
-So maybe I should let other people fill the gaps in their states with their words, rather than fill them with my predictions? A repeated thought in the past few months.
+So maybe I should let other people fill the gaps of their states with their words, rather than fill them with my predictions? A repeated thought in the past few months.
 
 Schrödinger's cat. Someone's true emotional state is actually uncertain. I want to be able to make space for people in my life, for them to tell me who they are. So, I don't want to make assumptions as to how they feel.
 
