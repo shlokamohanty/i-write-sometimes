@@ -6,6 +6,8 @@ date: 2026-08-31
 tags: thesis-ongoing
 ---
 
+readings
+
 ###  Entity to Event: From Literal, Mechanistic Materiality to Probabilistic Materiality by Johanna Drucker
 
 - Probabilistic materiality conceives of a text as an event, rather than an entity. 
