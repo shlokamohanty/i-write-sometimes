@@ -6,7 +6,7 @@ date: 2026-08-31
 tags: thesis-ongoing
 ---
 
-readings
+Readings to formulate my thesis more clearly.
 
 ###  Entity to Event: From Literal, Mechanistic Materiality to Probabilistic Materiality by Johanna Drucker
 

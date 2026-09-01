@@ -10,6 +10,8 @@ Sometimes, I’m in a hurry to write. Well, being in a hurry to write is alright
 
 It makes me question my organization system on this blog. In that case, shouldn’t almost all posts inherently become ongoing rather than past? I do sometimes revise my past reflections. Those are my qualms with my own organization systems. I don’t have it figured out really. Neither does anyone really, I think. I mean, that’s really the point of life, I suppose. I don’t quite know at this moment how to organize these posts in a manner that allows me to self-correct. And that maybe will require me to draw it out. What categories should I use, if not ‘ongoing’ and ‘past’ as labels? These labels almost signify time as a factor in my thinking, which is rather interesting. What factors do others think by? Do I just need to accept that organizational systems will keep changing?
 
+And I was reading about entropy today. Even if you order things, it leads to disorder. I suppose that’s what happens with organizational systems. So the system itself needs to be dynamic.
+
 ---
 
 So, I’ve realised that the manner in which I write - the more similarly I talk, the more it shapes my process of thinking, I think. So, maybe, if I write with slowness, I’ll think about things more slowly, rather than jumping to reach for answers and conclusions. And from there, it makes me think about the definition of ‘curiosity’ versus ‘wonder’.
