@@ -96,7 +96,7 @@ So, I’m also slower at learning than most people in my cohort. But, I also I n
 
 I’m getting a better conceptual grasp of things, and with more slowness, thought, and frameworks, I think I can do better than I did last semester if I don’t get caught up in how quickly and the 'bigness' of the projects others are making around me. Tom was onto something with his advice in the first semester: that it’s okay not to have finished projects. Last semester, I got too caught up in trying to measure up to others, maybe because, in undergrad, I did so well, which surprises me now that I'm not doing as well as I used to. Sometimes I’m not as good as my peers, and I felt jealous of them. I’ve to let go of that insecurity. I do think it’s a natural feeling, though. Everyone has it from time to time, comparing themselves. I had forgotten the feeling of jealousy, and it’s not a good color on me. It surfaced years later. At least now, I know how to sit with it and talk myself through it. I don’t like that, along the process of figuring out my practice and identity, I got so impressionable last semester. Now, I have come to accept that my path is truly so different.
 
-I need to work on electronics and fabrication. (What is this ~~need~~want to make things physical? Why do I want to do it?)
+I need to work on electronics and fabrication. (What is this ~~need~~ want to make things physical? Why do I want to do it?)
 
 I work in a maniacal manner, but more slowness and more iterative work, building onto something larger, is stronger. By maniacal, I don’t mean, of course, spending late nights on the floor. Late nights on the floor for a person like me are a given. By that I mean rushing through projects and not sitting with ideas longer. Not to jump the gun, essentially. Manic work doesn't always produce good results. Things need to be more thought out over time. Maybe I need to ask myself and others more 'why', and 'how' questions. Listen more intently to others.
 
@@ -107,3 +107,7 @@ Group projects are good, and I did a lot of them last year, but to make a good t
 ---
 
 I don’t know if I want to do the winter show next semester. I’m starting to see very little point in the shows.
+
+---
+
+Today made me realise that I will take some time to adjust back to the floor and to a lot of people. Throughout the summer, I've only interacted in small groups and environments. The first two weeks might be hard. It's okay. Give it time.
