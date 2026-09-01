@@ -6,7 +6,7 @@ date: 2026-08-29
 tags: personal-ongoing
 ---
 
-I think a lot about inward and outward emotions. My roommate felt guilty. She said it was empathy. I thought it was slightly condescending. I told her after, it was silly, got resolved quickly. But it made me think a lot about inward and outward emotions.
+I think a lot about inward and outward emotions. My roommate felt guilty. She said it was empathy. I thought it was slightly condescending. I told her after, it was silly, got solved quickly. But it made me think a lot about inward and outward emotions.
 
 Guilt is a strange emotion. I remember the guiltiest I've felt was after my breakup in 2021. Well, we had broken up a while before; we were just texting and talking after. Freshman year of undergrad was interesting, and it was Halloween; I texted him saying I'd kiss other people. He was fine with it; we weren't dating. Weird, that. I kind of asked him, even. I did, but I guess I didn't need to update him *every time* I kissed someone that night. He felt hurt, and I felt guilty. He was fine; he wanted to keep talking anyway. But the guilt spiral is funny; I asked him whether he wanted to be with me through distance. He said no. I couldn't talk to him after. I was drowning in guilt then. The most guilty I've felt.
 
@@ -24,14 +24,16 @@ I think 'I can empathise to an extent' is better than 'I'm sorry'.
 
 A completely opposing situation. My other roommate was upset at me, and I couldn't tell why. She was really quiet with me, answering in one syllable. She expected that I would know why she's upset, and later that day she noticed that I have no clue; we solved it quickly after, though.
 
-Now, my other roommates, Amisha and Kezia, all agreed that I cannot really read social cues well; I overthink and guess most of them wrong.
+Now, my roommates, Amisha and Kezia, all agreed that I cannot really read social cues well; I overthink and guess most of them wrong.
 
 Funny and strange, do I trust people's words and pick up on and try to understand what they mean? And I notice expressions; *if I'm uncertain, I think I should vocalise the fact - their expression without assuming where the feeling might be stemming from and why, because of a previously learnt script.*
 
-I was socially blind until moving to New York. I was too focused on the internal state of my body, in fear of what's happening within, that I didn't look what's happening outward.
+I was socially blind until moving to New York. I was too focused on the internal state of my body, in fear of what's happening within, that I didn't look what's happening outward. Took it from my grandpa and Kurt Gödel, I suppose. At least now, I'm a lot more comfortable with my body; by that, I mean a lot.
 
 It's not all that simple. People lie too. 
 
 I think it is trust is a measurable device.
 
 In the end, social cues and life of it all is probabilistic. I feel incredibly stupid at 23.
+
+Maybe others feel this way too. And I guess humans are so cute to mix with all this.
