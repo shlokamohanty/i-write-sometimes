@@ -32,6 +32,8 @@ I was socially blind until moving to New York. I was too focused on the internal
 
 It's not all that simple. People lie too. 
 
+I'm bad at lying. It stresses me out. But I think I figured out a trick around lying: it is by not lying. One is probably withholding information or deflecting. The other would be being more careful with the words I choose when I'm speaking and writing so it's not a lie; it is actually true. I need to become more attentive and careful with words. But I suppose that by doing this, I’m only protecting myself. But sometimes, this is important too.
+
 I think it is trust is a measurable device.
 
 In the end, maybe social cues and life itself are probabilistic. Irony: Kurt Gödel would have rejected this. He wasn't probabilistic, like Einstein. I learnt today that they were friends. Einstein was 27 years older than Gödel.
