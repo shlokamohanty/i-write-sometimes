@@ -50,6 +50,8 @@ I’m realising how this can be a method with which self-expression can be explo
 
 - Keyboard and drawing with an Apple Pencil as a technology, and how does it differ from using a pen or a pencil on paper?
 
+- Continuing the story
+
 ---
 
 ## Existing Work 
