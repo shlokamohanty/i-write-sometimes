@@ -8,7 +8,7 @@ tags: thesis-ongoing
 
 **My medium is drawing and writing.** Can I use black holes as a model for computational language? For my thesis, I want to explore computational letterforms and make a keyboard around black hole principles. ~~A keyboard that looks at the paradox of asemic writing.~~ I suppose it's not entirely asemic but explores the boundaries between drawing and a legible script.
 
-I also don't want to make directly self-expressive art anymore. I mean, this is a form of self-expression too, but not as direct as just writing and drawing memories, especially since mom’s accident. 
+I also don't want to make directly self-expressive art anymore. I mean, this is a form of self-expression too, but not as direct as just writing and drawing memories, especially since mom’s accident. Okay, this cannot be a reason. I need to talk to people. I want them to read my writing and give feedback.
 
 I’m realising how this can be a method with which self-expression can be explored now.
 
@@ -50,7 +50,7 @@ I’m realising how this can be a method with which self-expression can be explo
 
 - Keyboard and drawing with an Apple Pencil as a technology, and how does it differ from using a pen or a pencil on paper?
 
-- Continuing the story
+- Continuing the black holes story
 
 ---
 

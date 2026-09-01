@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "thesis readings"
+title: "thesis readings exploring writing and drawing as a medium"
 subtitle: 
 date: 2026-08-31
 tags: thesis-ongoing

@@ -34,6 +34,8 @@ It's not all that simple. People lie too.
 
 I think it is trust is a measurable device.
 
-In the end, social cues and life of it all is probabilistic. I feel incredibly stupid at 23.
+In the end, maybe social cues and life itself are probabilistic. Irony: Kurt Gödel would have rejected this. He wasn't probabilistic, like Einstein. I learnt today that they were friends. Einstein was 27 years older than Gödel.
+
+I feel incredibly stupid at 23. 
 
 Maybe others feel this way too. And I guess humans are so cute to mix with all this.
