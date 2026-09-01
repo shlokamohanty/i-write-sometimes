@@ -8,7 +8,7 @@ tags: personal-ongoing
 
 I think a lot about inward and outward emotions. My roommate felt guilty. She said it was empathy. I thought it was slightly condescending. I told her after, it was silly, got solved quickly. But it made me think a lot about inward and outward emotions.
 
-Guilt is a strange emotion. I remember the guiltiest I've felt was after my breakup in 2021. Well, we had broken up a while before; we were just texting and talking after. Freshman year of undergrad was interesting, and it was Halloween; I texted him asking whether I can kiss other people. He was fine with it; we weren't dating. Weird, that. I kind of asked him, even. 19-year-old Shloka was a different beast. It was also one of the first few times that I got drunk then. I was a sloppy drunk then. I guess I didn't need to update him *every time* I kissed someone that night. He felt hurt, and I felt guilty. He was fine; he wanted to keep talking anyway. But the guilt spiral is funny; I asked him whether he wanted to be with me through distance. He said no. I couldn't talk to him after. I was drowning in guilt then. The most guilty I've felt.
+Guilt is a strange emotion. I remember the guiltiest I've felt was after my breakup in 2021. Well, we had broken up a while before; we were just texting and talking after. Freshman year of undergrad was interesting, and it was Halloween; I texted him asking whether I can kiss other people. He was fine with it; we weren't dating. Weird that I kind of asked him, even. 19-year-old Shloka was a different beast. It was also one of the first few times that I got drunk then. I was a sloppy drunk then. I guess I didn't need to update him *every time* I kissed someone that night. He felt hurt, and I felt guilty. He was fine; he wanted to keep talking anyway. But the guilt spiral is funny; I asked him whether he wanted to be with me through distance. He said no. I couldn't talk to him after. I was drowning in guilt then. The most guilty I've felt.
 
 I don't think I was empathetic in 2021. I was too caught up in feeling guilty. I got defensive; I didn’t actually try to listen to what he was saying after he said he was hurt, and sit with myself knowing that I hurt him.
 
@@ -34,7 +34,7 @@ It's not all that simple. People lie too.
 
 I'm bad at lying. It stresses me out. But I think I figured out a trick around lying: it is by not lying. One is probably withholding information or deflecting. The other would be being more careful with the words I choose when I'm speaking and writing so it's not a lie; it is actually true. I need to become more attentive and careful with words. But I suppose that by doing this, I’m only protecting myself. But sometimes, this is important too.
 
-I think it is trust is a measurable device.
+I think trust is a measurable device.
 
 In the end, maybe social cues and life itself are probabilistic. Irony: Kurt Gödel would have rejected this. He wasn't probabilistic, like Einstein. I learnt today that they were friends. Einstein was 27 years older than Gödel.
 
