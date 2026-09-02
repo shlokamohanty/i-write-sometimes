@@ -13,6 +13,7 @@ Formulating a research question: researching how illustrators make choices about
 Uzma said that the drawings in the museum accession cards, can be made by another person, while someone is dictating. So there is a power dynamic there
 CNN for image processing for signature and image analysis for more quantitative analysis 
 A coding protocol for qualitative analysis
+Colonial terminology - people at sight
 
 I found this class: https://artandarchaeology.princeton.edu/whats/news/students-art-407-explore-archaeology-through-drawing
 
@@ -151,12 +152,14 @@ https://www.aasaar.org/wp-content/uploads/2020/09/Theories-and-Practice-in-Museu
 - museum like models in the subcontinent
     - manuscripts, mosques, monasteries, Chitrasala (house of paintings), Chitravanthi (religious tourism), Sarawatibhandar (literature), house of Karkahana (skills/products), etc.
 - museums are now non-profit
+
 ## South Asia Collections at The Met: A Preliminary Computational Look
 https://rrchnm.org/blog/exploring-south-asia-at-the-met-through-data/
 
 - its a form of metadata
 - record of how an institution decided what South Asia was, who got to decide that, and when those decisions were made
 - record of decisions about what to accept, and from whom
+
 ## Drawn to See: Drawing as an Ethnographic Method by Andrew Causey
 https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/view/161/242
 
@@ -165,6 +168,19 @@ https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/view/161/242
 - "scientific" and "objective" drawings have their own conventions and blind spots
 - gestural drawings, as a form, embrace subjectivity as a source of knowledge than trying to escape it
 - a coding scheme can try to formalise what illustrators do intuitively
+
+## Museums and Colonial Representations of South Asia
+
+- museums can also be cultural, educational and political spaces that are often tied to very specific histories and agendas
+- Viceroy Curzon believed that it was the duty of British "to dig and discover, to classify, reproduce and describe, to copy and decifer and to cherish and conserve"
+- organizing principles and taxonomies
+    - use of religious denomination 
+        -  classified around:
+            - myths
+            - personalities
+            - great moments of mythological universe
+- sculptures are artifacts were studied as illustrations, and their value was measured by how accurately they represented related ancient texts.
+- the focus on artistic appreciation has overshadowed the fact that these museum objects were not meant as art but were instead used by communities as objects of worship, ritual funerals and even family heirlooms.
 
 ## Notes from call with Samuel Holzman
 
