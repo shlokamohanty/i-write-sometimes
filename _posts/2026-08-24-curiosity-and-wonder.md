@@ -12,6 +12,8 @@ It makes me question my organization system on this blog. In that case, shouldn�
 
 And I was reading about entropy today. Even if you order things, it leads to disorder. I suppose that’s what happens with organizational systems. So the system itself needs to be dynamic.
 
+So, I’m starting to see a point in folding clothes. Folding clothes requires energy, so it reduces the mess of clothes, but entropy still increases because you spent energy and time. But I still don't see the point in making my bed.
+
 ---
 
 So, I’ve realised that the manner in which I write - the more similarly I talk, the more it shapes my process of thinking, I think. So, maybe, if I write with slowness, I’ll think about things more slowly, rather than jumping to reach for answers and conclusions. And from there, it makes me think about the definition of ‘curiosity’ versus ‘wonder’.
