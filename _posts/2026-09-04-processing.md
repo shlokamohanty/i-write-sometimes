@@ -1,0 +1,29 @@
+---
+layout: post
+title: "writing to process events since last week"
+subtitle: ""
+date: 2026-09-04
+tags: personal-ongoing
+---
+
+==Moving forward, I’m going to start making a note when I edit my posts.==
+
+5th September.
+
+My mom had an accident. She fell off a cliff. The feelings are coming out in increments. I feel this responsibility that I can’t really let anyone in my family know how I’m feeling; I have to be responsible for their feelings and support my brother. So, I’m sharing with my friends, to a small degree, as much as I can.
+
+I’m overwhelmed on the third day of school — not by people in school, just by the number of people. I told Raviya about this. I couldn’t hold my tears in school, which is weird because usually I can. I’m good at hiding emotions. It’s strange because if I had a good relationship, it would have been easier. But it feels a whole lot worse because I have a bad relationship. I’ve barely even been home in the past five years, and I feel quite distant. 
+
+I process in isolation, and so last week, I couldn’t leave my house/nor my bed. I was in utter shock. I didn’t know what to make of it. I think I still am. I cried today at random times because yesterday my mom filled in more gaps of the story. She is in immense pain. I feel like I shouldn’t cry; I’m being selfish.
+
+It was strange. She is the one who talks, and when she wasn’t talking, we all went quiet. I couldn’t talk.
+
+My therapist isn’t qualified to give me a formal diagnosis, but she said I have autistic traits. She's mentioned it before too, but now with more conviction, nudging me to read more, to find more relatability, and to see that it isn’t something to be solved; hence, the first day as a human syndrome, often — revelations that seem quite obvious. So I process the world and express myself differently. Crying doesn’t really help; writing does.
+
+And I can’t get myself to make expressive art anymore. I have my qualms. It felt validating in class when Allison said, stories are manipulative, I’ve been thinking about that all summer.
+
+I feel frustrated by tiny things. I don’t know where to sit. I sometimes like being seen, and sometimes don’t. I wish there was a wall behind me. I don’t want to move next week. Pigeons fluttering is loud. Why am I suddenly flustered by these? But even CPTSD has intersecting traits. But the black holes essay shows that these feelings were there long before. 
+
+So, I’m a little overwhelmed by these labels; I don’t care for them much, I suppose; they are labels and boxes after all. It all makes sense, and it doesn’t. Amisha said it’s a weird feeling receiving a diagnosis after years; it’s relieving, and also, why after so long. 
+
+They have known me for a while, so they have seen these traits, I suppose.
