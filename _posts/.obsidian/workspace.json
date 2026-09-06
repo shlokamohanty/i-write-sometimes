@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "117232cc13d5759c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-09-04-processing.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-09-04-processing"
-            }
-          },
-          {
             "id": "38642599b9d64dc5",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "2026-09-06-small-dreams"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,15 +187,15 @@
   },
   "active": "38642599b9d64dc5",
   "lastOpenFiles": [
+    "2026-09-04-processing.md",
+    "2026-09-03-excited.md",
+    "2026-09-06-small-dreams.md",
     "2026-08-26-archiving-heavy-letters.md",
     "2026-08-28-thesis-drawings.md",
     "2026-08-29-inward-outward.md",
     "2026-08-30-thesis-broader-process.md",
     "2026-08-31-thesis-readings.md",
     "2026-09-01-design.md",
-    "2026-09-03-excited.md",
-    "2026-09-04-processing.md",
-    "2026-09-06-small-dreams.md",
     "2026-08-26-all-letters.md",
     "2026-08-25-rewiring-connections-log.md",
     "2026-08-25-autoethnography.md",
