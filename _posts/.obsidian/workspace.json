@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-09-03-excited"
             }
-          },
-          {
-            "id": "de77cf1f659cbd2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-09-03-excited.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-09-03-excited"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +185,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "de77cf1f659cbd2f",
+  "active": "117232cc13d5759c",
   "lastOpenFiles": [
     "2026-08-06-narrative.md",
     "2026-09-03-excited.md",
