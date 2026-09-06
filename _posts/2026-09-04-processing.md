@@ -4,7 +4,6 @@ title: "writing to process events since last week"
 subtitle: ""
 date: 2026-09-04
 tags: personal-ongoing
-published:
 ---
 
 ==Moving forward, I’m going to start making a note when I edit my posts.==
@@ -32,3 +31,7 @@ They have known me for a while, so they have seen these traits, I suppose.
 6th September.
 
 I've noticed I often find it difficult to understand what I'm feeling. My body feels things before I do, but it feels like an empty feeling. It’s just my body reacting to things I haven’t processed yet. I can process emotions when I write. I don’t think I can process emotions in conversations; it doesn’t help and feels empty, with a lot of pressure too, in a two-way conversation; sometimes it does nothing. I like presence, though, and sometimes thoughts that are not connected. I think I like it when I describe something, and then people describe something related, over answers or solutions. I didn’t realise I’ve been clenching my teeth; my teeth hurt. So I need to write to process; I need to draw to process; making work, art - this is my language in some ways, I think. But there’s a way to do it, and not every work needs an audience or needs to be audited. So maybe I should reserve some for myself and some for people. I think I know that even if I make form-focused work, the expression will come out, maybe; that’s part of how I am sometimes.
+
+I think I've processed it. I'm a little nervous about the classes and thesis, along with all this. I'll try my best this semester and be more compassionate — It'll be fine. 
+
+Mom is getting better. I don't believe in labels, as such, but reading more, I find some relatability. This is probably how I am, and that's okay. I have my strengths; I have my weaknesses; I should just be the way that I am authentically with people.
