@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "i want to be seen, not perceived. i want to see rather than perceive."
+title: "i want to see rather than perceive."
 subtitle: "processing"
 date: 2026-09-04
 tags: personal-ongoing

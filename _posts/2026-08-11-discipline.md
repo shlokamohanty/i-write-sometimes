@@ -6,6 +6,8 @@ date: 2026-08-11
 tags: personal-ongoing
 ---
 
+6th September.
+
 And I read this at the Met Cloisters today: 'the paradoxical human desire to both order and disorder the world.' This reads as such.
 
 The first year of ITP wasn’t the busiest time of my life. The fall semester of junior year during my undergrad was. I think about the discipline I had then. Cooking two times a week. A 20-credit semester + a 10-hour job (research + tutoring) + a relationship + a very active social life. I scored really well that semester, too. Megan reminded me that I used to sleep 4 hours every night. I also barely had time for myself. But the discipline was good to keep up. I need to incorporate that for when fall begins. I have built routines into my head. But maybe having it more outwardly on a calendar or some system of sorts would help. Did calendar work for me?
@@ -78,7 +80,7 @@ So maybe, Sundays and Wednesdays would remain my cooking days. Wednesdays/Thursd
 
 Most likely dropping 'On Becoming' ~~and 'Medium of Memory'~~. I'll know that better during the 'Add/Drop' period.
 
-Hopefully, I can get myself into the waitlist for ‘Computational Approaches to Narrative’. That’s the most important one.
+~~Hopefully, I can get myself into the waitlist for ‘Computational Approaches to Narrative’. That’s the most important one.~~
 
 Got on the waitlist for 'Prototyping Electronic Devices' and ‘Time’. It ties in better with my thesis. Dropped out of the 'NIME' waitlist. I don't want to put so much energy into building an instrument. Especially now that my thesis idea has evolved so much. I also need to set aside writing time.
 
