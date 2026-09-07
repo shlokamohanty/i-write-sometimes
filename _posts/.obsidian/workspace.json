@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-09-06-small-dreams.md",
+                "file": "2026-09-07-see-than-perceive.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-09-06-small-dreams"
+              "title": "2026-09-07-see-than-perceive"
+            }
+          },
+          {
+            "id": "a083ab4cbd328063",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-08-11-discipline.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-08-11-discipline"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,19 +200,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "38642599b9d64dc5",
+  "active": "a083ab4cbd328063",
   "lastOpenFiles": [
-    "2026-09-07-see-than-perceive.md",
+    "2026-09-01-design.md",
     "2026-09-03-excited.md",
-    "2026-07-14-chaos.md",
     "2026-09-06-small-dreams.md",
+    "2026-09-07-prototyping-class-1.md",
+    "2026-09-07-see-than-perceive.md",
+    "2026-07-14-chaos.md",
     "2026-04-25-thesis-ideation.md",
     "2026-05-12-complexity-for-complexity-sake.md",
     "2026-05-22-migraines.md",
     "2026-06-21-storyteller-and-readers.md",
     "2026-08-30-thesis-broader-process.md",
     "2026-08-31-thesis-readings.md",
-    "2026-09-01-design.md",
     "2026-08-29-inward-outward.md",
     "2026-08-28-thesis-drawings.md",
     "2026-08-18-am-i-a-proponent-of-determinism.md",
@@ -212,7 +228,6 @@
     "2026-08-17-madison-vs-new-york.md",
     "2026-04-19-readings.md",
     "2026-08-26-all-letters.md",
-    "2026-04-30-pratt-research.md",
     "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.base",
