@@ -10,7 +10,7 @@ tags:
 
 I think, my dreams aren’t all that big. I’ve been thinking a lot recently. What's the point in all of this? I have an innate need for expression, so I need to do it; I think it’s my way of processing the world. It’s what I like. Sometimes, I don’t think I have an audience, really. Maybe I do. There are very few people who care about what I do — in terms of work. I think that’s okay, though; most of my work isn’t even for an audience; it’s more for myself.
 
-When Matt and I met once during the summer, he told me he wanted to live in a castle with an espresso machine. I wanted to live in a small house with a bookshelf, and maybe a rocking chair. I want to live in a place with seasons. Be a professor. I’d be grateful if someone came up to me and told me that they learnt something from me. Do research, contribute to some form of knowledge expansion. My dreams are small.
+When Matt and I met once during the summer, he told me he wanted to live in a castle with an espresso machine. I wanted to live in a small house with a bookshelf, and maybe a rocking chair. I want to live in a place with seasons. Be a professor. I’d be grateful if someone came up to me and told me that they learnt something from me. My dreams are small.
 
 I hardly post on Instagram, and I haven’t posted much of my artwork. It’s more like these archives of my memories, and watching funny videos. It feels a little tiring to post things, and the intent of virality is something I don’t want really want to chase. I’m probably not competitive enough to make it in the art world. I don’t even know if I really want to. I’ve not found contentment through publicity.
 
