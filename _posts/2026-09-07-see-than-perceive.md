@@ -14,7 +14,7 @@ But, at the same time, in a more literal sense, I'm actually entirely wrong here
 
 So, it is rather impossible not to categorise; that’s how brains work, but in some manner, do that less? I suppose I’m already doing that by sitting with uncertainty more, accepting dynamism, and holding things loosely. I think I should let myself be proven wrong more often. Or allow broader categories.
 
-From: 
+---
 
 [https://philosophy.stackexchange.com/questions/136126/what-is-the-difference-between-observation-and-perception](https://philosophy.stackexchange.com/questions/136126/what-is-the-difference-between-observation-and-perception)
 
