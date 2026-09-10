@@ -6,7 +6,7 @@ date: 2026-08-11
 tags: personal-ongoing
 ---
 
-7th September.
+9th September.
 
 It's much simpler than all the things I had written earlier.
 
