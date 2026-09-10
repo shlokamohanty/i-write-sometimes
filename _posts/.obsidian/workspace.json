@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-09-03-excited.md",
+                "file": "2026-02-15-what-i-want-to-do.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-09-03-excited"
+              "title": "2026-02-15-what-i-want-to-do"
+            }
+          },
+          {
+            "id": "1cee878ee2d13b16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-09-09-thesis-presentation.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-09-thesis-presentation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,14 +200,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "dcce46da9c981e5c",
+  "active": "1cee878ee2d13b16",
   "lastOpenFiles": [
-    "2026-09-06-small-dreams.md",
-    "2026-09-07-miyazaki-storytelling.md",
-    "2026-09-07-prototyping-class-1.md",
-    "2026-09-03-excited.md",
-    "2026-08-31-thesis-readings.md",
+    "2026-08-18-am-i-a-proponent-of-determinism.md",
+    "2026-09-09-thesis-presentation.md",
+    "2026-08-26-all-letters.md",
     "2026-09-07-see-than-perceive.md",
+    "2026-08-21-hedging.md",
+    "2026-08-29-inward-outward.md",
+    "2026-02-15-what-i-want-to-do.md",
+    "2026-09-07-prototyping-class-1.md",
+    "2026-09-07-miyazaki-storytelling.md",
+    "2026-09-03-excited.md",
+    "2026-09-06-small-dreams.md",
+    "2026-08-31-thesis-readings.md",
     "2026-08-11-discipline.md",
     "2026-09-01-design.md",
     "2026-07-14-chaos.md",
@@ -201,18 +222,12 @@
     "2026-05-22-migraines.md",
     "2026-06-21-storyteller-and-readers.md",
     "2026-08-30-thesis-broader-process.md",
-    "2026-08-29-inward-outward.md",
     "2026-08-28-thesis-drawings.md",
-    "2026-08-18-am-i-a-proponent-of-determinism.md",
     "2026-08-20-why-do-i-want-to-make-physical-things.md",
-    "2026-08-21-hedging.md",
     "2026-08-25-rewiring-connections-log.md",
     "2026-08-24-curiosity-and-wonder.md",
     "2026-08-25-autoethnography.md",
     "2026-08-26-archiving-heavy-letters.md",
-    "2026-03-20-letter.md",
-    "2026-08-16-i-think.md",
-    "2026-08-17-madison-vs-new-york.md",
     "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.base",
