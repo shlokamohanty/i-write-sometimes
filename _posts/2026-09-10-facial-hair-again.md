@@ -20,7 +20,9 @@ I started writing about my facial hair when Raviya pointed out that I have a mou
 
 ![](/i-write-sometimes/assets/images/huh3.jpg)
 
-My hair is wavy, so it’s rather easy to detangle, I think. And I spent a portion of the day thinking about jealousy before I started thinking about hair. And I thought to myself: jealousy is a controlling emotion — an insecurity. Then I started thinking that aren't most feelings controlling? Is grief the only emotion that’s not controlling? And I think those who understand grief get that 'it is what it is' and continue smiling.
+My hair is wavy, so it’s rather easy to detangle, I think. And I spent a portion of the day thinking about jealousy before I started thinking about hair. And I thought to myself: jealousy is a controlling emotion — an insecurity. Then I started thinking that aren’t most feelings controlling? Even love. Is grief the only emotion that’s not controlling? Maybe, awe. Maybe, curiosity.
+
+And I think those who understand grief get that 'it is what it is' and continue smiling.
 
 ![](/i-write-sometimes/assets/images/huh4.jpg)
 
@@ -28,4 +30,4 @@ I grieve, I think. It is what it is.
 
 ![](/i-write-sometimes/assets/images/huh5.jpg)
 
-I suppose hair is the part of our appearance that we can control.
+I suppose hair is the part of our appearance that we can control. I surrender.
