@@ -4,6 +4,7 @@ title: "class 1 and project ideas"
 subtitle: ""
 date: 2026-09-07
 tags: prototyping-ongoing
+published:
 ---
 
 Resources:
