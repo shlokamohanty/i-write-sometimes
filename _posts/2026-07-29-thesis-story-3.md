@@ -153,3 +153,31 @@ I reach for the elevator doors. I can feel us merging. I open the door.
 My bike is sucked in.
 
 ---
+
+My mom likes putting an egg pack that she made on my hair. She thinks it'll make my hair luscious.
+
+I hated the smell after I washed it out.
+
+Sometimes, I like eating eggs. Sometimes, I don't.
+
+When I did like them, I ate them for breakfast every day. But I can't bear the smell.
+
+I didn't want it to be a part of my ID card.
+
+She started rinsing my hair with vinegar. It had a different charge. Strong.
+
+I wore my ID card around my neck in school at all times, but I liked taking it out of the holder. The colors were brighter. 
+
+I didn’t like the accumulation of dust on it; it was grey. I brushed it out, an unnecessary accumulation of mass.
+
+---
+
+I'm in the green room, and they tell me not to jump on the bed.
+
+Their voice is stern. But they used to like it when I jumped on the bed.
+
+I feel the black hole in my throat.
+
+I pretend to sleep in the blue room. I'm asleep. I don't know the time, but I'm the dial. I wake up; I'm the minute hand at 20.
+
+I'm told I have a fever.
