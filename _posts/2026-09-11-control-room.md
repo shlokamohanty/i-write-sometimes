@@ -20,7 +20,7 @@ Then, Kezia made fun of me for feeling lonely. I found it funny. I feel like Kez
 
 ---
 
-And, alas, I've found my way to existentialism now. The paradox of love, actually. I'm starting to see Jean-Paul Sartre's view of love. And, hence, I say, right now, I can only think of admiration, grief, marvel, awe/wonder, and curiosity as only emotions not controlling.
+And, alas, I've found my way to existentialism now. The paradox of love, actually. I'm starting to see Jean-Paul Sartre's view of love. And, hence, I say, right now, I can only think of admiration, grief, marvel, awe/wonder~~, and curiosity~~ as only emotions not controlling.
 
 So, I started reading "A Critical Discussion of Sartre on Love" written by Chris Stevens; I kind of like what Sartre has to say.
 
@@ -30,7 +30,7 @@ That love, in some ways, demands that a person be an object rather than a subjec
 
 > Sartre conceives of love as being a part of this “attempt to make the Other who is the source of my self-identity subservient to me.” However, I must not “cease to assert the Other;” that is, I must not deprive the Other of the quality of being something other than me as to do so would result in the disappearance of my being-for-others and any concrete conception of my identity that I seek to attain. Furthermore, it is not the Other as object that I wish to absorb as it is precisely not the other-as-object that is capable of looking at me and providing my essence; I must absorb the Other as a freedom.
 
-Maybe, admiration/curiosity/awe/marvel of someone is better than love, it lets someone be without any demands on them.
+Maybe, admiration/~~curiosity/~~awe/marvel of someone is better than love, it lets someone be without any demands on them.
 
 > This may be far from the original aim and ideal of love, but perhaps we can accept that uniting self with self is a futile project, and leave the desire for a concrete identity from the Other behind us, to “merely” seek the joy that can be obtained through love despite the ontological contradictions of its ideal. Sartre himself seems to suggest such a thing is possible when he writes that in love “the Other experiences him as subjectivity and wishes to experience him only as such.”
 
@@ -45,3 +45,11 @@ From: [https://aeon.co/essays/simone-de-beauvoirs-authentic-love-is-a-project-of
 > In their earliest formulations, she defined narcissism as ‘loving oneself and loving in the other, the love he has for you’. The failure of narcissism is that it forgets that there are _two_ in love: the narcissist fails to remember that love must seek the good of the other. Her lover is a minor character in the great plot of _her_ story. Devotion, by contrast, is an ‘absolute gift’ of the lover to the beloved, a ‘self-abnegation’ where the lover’s own consciousness is obliterated for the sake of the other. The devoted lover wants no plot but the one his beloved writes him; he either doesn’t want, or can’t hold, his own pen. In forgetting himself, his love likewise fails to accommodate _two_ – in the young Beauvoir’s words, it’s a form of ‘moral suicide’.
 
 > Why not, indeed? If both partners conceived of love as a joint project, if both thought ‘simultaneously of the other and self’, Beauvoir argued, they could succeed at ‘finding the appropriate mean’ between narcissism and devotion. It will not deliver salvation. But neither does it settle for the mutilation of subordination in place of ‘an inter-human relation’ and the satisfaction of authentic love.
+
+It reads like a more hopeful spin on what Sartre said.
+
+I was fascinated by Beauvoir and Sartre's relationship during the class; I remember. Maybe because less than a year before that, I was in an open relationship. Also, Beauvoir was bisexual.
+
+Although even *authentic love,* as Beauvoir claimed, still has control, I think. Maybe it's just more about finding the right amount of control. I do think the other emotions are better though. 
+
+It's just the other emotions, have some distance in comparison to these. Why do some of these emotions feel close, and some feel distant? Control feels close.
