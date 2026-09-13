@@ -52,7 +52,7 @@ It reads like a more hopeful spin on what Sartre said.
 
 I was fascinated by Beauvoir and Sartre's relationship during the class; I remember. Maybe because less than a year before that, I was in an open relationship. Also, Beauvoir was bisexual.
 
-Although even *authentic love,* as Beauvoir claimed, still has control, I think. Maybe it's just more about finding the right amount of control. I do think the other emotions are better though. 
+Although even *authentic love,* as Beauvoir claimed, still has control, I think. Maybe it's just more about finding the right amount of control. I do think the other emotions are better though.I wonder if I've seen a love with the appropriate mean of narcissism and devotion.
 
 It's just that the other emotions have some distance in comparison to these. Why do some of these emotions feel close, and some feel distant? Control feels close.
 
