@@ -6,6 +6,8 @@ date: 2026-08-18
 tags: personal-ongoing
 ---
 
+13th September.
+
 When Megan visited me, I was explaining to her what determinism is. I started learning about determinism more when I was working on ['Baryon Asymmetry'](https://shlokamohanty.github.io/i-write-sometimes/2026/03/18/on-junoon-and-fitoor.html). I read about it a bunch before too, but for some reason, I didn’t think about it. Before coming into ITP, when I used to read and learn, sometimes I absorbed things at a surface-level without really trying to get them, I think. I’m reading words, but I’m not thinking about them, and sometimes, I’m speaking words without really knowing the meaning truly. Maybe that’s the difference between information and knowledge. She asked me what the opposite of determinism is. At that point, I was dumbfounded. I had only considered determinism, but in fact, there is also indeterminism. This is why I should ask more 'how' and 'why' questions.
 
 > _1. [Definition](https://inters.org/determinism-indeterminism)._ "Determinism" is commonly understood as the thesis that «the laws which govern the universe (or a subsystem), together with the appropriate initial conditions, uniquely determine the entire time evolution of the universe (or subsystem)». "Indeterminism" is the negation of this thesis.
@@ -39,3 +41,5 @@ Can I practice letting myself feel things, **open-endedly**, without immediately
 How do I let myself just feel? Can I trust my gut, it is a measurement device after all.
 
 I can be uncertain with thinking, but not with feeling, I think.
+
+I think I'm an agnostic as opposed to being an atheist. There's more uncertainty there than just claiming that there is no 'god'.
