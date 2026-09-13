@@ -56,7 +56,7 @@ Although even *authentic love,* as Beauvoir claimed, still has control, I think.
 
 Why do some of these emotions feel close, and some feel distant? Control feels close.
 
-Am I saying that something better than love is experiencing someone with admire/awe/marvel/wonder? Like a museum artifact? A painting? Or like looking at certain bugs sometimes, for me. I guess bugs are a slightly different comparison. I let bugs crawl up my fingers sometimes, and then let them be free. Bot as distant as paintings and artifacts. Who knows? Maybe it is supposed to be that way, in some ways. Maybe I don't know enough yet. I'm only 23.
+Am I saying that something better than love is experiencing someone with admire/awe/marvel/wonder? Like a museum artifact? A painting? Or like looking at certain bugs sometimes, for me. I guess bugs are a slightly different comparison. I let bugs crawl up my fingers sometimes, and then let them be free. Who knows? Maybe it is supposed to be that way, in some ways. Maybe I don't know enough yet. I'm only 23.
 
 ---
 
