@@ -52,13 +52,13 @@ It reads like a more hopeful spin on what Sartre said.
 
 I was fascinated by Beauvoir and Sartre's relationship during the class; I remember. Maybe because less than a year before that, I was in an open relationship. Also, Beauvoir was bisexual.
 
-Although even *authentic love,* as Beauvoir claimed, still has control, I think. Maybe it's just more about finding the right amount of control. I do think the other emotions are better though.I wonder if I've seen a love with the appropriate mean of narcissism and devotion.
+Although even *authentic love,* as Beauvoir claimed, still has control, I think. Maybe it's just more about finding the right amount of control. I do think the other emotions are better though. I wonder if I've seen a love with the appropriate mean of narcissism and devotion.
 
-It's just that the other emotions have some distance in comparison to these. Why do some of these emotions feel close, and some feel distant? Control feels close.
+Why do some of these emotions feel close, and some feel distant? Control feels close.
 
-Am I saying that something better than love is experiencing someone with admire/awe/marvel/wonder? Like a museum artifact? A painting? Or like looking at certain bugs sometimes, for me.
+Am I saying that something better than love is experiencing someone with admire/awe/marvel/wonder? Like a museum artifact? A painting? Or like looking at certain bugs sometimes, for me. Maybe it is.
 
 ---
 
-AHHHH, why am I like this? I started thinking about the fact that I’m in an **interactive** telecommunication program. How are my thoughts so weird? I started thinking jokingly: What is the point of interaction again? Tom did say to think about the people who are intending to interact. I think there is actually some connection to these.
+
 
