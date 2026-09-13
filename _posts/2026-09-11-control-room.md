@@ -6,11 +6,13 @@ date: 2026-09-11
 tags: personal-ongoing
 ---
 
+13th September.
+
 I'm moving in two weeks, I think. The management is causing issues - a ruckus that I can't control. Anyway, I'm going to miss living with Fatema. She gets me, I think. I will miss curling into a ball in front of her.
 
 Sometimes, I do feel lonely. In summer, I didn’t. It’s a weird feeling to feel lonely when a crowd is present. Maybe everyone feels it. It’s much different than the fear of being alone. I don’t feel lonely when I’m alone. I'm not scared of being alone anymore. It’s more like, oh, I don’t know if they get me. It’s okay, though. No one can truly understand you; neither can you.
 
-I have been thinking about love as an emotion. I’m under the impression now that it’s controlling too, I think. I’ve said it callously to my ex. He said it to me, so I felt compelled to say it back. 2021. Some felt obligation. I’m trying to be more intentional with words. It’s important, I think. I don't want my words to harm. I don't want my words to cause overwhelm.
+I have been thinking about love as an emotion. I’m under the impression now that it’s controlling too, I think. I’ve said it callously to my ex. He said it to me, so I felt compelled to say it back. 2022. Some felt obligation. I’m trying to be more intentional with words. It’s important, I think. I don't want my words to harm. I don't want my words to cause overwhelm.
 
 I wonder what ‘feeling’ words are that don’t control. Maybe being in awe of someone and being curious about them is better than loving them, I think. Grief, yes. Maybe, marvel. Maybe, admiration.
 
@@ -52,4 +54,11 @@ I was fascinated by Beauvoir and Sartre's relationship during the class; I remem
 
 Although even *authentic love,* as Beauvoir claimed, still has control, I think. Maybe it's just more about finding the right amount of control. I do think the other emotions are better though. 
 
-It's just the other emotions, have some distance in comparison to these. Why do some of these emotions feel close, and some feel distant? Control feels close.
+It's just that the other emotions have some distance in comparison to these. Why do some of these emotions feel close, and some feel distant? Control feels close.
+
+Am I saying that something better than love is experiencing someone with admire/awe/marvel/wonder? Like a museum artifact? A painting? Or like looking at certain bugs sometimes, for me.
+
+---
+
+AHHHH, why am I like this? I started thinking about the fact that I’m in an **interactive** telecommunication program. How are my thoughts so weird? I started thinking jokingly: What is the point of interaction again? Tom did say to think about the people who are intending to interact. I think there is actually some connection to these.
+
