@@ -14,7 +14,7 @@ Sometimes, I do feel lonely. In summer, I didn’t. It’s a weird feeling to fe
 
 I have been thinking about love as an emotion. I’m under the impression now that it’s controlling too, I think. I’ve said it callously to my ex. He said it to me, so I felt compelled to say it back. 2022. Some felt obligation. I’m trying to be more intentional with words. It’s important, I think. I don't want my words to harm. I don't want my words to cause overwhelm.
 
-I wonder what ‘feeling’ words are that don’t control. Maybe being in awe of someone and being curious about them is better than loving them, I think. Grief, yes. Maybe, marvel. Maybe, admiration.
+I wonder what ‘feeling’ words are that don’t control. Maybe being in awe of someone ~~and being curious about them~~ is better than loving them, I think. Grief, yes. Maybe, marvel. Maybe, admiration.
 
 I felt a lot less lonely in school today. Bairui and Kezia shared my excitement.
 
