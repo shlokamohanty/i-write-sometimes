@@ -56,9 +56,14 @@ Although even *authentic love,* as Beauvoir claimed, still has control, I think.
 
 Why do some of these emotions feel close, and some feel distant? Control feels close.
 
-Am I saying that something better than love is experiencing someone with admire/awe/marvel/wonder? Like a museum artifact? A painting? Or like looking at certain bugs sometimes, for me. Maybe it is.
+Am I saying that something better than love is experiencing someone with admire/awe/marvel/wonder? Like a museum artifact? A painting? Or like looking at certain bugs sometimes, for me. I guess bugs are a slightly different comparison. I let bugs crawl up my fingers sometimes, and then let them be free. Bot as distant as paintings and artifacts. Who knows? Maybe it is supposed to be that way, in some ways. Maybe I don't know enough yet. I'm only 23.
 
 ---
 
+![](/i-write-sometimes/assets/images/megan.jpg)
 
+Megan visited New York again with her family this time. We were talking about how moving from a structured environment to an unstructured environment, makes you question the things you knew before. Existentialism. The first year after undergrad, many feel that way, I suppose. We both have grown so much; I can tell. We both are starting our 6th year here in the US. India is starting to feel a lot more distant.
 
+And in the past 6 years, everything has been so ephemeral. I’ve left earlier with much more ease. Taking photos and videos has, thus, become hard. But since last year, I’ve had this feeling to [stay](https://shlokamohanty.github.io/i-write-sometimes/2026/08/05/leaving.html). Lately, I've found myself pulling out my phone a little bit more to take photos and videos.
+
+---
