@@ -39,7 +39,7 @@ Then you decided purple just wasn’t for you”
 ![image (6)](https://github.com/user-attachments/assets/8533813c-f0dc-4f32-80b7-a3a2f4ce9fa7)
 
 
-Then I spoke with William, showed him my numbers, and the code, and he was baffled, couldn’t help me out, then James, was baffled too, but he said to use LEDs to map the colors. Then I told Arjun, and rightfully so, he was like I should run my experiments with people before I do them so I spend less time. I spent way too long trying to do it myself, until the very end when I’m like this isn’t working, but it’s okay at least I learnt a lesson, talk to more people while working and also I learnt a lot about the sensor, light and colors.
+Then I spoke with William, showed him my numbers, and the code, and he was baffled, couldn’t help me out, then James, was baffled too, but he said to use LEDs to map the colors. Then I told arjun, and rightfully so, he was like I should run my experiments with people before I do them so I spend less time. I spent way too long trying to do it myself, until the very end when I’m like this isn’t working, but it’s okay at least I learnt a lesson, talk to more people while working and also I learnt a lot about the sensor, light and colors.
 
 
 I’ve given myself the deadline of wednesday to figure this sensor out, else, I’m using Hall Effect Sensors, which are much easier to work with. Still, this sensor got me thinking a lot, especially about my experiences with spectrometry and research.

@@ -20,10 +20,10 @@ I found this class: https://artandarchaeology.princeton.edu/whats/news/students-
 reading list from the class:
 - C. Renfrew and P. Bahn, Archaeology: Theories, Methods, Practices
 - B. L. Molyneaux, The Cultural Life of Images: Visual Representation in Arch.
-- ==C. Meyer and A. Petsalis-Diomidis, Drawing the Greek Vase: Visual Conversations in Art and Arch==
+- <mark>C. Meyer and A. Petsalis-Diomidis, Drawing the Greek Vase: Visual Conversations in Art and Arch</mark>
 - J. Papadopoulos, The Art of Antiquity: Piet de Jong and the Athenian Agora
 - Massimo Scholari, Oblique Drawing: A History of Antiperspective
-- ==Stuart Piggott, Antiquity Depicted: Aspects of Archaeological Illustration==
+- <mark>Stuart Piggott, Antiquity Depicted: Aspects of Archaeological Illustration</mark>
 
 ## CNN
 https://colab.research.google.com/github/BreakoutMentors/Data-Science-and-Machine-Learning/blob/main/machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_CNNs.ipynb

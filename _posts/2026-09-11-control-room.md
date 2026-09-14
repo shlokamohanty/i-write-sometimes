@@ -62,7 +62,7 @@ Am I saying that something better than love is experiencing someone with admire/
 
 ![](/i-write-sometimes/assets/images/megan.jpg)
 
-Megan visited New York again with her family this time. We were talking about how moving from a structured environment to an unstructured environment, makes you question the things you knew before. Existentialism. The first year after undergrad, many feel that way, I suppose. We often discuss all the new emotions we've felt in this past year. We both have grown so much; I can tell. We both are starting our 6th year here in the US. India is starting to feel a lot more distant.
+Megan visited New York again with her family this time. We were talking about how moving from a structured environment to an unstructured environment, makes you question the things you knew before. I learnt that after Megan visited me the last time. Existentialism. The first year after undergrad, many feel that way, I suppose. We often discuss all the new emotions we've felt in this past year. We both have grown so much; I can tell. We both are starting our 6th year here in the US. India is starting to feel a lot more distant.
 
 And in the past 6 years, everything has been so ephemeral. I’ve left earlier with much more ease. Taking photos and videos has, thus, become hard. But since last year, I’ve had this feeling to [stay](https://shlokamohanty.github.io/i-write-sometimes/2026/08/05/leaving.html). Lately, I've found myself pulling out my phone a little bit more to take photos and videos.
 
