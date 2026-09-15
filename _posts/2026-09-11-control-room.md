@@ -6,7 +6,7 @@ date: 2026-09-11
 tags: personal-ongoing
 ---
 
-13th September.
+15th September.
 
 I'm moving in two weeks, I think. The management is causing issues - a ruckus that I can't control. Anyway, I'm going to miss living with Fatema. She gets me, I think. I will miss curling into a ball in front of her.
 
@@ -65,5 +65,17 @@ Am I saying that something better than love is experiencing someone with admire/
 Megan visited New York again with her family this time. We were talking about how moving from a structured environment to an unstructured environment, makes you question the things you knew before. I learnt that after Megan visited me the last time. Existentialism. The first year after undergrad, many feel that way, I suppose. We often discuss all the new emotions we've felt in this past year. We both have grown so much; I can tell. We both are starting our 6th year here in the US. India is starting to feel a lot more distant.
 
 And in the past 6 years, everything has been so ephemeral. I’ve left earlier with much more ease. Taking photos and videos has, thus, become hard. But since last year, I’ve had this feeling to [stay](https://shlokamohanty.github.io/i-write-sometimes/2026/08/05/leaving.html). Lately, I've found myself pulling out my phone a little bit more to take photos and videos.
+
+Megan asked me the day before how do I not get tired. My life has been extremely busy for the past 5 years; this is my 6th year. The only difference is I'm actually making things and doing what I like. It's not like I wasn't doing what I liked earlier, but I am discovering emotions. And its role in my life.
+
+Sometimes, I look at my peers. They've had complete lives before this. Worked, had a slower life. Some travelled. Some are/were in serious relationships. I've had long relationships, but none of them were serious. I have catered a wedding, though. Worked as a server and worked in an ice cream shop. I have rather funny and silly stories from undergrad, especially from when I was 19. Like when my best friend threw up on me. Or when I made a song and sang it out loud with my air guitar. Running at 4:50 pm to drop my physics homework into the mailbox. Had to hunt for dimes across the campus. Went to backyard Midwest-indie concerts. Watched many sunrises and sunsets. I guess I have some random stories. Swam in the lake. Skipped rocks. Megan and Urmika say I did a lot in college. I did, I think.
+
+And, I mentioned this to Fatema today. She said, I've had these profound life experiences, for example, my high school experience. 
+
+But, I’m not just defined by the learning experiences from my trauma. If I just defined my life by those experiences, of course, I'd continue to look at myself as broken, but there's so much more than that. That while there were parts that were bad, there was a lot of good - the nuance. Same with college. There was a lot of fun and good. It was beautiful. I was quite silly; still am.
+
+It's easy to look around and imagine what their lives would have been like and crave that. It's easy to forget that I've had a life before, just a very different one.
+
+Well, part of the GitHub tagline is "Change is constant". Something Amisha and I have agreed on repeatedly. Ephemerality. It’s a good thing. When I say stay vs. leave, in terms of change, I think it has more to do with the control of that change. In this particular case, I mean leave as chosen change, and stay as imposed change. Leaving is you controlling the change; staying is my environment changing in front of me.
 
 ---
