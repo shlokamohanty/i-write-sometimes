@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "why do i want to make physical things?"
+title: why do i want to make physical things?
 subtitle: "thinking through: does it come from a genuine place or herd mentality?"
 date: 2026-08-20
-tags: practice-past
+tags:
+  - personal
 ---
 
 I remember last semester, during spring break, while I was figuring out the code for the e-ink display and making the poetry generator, I was talking to Phil and Nikolai, asking them how I should make it work without a battery. I wanted to make the microcontroller run on supercapacitors, like Allison's poetry generator. The battery changes the concept of the project slightly. I wanted it to be a more direct solar energy mechanism. Phil told me about a mechanism for that to work, but figuring out that circuit would have been hard in that limited time. However, I learnt recently how to run a microcontroller with supercapacitors. But while I was talking to them, I was also chatting away about my initial '100 days of making' idea, which was making the beam bots every day, so I could get better at circuits. I was telling them how I want to start making physical things and have that as a medium for storytelling. Phil mentioned that most of us on the floor do want to make physical things.
