@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-03-20-letter.md",
+                "file": "2026-04-30-pratt-research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-20-letter"
+              "title": "2026-04-30-pratt-research"
             }
           }
         ]
@@ -76,11 +76,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5bd62e038de70794",
@@ -187,11 +189,11 @@
   },
   "active": "3d0176ad5519b9d6",
   "lastOpenFiles": [
+    "2026-03-20-letter.md",
     "2026-08-31-thesis-readings.md",
     "2026-08-30-thesis-broader-process.md",
     "2026-09-10-facial-hair-again.md",
     "2026-09-09-thesis-presentation.md",
-    "2026-03-20-letter.md",
     "2026-09-11-control-room.md",
     "2026-09-07-see-than-perceive.md",
     "2026-09-03-excited.md",

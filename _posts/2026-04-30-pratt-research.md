@@ -183,8 +183,24 @@ https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/view/161/242
 - the focus on artistic appreciation has overshadowed the fact that these museum objects were not meant as art but were instead used by communities as objects of worship, ritual funerals and even family heirlooms.
 
 ## Notes from call with Samuel Holzman
-
-
+- archaeologists have different recording systems depending on the date 
+- genealogies of recording systems
+    - how do you record stratigraphic units
+    - [Mortimer Wheeler](https://en.wikipedia.org/wiki/Mortimer_Wheeler)
+- contact prints 
+- there's a lot of benefits to having a drawing as opposed to a photograph internally otherwise the digital photograph and the card is displaced
+- formal presentation vs slightly playful and eclectic 
+- sometimes, drawings are made to compare to figuring out the purpose
+- accession cards are one part of the record keeping, there should be diaries
+- maybe accession card is made by the excavator -> there might be two
+    - temporary storage area
+- track an object to its final printing
+    - looking at publications of the objects
+    - find excavation publications
+    - understanding how the excavation works
+        - research questions that they are asking
+            - maybe, the object had more context
+    - have a look at other excavation cards
 ## Possible Methodology 
 - formulate a research question and a coding protocol
 - go over the museum accession cards following the coding protocol for qualitative analysis
