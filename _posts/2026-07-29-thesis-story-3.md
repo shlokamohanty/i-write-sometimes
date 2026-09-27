@@ -142,7 +142,7 @@ The closest they’ve been to identifying the black hole. But by the time it rea
 
 ---
 
-I'm in the elevator. Waiting. I pass the ninth floor. My friend lives there. Her mom puts chilli in  fried eggs.
+I'm in the elevator. Waiting. I pass the ninth floor. My friend lives there. Her mom puts chilli in fried eggs.
 
 I'm holding onto my bike. I'm alone
 
