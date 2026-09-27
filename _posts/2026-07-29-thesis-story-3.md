@@ -10,7 +10,7 @@ published: true
 mood: vulnerable
 ---
 
-*Can I look at anxiety with awe?*
+~~*Can I look at anxiety with awe?*~~
 
 ---
 
