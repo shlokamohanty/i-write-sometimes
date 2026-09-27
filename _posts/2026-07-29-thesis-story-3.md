@@ -58,7 +58,7 @@ The whole day after, I thought I was going to be called into the coordinator’s
 
 ---
 
-My mom wakes me up at 5 am to catch the bus at 8 am. She plays 91.1 Radio in the mornings. She thinks I take a while to poop every day, but I'm just sleeping on the toilet. I'm sitting on the toilet, slouched. There's a laundry basket in front of me. It looks like a comfortable pillow. It is a comfortable pillow. The radio plays the same old songs. And at 6 am, “*Ajib dastan hai yeh, kahan shuru kahan khatam*”, translates to “What a strange story this is, where it begins and where it ends is unknown."
+My mom wakes me up at five am to catch the bus at eight am. She plays 91.1 Radio in the mornings. She thinks I take a while to poop every day, but I'm just sleeping on the toilet. I'm sitting on the toilet, slouched. There's a laundry basket in front of me. It looks like a comfortable pillow. It is a comfortable pillow. The radio plays the same old songs. And at 6 am, “*Ajib dastan hai yeh, kahan shuru kahan khatam*”, translates to “What a strange story this is, where it begins and where it ends is unknown."
 
 And one day, as I wake up from this sleep. Everything goes dark. For several minutes. I scream, "I can’t see." I’m crying. I lost my eyesight, I think. Maybe the black hole moved to my eye.
 
@@ -88,7 +88,7 @@ I sometimes think he saw the black hole.
 
 I struggle at mathematics, so I sit on the floor, with my back slouched for hours. I'm fixated. My legs folded. I do algebra for the first time. It's easier, I think, there are alphabets. My back hurts.
 
-My back hurts for weeks. I stop going to school for weeks. I miss my first 'Sport's Day'. I quit gymnastics, running, and badminton. It's 2012, I need to focus on studying. 
+My back hurts for weeks. I stop going to school for weeks. I miss my first 'Sport's Day'. I quit gymnastics, running, and badminton. It's twenty-twelve, I need to focus on studying. 
 
 The time has come to stand in front of the radio telescope and be observed. 
 
@@ -142,7 +142,7 @@ The closest they’ve been to identifying the black hole. But by the time it rea
 
 ---
 
-I'm in the elevator. Waiting. I pass the 9th floor. My friend lives there. Her mom puts chilli in  fried eggs.
+I'm in the elevator. Waiting. I pass the ninth floor. My friend lives there. Her mom puts chilli in  fried eggs.
 
 I'm holding onto my bike. I'm alone
 
@@ -178,7 +178,7 @@ Their voice is stern. But they used to like it when I jumped on the bed.
 
 I feel the black hole in my throat.
 
-I pretend to sleep in the blue room. I'm asleep. I don't know the time, but I'm the dial. I wake up; I'm the minute hand at 20.
+I pretend to sleep in the blue room. I'm asleep. I don't know the time, but I'm the dial. I wake up; I'm the minute hand at twenty.
 
 I'm told I have a fever.
 
