@@ -181,3 +181,25 @@ I feel the black hole in my throat.
 I pretend to sleep in the blue room. I'm asleep. I don't know the time, but I'm the dial. I wake up; I'm the minute hand at 20.
 
 I'm told I have a fever.
+
+---
+
+I am scared of ceiling fans.
+
+I am scared of the energy of its spin; that it might make the fan fall off the ceiling. 
+
+So, I thought a bunch about atoms yesterday. 
+
+Maybe because I read that atoms are ninety-nine point nine nine nine nine… percent empty space. 
+
+So our bodies are made up of nothing. 
+
+Maybe I’m an atomic void, feeling only through gentle force. So I turned it off. 
+
+Safety in seeing the wings of the fan still. Each wing untouched and empty. But there’s another thing about atoms that’s rather quantum. Existing as waves or particles. 
+
+And without the observer effect, I wonder whether I would exist as a wave with states of possibility, as opposed to the façade of a void. But I live in this space of observing and measuring at instantaneous rates, I am defined by the world - an indifference. 
+
+Maybe thus I am the façade of a void. 
+
+I turn the ceiling fan on seldom.
